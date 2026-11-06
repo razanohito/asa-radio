@@ -15,6 +15,7 @@ usage:
   --mouth-box x0,y0,x1,y1   口の差分を切り出す範囲（896×768 の枠での座標）。省略すると自動で探す。
                             AI で描いた差分のように顔全体が少しずつ違う絵では、指定したほうがきれい
   --eye-box   x0,y0,x1,y1   目の差分の範囲（同上）
+  --loose   差分の絵が元の絵と大きさ・位置までちがうとき（別に描き直してもらった絵など）、大きさも合わせて重ねる
 """
 import json, os, sys
 from PIL import Image, ImageChops
@@ -28,15 +29,47 @@ def arg(name, default=None):
     return a[a.index(name) + 1] if name in a else default
 
 
-def place(path, height):
-    """絵を W×H の透明な枠に、下ぞろえ・中央で置く"""
+def place(path, height, box=None):
+    """絵を W×H の透明な枠に、下ぞろえ・中央で置く。box を渡すと、その切り取り範囲と縮尺を使う（差分の絵を元の絵にそろえるため）"""
     im = Image.open(path).convert("RGBA")
-    box = im.getbbox() or (0, 0, im.width, im.height)
+    box = box or im.getbbox() or (0, 0, im.width, im.height)
     im = im.crop(box)                                  # 周りの透明な余白を除く
     s = min(H * height / im.height, W / im.width)
     im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
     out = Image.new("RGBA", (W, H))
     out.alpha_composite(im, ((W - im.width) // 2, H - im.height))
+    out.info["box"] = box
+    return out
+
+
+def align(base, v, reach=12, scales=(1.0,)):
+    """差分の絵 v を、元の絵 base にいちばん重なる位置・大きさにそろえる（AI で描き直した絵は数ピクセルずれることがある）"""
+    import numpy as np
+    def gray(im, k=4):
+        bg = Image.new("RGBA", im.size, (0, 0, 0, 255)); bg.alpha_composite(im)
+        return np.asarray(bg.convert("L").resize((W // k, H // k), Image.BILINEAR), dtype=np.float32)
+    def warp(s, dx, dy):
+        w, h = round(W * s), round(H * s)
+        out = Image.new("RGBA", (W, H)); out.alpha_composite(v.resize((w, h), Image.LANCZOS), (0, 0)) if False else None
+        sv = v.resize((w, h), Image.BILINEAR)
+        out.paste(sv, ((W - w) // 2 + dx, (H - h) + dy), sv)
+        return out
+    B = gray(base); best = (1e9, 1.0, 0, 0)
+    for s in scales:                                   # 粗く（1/4 の大きさで）探す
+        for dx in range(-reach, reach + 1, 4):
+            for dy in range(-reach, reach + 1, 4):
+                e = np.abs(gray(warp(s, dx, dy))[5:-5, 5:-5] - B[5:-5, 5:-5]).mean()
+                if e < best[0]: best = (e, s, dx, dy)
+    _, s0, x0, y0 = best
+    B2 = gray(base, 2)
+    for dx in range(x0 - 4, x0 + 5, 2):                 # 細かく探す
+        for dy in range(y0 - 4, y0 + 5, 2):
+            e = np.abs(gray(warp(s0, dx, dy), 2)[10:-10, 10:-10] - B2[10:-10, 10:-10]).mean()
+            if e < best[0] or (dx, dy) == (x0, y0): best = min(best, (e, s0, dx, dy))
+    _, s, dx, dy = best
+    w, h = round(W * s), round(H * s)
+    out = Image.new("RGBA", (W, H)); sv = v.resize((w, h), Image.LANCZOS)
+    out.paste(sv, ((W - w) // 2 + dx, (H - h) + dy), sv)
     return out
 
 
@@ -104,7 +137,10 @@ def main():
     eye_files = {k: arg(f) for k, f in (("blink", "--blink"), ("half_blink", "--half-blink")) if arg(f)}
     for group, focus in ((mouth_files, True), (smile_files, False), (eye_files, True)):
         if not group: continue
-        imgs = [place(p, height) for p in group.values()]
+        if arg("--loose"):   # 別に描き直された絵（大きさや位置がちがう）：大きさも合わせて探す
+            imgs = [align(base, place(p, height), reach=60, scales=[x / 100 for x in range(85, 116, 3)]) for p in group.values()]
+        else:
+            imgs = [align(base, place(p, height, base.info["box"])) for p in group.values()]
         manual = arg("--mouth-box") if group is mouth_files else arg("--eye-box") if group is eye_files else None
         (x, y), crops = crop_part(base, imgs, focus, box=tuple(map(int, manual.split(","))) if manual else None)
         for name, img in zip(group, crops):

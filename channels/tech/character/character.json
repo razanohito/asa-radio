@@ -15,13 +15,21 @@
   },
   "smile_mouth": {
    "src": "smile_mouth.png",
-   "x": 124,
+   "x": 133,
    "y": 5
+  },
+  "blink": {
+   "src": "blink.png",
+   "x": 325,
+   "y": 274
   }
  },
  "mouth": {
   "1": "mouth_open",
   "2": "mouth_open"
+ },
+ "eye": {
+  "blink": "blink"
  },
  "expressions": {
   "smile": {
