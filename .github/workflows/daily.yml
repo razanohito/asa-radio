@@ -1,0 +1,128 @@
+# 毎朝の放送：ニュースを集めて台本を書き（Claude API）、声を作り（VOICEVOX）、GitHub Pages に公開する。
+# 必要な設定：リポジトリの Settings → Secrets and variables → Actions に ANTHROPIC_API_KEY を登録
+#            Settings → Pages の公開元を「gh-pages ブランチ / (root)」に
+name: 毎朝の放送
+
+on:
+  schedule:
+    - cron: "17 21 * * *"   # 日本時間 06:17 ごろ（GitHub の混み具合で数分〜数十分遅れることがあります）
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "放送日（YYYY-MM-DD。空なら今日）"
+        required: false
+      force:
+        description: "その日の台本と声を作り直す"
+        type: boolean
+        default: false
+      publish_only:
+        description: "台本・声は作らず、公開だけやり直す"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: broadcast
+  cancel-in-progress: false
+
+env:
+  VOICEVOX_VERSION: "0.26.1"
+  TZ: Asia/Tokyo
+
+jobs:
+  broadcast:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 放送日を決める
+        id: day
+        run: |
+          D="${{ github.event.inputs.date }}"
+          [ -n "$D" ] || D=$(date +%F)
+          echo "date=$D" >> "$GITHUB_OUTPUT"
+          echo "放送日: $D"
+
+      - name: 局の公開先を station.json に書く（初回だけ）
+        run: |
+          python3 - <<'EOF'
+          import json, os
+          owner, repo = os.environ["GITHUB_REPOSITORY"].split("/")
+          p = "station.json"; s = json.load(open(p, encoding="utf-8"))
+          url = f"https://{owner.lower()}.github.io/" + ("" if repo.lower() == f"{owner.lower()}.github.io" else f"{repo}/")
+          changed = False
+          if not s.get("url"): s["url"] = url; changed = True
+          if not s.get("repo"): s["repo"] = f"https://github.com/{owner}/{repo}"; changed = True
+          if changed:
+              with open(p, "w", encoding="utf-8") as f: json.dump(s, f, ensure_ascii=False, indent=1); f.write("\n")
+          print("url:", s["url"])
+          EOF
+
+      - name: 道具を入れる
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-noto-cjk p7zip-full > /dev/null
+          pip install -q pillow resvg-py
+
+      - name: VOICEVOX をキャッシュから戻す
+        if: github.event.inputs.publish_only != 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/voicevox
+          key: voicevox-linux-cpu-x64-${{ env.VOICEVOX_VERSION }}
+
+      - name: VOICEVOX を用意して起動する
+        if: github.event.inputs.publish_only != 'true'
+        run: |
+          if [ ! -x ~/voicevox/linux-cpu-x64/run ]; then
+            mkdir -p ~/voicevox && cd ~/voicevox
+            base=https://github.com/VOICEVOX/voicevox_engine/releases/download/$VOICEVOX_VERSION/voicevox_engine-linux-cpu-x64-$VOICEVOX_VERSION.7z
+            curl -sSfL -o engine.7z.001 "$base.001"
+            for i in 002 003 004; do curl -sSfL -o engine.7z.$i "$base.$i" 2>/dev/null || break; done
+            7z x -y engine.7z.001 > /dev/null
+            rm -f engine.7z.*
+            chmod +x linux-cpu-x64/run
+          fi
+          cd ~/voicevox/linux-cpu-x64
+          nohup ./run --host 127.0.0.1 --port 50021 > ~/voicevox/engine.log 2>&1 &
+          for i in $(seq 60); do curl -s 127.0.0.1:50021/version && break; sleep 3; done
+
+      - name: これまでの声を gh-pages から戻す
+        run: |
+          if git fetch -q --depth=1 origin gh-pages 2>/dev/null; then
+            git archive FETCH_HEAD audio 2>/dev/null | tar -x 2>/dev/null || true
+          fi
+          ls audio 2>/dev/null | tail -5 || echo "まだ声はありません"
+
+      - name: 台本を書く
+        if: github.event.inputs.publish_only != 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+        run: |
+          python3 tools/make_script.py --date "${{ steps.day.outputs.date }}" ${{ github.event.inputs.force == 'true' && '--force' || '' }}
+
+      - name: 声を作る
+        if: github.event.inputs.publish_only != 'true'
+        run: |
+          python3 tools/voice.py --date "${{ steps.day.outputs.date }}" ${{ github.event.inputs.force == 'true' && '--force' || '' }}
+
+      - name: 台本を main に記録する
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add episodes episodes.json station.json
+          if git diff --cached --quiet; then echo "変更なし"; else git commit -q -m "放送 ${{ steps.day.outputs.date }}" && git push -q; fi
+
+      - name: GitHub Pages に公開する
+        env:
+          PUBLISH_REMOTE: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
+          SHARE_FONT: /usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc
+        run: bash tools/publish.sh
+
+      - name: 失敗したときのエンジンの記録
+        if: failure()
+        run: tail -50 ~/voicevox/engine.log 2>/dev/null || true

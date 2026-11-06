@@ -39,7 +39,7 @@ def font(path, size, weight):
 
 def wrap(draw, text, f, width, max_lines):
     """lines of text that fit the width: Latin words stay whole, Japanese breaks between characters (not before 、。)"""
-    tokens = re.findall(r"[A-Za-z0-9][\w.\-'’:/+&]*|\s+|.", text)
+    tokens = re.findall(r"[A-Za-z0-9][A-Za-z0-9_.\-'’:/+&]*|\s+|.", text)   # 英数字の語だけを 1 つに（\w だと日本語までつながって折り返せない）
     lines, cur = [], ""
     for t in tokens:
         if draw.textlength(cur + t, font=f) <= width or not cur.strip() or t in "、。，．・」』）)!?！？ー":

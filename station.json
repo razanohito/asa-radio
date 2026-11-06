@@ -1,53 +1,55 @@
 {
  "format": "myradio/station-1",
- "name": "ものラジオ",
- "description": "電子工作・3Dプリンター・AI の、きのうの気になるニュースを、毎朝 90 秒で。",
- "tagline": "AI・3D 朝のニュース",
+ "name": "あさAIラジオ",
+ "description": "生成AI・AIの、きのうの気になるニュースを、毎朝 2 分で。キャスターのアサヒがお届けします。",
+ "tagline": "生成AI 朝のニュース",
  "logo": "logo.svg",
- "url": "https://monoradio102.github.io/myradio/",
- "repo": "https://github.com/monoradio102/myradio",
+ "url": "",
+ "repo": "",
  "language": "ja",
  "languages": [
-  "ja",
-  "en"
+  "ja"
  ],
  "schedule": {
   "every": "day",
-  "time": "06:10",
+  "time": "06:30",
   "timezone": "Asia/Tokyo"
  },
  "episodes": "episodes.json",
  "character": {
   "pack": "character/character.json",
   "thumbnail": "character/base.png",
-  "note": "AIで生成したキャラクターです"
+  "note": "仮のオリジナルキャラクター「アサヒ」です（プログラムで描画）"
  },
  "credits": [
-  "声：COEIROINK:リリンちゃん"
+  "VOICEVOX:春日部つむぎ"
  ],
- "caster": "声：COEIROINK:リリンちゃん",
+ "caster": "アサヒ（声：VOICEVOX:春日部つむぎ）",
  "audio": {
   "dir": "audio",
   "keep_days": 30
  },
  "weather": true,
- "comments": {
-  "giscus": {
-   "repo": "monoradio102/myradio",
-   "repoId": "R_kgDOVjfh2A",
-   "category": "Comments",
-   "categoryId": "DIC_kwDOVjfh2M4DKdQF"
-  }
+ "voice": {
+  "engine": "voicevox",
+  "speaker": 8,
+  "speed": 1.1,
+  "pause_line": 0.25,
+  "pause_part": 0.8
  },
- "i18n": {
-  "en": {
-   "name": "Mono Radio",
-   "tagline": "Morning news on AI and 3D",
-   "description": "The news worth knowing in electronics, 3D printing and AI, every morning in 90 seconds.",
-   "credits": [
-    "Voice: Kokoro (af_heart)"
-   ],
-   "caster": "Voice: Kokoro (af_heart)"
-  }
+ "news": {
+  "count": 5,
+  "model": "claude-sonnet-5-5",
+  "feeds": [
+   "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+   "https://www.publickey1.jp/atom.xml",
+   "https://gigazine.net/news/rss_2.0/",
+   "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
+   "https://pc.watch.impress.co.jp/data/rss/1.0/pcw/feed.rdf",
+   "https://openai.com/news/rss.xml",
+   "https://blog.google/technology/ai/rss/",
+   "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+  ]
  }
 }

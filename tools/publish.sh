@@ -7,7 +7,7 @@ set -euo pipefail
 cd "$(git rev-parse --show-toplevel)"
 read -r DIR KEEP < <(python3 -c 'import json; a = json.load(open("station.json")).get("audio", {}); print(a.get("dir", "audio"), a.get("keep_days", 30))')
 CUT=$(python3 -c "import datetime; print((datetime.date.today() - datetime.timedelta(days=$KEEP)).isoformat())")
-REMOTE=$(git remote get-url origin)
+REMOTE=${PUBLISH_REMOTE:-$(git remote get-url origin)}   # GitHub Actions では、トークン付きの URL を PUBLISH_REMOTE に渡す
 NAME=$(git config user.name || echo myradio); EMAIL=$(git config user.email || echo myradio@users.noreply.github.com)
 
 TMP=$(mktemp -d); trap 'rm -rf "$TMP"' EXIT
