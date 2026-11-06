@@ -192,6 +192,9 @@ def main():
     args = [a for i, a in enumerate(sys.argv[1:], 1) if not a.startswith("--") and sys.argv[i - 1] not in ("--url", "--font")]
     root = os.path.abspath(args[0] if args else os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
     station = json.load(open(os.path.join(root, "station.json")))
+    global YELLOW   # チャンネルの色（station.json の theme.accent）があれば、カードの強調色にも使う
+    acc = (station.get("theme") or {}).get("accent", "")
+    if re.fullmatch(r"#[0-9a-fA-F]{6}", acc): YELLOW = tuple(int(acc[i:i + 2], 16) for i in (1, 3, 5))
     base = arg("--url", station.get("url") or "")
     if base and not base.endswith("/"): base += "/"
     if not base: print("note: no --url / station.json url: SNS need a full URL for the card image")

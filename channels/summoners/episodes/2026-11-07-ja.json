@@ -1,0 +1,251 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-07",
+ "lang": "ja",
+ "title": "SWC2026ワールド決勝、来週ソウルで",
+ "opening": [
+  {
+   "say": "サマナ朝通信です。十一月七日土曜日、おはようございます。",
+   "show": "サマナ朝通信です。11月7日土曜日、おはようございます。"
+  },
+  {
+   "say": "今日は三本の話題をお届けします。",
+   "show": "今日は3本の話題をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "SWC2026決勝は11月14日",
+   "points": [
+    "会場はソウルのKBSアリーナ",
+    "世界から12名が出場",
+    "賞金総額21万6000ドル"
+   ],
+   "details": [
+    "日本時間と同じ韓国時間で、11月14日の12時開始予定です。",
+    "地域カップから3名ずつ、中国予選から2名、韓国オープン予選から1名が出場します。",
+    "優勝賞金は10万ドル。今大会からモンスターを最大8体BANできる「Stack Ban」ルールが入っています。"
+   ],
+   "url": "https://gachago.com/en/news/swc2026-summoners-war-world-final-seoul-november-14",
+   "lines": [
+    {
+     "say": "まずは、世界大会エスダブリューシー二〇二六のワールド決勝です。",
+     "show": "まずは、SWC2026のワールド決勝です。"
+    },
+    {
+     "say": "十一月十四日に、ソウルのケービーエスアリーナで、世界の十二人が頂点を争います。",
+     "show": "11月14日、ソウルのKBSアリーナで12名が頂点を争います。"
+    },
+    {
+     "say": "賞金総額は二十一万六千ドル。優勝は十万ドルです。",
+     "show": "賞金総額21万6000ドル、優勝は10万ドル。"
+    }
+   ],
+   "link": {
+    "url": "https://gachago.com/en/news/swc2026-summoners-war-world-final-seoul-november-14",
+    "title": "SWC2026: Summoners War World Final Returns to Seoul on November 14 for the 10th Edition",
+    "site": "Gachago",
+    "description": "",
+    "image": "https://gachago.com/wp-content/uploads/2026/10/summoners-war-sky-arena-summer-key-art-1024x645.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "ワールドアリーナ報酬拡大",
+   "points": [
+    "勝利で名誉勲章が2倍",
+    "毎日1戦で名誉勲章50個",
+    "11月15日まで"
+   ],
+   "details": [
+    "ワールドファイナル開催を記念したイベントです。",
+    "デイリーミッションの累計10回達成後は、追加達成ごとに神秘の召喚書1枚、最大9枚です。",
+    "到達したティアに応じて、神秘の召喚書と名誉勲章ももらえます。"
+   ],
+   "url": "https://www.gamemeca.com/en/view.php?gid=1782584",
+   "lines": [
+    {
+     "say": "続いては、決勝を記念したワールドアリーナのイベントです。",
+     "show": "続いては、決勝記念のワールドアリーナイベント。"
+    },
+    {
+     "say": "十一月十五日まで、勝つと名誉勲章が二倍になり、毎日一戦すると名誉勲章が五十個もらえます。",
+     "show": "11月15日まで、勝利で名誉勲章2倍、毎日1戦で50個。"
+    },
+    {
+     "say": "決勝を見ながら、アリーナに挑むのもいいですね。",
+     "show": "決勝を見ながらアリーナに挑むのも◎。"
+    }
+   ],
+   "link": {
+    "url": "https://www.gamemeca.com/en/view.php?gid=1782584",
+    "title": "To Celebrate World Finals, Summoners War Expands World Arena Rewards",
+    "site": "Gamemeca",
+    "description": "",
+    "image": "https://cdn.gamemeca.com/gmdata/0001/782/584/gm436659_thumb___SWC__.webp",
+    "icon": null
+   }
+  },
+  {
+   "label": "キャスター31名が語るSWC",
+   "points": [
+    "SWCは今年で10回目",
+    "73.3%が戦略の発展を実感",
+    "2024年王者が解説デビュー"
+   ],
+   "details": [
+    "2017年に始まった大会で、2025年のワールド決勝はフランス・パリで開かれました。",
+    "過去10年で最も発展した点として、選手のパフォーマンスと戦略レベルを挙げた人が73.3%でした。",
+    "2024年王者のKELIANBAO氏が、初めて中国語キャスターとして参加します。"
+   ],
+   "url": "https://prtimes.jp/main/html/rd/p/000001032.000009066.html",
+   "lines": [
+    {
+     "say": "最後は、コムツスジャパンが発表した、世界のキャスター三十一人へのアンケートです。",
+     "show": "最後は、Com2uS Japanによる世界のキャスター31名へのアンケート。"
+    },
+    {
+     "say": "七十三・三パーセントが、この十年で選手の戦略レベルが大きく発展したと答えました。",
+     "show": "73.3%が、選手の戦略レベルの発展を実感。"
+    },
+    {
+     "say": "二〇二四年の王者が、初めてキャスターとして参加するのも楽しみです。",
+     "show": "2024年王者のキャスター参加も楽しみです。"
+    }
+   ],
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000001032.000009066.html",
+    "title": "『サマナーズウォー: Sky Arena』、言葉を超えて広がる熱狂！世界各地のキャスターが語る「SWC」10年の歩み",
+    "site": "PR TIMES",
+    "description": "",
+    "image": "https://prcdn.freetls.fastly.net/release_image/9066/1032/9066-1032-8881da5034b843388a2782dca0f7624d-1444x845.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "十回目のエスダブリューシー、どんな新しい戦略が見られるのか、わくわくしますね。",
+   "show": "10回目のSWC、新しい戦略が楽しみです。"
+  },
+  {
+   "say": "それでは今日も、よいサマナーライフを。サマナ朝通信でした。",
+   "show": "それでは今日も、よいサマナーライフを。"
+  }
+ ],
+ "highlight": 0,
+ "seconds": 66.3,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.005,
+   "show": "サマナ朝通信です。11月7日土曜日、おはようございます。",
+   "part": 0
+  },
+  {
+   "start": 5.255,
+   "end": 7.41,
+   "show": "今日は3本の話題をお届けします。",
+   "part": 0
+  },
+  {
+   "start": 8.21,
+   "end": 12.541,
+   "show": "まずは、SWC2026のワールド決勝です。",
+   "part": 1
+  },
+  {
+   "start": 12.791,
+   "end": 18.817,
+   "show": "11月14日、ソウルのKBSアリーナで12名が頂点を争います。",
+   "part": 1
+  },
+  {
+   "start": 19.067,
+   "end": 23.377,
+   "show": "賞金総額21万6000ドル、優勝は10万ドル。",
+   "part": 1
+  },
+  {
+   "start": 24.177,
+   "end": 27.697,
+   "show": "続いては、決勝記念のワールドアリーナイベント。",
+   "part": 2
+  },
+  {
+   "start": 27.947,
+   "end": 35.051,
+   "show": "11月15日まで、勝利で名誉勲章2倍、毎日1戦で50個。",
+   "part": 2
+  },
+  {
+   "start": 35.301,
+   "end": 38.213,
+   "show": "決勝を見ながらアリーナに挑むのも◎。",
+   "part": 2
+  },
+  {
+   "start": 39.013,
+   "end": 44.357,
+   "show": "最後は、Com2uS Japanによる世界のキャスター31名へのアンケート。",
+   "part": 3
+  },
+  {
+   "start": 44.607,
+   "end": 50.409,
+   "show": "73.3%が、選手の戦略レベルの発展を実感。",
+   "part": 3
+  },
+  {
+   "start": 50.659,
+   "end": 55.075,
+   "show": "2024年王者のキャスター参加も楽しみです。",
+   "part": 3
+  },
+  {
+   "start": 55.875,
+   "end": 61.006,
+   "show": "10回目のSWC、新しい戦略が楽しみです。",
+   "part": 4
+  },
+  {
+   "start": 61.256,
+   "end": 65.299,
+   "show": "それでは今日も、よいサマナーライフを。",
+   "part": 4
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 8.21
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 8.21,
+   "end": 24.177
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 24.177,
+   "end": 39.013
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 39.013,
+   "end": 55.875
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 55.875,
+   "end": 66.3
+  }
+ ],
+ "made_at": "2026-11-07T00:56:34"
+}

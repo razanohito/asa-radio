@@ -1,0 +1,13 @@
+{
+ "site": {
+  "name": "あさラジオ",
+  "tagline": "キャラクターが毎朝ニュースを読むチャンネル",
+  "url": "",
+  "repo": ""
+ },
+ "channels": [
+  {"id": "ai"},
+  {"id": "tech"},
+  {"id": "summoners"}
+ ]
+}

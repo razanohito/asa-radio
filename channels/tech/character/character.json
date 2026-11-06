@@ -1,0 +1,51 @@
+{
+ "format": "myradio/character-1",
+ "type": "sprites",
+ "size": [
+  896,
+  768
+ ],
+ "background": "#121c1f",
+ "base": "base.png",
+ "parts": {
+  "mouth_half": {
+   "src": "mouth_half.png",
+   "x": 416,
+   "y": 384
+  },
+  "mouth_open": {
+   "src": "mouth_open.png",
+   "x": 416,
+   "y": 384
+  },
+  "smile_mouth": {
+   "src": "smile_mouth.png",
+   "x": 416,
+   "y": 384
+  },
+  "blink": {
+   "src": "blink.png",
+   "x": 324,
+   "y": 255
+  },
+  "half_blink": {
+   "src": "half_blink.png",
+   "x": 324,
+   "y": 255
+  }
+ },
+ "mouth": {
+  "1": "mouth_half",
+  "2": "mouth_open"
+ },
+ "eye": {
+  "blink": "blink",
+  "half": "half_blink"
+ },
+ "expressions": {
+  "smile": {
+   "mouth": "smile_mouth"
+  }
+ },
+ "note": "仮のオリジナルキャラ「ミライ」（tools/make_character.py で生成）。本番の絵に替えるときは base.png と差分画像、この JSON の x, y を書き換える"
+}

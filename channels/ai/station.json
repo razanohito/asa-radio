@@ -1,0 +1,87 @@
+{
+ "format": "myradio/station-1",
+ "logo": "logo.svg",
+ "url": "",
+ "repo": "",
+ "language": "ja",
+ "languages": [
+  "ja"
+ ],
+ "schedule": {
+  "every": "day",
+  "time": "06:30",
+  "timezone": "Asia/Tokyo"
+ },
+ "episodes": "episodes.json",
+ "audio": {
+  "dir": "audio",
+  "keep_days": 30
+ },
+ "weather": true,
+ "name": "あさAIラジオ",
+ "tagline": "生成AI 朝のニュース",
+ "description": "生成AI・AIの、きのうの気になるニュースを、毎朝 2 分で。キャスターのアサヒがお届けします。",
+ "theme": {
+  "accent": "#ffd028"
+ },
+ "character": {
+  "pack": "character/character.json",
+  "thumbnail": "character/base.png",
+  "note": "仮のオリジナルキャラクター「アサヒ」です（プログラムで描画）"
+ },
+ "credits": [
+  "VOICEVOX:春日部つむぎ"
+ ],
+ "caster": "アサヒ（声：VOICEVOX:春日部つむぎ）",
+ "voice": {
+  "engine": "voicevox",
+  "speaker": 8,
+  "speed": 1.1,
+  "pause_line": 0.25,
+  "pause_part": 0.8
+ },
+ "news": {
+  "topic": "生成AI・AIの新しい発表や出来事",
+  "count": 5,
+  "min": 2,
+  "hours": 36,
+  "model": "claude-sonnet-5-5",
+  "caster_name": "アサヒ",
+  "persona": "明るく落ち着いた女性キャスター",
+  "tone": "ていねいで親しみやすく",
+  "pick_rules": [
+   "大手の新モデル・新サービス、日本の企業や行政の動き、研究の成果、身近な使い道など、話題がかたよらないように"
+  ],
+  "feeds": [
+   "https://rss.itmedia.co.jp/rss/2.0/aiplus.xml",
+   "https://www.publickey1.jp/atom.xml",
+   {
+    "url": "https://gigazine.net/news/rss_2.0/",
+    "keywords": [
+     "AI",
+     "生成",
+     "GPT",
+     "Claude",
+     "Gemini",
+     "LLM",
+     "エージェント"
+    ]
+   },
+   {
+    "url": "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
+    "keywords": [
+     "AI",
+     "生成",
+     "GPT",
+     "Claude",
+     "Gemini",
+     "LLM"
+    ]
+   },
+   "https://openai.com/news/rss.xml",
+   "https://blog.google/technology/ai/rss/",
+   "https://techcrunch.com/category/artificial-intelligence/feed/",
+   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+  ]
+ }
+}

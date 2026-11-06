@@ -47,5 +47,5 @@
    "mouth": "smile_mouth"
   }
  },
- "note": "仮のオリジナルキャラ（tools/make_character.py で生成）。本番のキャラ画像に差し替えるときは base.png と差分画像、この JSON の x, y を書き換える"
+ "note": "仮のオリジナルキャラ「アサヒ」（tools/make_character.py で生成）。本番の絵に替えるときは base.png と差分画像、この JSON の x, y を書き換える"
 }

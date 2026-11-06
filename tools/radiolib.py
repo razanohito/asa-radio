@@ -1,4 +1,4 @@
-"""あさAIラジオの自動放送で使う共通の部品（ニュース集め・ページ読み・台本の確認）。
+"""ラジオ局（複数チャンネル）の自動放送で使う共通の部品（チャンネル・ニュース集め・ページ読み・台本の確認）。
 
 外部ライブラリは使いません（Python 3.10 以上の標準ライブラリだけ）。
 """
@@ -32,8 +32,28 @@ def save_json(path, data, indent=1):
     os.replace(tmp, path)
 
 
-def station():
-    return load_json(os.path.join(ROOT, "station.json"))
+def channels():
+    """チャンネルの ID の並び（channels.json の順）"""
+    return [c["id"] for c in (load_json(os.path.join(ROOT, "channels.json"), {}) or {}).get("channels", [])]
+
+
+def site():
+    """サイト全体の設定（channels.json の site：name, url, repo）"""
+    return (load_json(os.path.join(ROOT, "channels.json"), {}) or {}).get("site", {})
+
+
+def chan_dir(cid):
+    d = os.path.join(ROOT, "channels", cid)
+    if not os.path.exists(os.path.join(d, "station.json")): raise SystemExit(f"チャンネルがありません：{cid}（channels/{cid}/station.json）")
+    return d
+
+
+def station(cid):
+    return load_json(os.path.join(chan_dir(cid), "station.json"))
+
+
+def arg(args, name, default=None):
+    return args[args.index(name) + 1] if name in args else default
 
 
 def http_get(url, timeout=20, limit=3_000_000):
@@ -83,6 +103,7 @@ def parse_feed(xml_text, feed_url=""):
     strip = lambda t: t.split("}", 1)[-1]
     source = ""
     for el in root.iter():
+        if strip(el.tag) in ("item", "entry"): break
         if strip(el.tag) == "title": source = _txt(el); break
     for el in root.iter():
         tag = strip(el.tag)
@@ -104,15 +125,40 @@ def parse_feed(xml_text, feed_url=""):
     return items
 
 
-def collect(feeds, hours=36, now=None):
-    """フィードから直近 hours 時間の記事を集める（URL と題で重複を除く）"""
+def real_url(url):
+    """ニュース検索の RSS（Bing など）の転送用リンクから、記事の URL を取り出す"""
+    q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
+    if "bing.com" in url and q.get("url"): return q["url"][0]
+    if re.match(r"https?://(www\.)?reddit\.com/", url): return re.sub(r"^https?://(www\.)?reddit\.com/", "https://old.reddit.com/", url)   # 本文を HTML で読める
+    return url
+
+
+def used_urls(cdir):
+    """そのチャンネルで、もう放送した記事の URL"""
+    out = set()
+    d = os.path.join(cdir, "episodes")
+    for f in os.listdir(d) if os.path.isdir(d) else []:
+        ep = load_json(os.path.join(d, f), {}) or {}
+        for n in ep.get("news", []):
+            for u in (n.get("url"), (n.get("link") or {}).get("url")):
+                if u: out.add(u.split("?")[0].rstrip("/"))
+    return out
+
+
+def collect(feeds, hours=36, now=None, keywords=None):
+    """フィードから直近 hours 時間の記事を集める（URL と題で重複を除く）。keywords があれば、題か要約にどれかを含む記事だけ"""
     now = now or datetime.datetime.now(datetime.timezone.utc)
     seen, out = set(), []
-    for url in feeds:
+    for feed in feeds:
+        # フィードは URL の文字列か {"url": ..., "keywords": [...]}（そのフィードだけ絞り込む）
+        url = feed["url"] if isinstance(feed, dict) else feed
+        kws = [k.lower() for k in ((feed.get("keywords") if isinstance(feed, dict) else None) or keywords or [])]
         _, status, text = http_get(url)
         got = parse_feed(text, url) if text else []
         print(f"  feed {status} {len(got):3d} {url}")
         for it in got:
+            it["url"] = real_url(it["url"])
+            if kws and not any(k in (it["title"] + " " + it["summary"]).lower() for k in kws): continue
             if it["published"]:
                 age = now - datetime.datetime.fromisoformat(it["published"])
                 if age > datetime.timedelta(hours=hours) or age < datetime.timedelta(hours=-6): continue
@@ -189,7 +235,7 @@ def _line_ok(x):
     return isinstance(x, dict) and isinstance(x.get("say"), str) and isinstance(x.get("show"), str) and x["say"].strip() and x["show"].strip()
 
 
-def check_script(ep, allowed_urls=None):
+def check_script(ep, allowed_urls=None, min_news=2):
     """台本 JSON の形を確かめる。おかしいところを文字列の並びで返す（空なら OK）"""
     errs = []
     for k in ("title", "opening", "news", "closing"):
@@ -200,7 +246,7 @@ def check_script(ep, allowed_urls=None):
         if not isinstance(ep[part], list) or not ep[part]: errs.append(f"{part} が空"); continue
         for i, x in enumerate(ep[part]):
             if not _line_ok(x): errs.append(f"{part}[{i}] に say と show がない")
-    if not isinstance(ep["news"], list) or not 2 <= len(ep["news"]) <= 7: errs.append("news は 2〜7 本")
+    if not isinstance(ep["news"], list) or not min_news <= len(ep["news"]) <= 7: errs.append(f"news は {min_news}〜7 本")
     else:
         for j, n in enumerate(ep["news"]):
             w = f"news[{j}]"
