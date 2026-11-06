@@ -357,6 +357,8 @@ footer{margin-top:24px;font-size:12px;color:var(--muted)}footer a{color:var(--ye
    Scrolled down past it (html.dock), the player stays at the top of the screen as the usual 16:9 stage. */
 html.v #frame{aspect-ratio:9/16;width:min(100%, calc((100svh - 64px) * 9 / 16));margin:0 auto}
 html.embed.v #frame,html.embed.v .controls{width:min(100%, calc((100vh - 64px) * 9 / 16))}
+/* a narrow embed (a phone column on another site): keep the bar inside the frame */
+@media (max-width:520px){html.embed .controls{gap:6px;padding:0 6px}html.embed #rate{display:none}}
 html.v #stage{width:1080px;height:1920px}
 html.v .brand{left:48px;top:46px}
 html.v .onair{right:48px;top:46px}
@@ -577,7 +579,8 @@ function setTalking(on) {
 }
 
 // ---------- her as sprites ----------
-const SP = { ready: false, key: "", look: [0, 0], pointer: null, pointerAt: -1e9, nextBlink: 0, blinkAt: -1e9, mouth: 0, mouthAt: 0 };
+const SP = { ready: false, key: null,   // null: the first frame always draws (a character with no blink image would otherwise never draw)
+  look: [0, 0], pointer: null, pointerAt: -1e9, nextBlink: 0, blinkAt: -1e9, mouth: 0, mouthAt: 0 };
 document.addEventListener("pointermove", e => {
   const r = $("cam").getBoundingClientRect();
   SP.pointer = [Math.max(-1, Math.min(1, (e.clientX - (r.left + r.width / 2)) / (r.width / 2))),
