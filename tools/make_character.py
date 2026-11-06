@@ -9,7 +9,9 @@
   half_blink.png    目・半目
 を channels/<ID>/character/ に書き出し、character.json の位置（x, y）もそろえます。
 
-usage: python3 tools/make_character.py [ID ...]   （省略すると、下の THEMES にある全チャンネル）
+usage: python3 tools/make_character.py ID [ID ...]
+  いまの 3 チャンネルは手持ちの立ち絵（tools/import_character.py）なので、これで上書きしないこと。
+  THEMES の絵は、立ち絵のない新しいチャンネルの仮キャラ用の見本です
 必要なもの：Pillow、resvg-py（pip install resvg-py）
 """
 import io, json, os, sys
@@ -185,5 +187,6 @@ def make(cid):
 
 
 if __name__ == "__main__":
-    for cid in sys.argv[1:] or THEMES:
+    if not sys.argv[1:]: sys.exit(__doc__)
+    for cid in sys.argv[1:]:
         make(cid)

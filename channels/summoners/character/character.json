@@ -8,44 +8,25 @@
  "background": "#1c1428",
  "base": "base.png",
  "parts": {
-  "mouth_half": {
-   "src": "mouth_half.png",
-   "x": 416,
-   "y": 384
-  },
   "mouth_open": {
    "src": "mouth_open.png",
-   "x": 416,
-   "y": 384
+   "x": 415,
+   "y": 344
   },
   "smile_mouth": {
    "src": "smile_mouth.png",
-   "x": 416,
-   "y": 384
-  },
-  "blink": {
-   "src": "blink.png",
-   "x": 324,
-   "y": 253
-  },
-  "half_blink": {
-   "src": "half_blink.png",
-   "x": 324,
-   "y": 253
+   "x": 100,
+   "y": 5
   }
  },
  "mouth": {
-  "1": "mouth_half",
+  "1": "mouth_open",
   "2": "mouth_open"
- },
- "eye": {
-  "blink": "blink",
-  "half": "half_blink"
  },
  "expressions": {
   "smile": {
    "mouth": "smile_mouth"
   }
  },
- "note": "仮のオリジナルキャラ「ルナ」（tools/make_character.py で生成）。本番の絵に替えるときは base.png と差分画像、この JSON の x, y を書き換える"
+ "note": "「せんぱい」の立ち絵を tools/import_character.py で取り込み"
 }

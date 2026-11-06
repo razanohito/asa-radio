@@ -4,9 +4,9 @@
 
 | チャンネル | 内容 | キャスター | 声 |
 |---|---|---|---|
-| あさAIラジオ（`channels/ai`） | 生成AI・AIのニュース。毎朝 5 本 | アサヒ | VOICEVOX:春日部つむぎ |
+| あさAIラジオ（`channels/ai`） | 生成AI・AIのニュース。毎朝 5 本 | こうはい | VOICEVOX:春日部つむぎ |
 | あさテックラジオ（`channels/tech`） | スマホ・PC・ネット・セキュリティなどのテックニュース。毎朝 5 本 | ミライ | VOICEVOX:冥鳴ひまり |
-| サマナ朝通信（`channels/summoners`） | 『サマナーズウォー』の非公式ニュース。新しい話題がある日だけ、最大 3 本 | ルナ | VOICEVOX:四国めたん |
+| サマナ朝通信（`channels/summoners`） | 『サマナーズウォー』の非公式ニュース。新しい話題がある日だけ、最大 3 本 | せんぱい | VOICEVOX:四国めたん |
 
 - 毎朝 GitHub Actions が全チャンネルを自動で放送します：ニュースを集める → Claude が台本を書く → VOICEVOX で声を作る → GitHub Pages に公開
 - トップページ（`index.html`）がチャンネルの一覧で、それぞれの番組ページ（`channels/<ID>/`）へ進めます
@@ -60,18 +60,22 @@
 ## チャンネルを増やすとき
 
 1. `channels/<新しいID>/` を作り、ほかのチャンネルの `station.json` をまねて書く（`episodes.json` は `[]`、`logo.svg` も置く）
-2. キャラ：`tools/make_character.py` の `THEMES` に色と小物を足して `python3 tools/make_character.py <新しいID>`（または自分の絵を置く）
+2. キャラ：立ち絵があれば `tools/import_character.py <新しいID> …`。なければ `tools/make_character.py` の `THEMES` に足して仮キャラを作る
 3. `channels.json` の `channels` に `{"id": "<新しいID>"}` を足す
 
-## キャスターの差し替え
+## キャスター
 
-いまの 3 人は、`tools/make_character.py` がプログラムで描いた仮のキャラです。本番の絵に替えるときは、そのチャンネルの `character/` に：
+こうはい・せんぱいは、ゆっくり解説シリーズ（yukkuri-video-maker）のキャラクターです。テックのキャスターは ChatGPT で作りました。
+手持ちの立ち絵（口閉じ・口開き・笑顔の PNG）を取り込むときは `tools/import_character.py` を使います。
 
-1. `base.png`（口を閉じて正面、背景透明、896×768）を置く
-2. 口（半開き・開き・笑顔）と目（閉じ・半目）の差分を、変わった範囲だけ切り出して置く
-3. `character.json` の各画像の `x`、`y`（base の上に重ねる位置）を書き換える
+```bash
+python3 tools/import_character.py ai --closed normal_closed.png --open normal_open.png --smile smile_closed.png --bg "#161a26" --name こうはい
+# AI で描いた差分のように顔全体が少しずつ違う絵は、口の範囲を指定するときれいに口だけ動きます
+python3 tools/import_character.py ai ... --mouth-box 432,422,522,474
+```
 
-くわしい形は [docs/formats.md](docs/formats.md) の「キャラパック」。
+絵は 896×768 の枠に下ぞろえで収め、口や目の変わった範囲だけを小さな画像に切り出して `character.json` を書きます。
+`tools/make_character.py` は、立ち絵がないチャンネル用の仮キャラ（プログラムで描画）を作る道具です。
 
 ## 手で放送するとき
 

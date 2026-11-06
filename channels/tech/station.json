@@ -27,10 +27,11 @@
  "character": {
   "pack": "character/character.json",
   "thumbnail": "character/base.png",
-  "note": "仮のオリジナルキャラクター「ミライ」です（プログラムで描画）"
+  "note": "オリジナルキャラクター「ミライ」（立ち絵: AI生成（ChatGPT））"
  },
  "credits": [
-  "VOICEVOX:冥鳴ひまり"
+  "VOICEVOX:冥鳴ひまり",
+  "立ち絵: AI生成（ChatGPT）"
  ],
  "caster": "ミライ（声：VOICEVOX:冥鳴ひまり）",
  "voice": {
@@ -47,7 +48,7 @@
   "hours": 36,
   "model": "claude-sonnet-5-5",
   "caster_name": "ミライ",
-  "persona": "知的で落ち着いた、めがねの女性キャスター",
+  "persona": "知的で落ち着いた、めがねの女の子",
   "tone": "落ち着いていて、わかりやすく",
   "pick_rules": [
    "AIが主役の記事は、とても大きな話題のとき1本までにする",

@@ -20,19 +20,20 @@
  "weather": true,
  "name": "あさAIラジオ",
  "tagline": "生成AI 朝のニュース",
- "description": "生成AI・AIの、きのうの気になるニュースを、毎朝 2 分で。キャスターのアサヒがお届けします。",
+ "description": "生成AI・AIの、きのうの気になるニュースを、毎朝 2 分で。キャスターのこうはいがお届けします。",
  "theme": {
   "accent": "#ffd028"
  },
  "character": {
   "pack": "character/character.json",
   "thumbnail": "character/base.png",
-  "note": "仮のオリジナルキャラクター「アサヒ」です（プログラムで描画）"
+  "note": "ゆっくり解説シリーズのキャラクター「こうはい」（立ち絵: AI生成（ChatGPT））"
  },
  "credits": [
-  "VOICEVOX:春日部つむぎ"
+  "VOICEVOX:春日部つむぎ",
+  "立ち絵: AI生成（ChatGPT）"
  ],
- "caster": "アサヒ（声：VOICEVOX:春日部つむぎ）",
+ "caster": "こうはい（声：VOICEVOX:春日部つむぎ）",
  "voice": {
   "engine": "voicevox",
   "speaker": 8,
@@ -46,9 +47,9 @@
   "min": 2,
   "hours": 36,
   "model": "claude-sonnet-5-5",
-  "caster_name": "アサヒ",
-  "persona": "明るく落ち着いた女性キャスター",
-  "tone": "ていねいで親しみやすく",
+  "caster_name": "こうはい",
+  "persona": "素直で明るい後輩キャラの女の子",
+  "tone": "ていねいで親しみやすく、少しはずむように",
   "pick_rules": [
    "大手の新モデル・新サービス、日本の企業や行政の動き、研究の成果、身近な使い道など、話題がかたよらないように"
   ],
