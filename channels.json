@@ -6,8 +6,17 @@
   "repo": ""
  },
  "channels": [
-  {"id": "ai"},
-  {"id": "tech"},
-  {"id": "summoners"}
+  {
+   "id": "ai"
+  },
+  {
+   "id": "tech"
+  },
+  {
+   "id": "summoners"
+  },
+  {
+   "id": "workspace"
+  }
  ]
 }
