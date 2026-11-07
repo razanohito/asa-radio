@@ -1,6 +1,6 @@
 #!/bin/bash
 # 局（全チャンネル）を GitHub Pages に公開する：gh-pages ブランチを「main の中身＋各チャンネルの直近の音声」のコミット 1 つで上書きする。
-# 音声は git の履歴に入らない（古い音声は履歴ごと消える）。直近の日数は各チャンネルの station.json の audio.keep_days（既定 30 日）。
+# 音声は git の履歴に入らない（古い音声は履歴ごと消える）。直近の日数は各チャンネルの station.json の audio.keep_days（既定 30 日、0 か null で全部残す）。
 # usage: tools/publish.sh   （リポジトリの中で。origin に push できること）
 #   PUBLISH_REMOTE  送り先（既定：origin。GitHub Actions ではトークン付きの URL を渡す）
 #   SHARE_FONT      共有カードに使う日本語フォント（tools/share.py）。Pillow がなければカードは作らない
@@ -19,8 +19,9 @@ total=0
 for cdir in channels/*/; do
   cid=$(basename "$cdir")
   [ -f "$cdir/station.json" ] || continue
-  read -r DIR KEEP < <(python3 -c "import json; a = json.load(open('$cdir/station.json')).get('audio', {}); print(a.get('dir', 'audio'), a.get('keep_days', 30))")
-  CUT=$(python3 -c "import datetime; print((datetime.date.today() - datetime.timedelta(days=$KEEP)).isoformat())")
+  read -r DIR KEEP < <(python3 -c "import json; a = json.load(open('$cdir/station.json')).get('audio', {}); k = a.get('keep_days', 30); print(a.get('dir', 'audio'), 0 if not k else int(k))")
+  if [ "$KEEP" -eq 0 ]; then CUT=0000-00-00   # keep_days が 0 か null：全部残す
+  else CUT=$(python3 -c "import datetime; print((datetime.date.today() - datetime.timedelta(days=$KEEP)).isoformat())"); fi
   mkdir -p "$TMP/$cdir/$DIR"
   n=0
   for f in "$cdir/$DIR"/*; do

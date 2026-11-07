@@ -15,7 +15,7 @@
  "episodes": "episodes.json",
  "audio": {
   "dir": "audio",
-  "keep_days": 30
+  "keep_days": 0
  },
  "weather": true,
  "name": "サマナ朝通信",

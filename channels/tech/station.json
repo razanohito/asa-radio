@@ -15,7 +15,7 @@
  "episodes": "episodes.json",
  "audio": {
   "dir": "audio",
-  "keep_days": 30
+  "keep_days": 90
  },
  "weather": true,
  "name": "あさテックラジオ",
