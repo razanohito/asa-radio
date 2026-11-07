@@ -17,6 +17,11 @@
    "src": "blink.png",
    "x": 310,
    "y": 280
+  },
+  "smile_mouth": {
+   "src": "smile_mouth.png",
+   "x": 392,
+   "y": 380
   }
  },
  "mouth": {
@@ -26,5 +31,10 @@
  "eye": {
   "blink": "blink"
  },
- "note": "「シオリ」の立ち絵を tools/import_character.py で取り込み（立ち絵: AI生成（ChatGPT））"
+ "note": "「シオリ」の立ち絵を tools/import_character.py で取り込み（立ち絵: AI生成（ChatGPT））",
+ "expressions": {
+  "smile": {
+   "mouth": "smile_mouth"
+  }
+ }
 }
