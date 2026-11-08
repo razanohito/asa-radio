@@ -102,7 +102,6 @@ jobs:
       - name: GitHub Pages に公開する
         env:
           PUBLISH_REMOTE: https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git
-          SHARE_FONT: /usr/share/fonts/opentype/noto/NotoSansCJK-Medium.ttc
         run: bash tools/publish.sh
 
       - name: 失敗した回があれば知らせる

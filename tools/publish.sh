@@ -29,7 +29,7 @@ for cdir in channels/*/; do
     d=$(basename "$f"); d=${d:0:10}
     if [[ ! "$d" < "$CUT" ]]; then cp "$f" "$TMP/$cdir/$DIR/"; n=$((n + 1)); fi
   done
-  if "$PY" -c "import PIL" 2>/dev/null; then "$PY" tools/share.py "$TMP/$cdir" --all --front > /dev/null; fi
+  if "$PY" -c "import PIL" 2>/dev/null; then "$PY" tools/share.py "$TMP/$cdir" --all --front > /dev/null || echo "[$cdir] 共有カードは作れませんでした（公開は続けます）"; fi
   echo "  $cid: 音声 $n 本（$CUT 以降）"
   total=$((total + n))
 done

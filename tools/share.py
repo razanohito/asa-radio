@@ -30,8 +30,22 @@ def arg(name, default=None):
     return sys.argv[sys.argv.index(name) + 1] if name in sys.argv else default
 
 
+def find_font(path):
+    """使える日本語フォントを探す（指定のパスがなければ fc-match、よくある置き場所の順）"""
+    import glob, subprocess
+    if path and os.path.exists(path): return path
+    try:
+        p = subprocess.run(["fc-match", "-f", "%{file}", "Noto Sans CJK JP:weight=bold"], capture_output=True, text=True, timeout=10).stdout.strip()
+        if p and os.path.exists(p): return p
+    except Exception: pass
+    for pat in ["/usr/share/fonts/**/NotoSansCJK*Bold*.tt[cf]", "/usr/share/fonts/**/NotoSansCJK*.tt[cf]", "/usr/share/fonts/**/*CJK*.tt[cf]", "/usr/share/fonts/**/*Gothic*.tt[cf]"]:
+        hit = sorted(glob.glob(pat, recursive=True))
+        if hit: return hit[0]
+    raise SystemExit("日本語フォントが見つかりません（SHARE_FONT で指定してください）")
+
+
 def font(path, size, weight):
-    f = ImageFont.truetype(path, size)
+    f = ImageFont.truetype(find_font(path), size)
     try: f.set_variation_by_axes([weight])
     except Exception: pass   # not a variable font
     return f
