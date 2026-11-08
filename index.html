@@ -65,7 +65,7 @@ const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const jst = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
 const WEEK = "日月火水木金土";
-const dateFmt = d => { const t = new Date(d + "T00:00:00+09:00"); return `${t.getMonth() + 1}月${t.getDate()}日（${WEEK[t.getDay()]}）`; };
+const dateFmt = d => { const t = new Date(d + "T00:00:00"); return `${t.getMonth() + 1}月${t.getDate()}日（${WEEK[t.getDay()]}）`; };
 const mmss = s => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}`;
 const get = async u => { try { const r = await fetch(u, { cache: "no-store" }); return r.ok ? r.json() : null; } catch { return null; } };
 $("today").textContent = "TODAY  " + dateFmt(jst);
