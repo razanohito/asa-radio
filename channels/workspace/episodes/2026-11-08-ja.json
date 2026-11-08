@@ -1,0 +1,65 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-08",
+ "lang": "ja",
+ "title": "Vidsの動画生成が無料で",
+ "opening": [
+  {
+   "say": "あさワークスペース通信です。十一月八日日曜日、おはようございます。",
+   "show": "あさワークスペース通信です。11月8日日曜日、おはようございます。"
+  },
+  {
+   "say": "今日は一本の更新情報をお届けします。",
+   "show": "今日は1本の更新情報をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Vidsで無料の動画生成",
+   "points": [
+    "オムニ1.2フラッシュ",
+    "月3本まで無料",
+    "1本15秒まで"
+   ],
+   "details": [
+    "動画の作成・編集ツールのGoogle Vidsが、最新の動画生成モデルOmni 1.2 Flashで動くようになりました。",
+    "Googleアカウントか Google Workspace の契約があれば、だれでも月に3本、15秒の動画を無料で作れます。",
+    "参照画像を使うと、人物や場面の見た目が最初から最後までそろうとしています。"
+   ],
+   "lines": [
+    {
+     "say": "動画の作成ツール、グーグル ビッズの動画生成が、無料で試せるようになりました。",
+     "show": "Google Vidsの動画生成が無料で試せるように。"
+    },
+    {
+     "say": "グーグルアカウントか、ワークスペースの契約があれば、だれでも月に3本まで、15秒の動画を作れます。",
+     "show": "だれでも月3本まで、15秒の動画を無料で。"
+    },
+    {
+     "say": "新しいモデル、オムニ1.2フラッシュで、参照画像の人物や場面の見た目が、最後までそろうそうです。",
+     "show": "Omni 1.2 Flashで、見た目が最後までそろう。"
+    }
+   ],
+   "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/",
+   "link": {
+    "url": "https://blog.google/products-and-platforms/products/workspace/omni-1-2-flash-google-vids/",
+    "title": "Generate longer AI videos with Omni 1.2 Flash in Google Vids at no cost.",
+    "site": "Google",
+    "description": "Create longer AI videos in Google Vids with the new Omni 1.2 Flash model. Generate 15-second clips and consistent scenes for free. Try it now.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/pics-blog-header-2784x1566.max-1440x810.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261029-2131"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "まずは月3本の無料枠で、商品紹介や説明の動画を試してみるのもよさそうですね。",
+   "show": "月3本の無料枠で、まずは試してみては。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。あさワークスペース通信でした。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0
+}
