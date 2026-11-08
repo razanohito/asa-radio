@@ -240,6 +240,8 @@ main{max-width:1280px;margin:0 auto;padding:16px}
 #cover button{pointer-events:auto;cursor:pointer;border:0}
 #stage{cursor:pointer}
 #cover[hidden]{display:none}
+#allBadge{position:absolute;right:12px;top:12px;z-index:5;padding:5px 12px;border-radius:999px;background:rgba(7,8,12,.7);border:1px solid var(--line);color:var(--yellow);font:700 13px var(--jp);pointer-events:none}
+#allBadge[hidden]{display:none}
 /* where the viewer stopped last time: the play button goes on from there; "from the start" beside it */
 #cover .resume{position:absolute;left:50%;top:calc(50% + 9.5%);transform:translateX(-50%);display:flex;align-items:center;gap:12px;
   padding:6px 6px 6px 16px;border-radius:999px;background:rgba(7,8,12,.75);border:1px solid var(--line);color:var(--text);
@@ -453,6 +455,7 @@ html.phone #share span{display:none}
     </div>
     <button id="mutedBadge" aria-label="音声をオンにする"><svg viewBox="0 0 24 24"><path d="M3 9v6h4l5 5V4L7 9H3z"/><path d="M16.6 8.4 15.2 9.8 17.4 12l-2.2 2.2 1.4 1.4 2.2-2.2 2.2 2.2 1.4-1.4-2.2-2.2 2.2-2.2-1.4-1.4-2.2 2.2z"/></svg><span id="mutedTxt">音声オフ・クリックでオン</span></button>
     <div id="cover"><button class="play" aria-label="再生"><svg viewBox="0 0 10 12"><path d="M0 0v12l10-6z"/></svg></button><div class="resume" id="resume" hidden><span></span><button id="from0"></button></div></div>
+    <div id="allBadge" hidden></div>
     <div id="tip" role="status"></div>
     <div id="flash" aria-hidden="true"><svg viewBox="0 0 10 12"></svg></div>
     <div id="loading"></div>
@@ -1264,8 +1267,23 @@ async function init() {
   const [want, wantLang] = location.hash.slice(1).split("/");
   let saved = null; try { saved = localStorage.getItem("lang"); } catch {}
   const pref = wantLang || saved || ((navigator.language || "").toLowerCase().startsWith("ja") ? "ja" : "en");
-  load(eps.some(e => e.date === want) ? want : eps[0].date, pref);
+  const loaded = load(eps.some(e => e.date === want) ? want : eps[0].date, pref);
+  if (ALL.length) loaded.then(allStart);
 }
+// "ぜんぶ聴く" (from the top page): ?all=ai,tech,... plays each channel's newest episode in turn, from the start
+const ALL = (new URLSearchParams(location.search).get("all") || "").split(",").filter(x => /^[\w-]+$/.test(x));
+const ME = location.pathname.split("/").filter(Boolean).slice(-1)[0] || "";
+function allStart() {
+  const i = ALL.indexOf(ME);
+  $("allBadge").textContent = `ぜんぶ聴く ${i + 1}/${ALL.length}`; $("allBadge").hidden = false;
+  $("resume").hidden = true;
+  const go = () => { audio.currentTime = 0; audio.play().catch(() => {}); };   // a browser that blocks it shows the play button
+  if (audio.readyState >= 1) go(); else audio.addEventListener("loadedmetadata", go, { once: true });
+}
+audio.addEventListener("ended", () => {
+  const next = ALL[ALL.indexOf(ME) + 1];
+  if (ALL.includes(ME) && next) location.href = `../${next}/?all=${ALL.join(",")}`;
+});
 init();
 </script>
 </body>
