@@ -1,0 +1,65 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-08",
+ "lang": "ja",
+ "title": "各国キャスターが語るSWC10年",
+ "opening": [
+  {
+   "say": "サマナ朝通信です。十一月八日日曜日、おはようございます。",
+   "show": "サマナ朝通信です。11月8日日曜日、おはようございます。"
+  },
+  {
+   "say": "今日は一本の話題をお届けします。",
+   "show": "今日は1本の話題をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "キャスターが語るSWC",
+   "points": [
+    "今年で10回目のSWC",
+    "各国キャスター31名に取材",
+    "スペイン語キャスターの声"
+   ],
+   "details": [
+    "2026年で10回目の開催を迎える世界大会「SWC」についての記事です。",
+    "長年世界の召喚士を熱狂させてきた理由を、大会を見続けた31名の各国キャスターに聞いています。",
+    "Nobukoto氏は、アメリカカップでのMONAGUA選手の試合を挙げ、戦略で勝てることを見せたと語りました。"
+   ],
+   "lines": [
+    {
+     "say": "今年で十回目の世界大会エスダブリューシー。各国のキャスター三十一人が、熱狂の理由を語りました。",
+     "show": "10回目のSWC、各国キャスター31名が熱狂を語る"
+    },
+    {
+     "say": "スペイン語キャスターのノブコト氏は、アメリカカップでのモナグア選手の試合を挙げました。",
+     "show": "Nobukoto氏はMONAGUA選手の試合を挙げました。"
+    },
+    {
+     "say": "準備していなかった相手にも、戦略で勝てることを見せてくれた、と話しています。",
+     "show": "「戦略で勝てることを見せてくれた」"
+    }
+   ],
+   "url": "https://www.sankei.com/pressrelease/prtimes/AVSQEYO4RJPB3PGBC7UKKWUJTE/",
+   "link": {
+    "url": "https://www.sankei.com/pressrelease/prtimes/AVSQEYO4RJPB3PGBC7UKKWUJTE/",
+    "title": "『サマナーズウォー: Sky Arena』、言葉を超えて広がる熱狂！世界各地のキャスターが語る「SWC」10年の歩み",
+    "site": "産経新聞：産経ニュース",
+    "description": "『『サマナーズウォー: Sky Arena』、言葉を超えて広がる熱狂！世界各地のキャスターが語る「SWC」10年の歩み』の記事ページです。",
+    "image": "https://www.sankei.com/resizer/v2/https%3A%2F%2Fdpgdieoe6npux.cloudfront.net%2Fprtimes%2FMDMTMTCLLVM53AS322U4YEMV7I?auth=dbf91dafbe955fd62f98facee195a5dd9d6805c6e6e80b42f31d4350c810e4a3&quality=50&smart=true&width=1200&height=675",
+    "icon": "https://www.sankei.com/images/apple-touch-icon.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "十年続く大会には、言葉を超えた熱があるのかもしれませんね。",
+   "show": "10年続くSWC、言葉を超えた熱がありそうです。"
+  },
+  {
+   "say": "それでは今日も、よいサマナーライフを。サマナ朝通信でした。",
+   "show": "それでは今日も、よいサマナーライフを。サマナ朝通信でした。"
+  }
+ ],
+ "highlight": 0
+}
