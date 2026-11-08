@@ -19,28 +19,23 @@
 
 ## 毎朝の自動放送のしくみ
 
-`.github/workflows/daily.yml`（日本時間 6:17 ごろに起動）が、`channels.json` の順に、チャンネルごとに次を行います。
-
-| 順番 | やること | 道具 |
+| 時刻（日本時間） | だれが | やること |
 |---|---|---|
-| 1 | `station.json` の `news.feeds` の RSS から、直近 `news.hours` 時間の記事を集める（放送済みの記事は外す） | `tools/radiolib.py` |
-| 2 | Claude API が、チャンネルのテーマに合う記事を選ぶ | `tools/make_script.py` |
-| 3 | 選んだ記事のページを読み、OGP と本文を取る（読めない記事は外す） | `tools/make_script.py` |
-| 4 | Claude API が、本文だけを根拠に台本（`episodes/<日付>-ja.json`）を書く。形を確かめ、だめなら直させる | `tools/make_script.py` |
-| 5 | VOICEVOX で 1 文ずつ声を作り、つないで mp3 にし、字幕のタイミングを台本に書く | `tools/voice.py` |
-| 6 | 全チャンネルの台本を main に記録し、`gh-pages` に「main＋各チャンネルの残す日数分の声」を公開する | `tools/publish.sh` |
+| 5:07 ごろ | GitHub Actions（`collect.yml`） | 各チャンネルの RSS から候補記事を集め、記事のページ（本文・リンクカード）も読んで、`inbox` ブランチの `inbox/<日付>/<ID>.json` に置く（`tools/collect_news.py`）。放送済みの記事は外す |
+| 6:13 ごろ | Claude の定期タスク | `DAILY.md` の手順で、inbox の記事から台本を書き、`tools/save_script.py` で確かめて `main` に push |
+| push の直後 | GitHub Actions（`daily.yml`） | 声がない最近の回に VOICEVOX で声を付け（`tools/voice_pending.py`）、字幕のタイミングを記録し、GitHub Pages に公開（`tools/publish.sh`） |
+| 7:47 ごろ | GitHub Actions（`daily.yml`） | 予備。取りこぼした回があれば声を付けて公開 |
 
-1 つのチャンネルが失敗しても、ほかのチャンネルは放送して公開します（失敗した回は Actions の実行が赤くなり、GitHub からメールが届きます）。
-ニュースが足りないチャンネルはその日お休みで、失敗にはなりません。
+- 台本の決まり（事実は記事の本文だけ、読み上げ用の文に英字を残さない、など）は `DAILY.md` にあります
+- `ANTHROPIC_API_KEY` を Secrets に登録すると、`collect.yml` が Claude API で台本も書きます（Claude の定期タスクの代わりや予備）
+- 1 つのチャンネルが失敗しても、ほかのチャンネルは放送します。ニュースが足りないチャンネルはその日お休み
 
-## 初めにやる設定（1 回だけ）
+公開先：https://razanohito.github.io/asa-radio/
 
-1. **Claude API のキー**：Settings → Secrets and variables → Actions → New repository secret で、名前 `ANTHROPIC_API_KEY` にキーを登録（https://console.anthropic.com で作れます）
-2. **GitHub Pages**：Settings → Pages → Build and deployment を「Deploy from a branch」、ブランチ `gh-pages` / `(root)` にする
-3. **Actions の書き込み権限**：Settings → Actions → General → Workflow permissions を「Read and write permissions」にする
-4. **試しに放送**：Actions → 「毎朝の放送」→ Run workflow（チャンネルを絞るなら `ai,tech` のように入力）
+## 設定（済み）
 
-モデルを変えたいときは、Settings → Secrets and variables → Actions → Variables に `CLAUDE_MODEL` を作るか、各チャンネルの `station.json` の `news.model` を書き換えます。
+- Settings → Pages：`gh-pages` ブランチ / `(root)`
+- 台本は Claude の定期タスク（claude.ai の「定期タスク」に「あさラジオ 毎朝の台本」）
 
 ## チャンネルの設定（channels/<ID>/station.json）
 
