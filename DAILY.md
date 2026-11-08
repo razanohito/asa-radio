@@ -8,7 +8,7 @@
 1. リポジトリを取得し、今日（日本時間）の inbox を取る
    ```bash
    git clone https://github.com/razanohito/asa-radio && cd asa-radio
-   git fetch origin inbox && git checkout origin/inbox -- inbox
+   git fetch origin inbox && git restore --source=origin/inbox --worktree -- inbox
    D=$(TZ=Asia/Tokyo date +%F)
    ls inbox/$D/
    ```
@@ -27,7 +27,7 @@
    push すると、声と公開は GitHub Actions が自動で行う。
 4. チャンネルごとの結果（放送した本数と題、お休みの理由）を短く報告する
 
-`inbox/` は main に commit しない（`.gitignore` 済み）。
+`inbox/` は main に commit しない（`.gitignore` 済み）。上の `git restore --worktree` で取れば、コミット待ちにならない（`git checkout origin/inbox -- inbox` だとコミット待ちに入ってしまう）。
 
 ## 記事を選ぶ決まり
 
