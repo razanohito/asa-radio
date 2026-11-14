@@ -1,0 +1,78 @@
+{
+ "format": "myradio/station-1",
+ "name": "あさワークスペース通信",
+ "tagline": "Google Workspace 更新情報（非公式）",
+ "description": "Gmail・ドキュメント・スプレッドシート・Meet などの新機能や変更を、毎朝わかりやすく。キャスターのシオリがお届けします。非公式のファン番組です。",
+ "logo": "logo.svg",
+ "url": "https://razanohito.github.io/asa-radio/channels/workspace/",
+ "repo": "https://github.com/razanohito/asa-radio",
+ "language": "ja",
+ "languages": [
+  "ja"
+ ],
+ "schedule": {
+  "every": "day",
+  "time": "06:30",
+  "timezone": "Asia/Tokyo"
+ },
+ "episodes": "episodes.json",
+ "theme": {
+  "accent": "#6ea8ff"
+ },
+ "character": {
+  "pack": "character/character.json",
+  "thumbnail": "character/base.png",
+  "note": "オリジナルキャラクター「シオリ」（立ち絵: AI生成（ChatGPT））"
+ },
+ "credits": [
+  "VOICEVOX:九州そら",
+  "立ち絵: AI生成（ChatGPT）",
+  "このチャンネルは非公式のファン番組で、Google とは関係ありません。Google Workspace は Google LLC の商標です"
+ ],
+ "caster": "シオリ（声：VOICEVOX:九州そら）",
+ "audio": {
+  "dir": "audio",
+  "keep_days": 90
+ },
+ "weather": true,
+ "voice": {
+  "engine": "voicevox",
+  "speaker": 16,
+  "speed": 1.3,
+  "pause_line": 0.25,
+  "pause_part": 0.8
+ },
+ "news": {
+  "topic": "Google Workspace（Gmail、カレンダー、ドライブ、ドキュメント、スプレッドシート、スライド、Meet、Chat、フォーム、Vids、Apps Script、管理コンソール、Workspace の Gemini など）の新機能・変更・提供開始の発表",
+  "count": 4,
+  "min": 1,
+  "hours": 72,
+  "model": "claude-sonnet-5-5",
+  "caster_name": "シオリ",
+  "persona": "明るくて面倒見のいい、事務職の先輩風の女の子",
+  "tone": "ていねいで親しみやすく、仕事で使う人の目線で",
+  "pick_rules": [
+   "一般のユーザーに関わる変更と、管理者が知っておくべき変更を両方取り上げる",
+   "同じ機能の続報は1本にまとめる"
+  ],
+  "write_rules": [
+   "対象のエディション（例：Business Standard 以上）、展開の時期、管理者の設定が必要かどうかが本文にあれば、details に必ず書く",
+   "製品名は Google の日本語の呼び方（ドキュメント、スプレッドシート、スライド、ドライブ、カレンダー）にする"
+  ],
+  "feeds": [
+   "https://workspaceupdates.googleblog.com/feeds/posts/default",
+   "https://blog.google/products/workspace/rss/",
+   {
+    "url": "https://www.bing.com/news/search?q=Google+Workspace&format=rss&setlang=ja",
+    "keywords": [
+     "Workspace",
+     "Gmail",
+     "スプレッドシート",
+     "ドキュメント",
+     "Meet",
+     "Gemini"
+    ]
+   }
+  ]
+ }
+}

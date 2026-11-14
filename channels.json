@@ -1,0 +1,22 @@
+{
+ "site": {
+  "name": "あさラジオ",
+  "tagline": "キャラクターが毎朝ニュースを読むチャンネル",
+  "url": "https://razanohito.github.io/asa-radio/",
+  "repo": "https://github.com/razanohito/asa-radio"
+ },
+ "channels": [
+  {
+   "id": "ai"
+  },
+  {
+   "id": "tech"
+  },
+  {
+   "id": "summoners"
+  },
+  {
+   "id": "workspace"
+  }
+ ]
+}

@@ -1,0 +1,311 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-07",
+ "lang": "ja",
+ "title": "Vidsの動画生成が最大15秒に",
+ "opening": [
+  {
+   "say": "あさワークスペース通信です。十一月七日土曜日、おはようございます。",
+   "show": "あさワークスペース通信です。11月7日土曜日、おはようございます。"
+  },
+  {
+   "say": "今日は四本の更新情報をお届けします。",
+   "show": "今日は4本の更新情報をお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Vidsで15秒の動画生成",
+   "points": [
+    "ジェミニ オムニ1.2 Flash",
+    "最大15秒のクリップ",
+    "参照画像で見た目が安定"
+   ],
+   "details": [
+    "Google Vids で Gemini Omni 1.2 Flash が使えるようになりました。管理者の設定はありません。",
+    "スライダーで3〜15秒の範囲で長さを決められます。",
+    "11月5日から Rapid Release と Scheduled Release で全面展開。表示まで1〜3日かかる場合があります。"
+   ],
+   "url": "https://workspaceupdates.googleblog.com/2026/11/gemini-omni-12-flash-now-in-vids-with-15second-generations-and-improved-quality.html",
+   "lines": [
+    {
+     "say": "まずは動画作成ツールのビッズです。新しいモデル、ジェミニ オムニ1.2フラッシュが使えるようになりました。",
+     "show": "まずはGoogle Vids。Gemini Omni 1.2 Flashが使えるように。"
+    },
+    {
+     "say": "動画クリップの長さを、最大十五秒まで決められます。",
+     "show": "クリップの長さは最大15秒まで。"
+    },
+    {
+     "say": "参照画像を使ったとき、人物や製品の見た目がそろいやすくなったそうです。",
+     "show": "参照画像での見た目のそろい方も向上。"
+    }
+   ],
+   "link": {
+    "url": "https://workspaceupdates.googleblog.com/2026/11/gemini-omni-12-flash-now-in-vids-with-15second-generations-and-improved-quality.html",
+    "title": "Gemini Omni 1.2 Flash now in Vids with 15-second generations and improved quality",
+    "site": "Google Workspace Updates",
+    "description": "",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi0LYUc8DHQJDiWEHCjZDn4LCFqKCj-fG_Dw-t1_ng3xcR0vIg-aoQWzyaUpt5hSe3g49MvkDC2MbCbMtpbQw8rRBc70J4OuPMfTlNa1oUVkQr8oMrwP1dUDcqgZk8IQEonpybh2LXd4uqxfDfrVRU9TVvo2ZuLNrRyKFfw_CnONeSXDGv4eHxfJipNBQU/w1200-h630-p-k-no-nu/Gemini%20Omni%201.2%20Flash%20now%20in%20Vids%20with%2015-second%20generations%20and%20improved%20quality%20-%207287.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "機密ファイルを自動で暗号化",
+   "points": [
+    "ルールでCSEを自動適用",
+    "ドライブのOfficeやPDFも対象",
+    "Enterprise Plusのベータ"
+   ],
+   "details": [
+    "管理者がルールを決めると、機密ファイルにクライアントサイド暗号化を自動でかけられます。URLは変わりません。",
+    "ドキュメント・スプレッドシート・スライドのほか、Officeファイル、PDF、画像も対象です。",
+    "Enterprise Plus に Assured Controls または Assured Controls Plus のアドオンが必要。ベータは申し込み制で、初期設定はオフです。"
+   ],
+   "url": "https://workspaceupdates.googleblog.com/2026/11/automatically-apply-client-side-encryption-to-confidential-Editors-and-Drive-files-now-available-in-Beta.html",
+   "lines": [
+    {
+     "say": "続いては管理者向けです。機密ファイルに、クライアントサイド暗号化を自動でかけられるベータ版が始まりました。",
+     "show": "続いては管理者向け。機密ファイルを自動で暗号化するベータ版。"
+    },
+    {
+     "say": "ルールに合ったファイルを、その場で暗号化します。ファイルのアドレスは変わりません。",
+     "show": "ルールに合うファイルをその場で暗号化。URLはそのまま。"
+    },
+    {
+     "say": "対象はエンタープライズプラスで、アドオンとベータへの申し込みが必要です。",
+     "show": "Enterprise Plusが対象。アドオンと申し込みが必要です。"
+    }
+   ],
+   "link": {
+    "url": "https://workspaceupdates.googleblog.com/2026/11/automatically-apply-client-side-encryption-to-confidential-Editors-and-Drive-files-now-available-in-Beta.html",
+    "title": "Now available in beta: Automatically apply client-side encryption (CSE) to confidential Docs, Sheets, Slides, and Drive files",
+    "site": "Google Workspace Updates",
+    "description": "",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsKU9MCbl-U7ml3eu3acHWzZ6XHI0zo2qAVAfOU7vSr_mGZmi0NIHs6SQpKtPY80uqhHIih727QbaUeNarYD0xJGlCbJdZrX4SVLl6bFxrUIKw4ss7kqZBPndq7_B1Zswbsr9ZQz-JShfjeFTibPgwm2TL5dIf__0l-DPvYdt5mCYu1j9Etrkghe2caUE/w1200-h630-p-k-no-nu/Automatically%20apply%20client-side%20encryption%20(CSE)%20to%20confidential%20Editors%20and%20Drive%20files,%20now%20available%20in%20Beta%20-%207333.png",
+    "icon": null
+   }
+  },
+  {
+   "label": "Classroomの課題にAI学習",
+   "points": [
+    "課題にGuided Learningを追加",
+    "答えでなく段階的に導く",
+    "教員は会話の要約を確認"
+   ],
+   "details": [
+    "Guided Learning は、答えを直接示さず段階的に学びを導く Gemini アプリのモードです。",
+    "授業の資料を選んで、内容に沿ったセッションにできます。教員は生徒ごとのチャット記録も見られます。",
+    "Education Fundamentals・Standard・Plus が対象。11月3日から段階的に展開し、表示まで15日以上かかる場合があります。"
+   ],
+   "url": "https://workspaceupdates.googleblog.com/2026/11/educators-can-now-add-guided-learning-to-assignments-in-Google-Classroom-to-help-students-get-extra-support.html",
+   "lines": [
+    {
+     "say": "次は教育向けです。グーグル クラスルームの課題に、ガイデッド ラーニングを追加できるようになりました。",
+     "show": "次は教育向け。Classroomの課題にGuided Learningを追加可能に。"
+    },
+    {
+     "say": "答えをすぐに教えるのではなく、一歩ずつ考えを導いてくれる学習モードです。",
+     "show": "答えではなく、一歩ずつ導く学習モードです。"
+    },
+    {
+     "say": "先生は、クラス全体や生徒ごとの会話の要約を確認できます。",
+     "show": "先生はクラスや生徒ごとの要約を確認できます。"
+    }
+   ],
+   "link": {
+    "url": "https://workspaceupdates.googleblog.com/2026/11/educators-can-now-add-guided-learning-to-assignments-in-Google-Classroom-to-help-students-get-extra-support.html",
+    "title": "Educators can now add Guided Learning to assignments in Google Classroom to help students get extra support",
+    "site": "Google Workspace Updates",
+    "description": "",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMxt67Worl5U6wQlq-8mmadlZI64OMWfK1mVgN_3SPM8q1NEYQcutczx8PAQGaAA7u6nFRCwDLxGzHYV6adMpbpLrzzdwTJ4LcrJi1w1iyfP2DbI306oj70kYYeBH0maM738CzHxFGdP1Bwe91u4L3c3DfGM6Jp9FRajud1jz0XA58kawiLnk3Iejv_QQ/w1200-h630-p-k-no-nu/Educators%20can%20now%20add%20Guided%20Learning%20to%20assignments%20in%20Google%20Classroom%20to%20help%20students%20get%20extra%20support%20-%207037%20-%201.gif",
+    "icon": null
+   }
+  },
+  {
+   "label": "Meetの参加前に社内ルール",
+   "points": [
+    "待機画面にポリシーを表示",
+    "録画・文字起こし時だけも可",
+    "初期設定はオフ"
+   ],
+   "details": [
+    "管理者が、会議に入る前の画面に短いメッセージと社内ポリシーのリンクを出せます。",
+    "「常に表示」か「録画・文字起こし・Geminiのメモ作成中だけ表示」を選べます。",
+    "Business Standard 以上などが対象。11月2日から段階的に展開し、組織部門ごとに Meet の安全性設定で有効にします。"
+   ],
+   "url": "https://workspaceupdates.googleblog.com/2026/10/display-custom-policy-in-green-room-before-Google-Meet-Calls.html",
+   "lines": [
+    {
+     "say": "最後はグーグル ミートです。会議に入る前の画面に、会社のルールを表示できるようになりました。",
+     "show": "最後はGoogle Meet。参加前の画面に社内ルールを表示可能に。"
+    },
+    {
+     "say": "録画や文字起こしをしているときだけ、表示するように選ぶこともできます。",
+     "show": "録画や文字起こし中だけ表示する設定も選べます。"
+    },
+    {
+     "say": "初期設定はオフなので、使うときは管理者が有効にします。",
+     "show": "初期設定はオフ。管理者が有効にします。"
+    }
+   ],
+   "link": {
+    "url": "https://workspaceupdates.googleblog.com/2026/10/display-custom-policy-in-green-room-before-Google-Meet-Calls.html",
+    "title": "Display Custom Policy in the Green Room before Google Meet Calls",
+    "site": "Google Workspace Updates",
+    "description": "",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtf7djNawrxBIcCu_S2okK1yo9Q40X63t3skICQHNym0ki76WwP8QlM9YHAyobBDT6H_Z1XYkwjxrsndG5P6oNozq6nKZstoG4qL5KdWT5SvUIujw8y2awit1oPUMsdlKDe4TISexPZXi4vxx1l_9q68Fjy4ZNCxTzFk7XCkeYeeU8GbftYIfHe_A8syA/w1200-h630-p-k-no-nu/Display%20Custom%20Policy%20in%20the%20Green%20Room%20before%20Google%20Meet%20Calls%20-%207092.png",
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "動画づくりから暗号化、会議のルールまで、仕事の道具が少しずつ便利になっていますね。",
+   "show": "動画から暗号化、会議まで、少しずつ便利に。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。あさワークスペース通信でした。",
+   "show": "それでは今日も、いってらっしゃい。"
+  }
+ ],
+ "highlight": 0,
+ "seconds": 129.88,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 8.269,
+   "show": "あさワークスペース通信です。11月7日土曜日、おはようございます。",
+   "part": 0
+  },
+  {
+   "start": 8.519,
+   "end": 12.157,
+   "show": "今日は4本の更新情報をお届けします。",
+   "part": 0
+  },
+  {
+   "start": 12.957,
+   "end": 24.125,
+   "show": "まずはGoogle Vids。Gemini Omni 1.2 Flashが使えるように。",
+   "part": 1
+  },
+  {
+   "start": 24.375,
+   "end": 29.324,
+   "show": "クリップの長さは最大15秒まで。",
+   "part": 1
+  },
+  {
+   "start": 29.574,
+   "end": 36.699,
+   "show": "参照画像での見た目のそろい方も向上。",
+   "part": 1
+  },
+  {
+   "start": 37.499,
+   "end": 47.761,
+   "show": "続いては管理者向け。機密ファイルを自動で暗号化するベータ版。",
+   "part": 2
+  },
+  {
+   "start": 48.011,
+   "end": 55.605,
+   "show": "ルールに合うファイルをその場で暗号化。URLはそのまま。",
+   "part": 2
+  },
+  {
+   "start": 55.855,
+   "end": 62.469,
+   "show": "Enterprise Plusが対象。アドオンと申し込みが必要です。",
+   "part": 2
+  },
+  {
+   "start": 63.269,
+   "end": 74.533,
+   "show": "次は教育向け。Classroomの課題にGuided Learningを追加可能に。",
+   "part": 3
+  },
+  {
+   "start": 74.783,
+   "end": 82.495,
+   "show": "答えではなく、一歩ずつ導く学習モードです。",
+   "part": 3
+  },
+  {
+   "start": 82.745,
+   "end": 89.294,
+   "show": "先生はクラスや生徒ごとの要約を確認できます。",
+   "part": 3
+  },
+  {
+   "start": 90.094,
+   "end": 100.441,
+   "show": "最後はGoogle Meet。参加前の画面に社内ルールを表示可能に。",
+   "part": 4
+  },
+  {
+   "start": 100.691,
+   "end": 106.92,
+   "show": "録画や文字起こし中だけ表示する設定も選べます。",
+   "part": 4
+  },
+  {
+   "start": 107.17,
+   "end": 112.866,
+   "show": "初期設定はオフ。管理者が有効にします。",
+   "part": 4
+  },
+  {
+   "start": 113.666,
+   "end": 122.221,
+   "show": "動画から暗号化、会議まで、少しずつ便利に。",
+   "part": 5
+  },
+  {
+   "start": 122.471,
+   "end": 128.881,
+   "show": "それでは今日も、いってらっしゃい。",
+   "part": 5
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 12.957
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 12.957,
+   "end": 37.499
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 37.499,
+   "end": 63.269
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 63.269,
+   "end": 90.094
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 90.094,
+   "end": 113.666
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 113.666,
+   "end": 129.88
+  }
+ ],
+ "made_at": "2026-11-08T22:20:51"
+}

@@ -1,0 +1,32 @@
+{
+ "format": "myradio/character-1",
+ "type": "sprites",
+ "size": [
+  896,
+  768
+ ],
+ "background": "#1c1428",
+ "base": "base.png",
+ "parts": {
+  "mouth_open": {
+   "src": "mouth_open.png",
+   "x": 415,
+   "y": 344
+  },
+  "smile_mouth": {
+   "src": "smile_mouth.png",
+   "x": 100,
+   "y": 5
+  }
+ },
+ "mouth": {
+  "1": "mouth_open",
+  "2": "mouth_open"
+ },
+ "expressions": {
+  "smile": {
+   "mouth": "smile_mouth"
+  }
+ },
+ "note": "「せんぱい」の立ち絵を tools/import_character.py で取り込み"
+}

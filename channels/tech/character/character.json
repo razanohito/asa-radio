@@ -1,0 +1,40 @@
+{
+ "format": "myradio/character-1",
+ "type": "sprites",
+ "size": [
+  896,
+  768
+ ],
+ "background": "#121c1f",
+ "base": "base.png",
+ "parts": {
+  "mouth_open": {
+   "src": "mouth_open.png",
+   "x": 408,
+   "y": 392
+  },
+  "smile_mouth": {
+   "src": "smile_mouth.png",
+   "x": 133,
+   "y": 5
+  },
+  "blink": {
+   "src": "blink.png",
+   "x": 325,
+   "y": 274
+  }
+ },
+ "mouth": {
+  "1": "mouth_open",
+  "2": "mouth_open"
+ },
+ "eye": {
+  "blink": "blink"
+ },
+ "expressions": {
+  "smile": {
+   "mouth": "smile_mouth"
+  }
+ },
+ "note": "「ミライ」の立ち絵を tools/import_character.py で取り込み（立ち絵: AI生成（ChatGPT））"
+}
