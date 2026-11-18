@@ -148,8 +148,9 @@ def used_urls(cdir):
 def collect(feeds, hours=36, now=None, keywords=None):
     """フィードから直近 hours 時間の記事を集める（URL と題で重複を除く）。keywords があれば、題か要約にどれかを含む記事だけ"""
     now = now or datetime.datetime.now(datetime.timezone.utc)
-    seen, out = set(), []
+    seen, per_feed = set(), []
     for feed in feeds:
+        out = []; per_feed.append(out)
         # フィードは URL の文字列か {"url": ..., "keywords": [...]}（そのフィードだけ絞り込む）
         url = feed["url"] if isinstance(feed, dict) else feed
         kws = [k.lower() for k in ((feed.get("keywords") if isinstance(feed, dict) else None) or keywords or [])]
@@ -165,7 +166,11 @@ def collect(feeds, hours=36, now=None, keywords=None):
             key = (it["url"].split("?")[0], re.sub(r"\W", "", it["title"])[:40])
             if key[0] in seen or key[1] in seen: continue
             seen.update(key); out.append(it)
-    return out
+    # フィードを順に 1 本ずつ交互に並べる（先頭のフィードだけで上限が埋まらないように）
+    mixed = []
+    for i in range(max((len(o) for o in per_feed), default=0)):
+        mixed += [o[i] for o in per_feed if i < len(o)]
+    return mixed
 
 
 # ---------------- 記事ページ（OGP と本文） ----------------

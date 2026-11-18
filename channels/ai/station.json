@@ -82,7 +82,27 @@
    "https://openai.com/news/rss.xml",
    "https://blog.google/technology/ai/rss/",
    "https://techcrunch.com/category/artificial-intelligence/feed/",
-   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+   "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml",
+   "https://blog.google/products/gemini/rss/",
+   {
+    "url": "https://9to5google.com/feed/",
+    "keywords": [
+     "Gemini",
+     "NotebookLM",
+     "Veo",
+     "Imagen"
+    ]
+   },
+   {
+    "url": "https://www.bing.com/news/search?q=%E7%94%9F%E6%88%90AI&format=rss&setlang=ja",
+    "keywords": [
+     "発表",
+     "公開",
+     "提供",
+     "開始",
+     "リリース"
+    ]
+   }
   ]
  }
 }
