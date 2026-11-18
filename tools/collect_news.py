@@ -3,7 +3,7 @@
 台本を書く人（Claude の定期タスク、または tools/make_script.py）は、この inbox だけを見て台本を書けます。
 GitHub Actions（.github/workflows/collect.yml）が毎朝動かし、inbox ブランチに置きます。
 
-usage: python3 tools/collect_news.py [--date YYYY-MM-DD] [--channels ai,tech] [--out inbox] [--max 20]
+usage: python3 tools/collect_news.py [--date YYYY-MM-DD] [--channels ai,tech] [--out inbox] [--max 30]
 """
 import datetime, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -31,7 +31,7 @@ def main():
     a = sys.argv[1:]
     date = datetime.date.fromisoformat(R.arg(a, "--date")) if "--date" in a else R.today_jst()
     ids = [c for c in R.arg(a, "--channels", "").split(",") if c] or R.channels()
-    out = R.arg(a, "--out", os.path.join(R.ROOT, "inbox")); limit = int(R.arg(a, "--max", "20"))
+    out = R.arg(a, "--out", os.path.join(R.ROOT, "inbox")); limit = int(R.arg(a, "--max", "30"))
     for cid in ids:
         if R.station(cid).get("paused"): continue
         print(f"[{cid}]")
