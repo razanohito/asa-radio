@@ -1,0 +1,209 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-18",
+ "lang": "ja",
+ "title": "ジェミニの「タスク」が無料で日本にも",
+ "opening": [
+  {
+   "say": "あさエーアイラジオです。十一月十八日水曜日、おはようございます。",
+   "show": "あさAIラジオです。11月18日水曜日、おはようございます。"
+  },
+  {
+   "say": "今日は五本のニュースをお届けします。",
+   "show": "今日は5本のニュースをお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "ジェミニのタスクが無料に",
+   "points": [
+    "Sparkが「Tasks」に改名",
+    "日本など6か国で無料",
+    "購入前に許可を確認"
+   ],
+   "details": [
+    "グーグルのAIエージェント「Spark」が「Tasks」に名前を変え、無料で使えるようになりました。",
+    "米国、カナダ、日本、韓国、オーストラリア、インドの全ユーザーが対象です。新モデルGemini 4 Hydrogenで動きます。",
+    "アカウント専用の隔離された仮想マシンで動き、購入などの前には作業を止めて許可を求めます。"
+   ],
+   "lines": [
+    {
+     "say": "グーグルのエーアイエージェント「スパーク」が「タスク」に名前を変え、無料になりました。",
+     "show": "グーグルの「Spark」が「Tasks」に、無料に"
+    },
+    {
+     "say": "日本を含む六か国の全ユーザーが、ジェミニの画面で「チャット」を「タスク」に切り替えて使えます。",
+     "show": "日本など6か国で、ChatからTasksへ切替"
+    },
+    {
+     "say": "献立づくりや予定の管理、メールから見直せる支出を探すことなどができるそうです。",
+     "show": "献立や予定の管理、支出の見直しなど"
+    }
+   ],
+   "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+   "link": {
+    "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+    "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+    "site": "The Verge",
+    "description": "You can now text or email Gemini, too.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Tasks-in-Gemini.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "GPT-6.2が登場",
+   "points": [
+    "AstraとSolの2モデル",
+    "前世代超えをコスト1/3で",
+    "ChatGPTで同日から提供"
+   ],
+   "details": [
+    "オープンエーアイは11月17日、最上位の「GPT-6.2 Astra」と日常業務向けの「GPT-6.2 Sol」を発表しました。",
+    "6.2 Astraは一部の評価で前世代を上回るスコアを、3分の1以下のコストで実現したといいます。",
+    "PlusやPro、Enterprise、Eduプランの全ユーザーが、発表当日から使えます。"
+   ],
+   "lines": [
+    {
+     "say": "続いては、オープンエーアイの新しいモデル、ジーピーティー六点二のアストラとソルです。",
+     "show": "OpenAIが「GPT-6.2 Astra」と「Sol」"
+    },
+    {
+     "say": "アストラは一部の評価で、前の世代を上回る結果を三分の一以下のコストで出したそうです。",
+     "show": "前世代超えを1/3以下のコストで"
+    },
+    {
+     "say": "有料プランの全ユーザーが、発表の当日から使えるようになっています。",
+     "show": "有料プランで発表当日から利用可"
+    }
+   ],
+   "url": "https://www.itmedia.co.jp/aiplus/article/2611/18/2000003282/",
+   "link": {
+    "url": "https://www.itmedia.co.jp/aiplus/article/2611/18/2000003282/",
+    "title": "「GPT-6.2 Astra／Sol」登場　前世代超える性能を「コスト1/3で実現」　Ultrafast提供も拡大",
+    "site": "ITmedia AI＋",
+    "description": "OpenAIが「GPT-6.2 Astra」「GPT-6.2 Sol」を発表。Astraは一部の性能評価で、前世代を上回るスコアを3分の1以下のコストで実現したとうたう。第三者機関の総合指標ではClaude Fable 5.2次ぐ2位。（1/2 ページ）",
+    "image": "https://www.itmedia.co.jp/aiplus/article/ogp/2611/18/2000003282/10012388/2048",
+    "icon": null
+   }
+  },
+  {
+   "label": "MSのコーディングAI",
+   "points": [
+    "MAI Code 2を発表",
+    "競合並みの性能を安く",
+    "軽量版のFlashも"
+   ],
+   "details": [
+    "マイクロソフトは年次イベント「Microsoft Ignite 2026」で、コーディング用AIモデル「MAI Code 2」を発表しました。",
+    "企業向けのベンチマーク平均で、GPT 6.1 Solの98%の性能を、40%のコストで発揮するとしています。",
+    "日常の簡単な作業向けに、さらに安い「MAI Code 2 Flash」も発表されました。"
+   ],
+   "lines": [
+    {
+     "say": "次は、マイクロソフトがプログラミング用のエーアイモデル、マイ コード ツーを発表しました。",
+     "show": "マイクロソフトが「MAI Code 2」発表"
+    },
+    {
+     "say": "他社のモデルと同じくらいの性能を、より安く使えるのが売りだそうです。",
+     "show": "競合並みの性能を、より安く"
+    },
+    {
+     "say": "日常の小さな作業向けに、さらに安いフラッシュ版も出ています。",
+     "show": "さらに安い「Flash」版も"
+    }
+   ],
+   "url": "https://www.publickey1.jp/blog/26/aimai_code_2mai_code_2_flash.html",
+   "link": {
+    "url": "https://www.publickey1.jp/blog/26/aimai_code_2mai_code_2_flash.html",
+    "title": "［速報］マイクロソフト、コーディング用AIモデルとして高性能かつ低価格「MAI Code 2」「MAI Code 2 Flash」発表",
+    "site": "www.publickey1.jp",
+    "description": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、同社が開発したコーディング用AIモデルのフラグシップで高性能かつ低価格を売り文句とする「MAI Code 2」と、さらに安価な「...",
+    "image": "https://www.publickey1.jp/2026/maicode2-ann01.png",
+    "icon": "https://www.publickey1.jp/favicon.ico"
+   }
+  },
+  {
+   "label": "AIへの悩み相談を調査",
+   "points": [
+    "東北大・岡山大が発表",
+    "6852人を1年追跡",
+    "支援につなぐ手がかりに"
+   ],
+   "details": [
+    "東北大学と岡山大学は18日、心の不調と生成AIへの悩み相談の関係を調べた結果を発表しました。",
+    "かかりつけ医のいない6852人を1年追跡し、心の不調が強い人ほど、感情的な支えにAIを定期的に使う割合が高いとわかりました。",
+    "AIへの相談は支援が必要なサインになりうるとし、医療や相談窓口につなぐ方法を考える基礎になるとしています。"
+   ],
+   "lines": [
+    {
+     "say": "続いては研究のニュースです。東北大学と岡山大学が、生成エーアイへの悩み相談について調べました。",
+     "show": "東北大・岡山大がAIへの悩み相談を調査"
+    },
+    {
+     "say": "心の不調が強い人ほど、エーアイを心の支えに定期的に使う割合が高かったそうです。",
+     "show": "心の不調が強い人ほど利用が多い傾向"
+    },
+    {
+     "say": "必要な人を医療や相談窓口につなぐ方法を考える、手がかりになるとしています。",
+     "show": "医療や相談窓口へつなぐ手がかりに"
+    }
+   ],
+   "url": "https://news.yahoo.co.jp/articles/4b8bf8369adcff689d28b7dc07636b079f331406",
+   "link": {
+    "url": "https://news.yahoo.co.jp/articles/4b8bf8369adcff689d28b7dc07636b079f331406",
+    "title": "心の不調が強い人ほど生成AIに「悩み相談」  東北大・岡山大が全国調査 支援ニーズを示すサインに（KSB瀬戸内海放送） - Yahoo!ニュース",
+    "site": "Yahoo!ニュース",
+    "description": "東北大学と岡山大学は18日「心の不調の強さは生成AIへの定期的な悩み相談と関連する」という調査の結果を発表しました。",
+    "image": "https://newsatcl-pctr.c.yimg.jp/t/amd-img/20261118-11809403-ksbv-000-43081041-view.jpg?exp=10800",
+    "icon": "https://s.yimg.jp/c/icon/s/bsc/2.0/news120.png"
+   }
+  },
+  {
+   "label": "AIの独断を防ぐ日立",
+   "points": [
+    "委任証明技術PoHDを開発",
+    "生体情報から鍵を都度復元",
+    "まず製造業の調達で検証"
+   ],
+   "details": [
+    "日立製作所は11月17日、AIエージェントの行為が本人の承認した委任であることを証明する技術「PoHD」の試作を発表しました。",
+    "署名用の秘密鍵を保管せず、顔や指静脈などの生体情報から都度復元し、使ったらすぐ消します。",
+    "デモでは、AIが独断で金額の上限を書き換えて発注しようとするのを、システムが止めました。"
+   ],
+   "lines": [
+    {
+     "say": "最後は、日立製作所の新しい技術です。エーアイが人の承認の範囲を超えて動くのを防ぎます。",
+     "show": "日立、AIの独断を防ぐ新技術"
+    },
+    {
+     "say": "署名の鍵をしまっておかず、顔や指の静脈から、その都度つくり直す仕組みです。",
+     "show": "鍵は保管せず、生体情報から都度復元"
+    },
+    {
+     "say": "デモでは、エーアイが勝手に予算の上限を書き換えた発注を、システムが止めていました。",
+     "show": "勝手な上限書き換えの発注をブロック"
+    }
+   ],
+   "url": "https://monoist.itmedia.co.jp/mn/articles/2611/18/news040.html",
+   "link": {
+    "url": "https://monoist.itmedia.co.jp/mn/articles/2611/18/news040.html",
+    "title": "「AIによる鍵の不正利用」を生体認証で防ぐ日立の新技術、サイバー攻撃対策にも",
+    "site": "MONOist",
+    "description": "日立製作所は、AIによる業務が人間の承認に基づくことを証明する技術「PoHD」を開発。生体認証を応用し、署名用の秘密鍵を保存せず生体情報から都度復元する。先進技術紹介のイベント「Hitachi R&D Innovation Day 2026」でデモンストレーションも披露した。",
+    "image": "https://image.itmedia.co.jp/mn/articles/2611/18/cover_news040.jpg",
+    "icon": "https://monoist.itmedia.co.jp/mn/favicon.ico"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日は、エーアイがわたしたちの代わりに動く話が多かったですね。便利さと安心、どちらも大事になりそうです。",
+   "show": "AIが代わりに動く時代、安心も大事に"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。あさエーアイラジオでした。",
+   "show": "それでは今日も、いってらっしゃい。あさAIラジオでした。"
+  }
+ ],
+ "highlight": 0
+}

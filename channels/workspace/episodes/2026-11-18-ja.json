@@ -1,0 +1,65 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-18",
+ "lang": "ja",
+ "title": "Vidsの自分アバターが無料に",
+ "opening": [
+  {
+   "say": "あさワークスペース通信です。十一月十八日水曜日、おはようございます。",
+   "show": "あさワークスペース通信です。11月18日水曜日、おはようございます。"
+  },
+  {
+   "say": "今日は一本のニュースをお届けします。",
+   "show": "今日は1本のニュースをお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Vidsの自分アバター",
+   "points": [
+    "個人アカウントで無料",
+    "QRコードで作成",
+    "全シーンで使い回せる"
+   ],
+   "details": [
+    "Google Vidsの「パーソナルアバター」が、個人のGoogleアカウントを持つすべての人に無料で提供されます。",
+    "QRコードを読み取って自分の姿のアバターを作り、話す内容を入力するだけで動画にできます。撮影の準備はいりません。",
+    "アバターはVidsのプロジェクトに保存され、どのシーンでも使えます。本人の姿に限られ、パソコンのvids.newから試せます。"
+   ],
+   "lines": [
+    {
+     "say": "グーグル ビッズで、自分そっくりのアバターを作れる機能が、個人アカウントなら無料で使えるようになりました。",
+     "show": "Vidsの自分アバター、個人アカウントで無料に"
+    },
+    {
+     "say": "キューアールコードを読み取って作り、話したい内容を打ち込むだけで動画になります。",
+     "show": "QRコードで作成、セリフは入力するだけ"
+    },
+    {
+     "say": "作れるのは本人の姿だけで、パソコンからビッズ ドット ニューを開くと試せます。",
+     "show": "本人の姿のみ。PCのvids.newから"
+    }
+   ],
+   "url": "https://blog.google/products-and-platforms/products/workspace/vids-personal-avatars-no-cost/",
+   "link": {
+    "url": "https://blog.google/products-and-platforms/products/workspace/vids-personal-avatars-no-cost/",
+    "title": "Anyone can create a personal avatar of themselves in Google Vids, at no cost.",
+    "site": "Google",
+    "description": "Create custom avatars in Google Vids for free. Design your digital likeness using a selfie and voice recording to narrate videos. Try it out today.",
+    "image": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Vids_Personal_Avatars_Freemium_static_1.max-1440x810.png",
+    "icon": "https://blog.google/static/blogv2/images/apple-touch-icon.png?version=pr20261117-1738"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "撮影なしで、自分が出る説明動画が作れるのは心強いですね。",
+   "show": "撮影なしで自分の説明動画が作れます"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。あさワークスペース通信でした。",
+   "show": "それでは今日も、いってらっしゃい。あさワークスペース通信でした。"
+  }
+ ],
+ "highlight": 0
+}
