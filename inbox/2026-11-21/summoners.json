@@ -1,0 +1,72 @@
+{
+ "date": "2026-11-21",
+ "channel": "summoners",
+ "name": "サマナ朝通信",
+ "news": {
+  "topic": "スマホゲーム『サマナーズウォー: Sky Arena』（と関連タイトル）のアップデート、イベント、コラボ、eスポーツ大会（SWC）などの新しい話題",
+  "count": 3,
+  "min": 1,
+  "caster_name": "せんぱい",
+  "persona": "サマナーズウォーにくわしい、面倒見のいい先輩キャラの女の子（ゆっくり解説の解説役）",
+  "tone": "明るく、頼れる先輩らしく。事実はていねいに",
+  "farewell": "それでは今日も、よいサマナーライフを。",
+  "pick_rules": [
+   "公式の発表・プレスリリース・報道を優先する。個人の投稿（Reddit など）は運営スタッフの公式告知だけにする",
+   "攻略の個人的な評価や、うわさ・リーク情報は選ばない"
+  ],
+  "write_rules": [
+   "ゲーム内の名前（モンスター名・コンテンツ名）は、日本版の正式な表記がわからなければ、記事の表記をカタカナにする",
+   "番組は非公式のファン番組なので、運営の代弁はしない"
+  ]
+ },
+ "candidates": [
+  {
+   "title": "『ARES: THE IRON VANGUARD』Steam版の配信開始！新クラス「レンジャー」を追加するアップデートも実施",
+   "url": "https://prtimes.jp/main/html/rd/p/000001040.000009066.html",
+   "summary": "[株式会社 Com2uS Japan]\n[画像1: https://prtimes.jp/i/9066/1040/resize/d9066-1040-380227bb67723b2f63f6-0.jpg ]\nまずはゲームをダウンロード！\n▼App Store\nhttps://apps.apple.com/jp/app/ares-the-iron-vanguard/id6755576582\n▼Goog...",
+   "published": "2026-11-19T00:00:00+00:00",
+   "source": "株式会社 Com2uS Japan【プレスリリース】 by PR TIMES",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000001040.000009066.html",
+    "title": "『ARES: THE IRON VANGUARD』Steam版の配信開始！新クラス「レンジャー」を追加するアップデートも実施",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社 Com2uS Japanのプレスリリース（2026年11月19日 11時59分）『ARES: THE IRON VANGUARD』Steam版の配信開始！新クラス「レンジャー」を追加するアップデートも実施",
+    "image": "https://prcdn.freetls.fastly.net/release_image/9066/1040/9066-1040-c231143b40633fca5833ec364989af40-1280x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/apple-touch-icon.png"
+   },
+   "body": "https://apps.apple.com/jp/app/ares-the-iron-vanguard/id6755576582\nhttps://play.google.com/store/apps/details?id=com.com2usholdings.agwiv.android.google.global.normal\nhttps://aresglobal.com2us.com/ja?r=p1\nhttps://store.steampowered.com/app/5366290/ARES_THE_IRON_VANGUARD/\n株式会社Com2uS Japanは、SECONDDIVEが開発し、Com2uS HoldingsがサービスするスタイリッシュアクションRPG『ARES: THE IRON VANGUARD』にて、PCゲームプラットフォーム「Steam」での配信を開始したことをお知らせいたします。\nあわせて、新クラス「レンジャー」の追加をはじめとするアップデートを実施いたしました。\n今回リリースされたSteam版は、既存のモバイル版およびPC版とサーバーを共有するクロスプレイに対応しています。\nアカウントを連携することで、これまで育成したキャラクターをそのまま使用し、Steam版でも引き続きゲームをお楽しみいただけます。\nゲームパッドでの操作に対応しているほか、好みに合わせて操作キーを自由に設定できるキーマッピング機能も搭載し、PC環境でも快適に迫力のあるバトルをお楽しみいただけます。\nさらに、Steam版の正式リリースを記念して、ホバーカー型の専用乗り物「エールソンブル」が登場しました。\nSteam版からログインすると、ゲーム内ショップの「STEAM」タブにて、キャラクターごとに1回限り100ゴールドで購入できます。\nまた、今回のアップデートでは新たなクラス「レンジャー」が追加されました。\n「レンジャー」は、遠距離用のメイン武器「ロングボウ」とサブ武器の「チェインソード」を自在に操り、多彩なアクションを繰り出すクラスです。\n新たにキャラクターを育成する必要はなく、レンジャーのスーツを装着するだけで、新しい戦闘スタイルをすぐに体験できます。\nまた、レンジャー専用のスーツとして冷気属性の「ルナ」を追加したほか、専用武器やレリックも追加され、戦闘の幅がさらに広がりました。\nさらに、Steam版のリリースにあわせ、アジア地域に「ユートピア」、アメリカ地域に「アルテミス」の2つのサーバーがオープンしました。\n新サーバーでは、12月29日まで、キャラクターの成長をサポートするログインイベントやレベル達成ミッションを開催しています。\n7日間のログインイベントでは、装備支援ボックスや成長素材などを獲得でき、7日目には無償ダイヤ2,000個も獲得できます。\nさらに、レベル達成ミッションでは、スーツ召喚チケットやオペレーターカプセルをはじめ、Rランクオペレーターカプセル、Rランクスーツ召喚チケットなど、育成に役立つさまざまな報酬を獲得できます。\nSteam版や今回のアップデート、各種イベントに関する詳細は、Steamストアページおよび公式Discordをご確認ください。\n■『ARES: THE IRON VANGUARD』とは\n『ARES: THE IRON VANGUARD』は、リアルタイムでスーツを切り替える「スーツチェンジ」システムと華やかなメカニックアクションが特徴のスタイリッシュアクションRPGです。\n『ARES: THE IRON VANGUARD』 iOS版\n権利表記：(C) Com2uS Holdings Corporation\nhttps://apps.apple.com/jp/app/ares-the-iron-vanguard/id6755576582\n『ARES: THE IRON VANGUARD』 Android版\n対応OS： Android OS 8.0 以降\n権利表記：(C) Com2uS Holdings Corporation\nhttps://play.google.com/store/apps/details?id=com.com2usholdings.agwiv.android.google.global.normal\n※Apple、Apple ロゴ、iPhone、およびiPod touch は米国その他の国で登録された Apple Inc. の商標です。App StoreはApple Inc. のサービスマークです。\n※Google Play および Google Play ロゴは、Google LLCの商標です。\nぜひ、『ARES: THE IRON VANGUARD』をプレイしてください。\n今後とも「Com2uS Holdings」をよろしくお願いいたします。\nこのプレスリリースには、メディア関係者向けの情報があります\nメディアユーザー登録を行うと、企業担当者の連絡先や、イベント・記者会見の情報など様々な特記情報を閲覧できます。※内容はプレスリリースにより異なります。\nこのプレスリリース内で使われている画像ファイルがダウンロードできます"
+  },
+  {
+   "title": "『サマナーズウォー: Sky Arena』SWC2026ワールド決勝が閉幕！TARS選手が ...",
+   "url": "https://www.jiji.com/jc/article?k=000001038.000009066&g=prt",
+   "summary": "［Com2uS Japan］まずはゲームをダウンロード！▼AppStorehttps://itunes.apple.com/jp/app/samanazuu-o-sky-arena/id852912420▼Google Playhttps://play.google.com/store/apps/details?id=com.com2us.smon.normal.freefull.google.k ...",
+   "published": "2026-11-16T00:16:00+00:00",
+   "source": "サマナーズウォー - Bingニュース",
+   "link": {
+    "url": "https://www.jiji.com/jc/article?k=000001038.000009066&g=prt",
+    "title": "『サマナーズウォー: Sky Arena』SWC2026ワールド決勝が閉幕！TARS選手が4年ぶり2度目の優勝：時事ドットコム",
+    "site": "時事ドットコム",
+    "description": "［Com2uS Japan］まずはゲームをダウンロード！▼AppStorehttps://itunes.apple.com/jp/app/samanazuu-o-sky-arena/id852912420▼Google Playhttps://play.google.com/store/apps/details?id=com.com2us.smon.normal.freefull.google.kr.android.common&hl=ja株式会社Com2uS Japanは、iOS/An…",
+    "image": "https://prcdn.freetls.fastly.net/release_image/9066/1038/9066-1038-19a62c679433559e00b5316d2e6e1773-800x450.png",
+    "icon": "https://www.jiji.com/img/top_logo_square.png"
+   },
+   "body": "『サマナーズウォー: Sky Arena』SWC2026ワールド決勝が閉幕！TARS選手が4年ぶり2度目の優勝\nまずはゲームをダウンロード！ ▼AppStore https://itunes.apple.com/jp/app/samanazuu-o-sky-arena/id852912420 ▼Google Play https://play.google.com/store/apps/details?id=com.com2us.smon.normal.freefull.google.kr.android.common&hl=ja 株式会社Com2uS Japanは、iOS/Android/Steamで大好評配信中の本格RPG『サマナーズウォー: Sky Arena』（以下、サマナーズウォー）にて、11月14日（土）に行われたeスポーツ大会「SWC2026ワールド決勝」の結果をお知らせいたします。 「サマナーズウォーワールドアリーナチャンピオンシップ」（以下、SWC）は、世界各地の『サマナーズウォー』の召喚士たちが実力を競い合うグローバルeスポーツ大会です。 2017年にスタートしたSWCは、今年で記念すべき10回目の開催を迎え、「INTO THE LEGACY」をスローガンに、世界一の召喚士を目指す熱い戦いが繰り広げられてきました。 11月14日に韓国・ソウルのKBSアリーナで開催された「SWC2026ワールド決勝」には、世界各地の激戦を勝ち抜いた12名の選手が集結し、世界王者の座を懸けて争いました。 各試合で白熱した戦いが繰り広げられるなか、中国地域選抜戦を1位で突破したTARS選手は、準々決勝でヨーロッパのOBABO選手を破り、準決勝へ進出。 準決勝ではアジアパシフィックカップ準優勝のGLE選手と対戦し、フルセットにもつれ込む激戦の末、3-2で勝利して決勝進出を決めました。 決勝戦では、TARS選手とアメリカカップ準優勝のZEZAS選手が激突。TARS選手は巧みなモンスターのBAN・PICK戦略で試合の主導権を握り、1セットも落とすことなく4-0のストレート勝利を収め、SWC2026世界王者に輝きました。 TARS選手は、2022年のワールド決勝でも優勝しており、今回が4年ぶり2度目の世界制覇となります。SWC史上2人目となる2度の優勝を達成し、記念すべき10回目の大会で新たな歴史を刻みました。 優勝したTARS選手には、優勝トロフィーと賞金10万ドルが贈られました。 優勝：TARS選手 準優勝：ZEZAS選手 3位：GLE選手3位：SAPPYYY選手 大会を見逃してしまった方は、YouTubeの『サマナーズウォー』公式eスポーツチャンネルにてアーカイブをご視聴いただけます。 □SWC2026ワールド決勝放送アーカイブ https://www.youtube.com/watch?v=5q28Ns29eoQ □SWC2026ワールド決勝 大会結果 - 優勝：TARS選手- 準優勝：ZEZAS選手- 3位：GLE選手、SAPPYYY選手 これからも『サマナーズウォー』は、世界中の召喚士の皆さまにお楽しみいただけるイベントを企画してまいります。 詳細につきましては、SWC特設サイトおよび『サマナーズウォー』公式Xをご確認ください。 □「SWC2026」特設サイト https://esports.summonerswar.com/ja □『サマナーズウォー: Sky Arena』公式サイト https://summonerswar.com/ja/skyarena □『サマナーズウォー: Sky Arena』公式X https://x.com/summoners_STAFF □『サマナーズウォー: Sky Arena』公式Facebook https://www.facebook.com/JPSummonersWar/ □ Com2uS Japan公式YouTubeチャンネル https://youtube.com/@com2usjapan □『サマナーズウォー』公式eスポーツチャンネル https://www.youtube.com/c/SummonersWarEsports/ 【配信概要】 『サマナーズウォー: Sky Arena』 iOS版 サービス開始日：2014年6月12日(木) 対応OS： iOS 13.0以降 価格：基本プレイ無料(アイテム課金) 権利表記：(C) 2014-2025 Com2uS Corp. ▼AppStore URL https://itunes.apple.com/jp/app/samanazuu-o-sky-arena/id852912420 『サマナーズウォー: Sky Arena』 Android版 サービス開始日：2014年6月12日(木) 対応OS： Android OS 7.0 以降 価格：基本プレイ無料(アイテム課金) 権利表記：(C) 2014-2025 Com2uS Corp. ▼Google Play URL https://play.google.com/store/apps/details?id=com.com2us.smon.normal.freefull.google.kr.android.common&hl=ja 【注意事項】 ※Apple、Apple ロゴ、iPhone、およびiPod touch は米国その他の国で登録された Apple Inc. の商標です。App StoreはApple Inc. のサービスマークです。 ※Google Play および Google Play ロゴは、Google LLCの商標です。 ぜひ、『サマナーズウォー: Sky Arena』をプレイしてください。 今後とも「Com2uS」をよろしくお願いいたします。企業プレスリリース詳細へ\n本コーナーの内容に関するお問い合わせ、または掲載についてのお問い合わせは株式会社 PR TIMES （）までご連絡ください。製品、サービスなどに関するお問い合わせは、それぞれの発表企業・団体にご連絡ください。\nピカール、ブラックフライデー・セールを開催\nヤバイTシャツ屋さんの意外な一面にスカパラも驚愕？！11/25(水) よる10時、新章”SKA JAM”の第二弾をスペシャでオンエア！\nアニメ『Duel Masters LOST』シリーズ第5章『Duel Masters LOST ～失楽の訣闘～』制作決定！【デュエル・マスターズ】\n1月13日(水) AndTech「広視野・高精細化・小型軽量化を実現するXR・AR用ヘッドマウントディスプレイの光学設計とレーザ網膜投影技術」Zoomセミナーを開講予定\n1月13日(水) AndTech「光電融合・CPO向け光コネクタ・光導波路の開発と周辺材料への要求特性・信頼性評価」Zoomセミナーを開講予定\n2027年の主役は、うちの子！もこもこ「ひつじさん」で残す、新春のベビーお正月フォト受付スタート\nPalette+plus札幌西店9周年！感謝を込めて『39プラン』セール限定7日間開催中\nベビー・キッズ撮影全8プランの価格改定を実施。クオリティはそのままに、より手の届きやすい新価格へ\nMAN WITH A MISSIONが「NO MUSIC, NO LIFE.」登場\n7人組アイドルグループ『AVAM（アベアム）』が初のプライズ化！MV衣装を再現した「ボイス入りぬいぐるみマスコット」や「ラバークリップ」などを１月29日（金）よりモーリーファンタジー・PALOにて展開\nVTuber事務所「ホロライブプロダクション」全体イベント《 hololive SUPER EXPO 2027 》および《 hololive 8th fes. 》会場・配信チケット受付開始！\nゼンレスゾーンゼロ×GiGOキャンペーン第3弾開催のお知らせ\nDOES、3か月連続リリース第3弾！新曲「ドンウォリ」車の中での男女の機微を映し出すドラマ風Music Videoを公開！\nNIJINアカデミー宮城名取校で開催「不登校相談会」\nlog you、デビュー1周年の節目に新たな一歩 思い出を未来へつなぐ新曲「NEXT PROlogUE」を初披露\n「ゆめかいろプロダクション」1期生5名が初集結！ 冬のオンライン3Dライブ「ゆめかいろ Winter 3"
+  },
+  {
+   "title": "伝説のディフェンスゲーム『Cartoon Wars』が17年の時を経てPCで復活へ！Steamストアページを公開",
+   "url": "https://prtimes.jp/main/html/rd/p/000001039.000009066.html",
+   "summary": "[株式会社 Com2uS Japan]\n[画像: https://prtimes.jp/i/9066/1039/resize/d9066-1039-7266c6ca975c2686b61d-0.jpg ]\nまずはSteamでウィッシュリストに登録！\n▼Steamストアページ\nhttps://store.steampowered.com/app/5057500/Cartoon_Wars...",
+   "published": "2026-11-17T00:00:00+00:00",
+   "source": "株式会社 Com2uS Japan【プレスリリース】 by PR TIMES",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000001039.000009066.html",
+    "title": "伝説のディフェンスゲーム『Cartoon Wars』が17年の時を経てPCで復活へ！Steamストアページを公開",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社 Com2uS Japanのプレスリリース（2026年11月17日 16時12分）伝説のディフェンスゲーム『Cartoon Wars』が17年の時を経てPCで復活へ！Steamストアページを公開",
+    "image": "https://prcdn.freetls.fastly.net/release_image/9066/1039/9066-1039-a98d4a1f0c0e042b29dbff22d72e2e0c-1080x720.jpg?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/apple-touch-icon.png"
+   },
+   "body": "まずはSteamでウィッシュリストに登録！\nhttps://store.steampowered.com/app/5057500/Cartoon_Wars/\nCom2uS Holdingsは、モバイルディフェンスゲームの名作『Cartoon Wars』のPC版リリースに先立ち、PCゲームプラットフォーム「Steam」にて、11月17日にストアページを公開したことをお知らせいたします。\n■スマートフォンゲーム黎明期を彩った名作がPCでよみがえる\n2009年7月に登場した『Cartoon Wars』は、韓国のモバイルゲーム史にその名を刻んだ作品です。\nリリースからわずか1か月で、韓国のゲームとして初めて米国App Storeの有料アプリ総合ランキング1位を獲得したほか、世界22か国以上のゲームランキングでも首位を記録しました。\nシンプルでわかりやすいビジュアルに奥深い戦略性と高い完成度を兼ね備え、世界中のプレイヤーを魅了した本作が、17年の時を経てPCでよみがえります。\n■直感的な棒人間アクションと戦略的なリソース管理を再現\nSteam版では、世界中で人気を博した原作のゲーム性と操作感を忠実に再現しています。\nプレイヤーは、リアルタイムで回復するマナを管理しながら棒人間のユニットを召喚し、原作と同じ全10ステージを順に攻略します。\nさらに、城壁に設置された弓を自ら操作して狙いを定め、矢を放つことで敵の攻撃を食い止めます。\n20種類以上の個性豊かなユニットと16種類のアップグレード要素を組み合わせることで、戦況に応じたさまざまな攻略が可能です。\nシンプルな操作はそのままに、リソース管理の奥深さや強化を重ねる楽しさを、PCでも思う存分お楽しみいただけます。\n■新コンテンツ「チャレンジモード」で終わりなき防衛戦に挑戦\nPC版には、新たに「チャレンジモード」を導入いたします。\n終わりなく押し寄せる敵を迎え撃つ防衛モードで、プレイヤーの戦略と部隊運用の腕が極限まで試されます。\nユニットを即座に出撃させるか、マナを蓄えて反撃の機会をうかがうかなど、的確な判断が求められます。\n原作のファンはもちろん、初めて本作に触れる方にも、緊張感あふれる戦略的な駆け引きをお楽しみいただけます。\nSteamストアページでは、PCでよみがえったバトルシーンを収録したティザー映像も公開しています。\nぜひ『Cartoon Wars』をウィッシュリストに登録して、いち早くリリース情報をお受け取りください。\n□『Cartoon Wars』Steamストアページ\nhttps://store.steampowered.com/app/5057500/Cartoon_Wars/\n□Com2uS Holdings公式サイト\nhttps://holdings.com2us.com/ja\n今後とも「Com2uS Holdings」をよろしくお願いいたします。\nこのプレスリリースには、メディア関係者向けの情報があります\nメディアユーザー登録を行うと、企業担当者の連絡先や、イベント・記者会見の情報など様々な特記情報を閲覧できます。※内容はプレスリリースにより異なります。\nこのプレスリリース内で使われている画像ファイルがダウンロードできます"
+  }
+ ]
+}

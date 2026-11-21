@@ -1,0 +1,503 @@
+{
+ "date": "2026-11-21",
+ "channel": "tech",
+ "name": "あさテックラジオ",
+ "news": {
+  "topic": "スマホ・PC・半導体・ネットサービス・セキュリティ・宇宙などのテクノロジーの新しい発表や出来事（AIが主役の話題は別番組なので控えめに）",
+  "count": 5,
+  "min": 2,
+  "caster_name": "ミライ",
+  "persona": "知的で落ち着いた、めがねの女の子",
+  "tone": "落ち着いていて、わかりやすく",
+  "pick_rules": [
+   "AIが主役の記事は、とても大きな話題のとき1本までにする",
+   "新製品、サービスの変更、セキュリティ事故、業界の大きな動きなど、話題がかたよらないように",
+   "単なるセール情報・レビュー・コラムは選ばない"
+  ],
+  "write_rules": [
+   "製品の値段や発売日は、本文にあるときだけ言う"
+  ]
+ },
+ "candidates": [
+  {
+   "title": "デジ庁、政府機関向けファイル共有サービスで漏えいか　7月末から第三者がアクセス",
+   "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003381/",
+   "summary": "デジタル庁は11月20日、政府共通の業務環境「GSS」のファイル共有サービスで、ファイルの一部が外部に漏えいした可能性があると発表した。7月30日から11月12日までの間、正規の共有相手先以外の者によるアクセスがあったことを確認したという。個人情報が含まれることも想定されるとして、個人情報保護委員会に報告した。",
+   "published": "2026-11-20T21:18:07+09:00",
+   "source": "ITmedia NEWS 最新記事一覧",
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003381/",
+    "title": "デジ庁、政府機関向けファイル共有サービスで漏えいか　7月末から第三者がアクセス",
+    "site": "ITmedia NEWS",
+    "description": "デジタル庁は11月20日、政府共通の業務環境「GSS」のファイル共有サービスで、ファイルの一部が外部に漏えいした可能性があると発表した。7月30日から11月12日までの間、正規の共有相手先以外の者によるアクセスがあったことを確認したという。個人情報が含まれることも想定されるとして、個人情報保護委員会に報告した。",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/20/2000003381/10012716/2048",
+    "icon": null
+   },
+   "body": "デジタル庁は11月20日、同庁が運用する政府共通の業務環境「ガバメントソリューションサービス」（GSS）のファイル共有サービスで、取り扱っていたファイルの一部が外部に漏えいした可能性があると発表した。正規の共有相手先以外の者がファイルにアクセスした可能性を12日に検知し、同日にサービスを停止した。現時点までの調査で、7月30日から11月12日までの間にアクセスがあったことを確認したという。\nファイル共有サービスは、GSSを利用する政府機関など向けに提供している。利用者同士や、事業者など組織外の関係者との間で、会議資料などのファイルを共有するのに使われている。\n同庁は、漏えいした可能性があるファイルには個人情報が含まれていることも想定されるとして、個人情報保護委員会に報告した。現時点で、本件による個人情報の二次被害などは確認されていないという。アクセスのあった期間の詳細を含め、警察などと連携して外部の専門事業者の協力も得ながら調査を進めている。\nGSSを巡っては9月にも、外部からの不正アクセスにより、府省庁などの職員やその業務に携わった人の個人情報約24万6000件が漏えいした可能性があると同庁が発表していた。\nCopyright © ITmedia, Inc. All Rights Reserved.\nデジタル庁に不正アクセス、個人情報24.6万件漏えいか 各府省庁の職員情報など\n松本デジタル相、24.6万件漏えい可能性について説明 「既知の脆弱性を対応前に悪用」\nNTTPC「WebARENA」ファイル転送サービスに不正アクセス 業務ファイル4400件超に漏えいの恐れ 再構築へ今後半年間停止\n内閣府と内閣官房で脱“パスワード付きZIP”運用を開始 ファイル送信は内閣府のストレージサービス活用\n情報漏えい発生の「宅ふぁいる便」、3月末で終了 システム再構築に要する時間・費用を考慮\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nデジ庁、政府機関向けファイル共有サービスで漏えいか 7月末から第三者がアクセス\n韓国大学入試で電子機器不正111件摘発 AI受験疑惑巡り死者も発生\nH3ロケット打ち上げ、JAXAから三菱重工に移管 来年1月の11号機から\n片山財務相、楽天証券は「顧客の不安解消に、できること全部していただきたい」\nドンキのAI社員「近藤あい」が正式デビュー 販促POPや動画で活躍へ 運営元「すでに裏に20人ぐらいいる」\nドンキのAI社員「近藤あい」が正式デビュー 販促POPや動画で活躍へ 運営元「すでに裏に20人ぐらいいる」\n「焼肉きんぐ」「ゆず庵」など11アプリ、会員の氏名・電話番号の項目を廃止 予定を前倒し\n湘南美容クリニックのSBC、162万人分の個人情報流出 パスワードは「暗号化せず保存していた」\nPHP「緊急」脆弱性、サービス一時停止の動き再び ウマ娘やグラブル、イープラスなど緊急メンテ\n六花亭、カード番号全桁＋セキュリティコード約8000件流出か 決済画面のプログラム改ざん\n「楽天証券」漏えい、あなたは対象？ ログインして「重要なお知らせ」確認を\n美少女ゲーム「NIKKE」経由でマルウェア感染 北海道2自治体、委託先が認める\n片山財務相、楽天証券は「顧客の不安解消に、できること全部していただきたい」\nデジ庁、政府機関向けファイル共有サービスで漏えいか 7月末から第三者がアクセス\n楽天証券漏えい、“テスト環境に顧客情報”のマズさ 識者「一般的でない」"
+  },
+  {
+   "title": "クーラーもビデオカードもAORUS、GIGABYTEのRTX 5060 Ti機",
+   "url": "https://pc.watch.impress.co.jp/docs/news/2158420.html",
+   "summary": "ゲーミング向けパーツブランド「AORUS」の製品で主要パーツをそろえた完成品のゲーミングPCが登場した。GIGABYTEが11月20日に発売した、Ryzen 5 9500FとGeForce RTX 5060 Tiを搭載するデスクトップPC「AORUS PRIME 3 AP3A5N6T-5103P」だ。実売予想価格は41万1,000円前後。",
+   "published": "2026-11-21T09:15:49+09:00",
+   "source": "PC Watch",
+   "link": {
+    "url": "https://pc.watch.impress.co.jp/docs/news/2158420.html",
+    "title": "クーラーもビデオカードもAORUS、GIGABYTEのRTX 5060 Ti機",
+    "site": "PC Watch",
+    "description": "ゲーミング向けパーツブランド「AORUS」の製品で主要パーツをそろえた完成品のゲーミングPCが登場した。GIGABYTEが11月20日に発売した、Ryzen 5 9500FとGeForce RTX 5060 Tiを搭載するデスクトップPC「AORUS PRIME 3 AP3A5N6T-5103P」だ。実売予想価格は41万1,000円前後。",
+    "image": "https://pc.watch.impress.co.jp/img/pcw/list/2158/420/01.jpg",
+    "icon": "https://pc.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "ゲーミング向けパーツブランド「AORUS」の製品で主要パーツをそろえた完成品のゲーミングPCが登場した。GIGABYTEが11月20日に発売した、Ryzen 5 9500FとGeForce RTX 5060 Tiを搭載するデスクトップPC「AORUS PRIME 3 AP3A5N6T-5103P」だ。実売予想価格は41万1,000円前後。\nAORUS PRIME 3 AP3A5N6T-5103Pは、CPUにRyzen 5 9500F、ビデオカードにGeForce RTX 5060 Tiを搭載したゲーミングデスクトップPC。主要パーツに同社が展開するAORUSブランドの製品を採用し、安定した動作と耐久性を実現するとうたう。\nマザーボードにはB850チップセットを採用したカスタムモデル、ビデオカードにOCモデルの「GeForce RTX 5060 Ti WINDFORCE MAX OC 16G」を搭載する。最新ゲームタイトルを快適にプレイできるだけでなく、4K動画編集などのクリエイティブワークやAIワークロードも安定して行なうことができるとする。\n主な仕様は、CPUクーラーがAORUS AirFlow 9025、メモリがDDR5-5600 32GB(16GB×2、最大64GB)、ストレージが1TB NVMe SSD、電源ユニットが80 PLUS Gold認証を取得した650W、OSがWindows 11 Pro。\nインターフェイスは、USB 3.2 Gen 2 2基、USB 3.2 Gen 1 Type-C 2基、USB 3.2 Gen 1 4基、USB 2.0 6基、DisplayPort 2.1b 3基、HDMI、2.5Gigabit Ethernet、Wi-Fi 7、Bluetooth 5.4、音声入出力などを備える。\n本体サイズは205×410×400mm、重量は12.5kg。\n「AORUS マザーボード」関連アイテムAmazonで購入"
+  },
+  {
+   "title": "サムスン「Galaxy Ring」米韓で睡眠時無呼吸検知に対応",
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2158289.html",
+   "summary": "サムスン電子は、「Samsung Galaxy Watch」および「Samsung Galaxy Ring」が対応する「睡眠時無呼吸検知機能」をアップデートした。",
+   "published": "2026-11-21T10:00:00+09:00",
+   "source": "ケータイ Watch",
+   "link": {
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2158289.html",
+    "title": "サムスン「Galaxy Ring」米韓で睡眠時無呼吸検知に対応",
+    "site": "ケータイ Watch",
+    "description": "サムスン電子は、「Samsung Galaxy Watch」および「Samsung Galaxy Ring」が対応する「睡眠時無呼吸検知機能」をアップデートした。",
+    "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2158/289/main.png",
+    "icon": "https://k-tai.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "サムスン電子は、「Samsung Galaxy Watch」および「Samsung Galaxy Ring」が対応する「睡眠時無呼吸検知機能」をアップデートした。\n同機能のアップデートにより、2026年7月に米国食品医薬品局（FDA）の認可を受けたのに続いて、新たに韓国食品医薬品安全処（MFDS）の承認を獲得した。\nサムスン電子は、今回のアップデートにより、スマートリングに世界で初めて睡眠時無呼吸のリスク検知機能を導入したことをアピールしている。\nアップデート後の「睡眠時無呼吸検知機能」は、強化されたアルゴリズムが睡眠中のユーザーのバイタルデータをより詳細に分析する。\n検知された呼吸の乱れの程度に関する情報を提供し、睡眠時無呼吸のリスク評価に加えて、ユーザー自身が睡眠状態をより正確に把握するデータを提供する。取得したデータは、医療機関を受診する際にも活用できる。"
+  },
+  {
+   "title": "デジタル庁、GSSのファイル共有サービスで会議資料などのファイルが漏えいした可能性を発表",
+   "url": "https://internet.watch.impress.co.jp/docs/news/2158375.html",
+   "summary": "デジタル庁は11月20日、ガバメントソリューションサービス（GSS）で提供しているファイル共有サービスにおいて、ファイルの一部が漏えいした可能性があると発表した。現在、外部との通信を遮断しているという。",
+   "published": "2026-11-20T19:48:54+09:00",
+   "source": "INTERNET Watch",
+   "link": {
+    "url": "https://internet.watch.impress.co.jp/docs/news/2158375.html",
+    "title": "デジタル庁、GSSのファイル共有サービスで会議資料などのファイルが漏えいした可能性を発表",
+    "site": "INTERNET Watch",
+    "description": "デジタル庁は11月20日、ガバメントソリューションサービス（GSS）で提供しているファイル共有サービスにおいて、ファイルの一部が漏えいした可能性があると発表した。現在、外部との通信を遮断しているという。",
+    "image": "https://internet.watch.impress.co.jp/img/iw/list/2158/375/01.png",
+    "icon": "https://internet.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "デジタル庁は11月20日、ガバメントソリューションサービス（GSS）で提供しているファイル共有サービスにおいて、ファイルの一部が漏えいした可能性があると発表した。現在、外部との通信を遮断しているという。\n発表によると、11月12日、当該のサービスにおいて、正規のファイル共有相手以外からファイルへのアクセスが行われた可能性を検知し、調査を実施した。その結果、2026年7月30日～11月12日の期間に、当該のアクセスがあったことが確認されたという。詳細は調査中だが、アップロードされていたファイルの一部が漏えいした可能性があり、そのファイルに個人情報が含まれることも想定されるという。\n同庁では、引き続き調査を進めていると説明している。"
+  },
+  {
+   "title": "マイクロソフト、クラウドやオンプレミスのデータベースを一元管理する「Database Hub」正式リリース。AIエージェントによる運用監視の自動化も",
+   "url": "https://www.publickey1.jp/blog/26/database_hubai.html",
+   "summary": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、Microsoft Azureやオンプレミス、他社クラウドにあるデータベースなど、管理者が権限を持つデータベースを自動的に一覧表...",
+   "published": "2026-11-19T15:19:21+00:00",
+   "source": "Publickey",
+   "link": {
+    "url": "https://www.publickey1.jp/blog/26/database_hubai.html",
+    "title": "マイクロソフト、クラウドやオンプレミスのデータベースを一元管理する「Database Hub」正式リリース。AIエージェントによる運用監視の自動化も",
+    "site": "www.publickey1.jp",
+    "description": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、Microsoft Azureやオンプレミス、他社クラウドにあるデータベースなど、管理者が権限を持つデータベースを自動的に一覧表...",
+    "image": "https://www.publickey1.jp/2026/database-hub-ga01.png",
+    "icon": "https://www.publickey1.jp/favicon.ico"
+   },
+   "body": "マイクロソフトは日本時間11月18日未明に開幕した年次イベント「Microsoft Ignite 2026」で、Microsoft Azureやオンプレミス、他社クラウドにあるデータベースなど、管理者が権限を持つデータベースを自動的に一覧表示し、一元管理できる新サービス「Database Hub in Fabric」の正式リリースを発表しました。\nMicrosoft Fabricとは、同社が提供する統合データ分析基盤です。今回正式リリースとなったDatabase Hub in Fabricは、この統合データ分析基盤の上で、運用管理対象となる複数のデータベースの情報を統合、分析し、ダッシュボードに表示するというものです。\nDatabase Hub in Fabricで一元管理できるデータベースは、Azure SQL、Azure Database for PostgreSQL、Azure Cosmos DB、SQL Server、Microsoft Azureなどで、クラウドやオンプレミス、他社クラウドで稼働してるデータベースを一元管理可能です。\n監視対象となるデータベースのリアルタイムのCPU、メモリ、ストレージのトレンドをほぼリアルタイムで追跡でき、Microsoft Entra認証、監査ログ、顧客管理キーなどのセキュリティの状態も把握できます。\nまた自動的にセキュリティやパフォーマンス、最適化などに関する重要な情報や変化についての概要も示してくれます。\nAIエージェントによる運用監視の自動化も\nマイクロソフトは、Database Hub in Fabricに対応した新機能として、AIがデータベースの障害予測や性能監視などをしてくれる「Database Agents」のプレビューも合わせて発表しました。\nSQL ServerとPostgreSQLに対応したDatabase Agentsが用意されています。\nDatabase Agentsは、マイクロソフトが作成したスキルに基づいてデータベースを継続的に監視し、推論によって問題となりそうな状況を検出すると、その重要性や影響を説明した上で、修正案や承認を受けた操作を実行します。\nこれまでデータベース運用の多くは障害や性能低下などの問題が発生した後に、それを検出して対応することが一般的でしたが、Database Agentsによって自動化されたプロアクティブな運用へと移行することが可能となります。\nマイクロソフトはVisual Studio Code用の拡張機能「Database agent in the Microsoft PostgreSQL extension for Visual Studio Code」も発表しており、これを用いることでVS Codeから離れることなくエージェント機能を利用してPostgreSQLデータベースの運用管理が可能になります。\nMicrosoft Ignite 2026関連記事\n［速報］Azure SQL Databaseをローカルで実行する「Azure SQL Database local development container」パブリックプレビュー\n［速報］AIがOracle DBからPostgreSQLへの移行を支援、「Azure Database Migration Service」プレビュー\n［速報］PostgreSQL互換のサーバレスでOLTPとOLAP両対応を実現する「Microsoft Fabric HorizonDB」パブリックプレビュー\n［速報］マイクロソフト、PostgreSQL互換のミッションクリティカル向けデータベースサービス「Azure HorizonDB」正式リリース\n［速報］マイクロソフト、コーディング用AIモデルとして高性能かつ低価格「MAI Code 2」「MAI Code 2 Flash」発表\nWindows Server 2028がパブリックプレビュー公開。Microsoft FoundryなどAIによる推論の実行基盤へと拡張\nマイクロソフト、AIが生成したアプリを企業内で安全に実行するランタイム「Copilot Managed Runtime」正式リリース\nマイクロソフト、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始\nマイクロソフト、クラウドやオンプレミスのデータベースを一元管理する「Database Hub」正式リリース。AIエージェントによる運用監視の自動化も\nMicrosoft Azure PostgreSQL RDB クラウド データベース 運用・監視 Microsoft SQL Server\nクラウド AWS / Azure / Google Cloud クラウドネイティブ / サーバレス クラウドのシェア / クラウドの障害\nプログラミング言語 JavaScript / Java / .NET WebAssembly / Web標準 開発ツール / テスト・品質\nアジャイル開発 / スクラム / DevOps\nデータベース / 機械学習・AI RDB / NoSQL\nネットワーク / セキュリティ HTTP / QUIC\nOS / Windows / Linux / 仮想化 サーバ / ストレージ / ハードウェア\nJunichi Niino（jniino） IT系の雑誌編集者、オンラインメディア発行人を経て独立。2009年にPublickeyを開始しました。 （詳しいプロフィール）\nPublickeyの新着情報をチェックしませんか？ Twitterで ： @Publickey Facebookで ： Publickeyのページ RSSリーダーで ： Feed\nマイクロソフト、クラウドやオンプレミスのデータベースを一元管理する「Database Hub」正式リリース。AIエージェントによる運用監視の自動化も\nマイクロソフト、AIによるサイバー攻撃にAIエージェントで対抗する新サービス「Microsoft Perception」提供開始\nマイクロソフト、AIが生成したアプリを企業内で安全に実行するランタイム「Copilot Managed Runtime」正式リリース\nWindows Server 2028がパブリックプレビュー公開。Microsoft FoundryなどAIによる推論の実行基盤へと拡張\n［速報］マイクロソフト、コーディング用AIモデルとして高性能かつ低価格「MAI Code 2」「MAI Code 2 Flash」発表\n［速報］マイクロソフト、PostgreSQL互換のミッションクリティカル向けデータベースサービス「Azure HorizonDB」正式リリース\n［速報］PostgreSQL互換のサーバレスでOLTPとOLAP両対応を実現する「Microsoft Fabric HorizonDB」パブリックプレビュー\n［速報］AIがOracle DBからPostgreSQLへの移行を支援、「Azure Database Migration Service」プレビュー\n［速報］Azure SQL Databaseをローカルで実行する「Azure SQL Database local development container」パブリックプレビュー\n軽量なマイクロVMでネイティブよりアプリを高速起動できる「Hyperlight-Unikraft」登場\nPublickeyについて／運営者について\n読者が安心して記事を読めるようにするための取り組みについて"
+  },
+  {
+   "title": "SpaceXは圏外エリアを撲滅しあらゆる場所で通信できるようにするため屋上設置型基地局の設計を完了したとイーロン・マスクが語る",
+   "url": "https://gigazine.net/news/20261121-elon-musk-spacex-plan-eliminate-cell-phone-dead-zones/",
+   "summary": "衛星インターネットサービスのStarlinkを提供する宇宙開発企業・SpaceXのイーロン・マスクCEOが、「地球上のどこでも通信できるようにする計画がある」と語りました。さらに、Starlink衛星からの電波が届きにくい建物内の圏外エリアを解消するために、小型の屋上設置型基地局の設計を完了したことも明かしています。   続きを読む...",
+   "published": "2026-11-21T09:00:00+09:00",
+   "source": "GIGAZINE",
+   "link": {
+    "url": "https://gigazine.net/news/20261121-elon-musk-spacex-plan-eliminate-cell-phone-dead-zones/",
+    "title": "SpaceXは圏外エリアを撲滅しあらゆる場所で通信できるようにするため屋上設置型基地局の設計を完了したとイーロン・マスクが語る",
+    "site": "GIGAZINE",
+    "description": "衛星インターネットサービスのStarlinkを提供する宇宙開発企業・SpaceXのイーロン・マスクCEOが、「地球上のどこでも通信できるようにする計画がある」と語りました。さらに、Starlink衛星からの電波が届きにくい建物内の圏外エリアを解消するために、小型の屋上設置型基地局の設計を完了したことも明かしています。",
+    "image": "https://i.gzn.jp/img/2026/11/21/elon-musk-spacex-plan-eliminate-cell-phone-dead-zones/00_m.jpg",
+    "icon": "https://gigazine.net/apple-touch-icon.png"
+   },
+   "body": "親愛なる読者の皆さまへ。ご存じの通り価格高騰などの悪影響でサーバー運営がとても苦しい状態です。回線や台数を整理し見直せる部分は全て見直しましたが、やはりまだ危険水域です。このままだと1ページを10分割ぐらいして無理矢理PVを増やさざるを得なくなってしまいます。そこで、GIGAZINEの物理的なサーバーたちを、たった1円でも良いので親愛なる読者の皆さまに支援してもらえればとっても助かります！今すぐ寄付は上のボタンから！ ・これまでGIGAZINEを支援してくれたメンバーのリスト\n衛星インターネットサービスのStarlinkを提供する宇宙開発企業・SpaceXのイーロン・マスクCEOが、「地球上のどこでも通信できるようにする計画がある」と語りました。さらに、Starlink衛星からの電波が届きにくい建物内の圏外エリアを解消するために、小型の屋上設置型基地局の設計を完了したことも明かしています。 Elon Musk says SpaceX has a plan to eliminate cell phone dead zones | TechCrunch https://techcrunch.com/2026/11/19/elon-musk-says-spacex-has-a-plan-to-eliminate-cell-phone-dead-zones/ マスクCEOは2026年11月18日にアメリカ・ニューヨークで開催されたThe New York Times主催の「The 2026 DealBook Summit」の中で、「携帯電話を含め、地球上のどこでも通信できるようにする計画があります」「ただし、この計画にはまだ欠けている重要な要素があります。それは屋内にいる場合、特に金属製の屋根がある建物では、宇宙からの電波が遮断されてしまうという点です。そのため、厚い屋根のある建物内などでも通信できるようにするため、地上設備が必要です」と語り、Starlinkで圏外エリアを撲滅するために、屋上設置型基地局を開発していると説明しました。マスクCEOによると、SpaceXは屋上設置型基地局の設計を完了しており、2027年には生産を開始する見通しです。 SpaceXは当初、携帯電話向けの周波数帯の取得に注力していました。この背景には、2024年にアメリカにおける通信を規制するアメリカ連邦通信委員会(FCC)から、T-Mobileと提携してStarlinkの衛星インターネットサービスを携帯電話に直接提供する計画の承認を受けたことがあります。 その後、SpaceXは2025年にEchoStarが保有する周波数ライセンスを170億ドル(約2兆5500億円)で取得する契約を締結。さらに、2026年にはGrain Managementから80億ドル(約1兆2000億円)で800MHz帯の周波数ライセンスを取得しています。 マスクCEOによると、これまで取得してきた周波数ライセンスと小型基地局を組み合わせることで、電波の受信状況を改善し、圏外エリア問題を解消できるようになるそうです。マスクCEOは設計を完了した小型基地局について、「Starlinkのアンテナのように、屋根に設置するだけの超小型基地局のようなもの」と説明しました。\nSpaceXのグウィン・ショットウェル社長は2026年8月の決算説明会で、大型の携帯電話基地局は使用せず、代わりに小型で低消費電力の携帯電話基地局を展開する方針を説明していました。 テクノロジーメディアのTechCrunchは、「今回の進捗報告を踏まえても、SpaceXはまだ具体的な導入方法を検討している段階である」と指摘。マスクCEOは小型携帯基地局について、「Starlinkの通信端末とセットで提供する」という案を挙げています。 SpaceXが進める携帯電話通信と衛星通信を組み合わせたハイブリッドネットワーク構想は、既存の通信事業者の経営を脅かすのではないかという憶測や予測を呼んでいます。しかし、マスクCEOは「これ(ハイブリッドネットワーク構想)によってAT＆TやVerizonといった既存の通信事業者が倒産するとは思いません」「むしろ、将来は通信帯域幅に対する需要がとてつもなく大きくなると考えています。その需要を主に生み出すのは、超知能やロボットです。彼らは人間よりもはるかに多くの通信帯域幅を必要とするでしょう」と語りました。\n・関連記事 Starlinkがバッテリー搭載でどこでもインターネットに接続可能な携帯型アンテナ「Mini 2」を発表 - GIGAZINE スマホを空にかざすだけでStarlinkの衛星通信状況をすぐにチェックできるStarlink公式アプリを使ってみた - GIGAZINE Starlinkのアンテナはどのように人工衛星と通信しているのか？ - GIGAZINE 人工衛星経由でどこでもインターネットが使える「Starlink」を実際に使ってわかったという問題点とは？ - GIGAZINE SpaceXが展開する衛星インターネットサービス「Starlink」が抱える問題点とは？ - GIGAZINE\n「マンホールのフタ」を通信ネットワークの中継アンテナに活用する試み\n4000基以上の人工衛星で世界中にネットを提供するSpaceXの「Starlink」計画に当局からゴーサインが出る\nSpaceXとT-Mobileが携帯電話とStarlinkの衛星を直接通信可能にする計画を発表\nSpaceXは2027年末までに地球の軌道上に最大100万基のAIデータセンター衛星を展開するべくロケットの打ち上げ許可を規制当局に申請中\nこれで「圏外」は解消か、KDDIが家庭に設置できる超小型の携帯電話基地局を導入へ\n「宇宙AIデータセンター」の展開を巡ってイーロン・マスクのSpaceXやジェフ・ベゾスのBlue Originが争っている\nイーロン・マスク率いる宇宙企業「SpaceX」が株式上場を目指して準備中との報道、企業価値は235兆円に達する見込み\n衛星通信サービス「Starlink」がフランスで通信ライセンスをはく奪される\n2026年11月21日 09時00分00秒 in ネットサービス, Posted by logu_ii\nYou can read the machine translated English article Elon Musk says SpaceX has completed the ….\nお邪魔して申し訳ないです。読者のための記事を掲載し続けるため、どうかサーバー代として300円をご寄付いただけないでしょうか。"
+  },
+  {
+   "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
+   "url": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+   "summary": "YouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its \"addictive design\" harmed kids, according to Bloomberg. Sources tell the publication that YouTube reached the agreement \"in principle,\" and that the deal would also include new safeguards for teens. The settlement would allow Google to avoid a wave […]",
+   "published": "2026-11-20T15:43:52-05:00",
+   "source": "The Verge",
+   "link": {
+    "url": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+    "title": "YouTube is reportedly preparing to settle social media addiction claims for $3 billion",
+    "site": "The Verge",
+    "description": "The settlement would allow Google to avoid a wave of social media addiction lawsuits.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STKS526_SOCIAL_MEDIA_TRIAL_CVIRGINIA_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
+   },
+   "body": "The potential settlement would also require YouTube to introduce new safeguards for teens, Bloomberg reports.\nThe potential settlement would also require YouTube to introduce new safeguards for teens, Bloomberg reports.\nYouTube is preparing to pay $3 billion to thousands of school districts to settle claims that its “addictive design” harmed kids, according to Bloomberg. Sources tell the publication that YouTube reached the agreement “in principle,” and that the deal would also include new safeguards for teens.\nThe settlement would allow Google to avoid a wave of lawsuits filed by US school districts that accuse YouTube, Meta, Snap, and TikTok of negatively impacting the mental health of teen users. The first “bellwether” trial of these federal multidistrict litigation (MDL) cases was supposed to start in Kentucky in June, but all four companies settled for a total of $27 million before it went to court. The next trial is set for February 2027 before an Oakland, California, judge, with Meta, Snap, and TikTok as defendants.\nMeta and YouTube found negligent in landmark social media addiction case\nSnap, YouTube, and TikTok settle suit over harm to students\nGoogle didn’t immediately respond to The Verge’s request for comment.\nIn August, Meta agreed to pay $17.1 billion over 10 years to settle lawsuits filed by a group of 47 states, along with several districts and territories. It also agreed to implement stricter safeguards for teens, but is pushing TikTok and YouTube to do the same. As part of the agreement, Meta will only shell out the remaining $5.3 billion of its $17.1 billion settlement if YouTube and TikTok roll out similar changes and pay matching amounts. In March, both YouTube and Meta were found negligent in a separate legal battle over social media addiction.\nMore in: Social media on trial: tech giants face lawsuits over addiction, safety, and mental health\nAnthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude\nThe wait begins for GTA VI on PC\nGoogle says it’s going to shut off Google Assistant on smart speakers next year\nMeta now sells 3D movies on Quest VR headsets\nTeenage Engineering’s first CD player puts the spinning disc on display\nThis is the title for the native ad\nThis is the title for the native ad\nSign in to see your notifications or create an account to join the conversation."
+  },
+  {
+   "title": "Trump FCC declares California isn't allowed to enforce phone service rules",
+   "url": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
+   "summary": "FCC preempts state rules that require AT&T to keep offering home phone service.",
+   "published": "2026-11-20T22:28:24+00:00",
+   "source": "Ars Technica",
+   "link": {
+    "url": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
+    "title": "Trump FCC declares California isn't allowed to enforce phone service rules",
+    "site": "Ars Technica",
+    "description": "FCC preempts state rules that require AT&T to keep offering home phone service.",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2023/07/getty-att-logo-1152x648.jpg",
+    "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+   },
+   "body": "The Federal Communications Commission ordered California to stop enforcing its Carrier of Last Resort (COLR) rules against AT&T, setting up another battle between the Trump administration and California over the state’s right to enforce its own telecom laws and regulations.\nAT&T’s status as a Carrier of Last Resort in California requires it to offer telephone service to any potential customer in its territory. AT&T wants to stop offering basic phone service to new customers and discontinue service for 184,000 residential customers and 15,000 business customers on June 1, 2027.\nThe order released today granted AT&T’s request to preempt state rules, following up on the FCC’s previous approval of AT&T’s petition to discontinue service. AT&T had tried to achieve the same result in court, but a federal judge rejected its request to override California’s rules in July.\nThe FCC order probably isn’t the last word, as California could sue the commission. California has stood alone against AT&T, which has received relief from COLR obligations in 20 of the 21 states in its wireline service territory.\nCarr: California rules “designed for a bygone era”\n“California’s Carrier of Last Resort framework may have made sense when it was established 30 years ago,” FCC Chairman Brendan Carr said in a statement released with today’s order. “But those rules were designed for a bygone era and no longer make sense in today’s competitive, advanced marketplace.”\nIf AT&T ends service on its old copper lines, many homes and businesses would not be offered modern fiber networks. AT&T claims a wireless home phone service that connects to the cellular network will be good enough, and the FCC agreed.\n“The FCC has granted AT&T’s applications to replace legacy voice service with a modern, IP-based alternative in certain areas of the state. California’s state requirements are blocking AT&T from proceeding with a federally authorized transition,” Carr said.\nCalifornia says its rules allow wireless replacements if they meet the state’s standards for basic phone service, but that AT&T must demonstrate that its wireless phone service would meet the COLR obligations. California’s requirements include flat-rate options for unlimited voice calls, discounted Lifeline rates for eligible low-income customers, and telephone relay service for people who are deaf and hard of hearing.\nGomez: State officials know best\nFCC Democrat Anna Gomez voted against the order, saying that state telecom commissions “are often the last line of defense for consumers. They know their communities, they take their complaints, and they answer to the people who rely on these services in a way that a federal agency in Washington cannot always match.”\nGomez said the California Public Utilities Commission (CPUC) has an open proceeding on how to modernize its COLR rules, and that the FCC should let that process play out. Large technology transitions work best “when the state regulator is a partner with a real role,” but the FCC is treating the CPUC “as an obstacle to be cleared,” she said.\nThe CPUC “proceeding is the right place for California to weigh what a modern basic service requirement should look like, with input from the people who will actually be making that switch,” Gomez said. “AT&T has said it does not plan to discontinue service before June 1, 2027, which leaves time for the CPUC to finish its work. Rather than wait, this item tells the CPUC to write its new consumer protections around a federal "
+  },
+  {
+   "title": "韓国大学入試で電子機器不正111件摘発　AI受験疑惑巡り死者も発生",
+   "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003376/",
+   "summary": "韓国教育省は11月20日、19日に実施された大学修学能力試験（修能、日本の大学入学共通テストに相当）で、スマートグラス（AI眼鏡）など電子機器の扱いを巡り111件の不正行為が確認されたと明らかにした。",
+   "published": "2026-11-20T17:48:50+09:00",
+   "source": "ITmedia NEWS 最新記事一覧",
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003376/",
+    "title": "韓国大学入試で電子機器不正111件摘発　AI受験疑惑巡り死者も発生",
+    "site": "ITmedia NEWS",
+    "description": "韓国教育省は11月20日、19日に実施された大学修学能力試験（修能、日本の大学入学共通テストに相当）で、スマートグラス（AI眼鏡）など電子機器の扱いを巡り111件の不正行為が確認されたと明らかにした。",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/20/2000003376/10012702/2048",
+    "icon": null
+   },
+   "body": "韓国教育省は11月20日、19日に実施された大学修学能力試験（修能、日本の大学入学共通テストに相当）で、スマートグラス（AI眼鏡）など電子機器の扱いを巡り111件の不正行為が確認されたと明らかにした。\n教育省によると、試験中のAI眼鏡や小型カメラ、スマートフォンの使用で5件摘発された。受信を拒否できない緊急災害アラートを発する不正対応策で確認された電子機器の持ち込みは54件あった。\n19日にはソウル市内の宿泊施設で、教育系インフルエンサーとして活動し、法科大学院進学に必要な適性試験でAI機器を使用した不正受験疑惑が浮上していた男性の死亡も確認された。警察当局は解剖の結果、事件性は確認されなかったとしている。\n眼鏡に代表されるAI機器の普及で、不正のハードルは急速に下がりつつある。記者が中国製のAI眼鏡を着用し、2025年の修能で出題された制限時間100分の数学問題に挑むと、答案作成は30分余りで完了。誤答は1問のみだった。\n朝鮮日報は20日の社説で、「事実上すべての試験が不信を持たれる状況」にあると指摘。「急変するAI時代において暗記中心、5択中心の試験制度を維持するのか、根本的な議論を始める必要がある」と訴えた。（ソウル＝時吉達也）\ncopyright (c) Sankei Digital All rights reserved.\nSamsung、Gemini搭載の「Android XR」スマートグラス発表 カメラで視界を認識、最大9時間駆動\nAIグラスへの不安感は、盗撮問題に集中しすぎると問題を見誤るのではないか\n初のAndroid XRスマートグラス「XREAL AURA」、日本でも秋に発売へ 価格は「1500ドルを超えない」\n7割近くの学生が課題などにAI使用 避けられない教育現場、新時代の“学び”をどう評価するか\nスマートフォン悪用の「カンニング大作戦」登場 次はどんなITガジェットが狙われる？\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nデジ庁、政府機関向けファイル共有サービスで漏えいか 7月末から第三者がアクセス\n韓国大学入試で電子機器不正111件摘発 AI受験疑惑巡り死者も発生\nH3ロケット打ち上げ、JAXAから三菱重工に移管 来年1月の11号機から\n片山財務相、楽天証券は「顧客の不安解消に、できること全部していただきたい」\nドンキのAI社員「近藤あい」が正式デビュー 販促POPや動画で活躍へ 運営元「すでに裏に20人ぐらいいる」\nドンキのAI社員「近藤あい」が正式デビュー 販促POPや動画で活躍へ 運営元「すでに裏に20人ぐらいいる」\n「焼肉きんぐ」「ゆず庵」など11アプリ、会員の氏名・電話番号の項目を廃止 予定を前倒し\n湘南美容クリニックのSBC、162万人分の個人情報流出 パスワードは「暗号化せず保存していた」\nPHP「緊急」脆弱性、サービス一時停止の動き再び ウマ娘やグラブル、イープラスなど緊急メンテ\n六花亭、カード番号全桁＋セキュリティコード約8000件流出か 決済画面のプログラム改ざん\n「楽天証券」漏えい、あなたは対象？ ログインして「重要なお知らせ」確認を\n美少女ゲーム「NIKKE」経由でマルウェア感染 北海道2自治体、委託先が認める\n片山財務相、楽天証券は「顧客の不安解消に、できること全部していただきたい」\nデジ庁、政府機関向けファイル共有サービスで漏えいか 7月末から第三者がアクセス\n楽天証券漏えい、“テスト環境に顧客情報”のマズさ 識者「一般的でない」"
+  },
+  {
+   "title": "49gマウスも、ROGに「Phantom Blade Zero」コラボ3製品",
+   "url": "https://pc.watch.impress.co.jp/docs/news/2158419.html",
+   "summary": "ASUSは11月20日、アクションゲーム「Phantom Blade Zero」とのコラボモデルとしてゲーミングデバイス3製品の予約を開始した。",
+   "published": "2026-11-21T09:02:32+09:00",
+   "source": "PC Watch",
+   "link": {
+    "url": "https://pc.watch.impress.co.jp/docs/news/2158419.html",
+    "title": "49gマウスも、ROGに「Phantom Blade Zero」コラボ3製品",
+    "site": "PC Watch",
+    "description": "ASUSは11月20日、アクションゲーム「Phantom Blade Zero」とのコラボモデルとしてゲーミングデバイス3製品の予約を開始した。",
+    "image": "https://pc.watch.impress.co.jp/img/pcw/list/2158/419/01.jpg",
+    "icon": "https://pc.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "ASUSは11月20日、アクションゲーム「Phantom Blade Zero」とのコラボモデルとしてゲーミングデバイス3製品の予約を開始した。\n発売日は11月27日を予定しており、Amazonでの価格はワイヤレスキーボードの「ROG Strix Morph 96 Wireless Phantom Blade Zero Edition」が3万283円、ワイヤレスマウスの「ROG Harpe II Ace Phantom Blade Zero Edition Gaming Mouse」が2万7,859円、ヘッドセットの「ROG Delta II Phantom Blade Zero Edition Gaming Headset」が4万7,555円。\nROG Strix Morph 96 Wireless Phantom Blade Zero Edition\n本製品は96%レイアウトのワイヤレスキーボード。ベースモデルである「ROG Strix Morph 96 Wireless」を元に、キーキャップや筐体に本作のテーマである黒や赤、ロゴのデザインが施されている。\n主な仕様は、接続方式がUSB 2.0、Bluetooth 5.1、2.4GHz、ポーリングレートは1,000Hz、キー配列は英語、メカニカルキースイッチがリニアのROG NX Snow V2で、初期押下圧が40gf、最大押下圧が53gf。本体サイズは398×134×39mm、重量は1,161g。\nROG Strix Morph 96 Wireless Phantom Blade Zero Edition\nROG Harpe II Ace Phantom Blade Zero Edition Gaming Mouse\n本製品は8,000Hzのポーリングレートに対応するワイヤレスマウス。センサーにはROG AimPoint Proを搭載し、解像度が最大42,000DPI、加速度が最大50Gに対応できる。デザインには黒を基調としたシェルに、ロゴやアクセントカラーが施されている。\n接続方式は2.4GHz、Bluetooth、USB 2.0 Type-Cに対応し、普段使いから低遅延を求められるゲームまで幅広い場面で使用することができる。\nそのほかの仕様は、形状が左右対称型、ケーブル長は2m、本体サイズは126.1×63.9×39.7mm、重量は49g。\nROG Harpe II Ace Phantom Blade Zero Edition Gaming Mouse\nROG Delta II Phantom Blade Zero Edition Gaming Headset\n本製品は、2.4GHz接続かつライティングをオフにした状態で最大約110時間のバッテリ駆動をうたうワイヤレスヘッドセット。USB Type-Cでの急速充電に対応し、15分の充電で最大約11時間の動作ができる。デザインには黒と赤を基調としており、作品を象徴するエンブレムや赤い糸のステッチ・グラフィックスがイヤーカップやヘッドバンドに施されている。\n接続方式は2.4GHz、Bluetooth、3.5mmに対応。ドライバには50mmのチタンメッキ振動板を搭載し、周波数特性は20Hz～20kHz、インピーダンスは32Ω。\nそのほかの仕様は、マイクタイプが単一指向性(着脱可)、マイク感度が-40dB、マイクの周波数特性が100Hz～14kHz、バッテリ容量が1,800mAh、重量が325g。\nROG Delta II Phantom Blade Zero Edition Gaming Headset"
+  },
+  {
+   "title": "[DATAで見るケータイ業界] 「端末のレンタル化」と「契約長期化」が加速する法人向け携帯回線市場の攻防",
+   "url": "https://k-tai.watch.impress.co.jp/docs/column/mca/2158319.html",
+   "summary": "弊誌では、これまでにも「法人向け料金プランの現況と中小・零細企業層の開拓」をテーマに、携帯キャリア各社の法人市場戦略を取り上げてきた。今回は、その法人モバイル市場で進む構造的な変化として、「端末の売り切りからレンタルへの移行」と「端末利用・契約期間の長期化」という2つの動きについて取り上げたい。",
+   "published": "2026-11-21T06:00:00+09:00",
+   "source": "ケータイ Watch",
+   "link": {
+    "url": "https://k-tai.watch.impress.co.jp/docs/column/mca/2158319.html",
+    "title": "[DATAで見るケータイ業界]  「端末のレンタル化」と「契約長期化」が加速する法人向け携帯回線市場の攻防",
+    "site": "ケータイ Watch",
+    "description": "弊誌では、これまでにも「法人向け料金プランの現況と中小・零細企業層の開拓」をテーマに、携帯キャリア各社の法人市場戦略を取り上げてきた。今回は、その法人モバイル市場で進む構造的な変化として、「端末の売り切りからレンタルへの移行」と「端末利用・契約期間の長期化」という2つの動きについて取り上げたい。",
+    "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2158/319/20261120.png",
+    "icon": "https://k-tai.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "弊誌では、これまでにも「法人向け料金プランの現況と中小・零細企業層の開拓」をテーマに、携帯キャリア各社の法人市場戦略を取り上げてきた。今回は、その法人モバイル市場で進む構造的な変化として、「端末の売り切りからレンタルへの移行」と「端末利用・契約期間の長期化」という2つの動きについて取り上げたい。\nそもそも法人モバイル市場は、テレビCMなどを通じて新料金プランを積極的に訴求する個人向け市場とは一線を画しており、その実態が外部から見えにくいという特徴ある。背景には、携帯キャリアの法人営業部門が顧客企業と個別に交渉し、契約回線数や取引規模などに応じて特別な料金条件を設定する、いわゆる「相対契約」を中心とした商習慣がある。こうした取引では秘密保持契約（NDA）が締結されるケースもあり、実際の料金水準や契約条件が表面化することは少ない。\nさらに、法人営業では通信サービスの取引にとどまらず、顧客企業との総合的な取引関係が営業活動に影響することもある。例えば、家具メーカーからオフィス家具を大量に調達する代わりに、同社の数千回線に及ぶ携帯電話契約の獲得を目指したり、保険会社との取引関係を見直す中で、通信回線の契約先も変更したりするといったケースである。こうした異業種間の取引関係も法人営業の特徴の一つといえる。ただし、個別の取引が通信契約の条件となるかどうかは案件によって異なる。\n営業体制も個人向け市場とは大きく異なる。大企業や大口顧客については携帯キャリアの直販部門が中心となって対応する一方、中小・零細企業については、法人代理店やキャリアショップ、コールセンターなど複数の販売チャネルを活用するのが一般的だ。国内の法人モバイル市場は、大企業を中心とした大量導入から普及が進み、その後、顧客基盤の拡大に向けて中小・零細企業層の開拓が重要なテーマとなってきた。\n「iPhoneと端末レンタル」を武器に法人市場を切り開いてきたソフトバンク\nこうした法人市場の裾野拡大に積極的に取り組んできた携帯キャリアの一つがソフトバンクである。2006年にボーダフォン日本法人を買収し、2008年には国内でiPhoneの販売を開始した同社は、スマートフォンの普及を法人市場の開拓にも結び付けてきた。その過程で重要な役割を担った施策の一つが、スマートフォンやタブレットの「端末レンタル」である。\n従来、法人向け携帯端末は企業が購入して保有する方式が一般的だったが、ソフトバンクは端末を販売するだけでなく、レンタルによって提供する仕組みを展開した。法人企業にとって最大の魅力は、大量の端末を一括購入する必要がなく、初期投資を抑えながら月額費用として支出を平準化できる点にある。また、契約内容や適用する会計基準によっては、端末を自社の固定資産として計上せずに費用処理できる場合もあり、会計処理や資産管理の負担を軽減できることもメリットとなってきた。\nまた、端末レンタルは携帯キャリア側にとっても戦略的な意味を持つ。端末と通信回線を一体的に提案することで、企業の大量導入を促進できるほか、保守や端末更新を通じて顧客との継続的な取引関係を構築しやすくなる。ソフトバンクが展開してきた端末レンタルと保守サービスを組み合わせた提供形態は、法人向けモバイルサービスの付加価値を高める仕組みとして注目され、現在ではNTTドコモ、KDDI、楽天モバイルの各社も法人向け端末レンタルサービスを提供している。\n端末価格の上昇が「端末のレンタル化」と「契約期間の長期化」を後押し\nこうしたレンタルサービスの重要性を一段と高めているのが、近年のスマートフォン価格の上昇である。高機能化や大容量メモリーの搭載などに伴って端末価格が上昇する中、企業にとって数百台、数千台単位の端末を一括購入する負担は大きくなっている。レンタルであれば初期費用を抑えられるため、端末価格が高額になるほど、そのメリットが意識されやすくなる。\n同時に、端末の利用期間を従来の2年程度から3年、4年、さらには5年へと延ばす選択肢も広がっている。スマートフォンの性能向上によって、従来ほど頻繁に端末を更新する必要がなくなっていることに加え、端末価格の上昇が買い替えサイクルの見直しを促す要因となっている。\n端末の長期利用が進むほど、故障やバッテリー劣化などへの対応も重要になる。企業が端末を購入した場合、故障時の修理手配や代替機の確保、更新時のデータ移行などを自社で管理する必要が生じる。一方、保守サービス付きのレンタルであれば、契約条件に応じて故障時の代替機提供や端末交換などのサポートを受けられる。長期間にわたって大量のスマートフォンを運用する企業にとって、こうした保守・管理サービスの価値は大きい。\n端末のレンタル普及によって表面化している『課題』\n一方、レンタルサービスの普及には課題も残されている。それが法人代理店の収益モデルとの整合性である。従来、端末販売に伴う販売手数料やインセンティブを収益源としてきた代理店にとって、端末の売り切りからレンタルへの移行は、収益構造の見直しを迫る問題でもある。レンタル契約に対する手数料体系が従来の端末販売と異なる場合、代理店にとって十分な収益を確保できないのだ。\n今後、端末価格の高止まりや企業のコスト削減ニーズを背景に、法人向け端末のレンタル需要は引き続き拡大する可能性がある。さらに、端末の利用期間が長期化すれば、単に端末を貸し出すだけでなく、故障対応、バッテリー交換、端末更新、データ消去、回収までを一体的に提供するサービスの重要性が増していくだろう。\n法人モバイル市場では、これまでの「端末を販売して回線契約を獲得するビジネス」から、「端末を長期間にわたって運用・管理し、継続的にサービスを提供するビジネス」への変化が進むと考えられる。端末レンタルはその変化を象徴するサービスの一つであり、今後は携帯キャリアの法人営業戦略だけでなく、代理店の収益モデルや企業の端末調達・運用のあり方にも影響を及ぼしていきそうだ。\nIT専門の調査・コンサルティング会社として、1993年に設立。 主に「個別プロジェクトの受託」「調査レポート」「コンサルティング」サービスを展開。 所属アナリストとの意見交換も無償で随時受け付けている。 https://www.mca.co.jp/company/analyst/analystinfo/"
+  },
+  {
+   "title": "新gTLDについて一般からの意見募集・異議申し立ての受付を開始。ICANNがフォーラムを開設　日本からの申請は前回から増加。「.neko」「.株式会社」なども",
+   "url": "https://internet.watch.impress.co.jp/docs/news/2158360.html",
+   "summary": "インターネットのドメイン名・IPアドレスの割り当て管理を行う非営利組織のICANN（Internet Corporation for Assigned Names and Numbers）は11月17  日、「新gTLDプログラム：2026年ラウンド」において一般からの意見を募集する「申請コメントフォーラム（Application Comment Forum）」の開設を発表した。",
+   "published": "2026-11-20T19:23:37+09:00",
+   "source": "INTERNET Watch",
+   "link": {
+    "url": "https://internet.watch.impress.co.jp/docs/news/2158360.html",
+    "title": "新gTLDについて一般からの意見募集・異議申し立ての受付を開始。ICANNがフォーラムを開設　日本からの申請は前回から増加。「.neko」「.株式会社」なども",
+    "site": "INTERNET Watch",
+    "description": "インターネットのドメイン名・IPアドレスの割り当て管理を行う非営利組織のICANN（Internet Corporation for Assigned Names and Numbers）は11月17  日、「新gTLDプログラム：2026年ラウンド」において一般からの意見を募集する「申請コメントフォーラム（Application Comment Forum）」の開設を発表した。",
+    "image": "https://internet.watch.impress.co.jp/img/iw/list/2158/360/newgtld.jpg",
+    "icon": "https://internet.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "日本からの申請は前回から増加。「.neko」「.株式会社」なども\nインターネットのドメイン名・IPアドレスの割り当て管理を行う非営利組織のICANN（Internet Corporation for Assigned Names and Numbers）は11月17 日、「新gTLDプログラム：2026年ラウンド」において一般からの意見を募集する「申請コメントフォーラム（Application Comment Forum）」の開設を発表した。\n同ラウンドで申請のあった新gTLDについて、一般の人々が関連情報や問題点をICANNや申請者、評価者に伝えるための仕組みを提供する。フォーラムは2027年3月16日まで開設。意見の投稿方法の詳細についてのユーザーガイドも用意している。\n新gTLDプログラムは、企業・団体などが新たな文字列のgTLD（generic Top Level Domain）を創設できる制度。一般的な単語や地理的名称のTLDを創設し、「.com」や「.net」のように広くユーザーがドメイン名を登録して利用できるオープンな新gTLDとして提供できるほか、特定のコミュニティのメンバーによる利用を前提とした「コミュニティTLD」、企業が自社だけで利用するための、社名やブランド名の文字列による「ブランドTLD」を運用することもできる。\nその2026年ラウンドの申請受付は4月30日にスタートし、8月12日に締め切られ、世界中から1600件を超える申請があった。\n一般からの意見に加えて、申請に対する異議申し立ても提出でき、特定の法的根拠に基づいて認められるとしている。文字列（または名前）が一般的に受け入れられている道徳や公共の秩序に関する法的規範に違反する場合、名前がユーザーの混乱を招く場合（例えば、単数形と複数形の違い）、法的権利の侵害やコミュニティの基準への違反に当たる場合（提案された名前が特定のグループの人々を不当に標的にしたり、害を与えたりする場合）、プログラムの紛争解決サービスプロバイダーに異議を申し立てることができる。\n最終的な全申請リストをICANNが公開、1606件が審査へ\nICANNは、意見募集・異議申し立て期間を開始するにあたり、申請内容の最新リストを公開。それによると、申請があった1615件のうち9件が取り下げられたため、1606件が審査中となっている。\nまた、申請者が第2候補の文字列に置き換えることを選択した申請が152件あったため、複数の申請者から同一文字列へ申請のあった競合文字列は263種から226種に減少（申請件数としては、891件から705件に減少）した。\n日本からの申請、前回ラウンドから18.3％増加～インターリンク調査\n日本で新gTLD関連の事業を手掛けるインターリンク株式会社が10月20日に発表したところによると、前回の2012年ラウンドでの申請件数が1930件だったのに対し、今回は1615件だったため、16.3％減少。一方で、このうち日本からの申請は84件で、前回の71件から18.3％増加したという。\n日本からの申請の内訳は、ブランドTLDが61件、コミュニティTLDが2件、これらに該当しない一般向けTLDが21件だった。インターリンクでは「日本から申請された84件のうち72.6％をブランドTLDが占めたことは、今後の企業のウェブ戦略、ブランド戦略を考えるうえでも注目すべき動きといえそうだ」と指摘している。\nまた、企業におけるブランドTLDの位置付けの変化を示す事例の1つとして、「一度は取得を断念したブランドTLDを、14年後にあらためて申請する動き」についても指摘している。2012年ラウンドで「.docomo」をNTTドコモが申請して初期審査を通過していたが、その後、申請を取り下げ。それが今回、2026年ラウンドにおいて再び「.docomo」がNTT DOCOMO, INC.から申請されたという。\nさらに興味深い事例として、前回ラウンドに続き再び申請された「.dunlop」があるという。2012年ラウンドで「.dunlop」を取得・運営したのは米Goodyearであり、ブランドTLDとして運営されたという。しかしその後、住友ゴム工業がGoodyearから欧州・北米・オセアニアにおける四輪タイヤのDUNLOPの商標権などを取得したが、ブランドTLDの「.dunlop」は継承されず、GoodyearとICANNとの契約は終了。今回あらためて住友ゴム工業が「.dunlop」を申請していることを挙げ、「商標・ブランド資産の移転と、TLDというインターネット上の資産の扱いが必ずしも一体ではないことを示す事例」と説明している。\nなお、日本から申請された21件の一般向けTLDは、申請した事業者がXRegistry Incorporated（14件）、XServer Cloud Incorporated（5件）、インターリンク子会社の株式会社インターリンクシステム創成研究所（2件）の3社に集中しているという。ただし、「.brand」「.official」「.key」「.lab」「.gaming」など17件は、世界から複数の申請があった競合文字列だったため、今後の審査・競合解決の結果により、その新gTLDを運営するレジストリが海外の事業者になる可能性があるとしている。\n一方、日本からの申請で文字列が競合していない単独申請の4件は「.bldg」「.neko」「.sns」「.株式会社」だという。\nなお、インターリンクによる調査は10月7日時点でICANNから公開された情報をもとにしたものとなるため、最新の申請リストの件数などと異なっている点が含まれている可能性もある。\n「新gTLD」申請件数は1600件超え。締め切り日の8月12日に申請が殺到!? 総数具体的な文字列は10月ごろ公表の見込み\nICANN、2026年の新gTLD申請内容を公開。国内からのブランドTLD申請は61件\nGMOインターネットグループがブランドTLD申請56件を支援、インターリンクは「.neko」を申請"
+  },
+  {
+   "title": "退役したジェットエンジンがAIデータセンターの動力源として使われている",
+   "url": "https://gigazine.net/news/20261121-jet-engine-ai-power/",
+   "summary": "発電能力を確保するため、ボーイングやエアバスなど民間機で使われ役目を終えた古いジェットエンジンが買いあさられていることが分かりました。   続きを読む...",
+   "published": "2026-11-21T08:00:00+09:00",
+   "source": "GIGAZINE",
+   "link": {
+    "url": "https://gigazine.net/news/20261121-jet-engine-ai-power/",
+    "title": "退役したジェットエンジンがAIデータセンターの動力源として使われている",
+    "site": "GIGAZINE",
+    "description": "発電能力を確保するため、ボーイングやエアバスなど民間機で使われ役目を終えた古いジェットエンジンが買いあさられていることが分かりました。",
+    "image": "https://i.gzn.jp/img/2026/11/21/jet-engine-ai-power/00.jpg",
+    "icon": "https://gigazine.net/apple-touch-icon.png"
+   },
+   "body": "親愛なる読者の皆さまへ。ご存じの通り価格高騰などの悪影響でサーバー運営がとても苦しい状態です。回線や台数を整理し見直せる部分は全て見直しましたが、やはりまだ危険水域です。このままだと1ページを10分割ぐらいして無理矢理PVを増やさざるを得なくなってしまいます。そこで、GIGAZINEの物理的なサーバーたちを、たった1円でも良いので親愛なる読者の皆さまに支援してもらえればとっても助かります！今すぐ寄付は上のボタンから！ ・これまでGIGAZINEを支援してくれたメンバーのリスト\n発電能力を確保するため、ボーイングやエアバスなど民間機で使われ役目を終えた古いジェットエンジンが買いあさられていることが分かりました。 Retired jet engines find a second life powering AI data centers https://www.aerotime.aero/articles/retired-jet-engines-powering-ai-data-centers AI power rush sends data centres hunting for used turbines and jet engines | Reuters https://www.reuters.com/business/aerospace-defense/ai-power-rush-sends-data-centres-hunting-used-turbines-jet-engines-2026-11-09/ 電力会社の発電能力は限られているため、AI向けデータセンターの増築が相次ぐ昨今、電力不足を賄おうとデータセンター運営企業やAI開発企業が発電施設を自ら立ち上げるケースが増えています。これにより発電施設向けの設備の需要が増加すると、発電にも応用できる古いジェットエンジンが注目を浴び始めました。 ジェットエンジンを発電に利用するというアイデアは昔からあったものの、主な利用者は電力会社で、データセンター運営企業やテック企業から目を向けられることはほとんどなかったそうです。航空機を動かす威力があるジェットエンジンは発電用としても十分に活用でき、ジェットエンジンのリースを手がける企業はジェットエンジンを本来の用途で再利用するのか、解体して発電用途に回すのかを判断して運用しているとのことです。\n例えばニューヨークでジェットエンジンの修理とリースを手がける企業FTAI Aviationは、2027年と2028年にアメリカとカナダの顧客へジェットエンジンをベースとする発電用ガスタービンを100基以上納入する契約を結んでいます。2026年7月には、社名非公表のクラウドコンピューティング企業が関連会社を通じて14億6500万ドル(約2340億円)の発注を行ったそうです。 同様のサービスを展開するAscent Aviation Servicesは「エネルギー開発業者からの問い合わせが過去1年間で増加した」と語りました。またニューヨーク・タイムズは、イーロン・マスク氏のAI企業xAIがジェットエンジンを使ったタービンを8基設置したと報じています。機械メーカーのSulzer AGは「数週間ごとに『データセンターに設置する中古のガスタービンを見つけてもらえないか？』という依頼が来る」と話し、多くの企業が発電目的でジェットエンジンを求めていることを明らかにしました。\nデータセンターによる電力需要はまだまだ続き、2028年には必要な発電容量が129GWに上るとみられていますが、ガスタービンの製造能力が追いついておらず、供給は約87GWにとどまると予想されています。 エネルギーコンサルティング会社Wood Mackenzieは「アメリカだけで、ガスタービンの納入には平均6年かかる」と指摘。さらに「ジェットエンジンなど本来の用途を外れて利用される中古品は、整備履歴が不明瞭で残存寿命が限られているといった問題がある」とも語り、発電機として継続的に稼働できるかどうかには疑問が残るとしています。\n・関連記事 AI開発の新たなボトルネックは「ガスタービン不足」 - GIGAZINE Google調査で83％の組織がAIインフラ刷新を必要視、AIエージェント時代に従来基盤の限界が浮き彫りに - GIGAZINE OpenAIが「AIデータセンターの電力やインフラは全額自己負担」「電気・水道の使用量を公表」などの約束を発表 - GIGAZINE AIエージェントは通常の生成AIよりも最大136倍エネルギーを消費する - GIGAZINE\n軍艦の原子炉をデータセンターに再利用する計画が始動\nAIの需要増加によりデータセンターの消費電力が爆増してAI開発のボトルネックになっている\nレンガの蓄熱を蓄電池に応用するシステムが登場\n「宇宙AIデータセンター」の展開を巡ってイーロン・マスクのSpaceXやジェフ・ベゾスのBlue Originが争っている\nMicrosoftは2019年から社内で独自のAIチップ「Athena」を開発しておりOpenAIの大規模言語モデルで既にテスト中\nMicrosoftやAmazonなどは古い発電所や工業用地をデータセンターに変える計画を立てている\nAI開発の新たなボトルネックは「ガスタービン不足」\nGoogleが長時間高空滞在可能なドローン開発会社を買収、その目的は？\n2026年11月21日 08時00分00秒 in AI, ハードウェア, Posted by log1p_kr\nYou can read the machine translated English article Retired jet engines are being used as a ….\nお邪魔して申し訳ないです。読者のための記事を掲載し続けるため、どうかサーバー代として300円をご寄付いただけないでしょうか。"
+  },
+  {
+   "title": "Rockstar says GTA VI made $3.79 billion in its first day",
+   "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
+   "summary": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games. The game also sold 32.5 million preorder copies. \"It is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand […]",
+   "published": "2026-11-20T14:35:06-05:00",
+   "source": "The Verge",
+   "link": {
+    "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
+    "title": "Rockstar says GTA VI made $3.79 billion in its first day",
+    "site": "The Verge",
+    "description": "The game launched on November 19th.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/STKS540_GTA_VI_2_D.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+    "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
+   },
+   "body": "GTA VI is finally here, and it’s already a huge hit.\nGTA VI is finally here, and it’s already a huge hit.\nGTA VI earned $3.79 billion in its first day of sales, which set “a new record for entertainment across any medium,” according to an announcement from Rockstar Games. The game also sold 32.5 million preorder copies.\n“It is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand Theft Auto VI,” Sam Houser, Rockstar’s president and founder, said in a statement. “We are incredibly humbled by the response from players around the world and we couldn’t be more excited to share this moment with you.” Rockstar claims that the game’s release, which happened Thursday, was “the biggest entertainment launch in history.”\nThe news follows leaks, delays, and a huge amount of interest ahead of GTA VI’s launch. (Many other games steered clear of GTA VI to get their time in the sun.) But even with the weight of anticipation placed upon GTA VI, it actually lived up to the hype, my colleague Andrew Webster said in his review.\nMore in: Grand Theft Auto VI has arrived\nAnthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude\nThe wait begins for GTA VI on PC\nGoogle says it’s going to shut off Google Assistant on smart speakers next year\nMeta now sells 3D movies on Quest VR headsets\nTeenage Engineering’s first CD player puts the spinning disc on display\nThis is the title for the native ad\nThis is the title for the native ad\nSign in to see your notifications or create an account to join the conversation."
+  },
+  {
+   "title": "SpaceX's Starshield troubles in Ukraine could threaten its broader military business",
+   "url": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
+   "summary": "\"Explain the changes that were made to the Starshield service in October 2026.\"",
+   "published": "2026-11-20T22:16:51+00:00",
+   "source": "Ars Technica",
+   "link": {
+    "url": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
+    "title": "SpaceX's Starshield troubles in Ukraine could threaten its broader military business",
+    "site": "Ars Technica",
+    "description": "Explain the changes that were made to the Starshield service in October 2026.\"",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2292512757-1024x648.jpg",
+    "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+   },
+   "body": "The representative in the US House expected to chair the House Intelligence Committee in January, Jim Himes (D-Conn.), has threatened to withhold support for funding government-owned systems from SpaceX amid the ongoing inquiry into the use of Starshield in Ukraine.\n“SpaceX’s potentially unilateral modification of a U.S. Government contract, combined with its lack of responsiveness to congressional oversight, calls into question every contract the U.S. Government has with SpaceX,” Himes wrote in a letter to SpaceX founder Elon Musk on Friday.\nCNN first reported the letter’s existence. The network also reported that Himes sent a classified communication to Director of National Intelligence Jay Clayton with a similar message that it would be difficult for Congress to authorize funding for systems with SpaceX as the primary vendor.\nThe conflict in Ukraine\nSpaceX has developed the consumer Starlink service over the last decade, which provides high-speed Internet from low-Earth orbit to user terminals on Earth. For government customers, SpaceX has also developed Starshield, a suite of satellite services that includes a militarized version of Starlink communications. The US government has purchased Starshield services and extended access to Ukraine, although the terms governing that access are largely classified.\nDuring the last several weeks, a controversy has erupted over interruptions to Starshield service in parts of Ukraine, cutting off connectivity to drones used to defend against Russian attacks.\nOn October 19, for example, Ukraine President Volodymyr Zelenskyy said of Starshield on social media, “Unfortunately, we have established that the equipment stops functioning at speeds of 130–161 kilometers per hour in various sectors of the front. This is slowing down our frontline logistics and limiting the use of various types of drones, particularly mid-strike drones and interceptors of jet-powered ‘shaheds.’” Additional disruptions were reported a week ago.\nThe central question is who decided to curtail the performance of Starshield assets in Ukraine. Accounts have variously implicated Musk, SpaceX, the Pentagon, and the White House. Musk has said that US officials control Starshield access, while defending SpaceX’s right to restrict the use of commercial Starlink service in war.\n“My ask to you is straightforward,” Himes wrote to Musk. “Explain the changes that were made to the Starshield service in October 2026, why those changes were made, and whether those changes were made unilaterally by SpaceX or were directed by a U.S. Government official.”\nCongress will seek to act, not just investigate\nThe communications from Himes suggest that Congressional Democrats, who will control the House and Senate in January following decisive victories in the Midterm elections, are prepared to not just investigate the disruption of these SpaceX services in Ukraine, but to take action that could threaten SpaceX’s broader national security business.\n“It is difficult for me to continue supporting the authorization of funding for these SpaceX-developed, government-owned systems, until I receive satisfactory answers to my questions about the Starshield service in Ukraine,” Himes wrote in his letter to Musk.\nVarious options are open to Congressional Democrats, as well as some Republicans who have raised similar concerns, including demanding classified briefings and documents and restricting funding through appropriations to the US Department of Defense and ot"
+  },
+  {
+   "title": "片山財務相、楽天証券は「顧客の不安解消に、できること全部していただきたい」",
+   "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003371/",
+   "summary": "片山さつき財務相は、情報漏えいの可能性を発表した楽天証券について、「お客様等の相談に真摯に応じ、不安の解消についても、できる限りのことは全部やっていただきたい」と話した。",
+   "published": "2026-11-20T17:13:16+09:00",
+   "source": "ITmedia NEWS 最新記事一覧",
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003371/",
+    "title": "片山財務相、楽天証券は「顧客の不安解消に、できること全部していただきたい」",
+    "site": "ITmedia NEWS",
+    "description": "片山さつき財務相は、情報漏えいの可能性を発表した楽天証券について、「お客様等の相談に真摯に応じ、不安の解消についても、できる限りのことは全部やっていただきたい」と話した。",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/20/2000003371/10012689/2048",
+    "icon": null
+   },
+   "body": "片山さつき財務相は11月20日午前の会見で、楽天証券から最大1572万口座分の情報が漏えいした可能性について記者から問われ、「非常に遺憾で、金融庁として非常に重く受け止めている」と述べた。楽天証券には「お客様等の相談に真摯に応じ、不安の解消についても、できる限りのことは全部やっていただきたい」と求めている。\n楽天証券は17日、最大約1125万口座分のIDなどと、最大約447万口座分の口座情報が外部に漏えいした可能性があると発表。口座情報には、勤務先や出金先口座の情報、顧客が申告した年収・金融資産、商品別資産情報などが含まれていた。\n片山財務相は、「情報が犯罪や不正行為に悪用されるのではないかと、多くのお客様が不安に感じられているのではないかというのは、容易に想像できる」と述べ、楽天証券に対して、不正取引の相談があれば直ちに真偽を確認し、金融庁に報告するよう求めていると話した。\nまた、警察や国家サイバー統括室（NCO）など関係機関とも緊密に連携していると説明。葉梨康弘国家公安委員長とも話しており、現時点ではパスワードの漏えいがないため、不正取引は確認されていないと聞いているという。\n金融庁は19日、楽天証券に対し、事実関係や発生原因の分析、再発防止策などについて、金融商品取引法と個人情報保護法に基づく報告徴求を出した。顧客情報の保存状況なども確認する。\n「一番重要なのは顧客保護」と強調。楽天証券からの報告を確認・検証し、厳正に対応していくと述べた。\nCopyright © ITmedia, Inc. All Rights Reserved.本記事は制作段階でChatGPT等の生成系AIサービスを利用していますが、文責は編集部に帰属します。\n楽天証券のニュースリリースより（PDF）\n楽天証券漏えい、“テスト環境に顧客情報”のマズさ 識者「一般的でない」\n楽天証券の大規模漏えい、なぜテスト環境に顧客情報が？ 「本番データでの確認が必要だった」\n口座情報漏えいの楽天証券、「ワンタイムキー発行に時間がかかっている」 出金やログインパス変更に必要\n「楽天証券」漏えい、あなたは対象？ ログインして「重要なお知らせ」確認を\n楽天証券に不正アクセス、最大1125万口座のIDなど漏えいか 「テスト環境」の一部情報が流出のおそれ\n楽天証券、顧客情報362件が漏えいか NTTデータ委託先に不正アクセス\nマネックス証券、免許証画像やマイナカード表面など1592件漏えいか 口座開設システムに不正アクセス\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nデジ庁、政府機関向けファイル共有サービスで漏えいか 7月末から第三者がアクセス\n韓国大学入試で電子機器不正111件摘発 AI受験疑惑巡り死者も発生\nH3ロケット打ち上げ、JAXAから三菱重工に移管 来年1月の11号機から\n片山財務相、楽天証券は「顧客の不安解消に、できること全部していただきたい」\nドンキのAI社員「近藤あい」が正式デビュー 販促POPや動画で活躍へ 運営元「すでに裏に20人ぐらいいる」\nドンキのAI社員「近藤あい」が正式デビュー 販促POPや動画で活躍へ 運営元「すでに裏に20人ぐらいいる」\n「焼肉きんぐ」「ゆず庵」など11アプリ、会員の氏名・電話番号の項目を廃止 予定を前倒し\n湘南美容クリニックのSBC、162万人分の個人情報流出 パスワードは「暗号化せず保存していた」\nPHP「緊急」脆弱性、サービス一時停止の動き再び ウマ娘やグラブル、イープラスなど緊急メンテ\n六花亭、カード番号全桁＋セキュリティコード約8000件流出か 決済画面のプログラム改ざん\n「楽天証券」漏えい、あなたは対象？ ログインして「重要なお知らせ」確認を\n美少女ゲーム「NIKKE」経由でマルウェア感染 北海道2自治体、委託先が認める\n片山財務相、楽天証券は「顧客の不安解消に、できること全部していただきたい」\nデジ庁、政府機関向けファイル共有サービスで漏えいか 7月末から第三者がアクセス\n楽天証券漏えい、“テスト環境に顧客情報”のマズさ 識者「一般的でない」"
+  },
+  {
+   "title": "VALORANT王者Demon1と共同開発したゲーミングマウス。47gの軽量設計",
+   "url": "https://pc.watch.impress.co.jp/docs/news/2158406.html",
+   "summary": "ASUSは、プロゲーマーのDemon1選手と共同開発した軽量ワイヤレスゲーミングマウス「ROG Harpe II Ace Mini」および同氏のシグネチャーモデル「ROG Harpe II Ace Mini Demon1 Edition」を12月3日に発売する。予約は11月27日より受付開始し、価格はいずれも2万5,020円。",
+   "published": "2026-11-21T08:35:35+09:00",
+   "source": "PC Watch",
+   "link": {
+    "url": "https://pc.watch.impress.co.jp/docs/news/2158406.html",
+    "title": "VALORANT王者Demon1と共同開発したゲーミングマウス。47gの軽量設計",
+    "site": "PC Watch",
+    "description": "ASUSは、プロゲーマーのDemon1選手と共同開発した軽量ワイヤレスゲーミングマウス「ROG Harpe II Ace Mini」および同氏のシグネチャーモデル「ROG Harpe II Ace Mini Demon1 Edition」を12月3日に発売する。予約は11月27日より受付開始し、価格はいずれも2万5,020円。",
+    "image": "https://pc.watch.impress.co.jp/img/pcw/list/2158/406/01.jpg",
+    "icon": "https://pc.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "ASUSは、プロゲーマーのDemon1選手と共同開発した軽量ワイヤレスゲーミングマウス「ROG Harpe II Ace Mini」および同氏のシグネチャーモデル「ROG Harpe II Ace Mini Demon1 Edition」を12月3日に発売する。予約は11月27日より受付開始し、価格はいずれも2万5,020円。\nROG Harpe II Ace Miniは、スポーツ科学に基づいた設計を採用したゲーミングマウス。VALORANTの世界王者でもあるDemon1選手が試作段階から開発に参加し、競技シーンで必要な性能を追求した。\n筐体は、通常サイズの「Harpe II Ace」と比べ、長さと幅を小さくしつつ、高さをわずかに増すことで安定感を確保。つかみ持ちとつまみ持ちのどちらでも持ちやすいデザインとなった。重量も約47gと軽量で、マウスソールも従来モデルより大型化しており、素早い操作も行ないやすいとする。\nセンサーには、最大解像度65,000dpiを実現する独自のROG AimPoint Pro 65Kを搭載。キャリブレーションにより偏差を1%未満に抑えたとしており、高いセンサー精度をうたう。最大20,000fpsのスキャンレートや、11段階のリフトオフディスタンスにも対応している。\n加えて、クリックスイッチには光学式で1億回の押下耐久性を持つROG Optical Micro Switchを採用。個体差による左右の荷重のばらつきを抑えるため、スイッチを機械検査で選別し、特性が近いものを組み合わせて搭載している。\n接続は独自のROG SpeedNova 8K Gen IIによる2.4GHz無線、Bluetooth 5.1、USB有線の3方式を利用可能。2.4GHz無線およびUSB有線時は8,000Hzのポーリングレートにも対応する。また、2.4GHz無線用レシーバは2つのLEDを備えており、電波強度やバッテリ残量などを色で確認できる。\n各種設定は、Webブラウザ上で動作するGear Linkから変更可能。また、センサーのスキャンレートなどを最大設定に引き上げるZone Modeも用意しており、本体のボタン操作でも切り替えることができる。\nホイール部分にはAura Sync対応のRGB LEDを内蔵。本体サイズは118.2×61.3×40.2mm。バッテリ駆動時間は2.4GHz無線/1,000Hzポーリング/LEDオフ時で最大142時間。\nカラーは発売時点でBlackとMoonlight Whiteの2色を用意。ケーブルやレシーバのほか、キャリングケースも付属し、いずれも本体にあわせたカラーとなる。なお、Lava RedおよびAqua Blueの発売時期は現時点で未定としている。\nあわせて展開される特別モデルのDemon1 Editionは、Demon1選手の妻が好きな色だというパープルカラーで、レシーバには愛猫をモチーフとしたデザインがあしらわれるほか、ステッカーも付属する。\nROG Falchion Ace 75 HE"
+  },
+  {
+   "title": "「Pontaパス」会員は毎日映画が1200円に、KDDIがキャンペーン",
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2158301.html",
+   "summary": "KDDIは、2026年12月18日から2027年1月14日まで、「Pontaパス」会員に対象の劇場で映画が毎日1200円で鑑賞できる「シアター割 冬キャンペーン’26」を開催する。",
+   "published": "2026-11-21T06:00:00+09:00",
+   "source": "ケータイ Watch",
+   "link": {
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2158301.html",
+    "title": "「Pontaパス」会員は毎日映画が1200円に、KDDIがキャンペーン",
+    "site": "ケータイ Watch",
+    "description": "KDDIは、2026年12月18日から2027年1月14日まで、「Pontaパス」会員に対象の劇場で映画が毎日1200円で鑑賞できる「シアター割 冬キャンペーン’26」を開催する。",
+    "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2158/301/01.jpeg",
+    "icon": "https://k-tai.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "KDDIは、2026年12月18日から2027年1月14日まで、「Pontaパス」会員に対象の劇場で映画が毎日1200円で鑑賞できる「シアター割 冬キャンペーン’26」を開催する。\nPontaパス会員向けの「シアター割」は、通常1400円で映画鑑賞が楽しめるが、キャンペーン期間中の土日は1200円で映画が鑑賞できる。\n対象となる劇場はローソン・ユナイテッドシネマ グループ、松竹マルチプレックスシアターズ（ピカデリー・MOVIX）、コロナシネマワールド、フォーラムシネマネットワーク、キノシネマ、シネマート新宿だが、松竹マルチプレックスシアターズの東劇、大阪ステーションシティシネマ、なんばパークスシネマは対象外。\nクーポンを適用して鑑賞券を購入できる上限枚数は劇場により異なる。\n「シアター割」対象劇場追加記念 スタートキャンペーン\nこのほか、新たに「キネマ旬報シアター」「セントラルシネマ」「ワンダーアティックシネマ」が「シアター割」対象劇場となる。これを記念したキャンペーンで、千葉県柏市の「キネマ旬報シアター」では11月20日から1月14日までの期間中、一般・大学生が1200円となる。\nまた、宮崎県宮崎市の「セントラルシネマ宮崎」および「ワンダーアティックシネマ」と、福岡県大牟田市の「セントラルシネマ大牟田」、大分県中津市の「セントラルシネマ三光」では、12月1日から3月31日までの期間中、ポップコーンを含むセットが半額となる。"
+  },
+  {
+   "title": "プレイド、「KARTE」不正アクセスの調査結果を公表、2027年1月中旬の段階的な再開を目指す　契約が終了した企業の情報も漏えいの対象に",
+   "url": "https://internet.watch.impress.co.jp/docs/news/2158284.html",
+   "summary": "株式会社プレイドは11月20日、デジタルマーケティングプラットフォーム「KARTE」への不正アクセスに関する調査結果を公表した。",
+   "published": "2026-11-20T17:17:00+09:00",
+   "source": "INTERNET Watch",
+   "link": {
+    "url": "https://internet.watch.impress.co.jp/docs/news/2158284.html",
+    "title": "プレイド、「KARTE」不正アクセスの調査結果を公表、2027年1月中旬の段階的な再開を目指す　契約が終了した企業の情報も漏えいの対象に",
+    "site": "INTERNET Watch",
+    "description": "株式会社プレイドは11月20日、デジタルマーケティングプラットフォーム「KARTE」への不正アクセスに関する調査結果を公表した。",
+    "image": "https://internet.watch.impress.co.jp/img/iw/list/2158/284/1.png",
+    "icon": "https://internet.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "契約が終了した企業の情報も漏えいの対象に\n株式会社プレイドは11月20日、デジタルマーケティングプラットフォーム「KARTE」への不正アクセスに関する調査結果を公表した。\n同サービスでは、11月13日未明にシステムの脆弱性を悪用した不正アクセスがあり、同社は同日、KARTEの全サービスを停止した。11月16日の発表では、KARTEのアカウントに登録されたメールアドレス、外部サービスとの連携に使う認証情報、導入企業がKARTEに取り込んだ顧客データの一部について、漏えいを確認したと明らかにしていた。\n今回の発表では、企業から預かった情報のうち、漏えいした情報やその可能性がある情報を次の4つに分類し、対象社数を公表した。対象企業に対しては、11月24日より詳細データを提供する予定だとしている。\nKARTEに連携したデータの一部：570社\nウェブサイトの閲覧履歴など、エンドユーザーの解析データの一部：487社\n処理のために一時保存したエンドユーザーのキャッシュデータの一部：最大409社（推定）\nメール配信など、外部サービスとの連携に使う認証情報の一部：754社\n1社が複数の分類に該当する場合もあり、影響を受けた企業の数は単純合計ではないという。なお、本件の影響による情報漏えい、またはそのおそれの発表は、1社で1000万件単位に及ぶものも含め、多数発表されている。\nこのうち、キャッシュデータについては、短時間で上書きされ、読み出されたデータを個別に特定できないため、不正アクセスがあった時間帯に保存されていた可能性のあるデータを漏えいのおそれがあるものとして扱っているという。\nまた、11月16日の発表では、情報漏えいの対象を「ご利用企業」としていたが、利用契約の全部または一部がすでに終了した企業の情報も含まれていたと訂正した。契約や利用の終了後に削除すべき情報が、運用や管理の不備で残っていたという。残っていた情報は、サービス再開に向けた検証のために保全し、検証後に削除して適切に通知するとしている。\n同社が自社のために保有していた情報では、11月16日に公表したKARTEなどの利用に使うメールアドレス7万9249件に加え、同社が営業活動やサービス利用のサポートのために取得した氏名やメールアドレスなど4万5816件の漏えいを公表した。対象者には順次、個別に連絡するとしている。\nサービス再開については、2027年1月中旬を段階的な再開の目標とした。侵入経路を塞ぐ対策に加え、中長期的に高い堅牢性を維持できるよう、システムの構造部分を含めた改善が必要だと判断したという。今後、詳細な検証や設計を行い、第三者機関による検証も実施する。\n再発防止策は、利用契約の終了後の情報削除に関する対策を含め、調査結果を踏まえて策定するとしている。"
+  },
+  {
+   "title": "VPN通信に使うWireGuardやOpenVPNをターミナルUIの1画面で管理できる「Vortix」、マルチトンネル制御・リアルタイムテレメトリ・リークガード機能を搭載",
+   "url": "https://gigazine.net/news/20261120-vortix/",
+   "summary": "複数のVPNを利用していると接続先ごとに異なるアプリやコマンドを使い分ける必要があり、通信状態や通信経路の確認も複雑になります。そこでWireGuard・OpenVPNなどの接続管理を一つの画面にまとめ、通信速度・遅延のリアルタイム監視・情報漏えいの検出・VPN切断時の通信遮断まで行える無料のオープンソースツールが「Vortix」です。   続きを読む...",
+   "published": "2026-11-20T23:00:00+09:00",
+   "source": "GIGAZINE",
+   "link": {
+    "url": "https://gigazine.net/news/20261120-vortix/",
+    "title": "VPN通信に使うWireGuardやOpenVPNをターミナルUIの1画面で管理できる「Vortix」、マルチトンネル制御・リアルタイムテレメトリ・リークガード機能を搭載",
+    "site": "GIGAZINE",
+    "description": "複数のVPNを利用していると接続先ごとに異なるアプリやコマンドを使い分ける必要があり、通信状態や通信経路の確認も複雑になります。そこでWireGuard・OpenVPNなどの接続管理を一つの画面にまとめ、通信速度・遅延のリアルタイム監視・情報漏えいの検出・VPN切断時の通信遮断まで行える無料のオープンソースツールが「Vortix」です。",
+    "image": "https://i.gzn.jp/img/2026/11/20/vortix/00.png",
+    "icon": "https://gigazine.net/apple-touch-icon.png"
+   },
+   "body": "親愛なる読者の皆さまへ。ご存じの通り価格高騰などの悪影響でサーバー運営がとても苦しい状態です。回線や台数を整理し見直せる部分は全て見直しましたが、やはりまだ危険水域です。このままだと1ページを10分割ぐらいして無理矢理PVを増やさざるを得なくなってしまいます。そこで、GIGAZINEの物理的なサーバーたちを、たった1円でも良いので親愛なる読者の皆さまに支援してもらえればとっても助かります！今すぐ寄付は上のボタンから！ ・これまでGIGAZINEを支援してくれたメンバーのリスト\n複数のVPNを利用していると接続先ごとに異なるアプリやコマンドを使い分ける必要があり、通信状態や通信経路の確認も複雑になります。そこでWireGuard・OpenVPNなどの接続管理を一つの画面にまとめ、通信速度・遅延のリアルタイム監視・情報漏えいの検出・VPN切断時の通信遮断まで行える無料のオープンソースツールが「Vortix」です。 Harry-kp/vortix: VPN terminal UI (TUI) for WireGuard and OpenVPN with multi-tunnel control, real-time telemetry, and leak guarding. https://github.com/Harry-kp/vortix ◆Vortixの概要 Vortixは既存のVPNクライアントでは把握しにくかった通信状態や通信経路を可視化するために開発されたRust製のソフトウェアで、OSにインストールされているWireGuardやOpenVPNを制御する仕組みです。対応OSはmacOSおよびLinuxで、キーボードによる操作を中心とした「ターミナルUI(TUI)」のほかコマンドによる操作にも対応しています。\n◆VortixのインストールとVPNへの接続 今回はUbuntuにVortixをインストールします。記事作成時点の最新版はバージョン0.6.0だったので、Releasesページの「Assets」から「vortix_0.6.0_amd64.deb」をダウンロード。\nVortixでVPNに接続するには接続設定ファイルが必要で、「i」キーを押すと表示される「Add a VPN」の入力欄にファイルのパスを入力します。WireGuardでは拡張子が「.conf」、OpenVPNでは「.ovpn」などの設定ファイルを利用できます。\n追加されたVPNを選択してEnterキーを押すと…\n◆VPNの通信状況をリアルタイムで確認 VPNへの接続中は通信速度や遅延時間などがリアルタイムで更新されるため、ファイルのダウンロードや動画の再生などによる通信状況の変化をグラフで確認できます。\n通信状況として確認できる主な項目は以下の通り。 ・通信速度：単位時間当たりのデータの送受信量 ・遅延時間：通信相手との応答にかかる時間 ・ジッター：遅延時間のばらつき ・パケット損失率：通信中に失われたパケットの割合 ・公開IPアドレス：外部から見えるIPアドレス ・ISP：インターネット接続事業者 ・地域：公開IPアドレスから推定した地域 ◆VPN接続中の情報漏えいを検出する「Security Guard」 VPNで通信を暗号化していても本来のIPアドレスが外部から見えていたり、ドメイン名からIPアドレスを調べる「DNS」の問い合わせがVPNの外へ流れたりする場合があります。そこでVortixに搭載されている「Security Guard」では本来のIPアドレスと外部から見えるIPアドレスの比較やDNSの設定状況、暗号化方式などを検査し、取得した情報を基に通信の保護状態を判定します。\n通信の保護状態は以下の3段階で表示されます。 ・PROTECTED：所定の保護条件を満たしている ・PARTIAL：VPN接続中に保護条件の一部を満たしていないかスプリットトンネルのみ接続している ・EXPOSED：VPNに接続されておらず本来のIPアドレスが外部から見える状態 また、保護状態に問題がある場合は「f」キーを押すと判定の根拠となった情報が表示され、どの項目に問題があるのかを調べることができます。\n◆VPN切断時の通信を遮断する「キルスイッチ」 VPNが突然切断されると通信が通常のインターネット回線へ流れる場合がありますが、VortixではOSのファイアウォールを利用してVPN経由以外の通信を原則遮断する「キルスイッチ」が利用できます。ただし、OSの再起動からVortixがキルスイッチを再適用するまでの間は保護の対象外となり、キルスイッチや権限管理に関する第三者によるセキュリティ監査も記事作成時点では未実施とのこと。\nキルスイッチには以下の3種類のモードが用意されています。 ・off：通信遮断機能を無効化 ・block-on-drop：VPNが予期せず切断された場合に通信を遮断 ・vpn-only：VPN経由以外の通信を原則遮断 ◆複数のVPNを同時に利用する「マルチトンネル制御」 Vortixでは原則として全ての通信をVPN経由にする「フルトンネル」と特定のネットワーク宛ての通信のみをVPN経由にする「スプリットトンネル」を組み合わせて複数のVPNへ同時に接続できます。例えば通常のインターネットへの接続にはWireGuardを利用しながら社内サーバーへの接続にはOpenVPNを利用するといった使い分けが可能です。なお、複数のVPNで通信経路が競合した場合は既存のVPNから切り替えるか新しい接続をキャンセルするかを選択できます。\n◆NetBirdにも対応 バージョン0.6.0からはWireGuardをベースにデバイス同士を接続するプライベートネットワークを構築できるNetBirdにも対応し、別途NetBirdのコマンドをインストールすることでインターネット接続用のVPNと併用できるようになりました。 ◆その他の機能 Vortixには以下のような機能も搭載されています。 ・自動接続：OS起動時に指定したVPNへ接続 ・自動化：コマンドやJSON形式の出力による外部プログラムとの連携 ・フック：VPNの接続時や切断時などに指定した処理を実行 ・診断：イベントログやプロセスごとの通信経路を確認 ・テーマ：7種類の配色テーマを切り替え可能 VPNの普及によって通信を暗号化すること自体は手軽になりましたが、今後は自分の通信がどこを経由して外部へ届いているのかを利用者自身が把握することも重要になりそうです。\n・関連記事 WireGuardベースのオーバーレイネットワークとゼロトラストネットワークアクセスを組み合わせ信頼性が高く安全な接続ができる「NetBird」、オープンソースでセルフホスト可能 - GIGAZINE 既に実行中のWireGuardホスト向けの集中型Web UI「wg-admin」、無料でセルフホスト可能 - GIGAZINE 無料でWireGuardを簡単にインストール・管理できる「WireGuard Easy」、クライアントの一覧表示・作成・編集・削除・有効化・無効化・QRコード表示・設定ファイルのダウンロードなどが可能 - GIGAZINE AdGuardが独自のVPNプロトコル「TrustTunnel」をオープンソース化 - GIGAZINE 安全なVPNネットワークを簡単に構築できる「Tailscale」の仕組みとは - GIGAZINE スマホ・PC間で安全なネットワークを簡単に構築できる「Tailscale」レビュー - GIGAZINE netcatと同様だがTailscaleのデータプレーン上で動作する「Tailcat」 - GIGAZINE\nLinuxのトラフィック統計をシンプルにグラフ化できる「darkstat」\nMicrosoftのLinux向け無料プロセス監視ツール「ProcMon」レビュー、システムコールごとの実行時間などを確認可能\n無料＆オープンソースで大規模なネットワークを常時グラフィカルに監視できる「Moloch」\n各種ネットワーク通信量をリアルタイムにグラフ化するフリーソフト「Yale」\n携帯電話基地局の実際の電波カバー率について測定＆情報共有ができる無料アプリ「OpenSignal」\n「Nexus 5」でKitKatの新機能「screenrecord」を実際に試し"
+  },
+  {
+   "title": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
+   "url": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
+   "summary": "Hosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy’s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal, you can pick it up at a new low price of $379.99 ($420 off its original price) at Amazon, Best Buy, or directly from Eufy […]",
+   "published": "2026-11-20T14:15:00-05:00",
+   "source": "The Verge",
+   "link": {
+    "url": "https://www.theverge.com/gadgets/1037933/eufy-omni-c28-robot-vacuum-deal-sale",
+    "title": "Eufy’s Omni C28 is 53 percent off ahead of Black Friday",
+    "site": "The Verge",
+    "description": "You can save hundreds.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/05/8A0A6240.jpeg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
+   },
+   "body": "The robot vacuum / mop hybrid is our top pick for smaller homes and apartments, offering flagship features for less.\nThe robot vacuum / mop hybrid is our top pick for smaller homes and apartments, offering flagship features for less.\nIf you buy something from a link, The Verge may earn a commission. See our ethics statement.\nHosting Thanksgiving can be fun, but cleaning up afterwards? Not so much. Eufy’s Omni C28 robot vacuum / mop hybrid can help, and thanks to an early Black Friday deal, you can pick it up at a new low price of $379.99 ($420 off its original price) at Amazon, Best Buy, or directly from Eufy (with code WS24C28200NEW1). While this model has dropped to around $499.99 a few times before, it commonly sells for a lot more, making now a great time to consider buying one.\nThe Verge’s smart home reviewer Jennifer Pattison Tuohy named the Eufy Omni C28 one of her top picks after testing 16 robot vacuum mops. She thinks it’s a particularly great fit for apartments and smaller homes. It offers features typically found in pricier flagship models, including a multifunction dock that automatically washes the mop roller with hot water and dries it with hot air, yet it doesn’t take up too much space. The robot itself is also relatively narrow and maneuvers easily around furniture and into tight spaces. It boasts excellent navigation, and had no trouble climbing over the legs of Jen’s lounger, which have tripped up many of the more expensive models she’s tested.\nSonos is taking up to 30 percent off speakers and soundbars right now\nYou can grab two months of Paramount Plus for just $2.99 for Black Friday\nThe Omni C28 also does a great job cleaning with its mops, particularly on hardwood floors. Surprisingly, it’s powerful enough to lift up dried oatmeal. Unlike most other robot vacuums Jen’s tested, this one lacks a camera, making it a good option if you’re concerned about privacy. Unfortunately, the trade-off is mediocre obstacle detection, so you’ll want to pick up socks and cables before running it.\nMore In The Verge’s guide to Black Friday 2026\nAnthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude\nThe wait begins for GTA VI on PC\nGoogle says it’s going to shut off Google Assistant on smart speakers next year\nMeta now sells 3D movies on Quest VR headsets\nTeenage Engineering’s first CD player puts the spinning disc on display\nThis is the title for the native ad\nThis is the title for the native ad\nSign in to see your notifications or create an account to join the conversation."
+  },
+  {
+   "title": "Google rolls out new search homepage with AI chat history and no search button",
+   "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+   "summary": "Google search is making it even easier to access AI tools on the search page.",
+   "published": "2026-11-20T21:58:29+00:00",
+   "source": "Ars Technica",
+   "link": {
+    "url": "https://arstechnica.com/ai/2026/11/googles-latest-search-page-redesign-drops-the-search-button-adds-ai-sidebar/",
+    "title": "Google rolls out new search homepage with AI chat history and no search button",
+    "site": "Ars Technica",
+    "description": "Google search is making it even easier to access AI tools on the search page.",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/06/google-sign-logo-1152x648.jpg",
+    "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+   },
+   "body": "Google’s flagship search experience is evolving into an AI experience with stunning speed. Even time-tested elements of search are getting AI makeovers, and the latest to get this treatment is the search homepage on Google.com. A redesign that’s been in testing for the last few weeks is now official, bringing easier access to AI chats and dropping the dedicated search button entirely.\nGoogle search VP Robby Stein confirmed on X that Google is deploying the new desktop search page after a successful test. The page will now have a few more buttons under the search bar, all connected to AI features. There’s an image generation button, one for analyzing files, and one for brainstorming with Gemini. The “I’m Feeling Lucky” button remains, but the Google Search button that used to sit next to it is gone.\nThe search button has obviously been a part of Google’s search page forever. However, it wasn’t in a very convenient location in the modern interface. When you begin typing a query, the autocomplete suggestions cover that button. You have to click out of the text field to access the button, which is an extra step compared to simply mashing the Enter key to run your search.\nThe other big change brings your recent AI conversations to the forefront. If you’re logged into Google, the search homepage will have an expandable sidebar on the left with your recent AI Mode search threads. This sidebar will also be accessible on the results page. According to Stein, the sidebar made a “big difference” in how people made progress on their web searches, calling it a “simpler way to pick up where you left off.”\nIt’s easy to feel frustrated by changes like this if you don’t like Google’s new AI approach to search. But at the same time, the loss of functionality is minimal. Google probably has usage data that shows that particular search button was rarely used. Most people probably just hit Enter or click an autocomplete suggestion to go to the results.\nThis change says more about Google’s priorities and the future of search. AI features get prominent buttons, and your AI conversations now have a whole sidebar UI. Meanwhile, traditional search is increasingly de-emphasized. There may come a day when AI Mode takes over completely, forcing you to manually select the old-fashioned version of search. It does feel like Google is inching in that direction.\n1. Amazon fights the Delivery Protection Act with homepage banner, in-app pop-up\n2. Google turns to Blue Origin for a rocket, but its long-term problem remains\n3. US will soon announce root cause behind FAA nationwide ground stop\n4. SpaceX lenders don’t want Elon Musk launching their collateral into space\n5. NASA's new Moon plans have a problem: Orion wasn't designed to fly this way"
+  },
+  {
+   "title": "H3ロケット打ち上げ、JAXAから三菱重工に移管　来年1月の11号機から",
+   "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003374/",
+   "summary": "27年1月11日に打ち上げ予定の11号機は、三菱重工が打ち上げを担う。",
+   "published": "2026-11-20T17:09:25+09:00",
+   "source": "ITmedia NEWS 最新記事一覧",
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003374/",
+    "title": "H3ロケット打ち上げ、JAXAから三菱重工に移管　来年1月の11号機から",
+    "site": "ITmedia NEWS",
+    "description": "27年1月11日に打ち上げ予定の11号機は、三菱重工が打ち上げを担う。",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/20/2000003374/10012698/2048",
+    "icon": null
+   },
+   "body": "宇宙航空研究開発機構（JAXA）は11月20日、日本の基幹ロケットである「H3ロケット」のうち「22形態」の打ち上げを、段階的に三菱重工業に移管すると発表した。2027年1月11日に打ち上げ予定の11号機は、三菱重工が打ち上げを担う。\n11号機は、政府の情報収集衛星「光学時間軸多様化1号機」を搭載。液体水素・液体酸素を使うロケットエンジン「LE-9エンジン Type1A」2基と、固体燃料の補助ブースタ「SRB-3」2本を備える「22形態」（メインエンジン2基＋補助ブースター2本の形態）だ。\nJAXAは「LE-9エンジン Type1A」を適用した「22形態」の打ち上げをまず三菱重工に移管。残りの「24形態」「30形態」や、開発中の「LE-9エンジン Type2」を適用した打ち上げも、段階的に民間に移行する計画だ。\n三菱重工は4号機から「打上げ輸送サービス」を提供し、打ち上げの実務を担っていたが、法律上の「打上げ実施者」はJAXAだった。11号機以降は、三菱重工が打上げ実施者も担う。\nCopyright © ITmedia, Inc. All Rights Reserved.本記事は制作段階でChatGPT等の生成系AIサービスを利用していますが、文責は編集部に帰属します。\n日本は「月面輸送」を産業にできるか？ 三菱重工と組んだispace、国産ロケットを選んだ3つの理由\nH3ロケット打ち上げ時の“水蒸気”を再現するパブリックビューイング、日本科学未来館が開催\nH3ロケット8号機、衛星の軌道投入に失敗 みちびき5号機がロケットから分離したかは「調査中」\nH3ロケット8号機、打ち上げ後にトラブルか 第2段エンジンが早めに燃焼終了\nH3ロケット8号機、打ち上げ直前に緊急停止 「設備系にて異常が発生した」ため\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nデジ庁、政府機関向けファイル共有サービスで漏えいか 7月末から第三者がアクセス\n韓国大学入試で電子機器不正111件摘発 AI受験疑惑巡り死者も発生\nH3ロケット打ち上げ、JAXAから三菱重工に移管 来年1月の11号機から\n片山財務相、楽天証券は「顧客の不安解消に、できること全部していただきたい」\nドンキのAI社員「近藤あい」が正式デビュー 販促POPや動画で活躍へ 運営元「すでに裏に20人ぐらいいる」\nドンキのAI社員「近藤あい」が正式デビュー 販促POPや動画で活躍へ 運営元「すでに裏に20人ぐらいいる」\n「焼肉きんぐ」「ゆず庵」など11アプリ、会員の氏名・電話番号の項目を廃止 予定を前倒し\n湘南美容クリニックのSBC、162万人分の個人情報流出 パスワードは「暗号化せず保存していた」\nPHP「緊急」脆弱性、サービス一時停止の動き再び ウマ娘やグラブル、イープラスなど緊急メンテ\n六花亭、カード番号全桁＋セキュリティコード約8000件流出か 決済画面のプログラム改ざん\n「楽天証券」漏えい、あなたは対象？ ログインして「重要なお知らせ」確認を\n美少女ゲーム「NIKKE」経由でマルウェア感染 北海道2自治体、委託先が認める\n片山財務相、楽天証券は「顧客の不安解消に、できること全部していただきたい」\nデジ庁、政府機関向けファイル共有サービスで漏えいか 7月末から第三者がアクセス\n楽天証券漏えい、“テスト環境に顧客情報”のマズさ 識者「一般的でない」"
+  },
+  {
+   "title": "【今すぐ読みたい！人気記事】機種変更時の「LINE」移行手順を解説、旧機種のトーク履歴も移すには…… - PC Watch",
+   "url": "https://pc.watch.impress.co.jp/docs/topic/readitnow/2158403.html",
+   "summary": "円安とメモリの価格高騰でスマートフォンも値上がりが続き、新機種への買い替えが非常に難しくなっている昨今。だがOSやセキュリティのアップデートに限界がある以上、いずれ機種変更しなくてはいけないのがスマートフォンの宿命だ。",
+   "published": "2026-11-21T06:10:00+09:00",
+   "source": "PC Watch",
+   "link": {
+    "url": "https://pc.watch.impress.co.jp/docs/topic/readitnow/2158403.html",
+    "title": "【今すぐ読みたい！人気記事】機種変更時の「LINE」移行手順を解説、旧機種のトーク履歴も移すには…… - PC Watch",
+    "site": "PC Watch",
+    "description": "円安とメモリの価格高騰でスマートフォンも値上がりが続き、新機種への買い替えが非常に難しくなっている昨今。だがOSやセキュリティのアップデートに限界がある以上、いずれ機種変更しなくてはいけないのがスマートフォンの宿命だ。",
+    "image": "https://pc.watch.impress.co.jp/img/pcw/list/2158/403/1.jpg",
+    "icon": "https://pc.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "円安とメモリの価格高騰でスマートフォンも値上がりが続き、新機種への買い替えが非常に難しくなっている昨今。だがOSやセキュリティのアップデートに限界がある以上、いずれ機種変更しなくてはいけないのがスマートフォンの宿命だ。\nその機種変更で問題になるのが、古い機種から新しい機種へのデータ移行である。最近ではOSの進化によって機種変更時のデータ移行も簡単になってきたが、それでもアプリによっては移行時に何らかの作業が必要なものもある。\n機種変更時の「LINE」移行手順を解説、旧機種のトーク履歴も移すには……"
+  },
+  {
+   "title": "シャオミ、表参道で「Xiaomi 18 Pro シリーズ」体験イベント開催　23日まで",
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2158169.html",
+   "summary": "シャオミ・ジャパンは、同社の新型スマートフォン「Xiaomi 18 Pro Series」の発売イベント「Xiaomi 18 Pro シリーズ発売記念スペシャルイベント ～ハロー背中のひらめき。～」を、東京・表参道の「OMOTESANDO MUSEUM」で開催している。期間は23日まで。20日は20時まで開場しており、21日～23日の開場時間は11時～19時。",
+   "published": "2026-11-20T16:01:03+09:00",
+   "source": "ケータイ Watch",
+   "link": {
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2158169.html",
+    "title": "シャオミ、表参道で「Xiaomi 18 Pro シリーズ」体験イベント開催　23日まで",
+    "site": "ケータイ Watch",
+    "description": "シャオミ・ジャパンは、同社の新型スマートフォン「Xiaomi 18 Pro Series」の発売イベント「Xiaomi 18 Pro シリーズ発売記念スペシャルイベント ～ハロー背中のひらめき。～」を、東京・表参道の「OMOTESANDO MUSEUM」で開催している。期間は23日まで。20日は20時まで開場しており、21日～23日の開場時間は11時～19時。",
+    "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2158/169/01.jpg",
+    "icon": "https://k-tai.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "シャオミ・ジャパンは、同社の新型スマートフォン「Xiaomi 18 Pro Series」の発売イベント「Xiaomi 18 Pro シリーズ発売記念スペシャルイベント ～ハロー背中のひらめき。～」を、東京・表参道の「OMOTESANDO MUSEUM」で開催している。期間は23日まで。20日は20時まで開場しており、21日～23日の開場時間は11時～19時。\nイベントでは、背面ディスプレイを搭載した新型スマートフォン「Xiaomi 18 Pro Series」などの新製品を手に取って体験できるほか、スペシャルゲストによる展示やトークセッション、「Xiaomi 18 Pro Max」をはじめとした人気製品やノベルティグッズが当たるスタンプラリー企画を実施する。また、「Xiaomi 18 Pro Series」と同社のIoT製品（スマートウォッチやイヤホン、スマート家電など）の予約購入を受け付ける。\n「Xiaomi 18 Pro Series」の実機を体験、その場で予約購入も可能 特典も\n会場では、シャオミの新型スマートフォン「Xiaomi 18 Pro」と「Xiaomi 18 Pro Max」に触れられる。同機種の特徴である背面ディスプレイを実際に操作して試せる。\n体験ブースにはカードが設置されており、会場のレジに持っていくと予約購入できる。\n予約すると、ワイヤレスイヤホン「Xiaomi Clip」・「REDMI Buds 8」や、ヘッドホン「REDMI Headphones Neo」、スピーカー「Xiaomi サウンドプレイ」、スマートバンド「Xiaomi Smart Band 11」が抽選で当たる。\nシャオミ製品が当たるスタンプラリーを開催、「Xiaomi 18 Pro Max」が当たるチャンスも\n会場内の各ブースを体験してスタンプを集めると、抽選会に参加できる。会場限定ノベルティグッズをはじめ、同社製品や「Xiaomi 18 Pro Max」などがその場で当たる。\n「Xiaomi 18 Pro」での「推し活」を体験できるフォトスポット設置\n会場内には、「Xiaomi 18 Pro Series」の特徴である背面ディスプレイやカメラを使った「推し活」を体験できるフォトスポットが設置されている。\nスペシャルゲストによる展示・トークセッションを開催\n会場では、ストリーマーの「スタンミじゃぱん」、フォトグラファーの「もろんのん」、ブロガー・YouTuberの「トバログ」、情報メディア「ギズモード・ジャパン編集部」によるコーナーが用意される。\nまた、シャオミ・ジャパンの「スマホカメラ撮り方研究所」の企画では、フォトグラファーのKimura Hinami氏が「Xiaomi 18 Pro Series」で撮影した作品を展示し、スマートフォンのカメラを使った撮影のコツを紹介する。\nさらに、スペシャルゲストによるトークセッションとプログラムが開催される。展示されている体験をもとに、それぞれのゲストが背面ディスプレイをどのようなシーンで使いこなしたかを語る。\nこのほか、フォトグラファーのKimura Hinami氏を招いたスペシャルトークセッションも23日に2回実施される。会場に展示された作品の撮影背景や、「Xiaomi 18 Pro Series」ならではの撮り方、「Essential Moment」機能の魅力について語る。\nOMOTESANDO MUSEUM 1F\n〒107-0062 東京都港区南青山3-18-19 フェスタ表参道ビル 新館 1F\nXiaomi 18 Pro Max 12G+256G ブラック\nXiaomi 18 Pro Max 12G+256G ホワイト\nXiaomi 18 Pro Max 12G+256G コズミックブルー\nXiaomi 18 Pro Max 12G+256G ベルベットレッド"
+  },
+  {
+   "title": "バッファロー、最大240Wの高出力給電に対応したシリコン素材のUSB Type-C to Cケーブルを発売",
+   "url": "https://internet.watch.impress.co.jp/docs/news/2157915.html",
+   "summary": "株式会社バッファローは11月18日、シリコン素材を採用したUSB Type-C to Cケーブル「BSU2CCY24」シリーズの出荷を開始した。全国の家電量販店などで順次発売する。",
+   "published": "2026-11-20T16:30:00+09:00",
+   "source": "INTERNET Watch",
+   "link": {
+    "url": "https://internet.watch.impress.co.jp/docs/news/2157915.html",
+    "title": "バッファロー、最大240Wの高出力給電に対応したシリコン素材のUSB Type-C to Cケーブルを発売",
+    "site": "INTERNET Watch",
+    "description": "株式会社バッファローは11月18日、シリコン素材を採用したUSB Type-C to Cケーブル「BSU2CCY24」シリーズの出荷を開始した。全国の家電量販店などで順次発売する。",
+    "image": "https://internet.watch.impress.co.jp/img/iw/list/2157/915/02.png",
+    "icon": "https://internet.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "株式会社バッファローは11月18日、シリコン素材を採用したUSB Type-C to Cケーブル「BSU2CCY24」シリーズの出荷を開始した。全国の家電量販店などで順次発売する。\nラインアップは、ケーブル長1mと2mの2種類。カラーはブラック、ホワイト、ライトブルー、ミントグリーン、ライトパープル、ディープパープル、レモンイエローの7色。Amazon.co.jpでは、ケーブル長1mの「BSU2CCY2410」が1380円、ケーブル長2mの「BSU2CCY2420」が1480円で販売されている。\nUSB PDに対応し、最大240Wの給電が可能。データ伝送はUSB 2.0に対応する。\nシリコン素材を採用し、巻いたりまとめたりしても癖がつきにくい。また、脱着可能なシリコンバンドが付属し、ケーブルを束ねてまとめられる。\n2万5000回の屈曲試験をクリア。コネクタの根元部分を金属ケースで保護しており、長く使える頑丈な設計をうたう。"
+  },
+  {
+   "title": "SSDの価格は2027年後半に下落し始める可能性あり",
+   "url": "https://gigazine.net/news/20261120-ssd-prices-outlook/",
+   "summary": "アナリストの分析により、HDDの価格が今後2年で高止まりする一方、SSDは価格が落ち着くという予測が出てきました。   続きを読む...",
+   "published": "2026-11-20T22:00:00+09:00",
+   "source": "GIGAZINE",
+   "link": {
+    "url": "https://gigazine.net/news/20261120-ssd-prices-outlook/",
+    "title": "SSDの価格は2027年後半に下落し始める可能性あり",
+    "site": "GIGAZINE",
+    "description": "アナリストの分析により、HDDの価格が今後2年で高止まりする一方、SSDは価格が落ち着くという予測が出てきました。",
+    "image": "https://i.gzn.jp/img/2026/11/20/ssd-prices-outlook/00.jpg",
+    "icon": "https://gigazine.net/apple-touch-icon.png"
+   },
+   "body": "親愛なる読者の皆さまへ。ご存じの通り価格高騰などの悪影響でサーバー運営がとても苦しい状態です。回線や台数を整理し見直せる部分は全て見直しましたが、やはりまだ危険水域です。このままだと1ページを10分割ぐらいして無理矢理PVを増やさざるを得なくなってしまいます。そこで、GIGAZINEの物理的なサーバーたちを、たった1円でも良いので親愛なる読者の皆さまに支援してもらえればとっても助かります！今すぐ寄付は上のボタンから！ ・これまでGIGAZINEを支援してくれたメンバーのリスト\nアナリストの分析により、HDDの価格が今後2年で高止まりする一方、SSDは価格が落ち着くという予測が出てきました。 When Will Hard Drive Prices Come Down? The 2026-2028 Outlook | DriveVault https://www.drivevault.io/blog/when-will-hard-drive-prices-come-down.html 外付けドライブを管理するアプリを展開し、ドライブに関する分析も行っているDriveVaultは、SeagateやWestern Digitalなどの販売データなどを追跡して将来的な価格の見通しを公開しています。 2026年9月時点の価格状況としては、HDDの平均価格は1年前と比較して134％上昇しており、1カ月前の129％からさらに上昇しているとのこと。SSDは129％高く、1カ月前の126％から上昇しています。いずれも過去最高です。\n最も値上がりしているのはデータセンターでも購入されている18TBから24TBの大容量HDDです。一般ユーザー向けのHDDは2倍になった程度ですが、今回の値上がりの中では影響が軽い方だそうです。明るい兆候として、毎月の値上がり幅が数％ポイント程度まで縮小していることが見られ、その曲線は平坦になりつつあるそうです。 HDDとSSDで価格回復の時期が異なる理由は、それぞれ異なる企業によって異なる工場で製造され、異なる方法で販売されているためです。\nSSDはSamsungやSK hynix、Kioxia、Micron、Sandisk、YMTCが製造するNANDフラッシュメモリチップを使用して作られています。これらのチップの価格は四半期ごとの契約交渉で決まります。供給が需要に追いつけば、SSDの価格は数四半期以内に反応し、価格が急速に上昇したり、比較的速やかに下落したりする可能性があります。 一方でHDDは複数年契約で決まります。HDD市場はSeagateとWestern Digitalの2社がほぼ支配していますが、2026年時点で両社の生産量のほぼすべてが長期契約に基づいてクラウド事業者に供給されている状況です。そのため、HDDの価格上昇はSSDより遅く、より着実に進み、価格が下落するのにも時間がかかります。\nメモリ価格を調査するTrendForceのデータによると、NANDの契約価格は予想に反して上昇率が控えめで、2026年を通じて市場では4～5％の供給不足が続くものの、2027年後半には再び需給が均衡すると考えられるとのこと。その理由として挙げられているのは、メーカーの生産量が増えること、そして価格高騰によって消費者需要が低迷し続けることなどです。 これは、中国からの供給が増えていることも影響しています。中国のYMTCは2026年度第2四半期に世界のNAND出荷量の約14％を占めるまでに成長しており、投資家に対し2027年末までに世界最大のNANDメーカーになることを目指すと伝えています。仮にこの目標に届かなかったとしても、これほど大量のフラッシュメモリが市場に追加供給されるとSSD価格を押し下げる要因となります。 こうした状況から、DriveVaultは「2027年後半にSSDは供給過多に転じ、価格が下がる」と予測しました。ただ、下がるといっても緩やかな下落にとどまり、数年前の価格水準に戻るというわけではないそうです。\n一方のHDDについては、SeagateとWestern Digitalが2028年までの契約見通しを既に発表しており、売り切れ状態であることから、2028年までは下がらず、2028年以降に下落に転じるとしています。 なお、HDDは技術の進歩で記録密度が向上しており、HDDの最大容量が毎年のように更新されています。DriveVaultは「将来的には、中～小容量の枯れた技術のHDDが一般消費者向けに振り向けられるようになる」との見通しを示しています。 DriveVaultは「仕事で使うなら待ってても損なのですぐ買うべき」「バックアップに必要ならデータ損失のリスクには代えられないのですぐ買うべき」「SSDのアップグレードを求めるなら2027年後半まで待った方がいい」「万が一の備蓄として買おうとするなら今は最悪」とアドバイスしました。\n・関連記事 ついにHDD容量は30TBの大台に、Seagateが記録密度を大幅に高めるHAMR技術採用のHDD「Exos Mozaic 3＋」を発表 - GIGAZINE ついに1台で40TBもの容量を持つHDDがSeagateから出荷される - GIGAZINE Western Digital(WD)が複数の磁気ヘッドを搭載した高帯域幅HDD＆消費電力を20％削減する電力最適化HDDを発表 - GIGAZINE MicronのCEOがメモリ不足が2028年かそれ以降も続く可能性があると警告、「顧客は今年支払った価格よりも『はるかに高い価格』を支払うことになるだろう」 - GIGAZINE\nSSDの低価格化傾向が弱まり価格上昇局面に突入する危険性が指摘される\nWestern Digitalが9億ドルの投資を受けてキオクシアを合併する可能性が報じられる\n日立の売却で激動のHDD業界、今度は「SamsungのHDD事業が売却される」と報じられる\nHDDの供給不足は2012年も続くという予想をSeagateが発表\n東芝がAIデータセンター向けHDDの生産能力を2027年度までに倍増させる計画発表でライバル企業のWestern DigitalとSeagateの株価が急落、東芝はさらに65TBと100TBも準備\nAIデータセンターのHDD不足で2年間バックオーダー状態、遅延によりQLC SSDへの急速な移行を余儀なくされる事態に\nハードディスク価格が2011年タイ洪水以前の水準に戻るのは2014年以降\nハードディスク約5万6000台の運用実績から壊れやすいメーカーが明らかに\n2026年11月20日 22時00分00秒 in ハードウェア, Posted by log1p_kr\nYou can read the machine translated English article SSD prices may start to decline in the s….\nお邪魔して申し訳ないです。読者のための記事を掲載し続けるため、どうかサーバー代として300円をご寄付いただけないでしょうか。"
+  },
+  {
+   "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+   "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+   "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a […]",
+   "published": "2026-11-20T13:50:19-05:00",
+   "source": "The Verge",
+   "link": {
+    "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+    "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+    "site": "The Verge",
+    "description": "The president said he hadn’t even run the idea by his staff yet.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/STK466_ELECTION_2024_CVirginia_E.jpg?quality=90&strip=all&crop=0%2C9.9676601489831%2C100%2C80.064679702034&w=1200",
+    "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
+   },
+   "body": "While policymakers across the country are putting new restrictions on the data center buildout, Trump is making threats.﻿\nWhile policymakers across the country are putting new restrictions on the data center buildout, Trump is making threats.﻿\nPresident Donald Trump promised to put a “tremendous tax” on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them.\n“We’re not going to allow our companies to build data centers outside of our country,” Trump said at a press conference Friday following his summit with China President Xi Jinping and Russia President Vladimir Putin. “They allowed that to happen with chips and everything else, and it was very destructive to our country. It’s where we started going behind.” Should the US allow data centers to be built outside of the country, Trump warned, “China will take them all.”\nTrump didn’t share many details behind the plan, and apparently was floating the proposal publicly for the first time. “I don’t know if that’s a breaking story. But I haven’t even said that to my people,” Trump said, flanked by Vice President JD Vance and Secretary of State Marco Rubio. “But I’m telling them now. They’re here. Many of them are here.”\nTrump’s promise could be difficult to fulfill with a new Democratic majority Congress being sworn in within a couple of months. Even members of his own party recognize that the data center buildout has become an unpopular issue across the board. With states installing moratoriums and new restrictions on data center proposals, companies may be forced to look outside of the country, but Trump’s threat is an attempt to make that a less attractive alternative.\nHere’s a transcript of the key part of Trump’s remarks:\nWhoever wins SI wins. And you ought to take advantage of the data centers. Make them pay you. Make them pay your community. But take advantage. Don’t shut them off. And there’s always somebody else in this country. But if it’s not this country, there’s somebody else outside.\nWe’re not going to allow our companies to build data centers outside of our country. We’re not going to allow that to happen. You know, they allowed that to happen with chips and everything else, and it was very destructive to our country. It’s where we started going behind.\nSo I just, I don’t know if that’s a breaking story. But I haven’t even said that to my people, but I’m telling them now. They’re here. Many of them are here. And we’re not going to allow companies to build data centers in other countries. If they do that, they can, but we’re going to put a tremendous tax on them.\nMore in: All the latest updates on AI data centers\nAnthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude\nThe wait begins for GTA VI on PC\nGoogle says it’s going to shut off Google Assistant on smart speakers next year\nMeta now sells 3D movies on Quest VR headsets\nTeenage Engineering’s first CD player puts the spinning disc on display\nThis is the title for the native ad\nThis is the title for the native ad\nSign in to see your notifications or create an account to join the conversation."
+  },
+  {
+   "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+   "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+   "summary": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+   "published": "2026-11-20T21:47:10+00:00",
+   "source": "Ars Technica",
+   "link": {
+    "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+    "title": "Meta reconsiders 2030 net-zero goal amid record emissions from AI data centers",
+    "site": "Ars Technica",
+    "description": "Meta is “re-evaluating” 2030 sustainability goals. Will others follow?",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Meta-El-Paso-data-center-2560x1440.jpg",
+    "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+   },
+   "body": "Meta’s executives are rethinking the company’s original goal of achieving net-zero emissions by 2030. That revelation in Meta’s latest sustainability report comes as the company reported a record percentage increase in greenhouse gas emissions that exceeds any other Big Tech competitor racing to build new AI data centers.\nThe company’s 2026 sustainability report claims that “our long-term ambitions haven’t changed, but our operating environment has,” according to an introduction from Rachel Peterson, vice president of data centers at Meta, and Blair Swedeen, global head of net zero and sustainability at Meta. In the November 19, 2026, report, they attributed the changing conditions and the need for a rethink to how “demand for AI infrastructure has grown faster than almost anyone projected.”\n“We are re-evaluating our timelines, sequencing, and interim milestones—including the 2030 timeframe for our net zero emissions goal and our near-term intensity targets—so our approach reflects current operating realities while keeping progress transparent year over year,” Peterson and Swedeen wrote in the report.\nMeta’s statement about re-evaluating its 2030 emissions goal is a significant public acknowledgment, given that Amazon, Google, and Microsoft have all stuck by their original sustainability goals so far.\nBut all the companies have acknowledged challenges in balancing their original sustainability goals against the breakneck buildout of hyperscale data centers. Despite efforts to invest in more renewable energy projects, Meta and its rivals are still often pushing forward on AI data centers that rely on burning natural gas to generate electricity.\nMeta’s report described the company’s total emissions as surging from 15.6 million metric tonnes of carbon dioxide equivalent in 2024 to more than 21.7 million metric tonnes in 2025.\nThat would make Meta’s annual carbon footprint roughly comparable to total emissions for the state of Idaho, while surpassing the total emissions of states such as Hawaii, Maine, South Dakota, and New Hampshire. The company attributed much of this emissions increase to “capital goods,” like as data center servers.\nThat also represents a nearly 40 percent increase in Meta’s carbon footprint between 2024 and 2025, which is the highest percentage year-over-year increase for total emissions reported by any of the four major US tech giants.\nFor comparison, Microsoft reported a 25 percent increase in its overall carbon footprint, Google reported an 18 percent increase, and Amazon’s report described a 16 percent increase between 2024 and 2025. However, Meta still likely has one of the smallest total carbon footprints among the Big Tech companies.\nMeta’s approach to achieving net-zero emissions has included developing new renewable energy projects to match emissions and using carbon removal technology.\nBut even when factoring in such efforts, Meta still reported net emissions increasing from more than 8.1 million metric tonnes to more than 11.8 million metric tonnes for 2025. That represents a 45 percent increase.\nFrom a water consumption standpoint, Meta reported progress in reducing facility consumption from 825 million gallons in 2024 to 790 million gallons in 2025.\nYet that positive trend is tempered by the fact that Meta also described an increase in water consumption from “areas with water stress,” rising from 198 million gallons in 2024 to 246 million gallons in 2025.\nMeta also reported a sharp increase in water consum"
+  },
+  {
+   "title": "ドンキのAI社員「近藤あい」が正式デビュー　販促POPや動画で活躍へ　運営元「すでに裏に20人ぐらいいる」",
+   "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003369/",
+   "summary": "ドン・キホーテのAI社員「近藤あい」が11月23日に正式デビューする。実は裏には約20人のAIキャラクターが控えているという。開発に約1年半を費やした舞台裏や、AI社員を導入した狙いを担当者に聞いた。",
+   "published": "2026-11-20T15:11:05+09:00",
+   "source": "ITmedia NEWS 最新記事一覧",
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/20/2000003369/",
+    "title": "ドンキのAI社員「近藤あい」が正式デビュー　販促POPや動画で活躍へ　運営元「すでに裏に20人ぐらいいる」",
+    "site": "ITmedia NEWS",
+    "description": "ドン・キホーテのAI社員「近藤あい」が11月23日に正式デビューする。実は裏には約20人のAIキャラクターが控えているという。開発に約1年半を費やした舞台裏や、AI社員を導入した狙いを担当者に聞いた。",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/20/2000003369/10012682/2048",
+    "icon": null
+   },
+   "body": "ドン・キホーテを運営するパン・パシフィック・インターナショナルホールディングス（PPIH）は11月19日、生成AIで制作したAI社員「近藤あい」を23日に正式デビューさせると発表した。同日に東京・品川で開催した新商品展示会では、入り口のディスプレイに近藤あいが登場し、来場者を出迎えた。担当者にAI社員を打ち出した狙いを聞いた。\n近藤あいは、ドン・キホーテの公式キャラクター「ドンコ」をイメージした、ピンク色の髪とポニーテールが特徴のAIキャラクター。ドン・キホーテの宣伝担当・公式アンバサダーとして、店頭の販促POPや商品紹介動画、SNSなどに登場する。7月から試験的な運用を進めており、11月23日の勤労感謝の日に正式デビューする。\nなぜ「AI社員」なのか 従来の販促物が抱える課題\nそもそも、なぜPPIHはAI社員を生み出したのか。背景には、従来の販促物の制作をめぐる課題がある。例えば、手書きPOPを外部のライターに依頼すると、完成まで1カ月ほどかかることもある。有名人を広告に起用する場合は、高額な費用がかかるほか、不祥事などのリスクも伴う。\nそこで同社が新たな販促手段として活用するのが、AI社員だ。近藤あいなら、新商品の紹介動画などを素早く制作できるほか、タレントの起用に伴う費用やリスクも抑えられる。販促コンテンツを「安く、早く」展開できることが、導入の大きな狙いだという。\n販促の新たな切り口にAI社員を起用したPPIH。では、普段のドン・キホーテの売り場でも、生成AIを積極的に活用しているのだろうか。同社広報課の土門辰将氏によると、社内ではAI活用が進んでいるものの、店頭のPOPやポスターには生成AIをあまり使っていないという。\n「ポップにAIを使うと、“うちっぽさ”が薄れてしまう」（土門氏）\n近藤あいのプロデューサー兼マネージャーを務めるPPIHの長谷部洋平氏によると、同キャラクターの開発には約1年半を費やしたという。制作を担当したのは、生成AIによるアパレル向けファッションモデルを手掛けるAI model（東京都港区）。「顔やスタイルには独自の生成AIシステムを使い、動きを付ける際には『Seedance』（動画生成AI）など、複数の他社技術を組み合わせた」という。\nまた、開発でこだわったのは見た目だけではない。性格や仕草、言葉遣いなども細かく設定し、10代の女性に親しんでもらえるキャラクターを目指した。実際に会場で見た映像では、若者言葉を織り交ぜながら、友人に話しかけるようなくだけた口調で商品を紹介していた。声の抑揚やイントネーション、表情の変化も自然で、若い女性特有の空気感を再現していた。\n長谷部氏によると、当初想定していたターゲットは「TikTokやSNSをよく見ているけれど、クレジットカードを持っておらず、リアル店舗で買い物をする10代の女子」。この層がどんなデザインをかわいいと感じ、どんな言葉遣いを好むのか。AIクリエイターやデザイナーらが研究を重ね、現在の姿に仕上げた。\nPPIH側にも、近藤あいのキャラクター開発や販促企画に携わる約40人の社内チームがあり、若い女性社員らの意見も取り入れたという。\n裏にはすでに約20人 「第2の近藤あい」の構想は\n今後、AI社員を増やしていく予定はあるのか。長谷部氏に「第2の近藤あい」の構想を尋ねると、「実はすでに裏に20人ぐらいいる」と明かした。\nただし、すぐに全員をデビューさせるわけではない。「役員との協議で、まずは1人を育てようという方針になった」と長谷部氏。現在は近藤あいの活動に注力しているが、これを皮切りに、他のキャラクターも展開していきたい考えだ。\n約1年半かけて生み出したAI社員は、同社の狙いをどこまで実現できるのか。裏で出番を待つ約20人の今後にも注目したい。\nCopyright © ITmedia, Inc. All Rights Reserved.\n「AI社員」活用、NECは無人部署・DeNAには17体 南場社長「けなげ」と太鼓判\nキャンメイクの“高クオリティ”「AI社員」、SNSで評価割れる「実物に近づけたAIと実物の写真は違う」\n「みんなAIを難しく考えすぎ」「本当に必要か考えて」 AIに振り回される会社の共通点\n“AI社員”にいつでもOB・OG訪問 JALがLINEでチャットbot公開\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nデジ庁、政府機関向けファイル共有サービスで漏えいか 7月末から第三者がアクセス\n韓国大学入試で電子機器不正111件摘発 AI受験疑惑巡り死者も発生\nH3ロケット打ち上げ、JAXAから三菱重工に移管 来年1月の11号機から\n片山財務相、楽天証券は「顧客の不安解消に、できること全部していただきたい」\nドンキのAI社員「近藤あい」が正式デビュー 販促POPや動画で活躍へ 運営元「すでに裏に20人ぐらいいる」\nドンキのAI社員「近藤あい」が正式デビュー 販促POPや動画で活躍へ 運営元「すでに裏に20人ぐらいいる」\n「焼肉きんぐ」「ゆず庵」など11アプリ、会員の氏名・電話番号の項目を廃止 予定を前倒し\n湘南美容クリニックのSBC、162万人分の個人情報流出 パスワードは「暗号化せず保存していた」\nPHP「緊急」脆弱性、サービス一時停止の動き再び ウマ娘やグラブル、イープラスなど緊急メンテ\n六花亭、カード番号全桁＋セキュリティコード約8000件流出か 決済画面のプログラム改ざん\n「楽天証券」漏えい、あなたは対象？ ログインして「重要なお知らせ」確認を\n美少女ゲーム「NIKKE」経由でマルウェア感染 北海道2自治体、委託先が認める\n片山財務相、楽天証券は「顧客の不安解消に、できること全部していただきたい」\nデジ庁、政府機関向けファイル共有サービスで漏えいか 7月末から第三者がアクセス\n楽天証券漏えい、“テスト環境に顧客情報”のマズさ 識者「一般的でない」"
+  }
+ ]
+}
