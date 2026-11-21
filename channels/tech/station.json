@@ -1,0 +1,72 @@
+{
+ "format": "myradio/station-1",
+ "logo": "logo.svg",
+ "url": "https://razanohito.github.io/asa-radio/channels/tech/",
+ "repo": "https://github.com/razanohito/asa-radio",
+ "language": "ja",
+ "languages": [
+  "ja"
+ ],
+ "schedule": {
+  "every": "day",
+  "time": "06:30",
+  "timezone": "Asia/Tokyo"
+ },
+ "episodes": "episodes.json",
+ "audio": {
+  "dir": "audio",
+  "keep_days": 90
+ },
+ "weather": true,
+ "name": "あさテックラジオ",
+ "tagline": "テック 朝のニュース",
+ "description": "スマホ・PC・ネットサービス・セキュリティなど、きのうのテックニュースを毎朝 2 分で。キャスターのミライがお届けします。",
+ "theme": {
+  "accent": "#3fe0dc"
+ },
+ "character": {
+  "pack": "character/character.json",
+  "thumbnail": "character/base.png",
+  "note": "オリジナルキャラクター「ミライ」（立ち絵: AI生成（ChatGPT））"
+ },
+ "credits": [
+  "VOICEVOX:冥鳴ひまり",
+  "立ち絵: AI生成（ChatGPT）"
+ ],
+ "caster": "ミライ（声：VOICEVOX:冥鳴ひまり）",
+ "voice": {
+  "engine": "voicevox",
+  "speaker": 14,
+  "speed": 1.1,
+  "pause_line": 0.25,
+  "pause_part": 0.8
+ },
+ "news": {
+  "topic": "スマホ・PC・半導体・ネットサービス・セキュリティ・宇宙などのテクノロジーの新しい発表や出来事（AIが主役の話題は別番組なので控えめに）",
+  "count": 5,
+  "min": 2,
+  "hours": 36,
+  "model": "claude-sonnet-5-5",
+  "caster_name": "ミライ",
+  "persona": "知的で落ち着いた、めがねの女の子",
+  "tone": "落ち着いていて、わかりやすく",
+  "pick_rules": [
+   "AIが主役の記事は、とても大きな話題のとき1本までにする",
+   "新製品、サービスの変更、セキュリティ事故、業界の大きな動きなど、話題がかたよらないように",
+   "単なるセール情報・レビュー・コラムは選ばない"
+  ],
+  "write_rules": [
+   "製品の値段や発売日は、本文にあるときだけ言う"
+  ],
+  "feeds": [
+   "https://rss.itmedia.co.jp/rss/2.0/news_bursts.xml",
+   "https://pc.watch.impress.co.jp/data/rss/1.0/pcw/feed.rdf",
+   "https://k-tai.watch.impress.co.jp/data/rss/1.0/ktw/feed.rdf",
+   "https://internet.watch.impress.co.jp/data/rss/1.0/iw/feed.rdf",
+   "https://www.publickey1.jp/atom.xml",
+   "https://gigazine.net/news/rss_2.0/",
+   "https://www.theverge.com/rss/index.xml",
+   "https://feeds.arstechnica.com/arstechnica/index"
+  ]
+ }
+}

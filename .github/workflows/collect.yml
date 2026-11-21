@@ -1,0 +1,65 @@
+# 毎朝のニュース集め：各チャンネルの候補記事（題・本文・リンクカード）を集めて inbox ブランチに置く。
+# 台本は、この inbox をもとに Claude の定期タスクが書いて main に push する（DAILY.md）。
+# ANTHROPIC_API_KEY を Secrets に登録してあれば、ここで台本も書く（Claude の定期タスクがなくても放送できる）。
+name: ニュース集め
+
+on:
+  schedule:
+    - cron: "7 20 * * *"   # 日本時間 05:07 ごろ
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "日付（YYYY-MM-DD。空なら今日）"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+env:
+  TZ: Asia/Tokyo
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 日付を決める
+        id: day
+        run: |
+          D="${{ github.event.inputs.date }}"
+          [ -n "$D" ] || D=$(date +%F)
+          echo "date=$D" >> "$GITHUB_OUTPUT"
+
+      - name: 候補記事を集める
+        run: python3 tools/collect_news.py --date "${{ steps.day.outputs.date }}" --out /tmp/inbox
+
+      - name: inbox ブランチに置く（履歴は残さない）
+        run: |
+          D="${{ steps.day.outputs.date }}"
+          mkdir -p /tmp/pub/inbox && cp -r /tmp/inbox/$D /tmp/pub/inbox/
+          cd /tmp/pub
+          git init -q -b inbox
+          git add -A
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -q -m "inbox $D"
+          git push -q -f "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" inbox
+          ls -la inbox/$D
+
+      - name: 台本も書く（ANTHROPIC_API_KEY があるときだけ）
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL }}
+        run: |
+          if [ -z "$ANTHROPIC_API_KEY" ]; then echo "API キーなし：台本は Claude の定期タスクが書く"; exit 0; fi
+          for c in $(python3 -c "import json;print(' '.join(x['id'] for x in json.load(open('channels.json'))['channels']))"); do
+            python3 tools/make_script.py --channel "$c" --date "${{ steps.day.outputs.date }}" || echo "[$c] 台本なし（終了コード $?）"
+          done
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add channels/*/episodes
+          if git diff --cached --quiet; then echo "新しい台本なし"; else git commit -q -m "台本 ${{ steps.day.outputs.date }}（API）" && git push -q; fi

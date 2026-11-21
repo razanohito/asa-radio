@@ -1,0 +1,40 @@
+{
+ "format": "myradio/character-1",
+ "type": "sprites",
+ "size": [
+  896,
+  768
+ ],
+ "background": "#161a26",
+ "base": "base.png",
+ "parts": {
+  "mouth_open": {
+   "src": "mouth_open.png",
+   "x": 422,
+   "y": 412
+  },
+  "smile_mouth": {
+   "src": "smile_mouth.png",
+   "x": 182,
+   "y": 5
+  },
+  "blink": {
+   "src": "blink.png",
+   "x": 298,
+   "y": 270
+  }
+ },
+ "mouth": {
+  "1": "mouth_open",
+  "2": "mouth_open"
+ },
+ "expressions": {
+  "smile": {
+   "mouth": "smile_mouth"
+  }
+ },
+ "note": "「こうはい」の立ち絵を tools/import_character.py で取り込み（立ち絵: AI生成（ChatGPT））",
+ "eye": {
+  "blink": "blink"
+ }
+}

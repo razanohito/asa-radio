@@ -1,0 +1,371 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-08",
+ "lang": "ja",
+ "title": "65Bのオープンモデル、大型超え",
+ "opening": [
+  {
+   "say": "あさエーアイラジオです。十一月八日日曜日、おはようございます。",
+   "show": "あさAIラジオです。11月8日日曜日、おはようございます。"
+  },
+  {
+   "say": "今日は五本のニュースをお届けします。",
+   "show": "今日は5本のニュースをお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "小さめでも高性能",
+   "points": [
+    "リップル65Bプレビュー公開",
+    "650億パラメーター",
+    "開発費は約50億円"
+   ],
+   "details": [
+    "米スタートアップのRicursive Intelligenceが、オープンウェイトモデルを公開しました。",
+    "Terminal-Bench 2.1で80.52点。より大規模な米国産オープンモデルを上回ったと報告。",
+    "開発費は3200万ドル（約50億円）。Hugging Faceで無償公開されています。"
+   ],
+   "lines": [
+    {
+     "say": "アメリカのスタートアップ、リカーシブ インテリジェンスが、オープンウェイトモデル、リップル ロクジュウゴビー プレビューを公開しました。",
+     "show": "米Ricursive Intelligenceが「Ripple-65B Preview」を公開。"
+    },
+    {
+     "say": "パラメーター数は650億ですが、エージェント型コーディングのベンチマークで80.52点を記録し、より大きなモデルを上回ったそうです。",
+     "show": "650億パラメーターで、より大きなモデルを上回る成績。"
+    },
+    {
+     "say": "開発費は3200万ドル、約50億円で、ハギングフェイスで無償公開されています。",
+     "show": "開発費は約50億円。Hugging Faceで無償公開。"
+    }
+   ],
+   "url": "https://gigazine.net/news/20261108-ripple-65b-preview/",
+   "link": {
+    "url": "https://gigazine.net/news/20261108-ripple-65b-preview/",
+    "title": "アメリカ産のAIでオープンモデル「Ripple-65B Preview」登場、パラメーター数10倍の大型モデルを上回る性能で開発費は10分の1",
+    "site": "GIGAZINE",
+    "description": "AIを使用してシリコンチップを設計する再帰的自己改善に取り組むアメリカのスタートアップ「Ricursive Intelligence」が、アメリカ産のオープンウェイトモデル「Ripple-65B Preview」をリリースしました。Ripple-65B Previewはエージェント型コーディングのベンチマーク「Terminal-Bench 2.1」で80.52点を記録し、より大規模なAIモデルを上回ったと報告されています。",
+    "image": "https://i.gzn.jp/img/2026/11/08/ripple-65b-preview/00.png",
+    "icon": "https://gigazine.net/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "透かしが追跡に？",
+   "points": [
+    "見えない「スパイマーク」",
+    "身元とひもづく恐れ",
+    "編集後も残る可能性"
+   ],
+   "details": [
+    "ArtCraft創業者のブランドン・トーマス氏が、目に見えない追跡信号を「スパイマーク」と呼んで懸念を示しました。",
+    "例としてGoogleのSynthIDを挙げ、隠し信号にデータベース識別子を入れられると指摘。",
+    "一般的なメタデータと違い、削除や一部の編集でも消えないことがあるとしています。"
+   ],
+   "lines": [
+    {
+     "say": "続いては、エーアイ生成の証拠として使われる透かしの話です。",
+     "show": "続いては、AI生成の「透かし」の話。"
+    },
+    {
+     "say": "アートクラフトの創業者ブランドン・トーマス氏は、目に見えない追跡信号を、スパイマークと呼んで懸念を示しました。",
+     "show": "見えない追跡信号を「スパイマーク」と呼び懸念。"
+    },
+    {
+     "say": "ファイルを編集しても残る可能性があり、プライバシーが損なわれるおそれがあるとしています。",
+     "show": "編集後も残り、プライバシーを損なうおそれ。"
+    }
+   ],
+   "url": "https://gigazine.net/news/20261108-spymarks-not-watermarks/",
+   "link": {
+    "url": "https://gigazine.net/news/20261108-spymarks-not-watermarks/",
+    "title": "AI生成の証拠「透かし」がユーザー追跡の「スパイマーク」と化している",
+    "site": "GIGAZINE",
+    "description": "近年よく目にするようになった「ウォーターマーク」という言葉はメディアが本物であることを確認したりメディアの所有権を主張したりするために用いられる可視の「透かし」を指します。しかし、AIを用いて画像・動画制作ソフトを開発するArtCraftの創業者であるブランドン・トーマス氏は、よく似た別物として我々の知らないうちにデジタルコンテンツを追跡可能にする「スパイマーク」と呼ぶべき新たな技術が登場しているとし、スパイマークによってプライバシーが侵害される恐れがあるとの懸念を表明しています。",
+    "image": "https://i.gzn.jp/img/2026/11/08/spymarks-not-watermarks/00.png",
+    "icon": "https://gigazine.net/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "グーグルがDC買収",
+   "points": [
+    "ワイオミングの未完成計画",
+    "クルーソーから取得",
+    "170億ドルを投資へ"
+   ],
+   "details": [
+    "データセンター開発のCrusoeが、ワイオミング州の未完成のプロジェクトをGoogleに売却したと認めました。",
+    "Googleは買収額を明かしていませんが、170億ドルを投じてキャンパスを開発する計画です。",
+    "CrusoeはテキサスでGoogle向けの別のデータセンターも開発しています。"
+   ],
+   "lines": [
+    {
+     "say": "次は、エーアイ向けデータセンターの話題です。",
+     "show": "次は、AI向けデータセンターの話題。"
+    },
+    {
+     "say": "開発会社のクルーソーが、ワイオミング州の未完成のデータセンター計画を、グーグルに売却したと認めました。",
+     "show": "CrusoeがワイオミングのDC計画をGoogleに売却。"
+    },
+    {
+     "say": "グーグルは170億ドルを投じて開発を進める計画だということです。",
+     "show": "Googleは170億ドルを投じて開発へ。"
+    }
+   ],
+   "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+   "link": {
+    "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+    "title": "Crusoe sells troubled Wyoming data center project to Google | TechCrunch",
+    "site": "TechCrunch",
+    "description": "The deal highlights the challenges of developing massive AI data centers.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/09/crusoe-ceo-getty.jpg?resize=1200,800",
+    "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180"
+   }
+  },
+  {
+   "label": "AI半導体の輸出審査",
+   "points": [
+    "許可先に空のオフィス",
+    "制裁企業とのつながり",
+    "審査の甘さに懸念"
+   ],
+   "details": [
+    "ニューヨーク・タイムズによると、NvidiaのH200の購入が認められた中国企業のオフィスは空でした。",
+    "その企業の所有者は、2024年から米政府の制裁対象の投資会社とつながりがあるとされます。",
+    "商務省とNvidiaの審査が十分でないという懸念が出ています。"
+   ],
+   "lines": [
+    {
+     "say": "続いては、エヌビディアのエーアイ半導体の輸出をめぐるニュースです。",
+     "show": "続いては、NvidiaのAI半導体の輸出の話。"
+    },
+    {
+     "say": "ニューヨークタイムズによると、販売が認められた中国の企業のオフィスが、空っぽだったそうです。",
+     "show": "販売が認められた中国企業のオフィスは空だった。"
+    },
+    {
+     "say": "制裁対象の企業とつながる会社も含まれていて、審査の甘さを心配する声が出ています。",
+     "show": "制裁対象とのつながりも。審査に懸念の声。"
+    }
+   ],
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+   "link": {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+    "title": "The US let Nvidia sell chips to an empty office in China",
+    "site": "The Verge",
+    "description": "The government is approving sales of Nvidia’s AI chips to Chinese firms with ties to blacklisted companies.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/06/STK083_NVIDIA_2.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "AIが開発を加速",
+   "points": [
+    "METRが報告書を公表",
+    "改善の速さが約2倍",
+    "伏せた部分も多い"
+   ],
+   "details": [
+    "AI安全性の研究団体METRが、Anthropic社内を11週間調べた報告書を公表しました。",
+    "モデルの改善が1年前の約2倍の速さで、その加速の多くはAIによるものだとしています。",
+    "Anthropicは報告書の一部を伏せることが認められており、その点を問う声もあります。"
+   ],
+   "lines": [
+    {
+     "say": "最後は、エーアイがエーアイ開発を速めているという報告です。",
+     "show": "最後は、AIがAI開発を速めているという報告。"
+    },
+    {
+     "say": "安全性の研究団体メーターは、アンソロピックの社内を11週間調べ、モデルの改善が1年前の約2倍の速さになっていると報告しました。",
+     "show": "METRの調査で、Anthropicの改善は1年前の約2倍の速さ。"
+    },
+    {
+     "say": "その加速の多くはエーアイによるものだとしています。ただ、報告書には伏せられた部分も多いそうです。",
+     "show": "加速の多くはAIによるもの。伏せた部分も多い。"
+    }
+   ],
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+   "link": {
+    "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+    "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+    "site": "The Verge",
+    "description": "The report provides evidence about just how quickly AI is accelerating its own development.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2280291125.jpg?quality=90&strip=all&crop=0%2C10.752607989199%2C100%2C78.494784021602&w=1200",
+    "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "小さく安く作るモデルから、開発そのものの加速まで、エーアイの進み方が話題になった一日でした。",
+   "show": "小さく安いモデルから、開発の加速まで。"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。あさエーアイラジオでした。",
+   "show": "それでは今日も、いってらっしゃい。あさAIラジオでした。"
+  }
+ ],
+ "highlight": 0,
+ "seconds": 116.07,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.112,
+   "show": "あさAIラジオです。11月8日日曜日、おはようございます。",
+   "part": 0
+  },
+  {
+   "start": 5.362,
+   "end": 7.367,
+   "show": "今日は5本のニュースをお届けします。",
+   "part": 0
+  },
+  {
+   "start": 8.167,
+   "end": 17.351,
+   "show": "米Ricursive Intelligenceが「Ripple-65B Preview」を公開。",
+   "part": 1
+  },
+  {
+   "start": 17.601,
+   "end": 26.551,
+   "show": "650億パラメーターで、より大きなモデルを上回る成績。",
+   "part": 1
+  },
+  {
+   "start": 26.801,
+   "end": 32.838,
+   "show": "開発費は約50億円。Hugging Faceで無償公開。",
+   "part": 1
+  },
+  {
+   "start": 33.638,
+   "end": 37.681,
+   "show": "続いては、AI生成の「透かし」の話。",
+   "part": 2
+  },
+  {
+   "start": 37.931,
+   "end": 45.472,
+   "show": "見えない追跡信号を「スパイマーク」と呼び懸念。",
+   "part": 2
+  },
+  {
+   "start": 45.722,
+   "end": 51.013,
+   "show": "編集後も残り、プライバシーを損なうおそれ。",
+   "part": 2
+  },
+  {
+   "start": 51.813,
+   "end": 54.575,
+   "show": "次は、AI向けデータセンターの話題。",
+   "part": 3
+  },
+  {
+   "start": 54.825,
+   "end": 61.908,
+   "show": "CrusoeがワイオミングのDC計画をGoogleに売却。",
+   "part": 3
+  },
+  {
+   "start": 62.158,
+   "end": 66.403,
+   "show": "Googleは170億ドルを投じて開発へ。",
+   "part": 3
+  },
+  {
+   "start": 67.203,
+   "end": 71.15,
+   "show": "続いては、NvidiaのAI半導体の輸出の話。",
+   "part": 4
+  },
+  {
+   "start": 71.4,
+   "end": 77.363,
+   "show": "販売が認められた中国企業のオフィスは空だった。",
+   "part": 4
+  },
+  {
+   "start": 77.613,
+   "end": 83.373,
+   "show": "制裁対象とのつながりも。審査に懸念の声。",
+   "part": 4
+  },
+  {
+   "start": 84.173,
+   "end": 88.055,
+   "show": "最後は、AIがAI開発を速めているという報告。",
+   "part": 5
+  },
+  {
+   "start": 88.305,
+   "end": 97.447,
+   "show": "METRの調査で、Anthropicの改善は1年前の約2倍の速さ。",
+   "part": 5
+  },
+  {
+   "start": 97.697,
+   "end": 103.766,
+   "show": "加速の多くはAIによるもの。伏せた部分も多い。",
+   "part": 5
+  },
+  {
+   "start": 104.566,
+   "end": 111.137,
+   "show": "小さく安いモデルから、開発の加速まで。",
+   "part": 6
+  },
+  {
+   "start": 111.387,
+   "end": 115.067,
+   "show": "それでは今日も、いってらっしゃい。あさAIラジオでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 8.167
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 8.167,
+   "end": 33.638
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 33.638,
+   "end": 51.813
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 51.813,
+   "end": 67.203
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 67.203,
+   "end": 84.173
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 84.173,
+   "end": 104.566
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 104.566,
+   "end": 116.07
+  }
+ ],
+ "made_at": "2026-11-08T22:25:03"
+}

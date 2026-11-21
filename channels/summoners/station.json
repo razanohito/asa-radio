@@ -1,0 +1,93 @@
+{
+ "format": "myradio/station-1",
+ "logo": "logo.svg",
+ "url": "https://razanohito.github.io/asa-radio/channels/summoners/",
+ "repo": "https://github.com/razanohito/asa-radio",
+ "language": "ja",
+ "languages": [
+  "ja"
+ ],
+ "schedule": {
+  "every": "day",
+  "time": "06:30",
+  "timezone": "Asia/Tokyo"
+ },
+ "episodes": "episodes.json",
+ "audio": {
+  "dir": "audio",
+  "keep_days": 0
+ },
+ "weather": true,
+ "name": "サマナ朝通信",
+ "tagline": "サマナーズウォー 非公式ニュース",
+ "description": "『サマナーズウォー: Sky Arena』のアップデート・イベント・eスポーツの新しい話題を、ファンが作る非公式チャンネルとしてお届けします。キャスターは、ゆっくり解説でおなじみのせんぱい。新しい話題がある日だけ放送します。",
+ "theme": {
+  "accent": "#ff7ad9"
+ },
+ "character": {
+  "pack": "character/character.json",
+  "thumbnail": "character/base.png",
+  "note": "ゆっくり解説シリーズのキャラクター「せんぱい」"
+ },
+ "credits": [
+  "VOICEVOX:四国めたん",
+  "このチャンネルは非公式のファン番組で、Com2uS とは関係ありません。『サマナーズウォー』は Com2uS の商標です"
+ ],
+ "caster": "せんぱい（声：VOICEVOX:四国めたん）",
+ "voice": {
+  "engine": "voicevox",
+  "speaker": 2,
+  "speed": 1.1,
+  "pause_line": 0.25,
+  "pause_part": 0.8
+ },
+ "news": {
+  "topic": "スマホゲーム『サマナーズウォー: Sky Arena』（と関連タイトル）のアップデート、イベント、コラボ、eスポーツ大会（SWC）などの新しい話題",
+  "count": 3,
+  "min": 1,
+  "hours": 168,
+  "model": "claude-sonnet-5-5",
+  "caster_name": "せんぱい",
+  "persona": "サマナーズウォーにくわしい、面倒見のいい先輩キャラの女の子（ゆっくり解説の解説役）",
+  "tone": "明るく、頼れる先輩らしく。事実はていねいに",
+  "pick_rules": [
+   "公式の発表・プレスリリース・報道を優先する。個人の投稿（Reddit など）は運営スタッフの公式告知だけにする",
+   "攻略の個人的な評価や、うわさ・リーク情報は選ばない"
+  ],
+  "write_rules": [
+   "ゲーム内の名前（モンスター名・コンテンツ名）は、日本版の正式な表記がわからなければ、記事の表記をカタカナにする",
+   "番組は非公式のファン番組なので、運営の代弁はしない"
+  ],
+  "farewell": "それでは今日も、よいサマナーライフを。",
+  "feeds": [
+   "https://prtimes.jp/companyrdf.php?company_id=9066",
+   "https://www.bing.com/news/search?q=%E3%82%B5%E3%83%9E%E3%83%8A%E3%83%BC%E3%82%BA%E3%82%A6%E3%82%A9%E3%83%BC&format=rss&setlang=ja",
+   "https://www.bing.com/news/search?q=%22Summoners+War%22&format=rss",
+   {
+    "url": "https://www.reddit.com/r/summonerswar/.rss",
+    "keywords": [
+     "[official]",
+     "patch",
+     "update",
+     "announcement",
+     "notice",
+     "maintenance",
+     "collab"
+    ]
+   },
+   {
+    "url": "https://www.4gamer.net/rss/index.xml",
+    "keywords": [
+     "サマナーズウォー",
+     "Summoners War"
+    ]
+   },
+   {
+    "url": "https://www.gamemeca.com/en/rss.php",
+    "keywords": [
+     "Summoners War"
+    ]
+   }
+  ]
+ }
+}
