@@ -1,0 +1,65 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-27",
+ "lang": "ja",
+ "title": "Meet会議室端末のメニュー順が変更",
+ "opening": [
+  {
+   "say": "あさワークスペース通信です。十一月二十七日金曜日、おはようございます。",
+   "show": "あさワークスペース通信です。11月27日金曜日、おはようございます。"
+  },
+  {
+   "say": "今日は一本のニュースをお届けします。",
+   "show": "今日は1本のニュースをお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "操作パネルの並びが変更",
+   "points": [
+    "よく使う操作を上に",
+    "録画や配信は下へ",
+    "12月2日から順次"
+   ],
+   "details": [
+    "Meetハードウェアのタッチ操作の「その他の操作」パネルが対象。Meetハードウェアを使う全顧客向けです。",
+    "発表、表示の調整、参加者を上に移し、チャットは先頭のまま。録画や配信は下げます。",
+    "既定でオン・無効化不可、管理者の設定は不要。早期プレビュー端末は12月2日、即時・計画的リリースは12月11日から。"
+   ],
+   "lines": [
+    {
+     "say": "グーグルミートの会議室用ハードウェアで、タッチ操作パネルのメニューの並びが変わります。",
+     "show": "Meet会議室端末のメニュー順が変更"
+    },
+    {
+     "say": "発表や表示の調整など、よく使う操作が上に来て、録画や配信は下に移ります。",
+     "show": "よく使う操作が上、録画は下へ"
+    },
+    {
+     "say": "管理者の設定はいらず、12月2日から順に表示されます。",
+     "show": "設定不要、12月2日から順次"
+    }
+   ],
+   "url": "http://workspaceupdates.googleblog.com/2026/11/rooms-more-actions-panel-reordering.html",
+   "link": {
+    "url": "https://workspaceupdates.googleblog.com/2026/11/rooms-more-actions-panel-reordering.html",
+    "title": "Google Workspace Updates: Rooms \"More actions\" Panel Reordering",
+    "site": "Workspace Updates Blog",
+    "description": "",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgQkgpPsgmzXU47jFHhbDIIKak3QOuQZyz3szLRjzIElbuyTLC5iRdw0RUS-Rdx4S0DggE_boD7cAMPP576RwsZ-u8yI5S4jdCag5EKg8azNg9kLAohG3eMEMFPdrI2bDKezBl5TBqbf4PgmOk4cL0XYWBL3gxvv_DKcObLUCh90pytkvEgl8uiED6I2_I/w1200-h630-p-k-no-nu/Rooms%20More%20actions%20Panel%20Reordering%20-%207417.png",
+    "icon": "https://workspace.google.com/static/favicon.ico?cache=4926369"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日は、会議室での操作が少し楽になる、小さな改善のお知らせでした。",
+   "show": "会議室の操作が少し楽になる改善"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。あさワークスペース通信でした。",
+   "show": "それでは今日も、いってらっしゃい。あさワークスペース通信でした。"
+  }
+ ],
+ "highlight": 0
+}
