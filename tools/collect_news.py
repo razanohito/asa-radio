@@ -38,7 +38,7 @@ def collect_channel(cid, date, limit):
             print(f"  本文が短い {len(body)} {c['url'][:100]}"); continue
         out.append({**c, "link": link, "body": body[:6000]})
         if len(out) >= limit: break
-    keep = ("topic", "count", "min", "caster_name", "persona", "tone", "farewell", "length", "pick_rules", "write_rules")
+    keep = ("topic", "count", "min", "hours", "caster_name", "persona", "tone", "farewell", "length", "pick_rules", "write_rules", "web_search")
     return {"date": str(date), "channel": cid, "name": st.get("name"), "news": {k: cfg[k] for k in keep if k in cfg},
             "candidates": out}
 

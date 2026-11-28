@@ -19,9 +19,14 @@
    `inbox/$D/` がなければ、何も書かずに終わり、その旨を報告する。
 3. チャンネルごとに（`channels.json` の順。inbox にあるチャンネルだけ）:
    1. `inbox/$D/<ID>.json` を読む。`news` に番組のテーマ・キャスター・口調・追加の決まり、`candidates` に記事（題・URL・本文）がある
-   2. テーマに合う記事を `news.count` 本まで選ぶ（決まりは下）。合う記事が `news.min` 本に満たなければ、そのチャンネルは今日はお休み（台本を作らない）
-   3. 下書きを `/tmp/<ID>.json` に書く（形は下）
-   4. `python3 tools/save_script.py --channel <ID> --draft /tmp/<ID>.json` で確かめて保存する。「直すべき点」が出たら直して、もう一度
+   2. `news.web_search` があるチャンネル（いまはサマナ朝通信）は、inbox だけでは足りないので、Web 検索でも探す
+      - `news.web_search.queries` の言葉で、直近 `news.hours` 時間の話題を WebSearch で探す（英語・韓国語・日本語。公式サイト、Reddit、YouTube、海外の攻略サイト・ブログ）
+      - よさそうなものは、そのページを実際に読む（WebFetch、なければ web-fetch エージェント）。読めたページの中身（動画なら概要欄）だけを本文として、`/tmp/body.txt` に書き、
+        `python3 tools/add_candidate.py --channel <ID> --url <URL> --title <題> --site <サイト名> --published <日付> --body-file /tmp/body.txt` で候補に足す
+      - 読めなかったページ、日付がわからないか古いページ、検索結果の抜き出しだけしかないものは足さない。足すのは多くても 5 本
+   3. テーマに合う記事を `news.count` 本まで選ぶ（決まりは下）。合う記事が `news.min` 本に満たなければ、そのチャンネルは今日はお休み（台本を作らない）
+   4. 下書きを `/tmp/<ID>.json` に書く（形は下）
+   5. `python3 tools/save_script.py --channel <ID> --draft /tmp/<ID>.json` で確かめて保存する。「直すべき点」が出たら直して、もう一度
 4. 保存した台本を commit して push する
    ```bash
    git add channels/*/episodes
