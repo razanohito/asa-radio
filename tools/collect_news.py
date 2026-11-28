@@ -21,7 +21,16 @@ def collect_channel(cid, date, limit):
     for c in cands[:limit * 2]:          # 読めない記事があるので多めに当たる
         link, body = R.page_info(c["url"])
         if "status" in link:
-            print(f"  読めない {link.get('status')} {c['url'][:100]}"); continue
+            # ページが読めなくても、フィードに中身（要約）が十分あれば、それを本文にする
+            if len(c.get("summary", "")) < 120:
+                print(f"  読めない {link.get('status')} {c['url'][:100]}"); continue
+            link = {"url": c["url"], "title": c["title"], "site": c.get("source", ""), "description": "", "image": None, "icon": None}
+        pub = link.pop("published", None)
+        if not c.get("published") and pub:   # 一覧ページから拾った記事は、ページの日付で古いものを外す
+            c["published"] = pub
+            age = datetime.datetime.now(datetime.timezone.utc) - datetime.datetime.fromisoformat(pub)
+            if age > datetime.timedelta(hours=int(cfg.get("hours", 36))):
+                print(f"  古い {pub[:10]} {c['url'][:100]}"); continue
         # 動画や SNS の投稿はページに本文が少ない。フィードの説明文（YouTube の概要欄など）を本文の代わりにする
         if len(body) < 200 and len(c.get("summary", "")) >= 120:
             body = c["summary"]

@@ -67,7 +67,19 @@
    "https://store.steampowered.com/feeds/news/app/2426960/",
    "https://prtimes.jp/companyrdf.php?company_id=9066",
    {
-    "url": "https://old.reddit.com/r/summonerswar/new/.rss",
+    "page": "https://summonerswar.com/en/skyarena/news/list",
+    "pattern": "/skyarena/news/list/\\d+",
+    "max": 6
+   },
+   {
+    "page": "https://summonerswar.com/ja/skyarena/news/list",
+    "pattern": "/skyarena/news/list/\\d+",
+    "max": 6
+   },
+   {
+    "page": "https://redlib.astrial.org/r/summonerswar/new",
+    "pattern": "/r/summonerswar/comments/",
+    "max": 25,
     "keywords": [
      "[official]",
      "official",
@@ -88,6 +100,16 @@
      "swc",
      "world arena"
     ]
+   },
+   {
+    "page": "https://www.pocketgamer.com/summoners-war/",
+    "pattern": "pocketgamer\\.com/summoners-war/[a-z0-9-]+/?$",
+    "max": 6
+   },
+   {
+    "page": "https://www.4gamer.net/games/257/G025754/",
+    "pattern": "4gamer\\.net/games/257/G025754/\\d+/?$",
+    "max": 6
    },
    {
     "youtube": "@summonerswarapp"
@@ -121,9 +143,6 @@
      "2a",
      "patch"
     ]
-   },
-   {
-    "url": "https://summonerswar.fandom.com/wiki/Special:NewPages?feed=atom&namespace=0"
    },
    {
     "url": "https://www.pocketgamer.com/rss/",
