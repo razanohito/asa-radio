@@ -1,0 +1,311 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-26",
+ "lang": "ja",
+ "title": "Workspace MCPとCLIが正式版に",
+ "opening": [
+  {
+   "say": "あさワークスペース通信です。十一月二十六日木曜日、おはようございます。",
+   "show": "あさワークスペース通信です。11月26日木曜日、おはようございます。"
+  },
+  {
+   "say": "今日は四本のニュースをお届けします。",
+   "show": "今日は4本のニュースをお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "MCPとCLIが正式版",
+   "points": [
+    "MCPサーバーとCLIが正式版",
+    "エージェントをすぐ接続",
+    "API利用枠が2段階に"
+   ],
+   "details": [
+    "Gmail、ドライブ、ドキュメント、スプレッドシート、スライド、カレンダー、Chat、Tasksで使えます。",
+    "ユーザー確認、監査ログ、管理者による制御を備え、セキュリティ審査を進めやすくしています。",
+    "まずGmail、ドライブ、カレンダーから2段階に。Scaled枠は2027年4月1日から、無料分を超えると有料です。"
+   ],
+   "lines": [
+    {
+     "say": "グーグル ワークスペースの、エムシーピーサーバーと、公式のコマンドラインツールが、正式に提供されました。",
+     "show": "Workspace MCPサーバーとCLIが正式版"
+    },
+    {
+     "say": "エーアイエージェントが、ジーメールやドライブ、ドキュメントなどに、独自の連携コードなしでつながります。",
+     "show": "独自コードなしでエージェントを接続"
+    },
+    {
+     "say": "あわせて、エーピーアイの利用枠が、無料の標準と、上限の大きい枠の、二つに分かれます。",
+     "show": "API利用枠は標準とScaledの2つに"
+    }
+   ],
+   "url": "http://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+   "link": {
+    "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+    "title": "Google Workspace Updates: Simplifying agent access while keeping organizations in control: MCP servers, CLI, standardized usage tiers, and admin policies",
+    "site": "Workspace Updates Blog",
+    "description": "",
+    "image": null,
+    "icon": "https://workspace.google.com/static/favicon.ico?cache=4926369"
+   }
+  },
+  {
+   "label": "Meetが1080p標準に",
+   "points": [
+    "Web版で1080pが標準",
+    "個人アカウントも対象",
+    "設定でオフにできる"
+   ],
+   "details": [
+    "これまでの標準は720pで、1080pにはGoogle One 2TBプランが必要でした。今月から順次展開中です。",
+    "Workspaceと個人のGoogleアカウントの両方が対象です。条件は高画質に対応したカメラだけです。",
+    "設定の「ビデオ」でオフにできます。AndroidとiOSのアプリは、当面720pのままの可能性があります。"
+   ],
+   "lines": [
+    {
+     "say": "続いては、グーグル ミートです。ウェブ版で、千八十ピーの高画質が、すべてのアカウントで標準になります。",
+     "show": "Meetのweb版、1080pが標準に"
+    },
+    {
+     "say": "これまで千八十ピーは、グーグル ワンの二テラバイトプランなどに限られていました。",
+     "show": "これまではGoogle One 2TBが必要"
+    },
+    {
+     "say": "高画質に対応したカメラなら自動でオンになり、設定の、ビデオから、オフにもできます。",
+     "show": "自動でオン、設定でオフも可能"
+    }
+   ],
+   "url": "https://9to5google.com/2026/11/23/google-meet-web-makes-1080p-streaming-free/",
+   "link": {
+    "url": "https://9to5google.com/2026/11/23/google-meet-web-makes-1080p-streaming-free/",
+    "title": "Google Meet unlocks 1080p video streaming for all accounts on web",
+    "site": "9to5Google",
+    "description": "Streaming in 1080p will be the default in Google Meet, regardless of whether you pay for Google Workspace. That includes...",
+    "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/google-meet-1.jpg?quality=82&strip=all&resize=1200,628",
+    "icon": "https://9to5google.com/wp-content/uploads/sites/4/2017/03/favicon-bg-none-face-white.png?w=180"
+   }
+  },
+  {
+   "label": "Chatに表と見出し",
+   "points": [
+    "表と見出しに対応",
+    "アプリとエージェントから",
+    "管理者の設定は不要"
+   ],
+   "details": [
+    "開発者はChat APIから標準のMarkdownで送れます。見出しは3段階で、太字やリンクも使えます。",
+    "会話の全員に表示されます。AndroidとiOSでは「Show table」をタップすると表全体を見られます。",
+    "管理者とユーザーの設定はありません。すべてのWorkspaceのお客様と個人アカウントで提供中です。"
+   ],
+   "lines": [
+    {
+     "say": "次は、グーグル チャットです。アプリやエージェントが、表と見出しを使ったメッセージを送れるようになりました。",
+     "show": "Chat、アプリから表と見出しを送信可能に"
+    },
+    {
+     "say": "長い報告やまとめも、見出しで区切られて、読みやすくなります。",
+     "show": "長いまとめも読みやすく"
+    },
+    {
+     "say": "なお、表と見出しは、メッセージの入力欄からは作れません。",
+     "show": "入力欄からは作れません"
+    }
+   ],
+   "url": "http://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html",
+   "link": {
+    "url": "https://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html",
+    "title": "Google Workspace Updates: Make messages in Google Chat from apps and agents easier to read with tables and headings",
+    "site": "Workspace Updates Blog",
+    "description": "",
+    "image": null,
+    "icon": "https://workspace.google.com/static/favicon.ico?cache=4926369"
+   }
+  },
+  {
+   "label": "カード学習に3機能",
+   "points": [
+    "画像を自動で追加",
+    "ストップウォッチ",
+    "スマホで復習の通知"
+   ],
+   "details": [
+    "Gemini Notebookのフラッシュカードが、アップロードした資料から関連する画像を自動で取り込みます。",
+    "復習中にストップウォッチを使えるので、時間を計る試験のような練習ができます。",
+    "モバイルアプリで復習の通知を予約できます。管理者の設定はなく、全Workspaceと個人アカウントで提供中です。"
+   ],
+   "lines": [
+    {
+     "say": "最後は、ジェミニ ノートブックの、フラッシュカードに、三つの機能が加わりました。",
+     "show": "Gemini Notebookのカードに3機能"
+    },
+    {
+     "say": "資料の画像が自動でカードに入り、時間を計るストップウォッチも使えます。",
+     "show": "画像の自動追加とストップウォッチ"
+    },
+    {
+     "say": "スマホのアプリでは、復習の通知を予約できるようになりました。",
+     "show": "アプリで復習の通知を予約"
+    }
+   ],
+   "url": "http://workspaceupdates.googleblog.com/2026/11/new-study-enhancements-for-flashcards-in-Gemini-Notebook.html",
+   "link": {
+    "url": "https://workspaceupdates.googleblog.com/2026/11/new-study-enhancements-for-flashcards-in-Gemini-Notebook.html",
+    "title": "Google Workspace Updates: New study enhancements for Flashcards in Gemini Notebook",
+    "site": "Workspace Updates Blog",
+    "description": "",
+    "image": null,
+    "icon": "https://workspace.google.com/static/favicon.ico?cache=4926369"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日は、エージェントとつながる仕組みから、毎日の会議まで、幅広い更新でしたね。",
+   "show": "エージェント連携から会議まで幅広い更新"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。あさワークスペース通信でした。",
+   "show": "それでは今日も、いってらっしゃい。あさワークスペース通信でした。"
+  }
+ ],
+ "highlight": 0,
+ "seconds": 122.67,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 7.768,
+   "show": "あさワークスペース通信です。11月26日木曜日、おはようございます。",
+   "part": 0
+  },
+  {
+   "start": 8.018,
+   "end": 10.525,
+   "show": "今日は4本のニュースをお届けします。",
+   "part": 0
+  },
+  {
+   "start": 11.325,
+   "end": 21.223,
+   "show": "Workspace MCPサーバーとCLIが正式版",
+   "part": 1
+  },
+  {
+   "start": 21.473,
+   "end": 29.772,
+   "show": "独自コードなしでエージェントを接続",
+   "part": 1
+  },
+  {
+   "start": 30.022,
+   "end": 39.441,
+   "show": "API利用枠は標準とScaledの2つに",
+   "part": 1
+  },
+  {
+   "start": 40.241,
+   "end": 51.035,
+   "show": "Meetのweb版、1080pが標準に",
+   "part": 2
+  },
+  {
+   "start": 51.285,
+   "end": 57.941,
+   "show": "これまではGoogle One 2TBが必要",
+   "part": 2
+  },
+  {
+   "start": 58.191,
+   "end": 65.871,
+   "show": "自動でオン、設定でオフも可能",
+   "part": 2
+  },
+  {
+   "start": 66.671,
+   "end": 76.25,
+   "show": "Chat、アプリから表と見出しを送信可能に",
+   "part": 3
+  },
+  {
+   "start": 76.5,
+   "end": 81.897,
+   "show": "長いまとめも読みやすく",
+   "part": 3
+  },
+  {
+   "start": 82.147,
+   "end": 87.406,
+   "show": "入力欄からは作れません",
+   "part": 3
+  },
+  {
+   "start": 88.206,
+   "end": 96.153,
+   "show": "Gemini Notebookのカードに3機能",
+   "part": 4
+  },
+  {
+   "start": 96.403,
+   "end": 102.323,
+   "show": "画像の自動追加とストップウォッチ",
+   "part": 4
+  },
+  {
+   "start": 102.573,
+   "end": 107.597,
+   "show": "アプリで復習の通知を予約",
+   "part": 4
+  },
+  {
+   "start": 108.397,
+   "end": 115.906,
+   "show": "エージェント連携から会議まで幅広い更新",
+   "part": 5
+  },
+  {
+   "start": 116.156,
+   "end": 121.671,
+   "show": "それでは今日も、いってらっしゃい。あさワークスペース通信でした。",
+   "part": 5
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 11.325
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 11.325,
+   "end": 40.241
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 40.241,
+   "end": 66.671
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 66.671,
+   "end": 88.206
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 88.206,
+   "end": 108.397
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 108.397,
+   "end": 122.67
+  }
+ ],
+ "made_at": "2026-11-26T14:18:46"
+}

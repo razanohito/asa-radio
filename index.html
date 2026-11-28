@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>あさラジオ</title>
+<meta name="description" content="キャラクターが毎朝ニュースを読むチャンネル">
+<style>
+:root{--yellow:#ffd028;--red:#ff4468;--teal:#3fe0dc;--ink:#0c0e14;--cam:#161a26;--card:#11141d;--text:#f2f3f7;--muted:#8d93a8;--line:rgba(255,255,255,.12);
+  --jp:"Hiragino Sans","Hiragino Kaku Gothic ProN","Noto Sans JP",sans-serif;--mono:"SF Mono",Menlo,Consolas,monospace}
+*{box-sizing:border-box}
+html{-webkit-tap-highlight-color:transparent}
+body{margin:0;min-height:100vh;color:var(--text);font-family:var(--jp);
+  background:radial-gradient(60% 50% at 20% 0%,rgba(63,224,220,.07),transparent 70%),
+    repeating-linear-gradient(0deg,rgba(255,255,255,.03) 0 1px,transparent 1px 56px),
+    repeating-linear-gradient(90deg,rgba(255,255,255,.03) 0 1px,transparent 1px 56px),#07080c}
+main{max-width:1180px;margin:0 auto;padding:48px 16px 40px}
+header{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:32px}
+h1{margin:0;font-size:clamp(30px,5vw,46px);font-weight:800;letter-spacing:2px;color:var(--yellow)}
+.sub{margin:8px 0 0;color:var(--muted);font-size:15px}
+.all{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border-radius:999px;background:var(--yellow);color:var(--ink);font-weight:800;font-size:15px;text-decoration:none}
+.all[hidden]{display:none}
+.all svg{width:10px;height:12px;fill:currentColor}
+.hr{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.today{font:700 13px var(--mono);letter-spacing:2px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:8px 14px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:20px}
+.ch{position:relative;display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:16px;overflow:hidden;
+  color:inherit;text-decoration:none;transition:transform .15s,border-color .15s}
+.ch:hover,.ch:focus-visible{transform:translateY(-3px);border-color:var(--accent,var(--yellow));outline:none}
+.cam{position:relative;aspect-ratio:7/5;background:var(--bg,var(--cam));overflow:hidden}
+.cam img{position:absolute;left:50%;bottom:0;height:108%;transform:translateX(-50%);object-fit:contain}
+.live{position:absolute;left:14px;top:12px;font:700 12px var(--mono);letter-spacing:2px;display:flex;align-items:center;gap:7px;
+  background:rgba(7,8,12,.6);padding:5px 10px;border-radius:999px}
+.live i{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.live.on i{background:var(--red);box-shadow:0 0 0 0 rgba(255,68,104,.6);animation:pulse 1.6s infinite}
+@keyframes pulse{to{box-shadow:0 0 0 8px rgba(255,68,104,0)}}
+@media (prefers-reduced-motion:reduce){.live.on i{animation:none}.ch{transition:none}}
+.body{display:flex;flex-direction:column;gap:10px;padding:18px 20px 20px;flex:1}
+.name{display:flex;align-items:center;gap:10px;font-size:22px;font-weight:800;color:var(--accent,var(--yellow))}
+.logo{width:30px;height:26px;flex:none;background:var(--accent,var(--yellow));-webkit-mask:var(--logo) center/contain no-repeat;mask:var(--logo) center/contain no-repeat}
+.tag{font-size:13px;color:var(--teal);font-weight:700}
+.desc{margin:0;font-size:14px;line-height:1.7;color:var(--muted)}
+.ep{margin-top:auto;padding-top:12px;border-top:1px solid var(--line);font-size:14px;line-height:1.6}
+.ep small{display:block;font:600 12px var(--mono);color:var(--muted);letter-spacing:1px}
+.ep b{font-weight:700}
+.go{display:inline-flex;align-items:center;gap:8px;align-self:flex-start;margin-top:4px;padding:9px 16px;border-radius:999px;
+  background:var(--accent,var(--yellow));color:var(--ink);font-weight:800;font-size:14px}
+.go svg{width:10px;height:12px;fill:currentColor}
+footer{margin-top:36px;font-size:12px;color:var(--muted);line-height:1.8}
+footer a{color:var(--yellow)}
+.empty{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <div><h1 id="sname">あさラジオ</h1><p class="sub" id="stag">キャラクターが毎朝ニュースを読むチャンネル</p></div>
+    <div class="hr"><a class="all" id="all" hidden><svg viewBox="0 0 10 12"><path d="M0 0v12l10-6z"/></svg><span></span></a><div class="today" id="today"></div></div>
+  </header>
+  <div class="grid" id="grid"><p class="empty">チャンネルを読みこんでいます…</p></div>
+  <footer id="foot">各チャンネルのクレジットは、それぞれの番組ページの下にあります。／ <a href="https://github.com/monoradio102/myradio">myradio</a></footer>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const jst = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10);
+const WEEK = "日月火水木金土";
+const dateFmt = d => { const t = new Date(d + "T00:00:00"); return `${t.getMonth() + 1}月${t.getDate()}日（${WEEK[t.getDay()]}）`; };
+const mmss = s => `${Math.floor(s / 60)}:${String(Math.round(s % 60)).padStart(2, "0")}`;
+const get = async u => { try { const r = await fetch(u, { cache: "no-store" }); return r.ok ? r.json() : null; } catch { return null; } };
+$("today").textContent = "TODAY  " + dateFmt(jst);
+
+(async () => {
+  const conf = await get("channels.json") || { channels: [] };
+  if (conf.site?.name) { $("sname").textContent = conf.site.name; document.title = conf.site.name; }
+  if (conf.site?.tagline) $("stag").textContent = conf.site.tagline;
+  const withEp = [];
+  const cards = await Promise.all(conf.channels.map(async c => {
+    const base = `channels/${c.id}/`;
+    const [st, eps, ch] = await Promise.all([get(base + "station.json"), get(base + "episodes.json"), get(base + "character/character.json")]);
+    if (!st) return "";
+    const last = (eps || [])[0];
+    if (last) withEp.push({ id: c.id, today: last.date === jst });
+    const info = last ? (last.ja || last[Object.keys(last).find(k => k !== "date")] || last) : null;
+    const on = last && last.date === jst;
+    const accent = st.theme?.accent || "", bg = ch?.background || "";
+    const style = [accent && `--accent:${accent}`, bg && `--bg:${bg}`, st.logo && `--logo:url('${base}${st.logo}')`].filter(Boolean).join(";");
+    return `<a class="ch" href="${base}" style="${esc(style)}">
+      <div class="cam">${st.character?.thumbnail ? `<img src="${base}${esc(st.character.thumbnail)}" alt="${esc(st.caster || "")}" loading="lazy">` : ""}
+        <span class="live${on ? " on" : ""}"><i></i>${on ? "ON AIR" : "OFF AIR"}</span></div>
+      <div class="body">
+        <div class="name">${st.logo ? '<i class="logo"></i>' : ""}${esc(st.name)}</div>
+        <div class="tag">${esc(st.tagline || "")}</div>
+        <p class="desc">${esc(st.description || "")}</p>
+        <div class="ep">${last ? `<small>${on ? "けさの放送" : "最新の放送"}　${esc(dateFmt(last.date))}${info?.seconds ? "　" + mmss(info.seconds) : ""}</small><b>${esc(info?.title || "")}</b>` : '<small>まだ放送はありません</small>'}</div>
+        <span class="go"><svg viewBox="0 0 10 12"><path d="M0 0v12l10-6z"/></svg>${last ? "聴く" : "ひらく"}</span>
+      </div></a>`;
+  }));
+  // "ぜんぶ聴く": this morning's shows one after another (the newest of each, if none is from today)
+  const order = conf.channels.map(c => withEp.find(w => w.id === c.id)).filter(Boolean);
+  const todays = order.filter(w => w.today), list = (todays.length ? todays : order).map(w => w.id);
+  if (list.length) {
+    $("all").href = `channels/${list[0]}/?all=${list.join(",")}`;
+    $("all").querySelector("span").textContent = `ぜんぶ聴く（${todays.length ? "けさの" : ""}${list.length}番組）`;
+    $("all").hidden = false;
+  }
+  $("grid").innerHTML = cards.join("") || '<p class="empty">チャンネルがありません</p>';
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,342 @@
+"""ラジオ局（複数チャンネル）の自動放送で使う共通の部品（チャンネル・ニュース集め・ページ読み・台本の確認）。
+
+外部ライブラリは使いません（Python 3.10 以上の標準ライブラリだけ）。
+"""
+import datetime, html, json, os, re, urllib.error, urllib.parse, urllib.request
+import xml.etree.ElementTree as ET
+from email.utils import parsedate_to_datetime
+from html.parser import HTMLParser
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+JST = datetime.timezone(datetime.timedelta(hours=9))
+UA = "Mozilla/5.0 (compatible; myradio-station/1.0; +https://github.com/monoradio102/myradio)"
+WEEK = "月火水木金土日"
+
+
+def today_jst():
+    return datetime.datetime.now(JST).date()
+
+
+def load_json(path, default=None):
+    try:
+        with open(path, encoding="utf-8") as f: return json.load(f)
+    except FileNotFoundError:
+        return default
+
+
+def save_json(path, data, indent=1):
+    os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=indent); f.write("\n")
+    os.replace(tmp, path)
+
+
+def channels():
+    """チャンネルの ID の並び（channels.json の順）"""
+    return [c["id"] for c in (load_json(os.path.join(ROOT, "channels.json"), {}) or {}).get("channels", [])]
+
+
+def site():
+    """サイト全体の設定（channels.json の site：name, url, repo）"""
+    return (load_json(os.path.join(ROOT, "channels.json"), {}) or {}).get("site", {})
+
+
+def chan_dir(cid):
+    d = os.path.join(ROOT, "channels", cid)
+    if not os.path.exists(os.path.join(d, "station.json")): raise SystemExit(f"チャンネルがありません：{cid}（channels/{cid}/station.json）")
+    return d
+
+
+def station(cid):
+    return load_json(os.path.join(chan_dir(cid), "station.json"))
+
+
+def arg(args, name, default=None):
+    return args[args.index(name) + 1] if name in args else default
+
+
+def http_get(url, timeout=20, limit=3_000_000, _retry=True):
+    """(最終URL, ステータス, 本文の文字列)。失敗したら (url, ステータスか None, '')"""
+    req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ja,en;q=0.8"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            raw = r.read(limit)
+            cs = r.headers.get_content_charset()
+            if not cs:
+                m = re.search(rb'<meta[^>]+charset=["\']?([\w-]+)', raw[:4000], re.I) or re.search(rb'encoding=["\']([\w-]+)', raw[:200])
+                cs = m.group(1).decode() if m else "utf-8"
+            try: text = raw.decode(cs, "replace")
+            except LookupError: text = raw.decode("utf-8", "replace")
+            return r.geturl(), r.status, text
+    except urllib.error.HTTPError as e:
+        if e.code == 429 and _retry:   # 混んでいるときは少し待ってもう一度
+            import time; time.sleep(5)
+            return http_get(url, timeout, limit, _retry=False)
+        return url, e.code, ""
+    except Exception:
+        return url, None, ""
+
+
+# ---------------- フィード ----------------
+
+def _txt(el):
+    return "" if el is None else html.unescape(re.sub(r"<[^>]+>", " ", "".join(el.itertext()))).strip()
+
+
+def _date(s):
+    if not s: return None
+    s = s.strip()
+    try:
+        d = parsedate_to_datetime(s)
+    except Exception:
+        try: d = datetime.datetime.fromisoformat(s.replace("Z", "+00:00"))
+        except Exception: return None
+    return d if d.tzinfo else d.replace(tzinfo=datetime.timezone.utc)
+
+
+def parse_feed(xml_text, feed_url=""):
+    """RSS 2.0 / RSS 1.0 (RDF) / Atom の記事を [{title, url, summary, published, source}] で返す"""
+    xml_text = re.sub(r"^[^<]+", "", xml_text)
+    try:
+        root = ET.fromstring(xml_text)
+    except ET.ParseError:
+        return []
+    items = []
+    strip = lambda t: t.split("}", 1)[-1]
+    source = ""
+    for el in root.iter():
+        if strip(el.tag) in ("item", "entry"): break
+        if strip(el.tag) == "title": source = _txt(el); break
+    for el in root.iter():
+        tag = strip(el.tag)
+        if tag not in ("item", "entry"): continue
+        f = {strip(c.tag): c for c in el}
+        title = _txt(f.get("title"))
+        link = ""
+        if "link" in f:
+            link = f["link"].get("href") or _txt(f["link"])
+            for c in el:   # Atom: rel=alternate を優先
+                if strip(c.tag) == "link" and c.get("rel", "alternate") == "alternate" and c.get("href"):
+                    link = c.get("href"); break
+        summary = _txt(next((f[k] for k in ("description", "summary", "content", "encoded") if k in f), None))
+        if not summary:   # YouTube など：説明文が media:group の中にある
+            d = next((c for c in el.iter() if strip(c.tag) == "description"), None)
+            summary = _txt(d)
+        pub = None
+        for k in ("pubDate", "published", "updated", "date", "issued"):
+            if k in f: pub = _date(_txt(f[k])); break
+        if title and link.startswith("http"):
+            items.append({"title": title, "url": link.strip(), "summary": summary[:1500], "published": pub.isoformat() if pub else None, "source": source or urllib.parse.urlparse(feed_url).netloc})
+    return items
+
+
+def real_url(url):
+    """ニュース検索の RSS（Bing など）の転送用リンクから、記事の URL を取り出す"""
+    q = urllib.parse.parse_qs(urllib.parse.urlparse(url).query)
+    if "bing.com" in url and q.get("url"): return q["url"][0]
+    if re.match(r"https?://(www\.)?reddit\.com/", url): return re.sub(r"^https?://(www\.)?reddit\.com/", "https://old.reddit.com/", url)   # 本文を HTML で読める
+    return url
+
+
+def used_urls(cdir):
+    """そのチャンネルで、もう放送した記事の URL"""
+    out = set()
+    d = os.path.join(cdir, "episodes")
+    for f in os.listdir(d) if os.path.isdir(d) else []:
+        ep = load_json(os.path.join(d, f), {}) or {}
+        for n in ep.get("news", []):
+            for u in (n.get("url"), (n.get("link") or {}).get("url")):
+                if u: out.add(u.split("?")[0].rstrip("/"))
+    return out
+
+
+# 宣伝・セール・広告の記事（題で見分ける）。チャンネルの news.exclude で足せる
+JUNK_TITLE = ["セール", "お買い得", "ブラックフライデー", "サイバーマンデー", "タイムセール", "最安", "円引き", "%オフ", "％オフ",
+              "[Sponsored]", "[PR]", "【PR】", "Sponsored", "Black Friday", "Cyber Monday", " deal", "deals", "% off", "best price", "lowest price",
+              "売れ筋", "ランキング】", "Giveaway", "【今すぐ読みたい", "人気記事】", "ポイントをプレゼント", "#Shorts", "#shorts"]
+
+# 本文から捨てる定型文（寄付のお願い、会員登録の案内など）
+JUNK_PARA = re.compile(r"親愛なる読者の皆さま|寄付は上のボタン|ご寄付いただけ|サーバー代として|会員限定です|会員登録（無料）|メールマガジン|Copyright|All Rights Reserved|"
+                       r"Sign in to|Subscribe to|Follow .* on (Twitter|X)|FTC: We use|affiliate links|関連記事|Posted by", re.I)
+
+
+def youtube_feed(spec):
+    """"@handle" か "UC..." のチャンネル ID から、YouTube の RSS の URL を作る"""
+    cid = spec
+    if not spec.startswith("UC"):
+        _, _, text = http_get("https://www.youtube.com/" + spec.lstrip("/"))
+        m = (re.search(r'<link rel="canonical" href="https://www\.youtube\.com/channel/(UC[\w-]{22})"', text)
+             or re.search(r'"externalId":"(UC[\w-]{22})"', text) or re.search(r'<meta itemprop="(?:channelId|identifier)" content="(UC[\w-]{22})"', text))
+        if not m: return None
+        cid = m.group(1)
+    return "https://www.youtube.com/feeds/videos.xml?channel_id=" + cid
+
+
+def page_links(text, base, pattern, n=8):
+    """フィードのないサイト（一覧ページ）から、pattern に合う記事のリンクを上から n 本。日付は記事のページで確かめる"""
+    out, seen = [], set()
+    for m in re.finditer(r'<a\b[^>]*href=["\']([^"\'#]+)["\'][^>]*>(.*?)</a>', text, re.S | re.I):
+        u = urllib.parse.urljoin(base, html.unescape(m.group(1)))
+        if not re.search(pattern, u) or u in seen: continue
+        t = html.unescape(re.sub(r"<[^>]+>", " ", m.group(2))); t = re.sub(r"\s+", " ", t).strip()
+        if len(t) < 6: continue
+        seen.add(u); out.append({"title": t[:200], "url": u, "summary": "", "published": None, "source": urllib.parse.urlparse(base).netloc})
+        if len(out) >= n: break
+    return out
+
+
+def is_junk_title(title, extra=()):
+    t = title.lower()
+    return any(k.lower() in t for k in list(JUNK_TITLE) + list(extra or []))
+
+
+def collect(feeds, hours=36, now=None, keywords=None, exclude=None):
+    """フィードから直近 hours 時間の記事を集める（URL と題で重複を除く）。keywords があれば、題か要約にどれかを含む記事だけ"""
+    now = now or datetime.datetime.now(datetime.timezone.utc)
+    seen, per_feed = set(), []
+    for feed in feeds:
+        out = []; per_feed.append(out)
+        # フィードは URL の文字列か {"url": ..., "keywords": [...]}（そのフィードだけ絞り込む）
+        # {"youtube": "@handle"} は YouTube のチャンネル
+        url = feed.get("url") if isinstance(feed, dict) else feed
+        if isinstance(feed, dict) and feed.get("youtube"):
+            url = youtube_feed(feed["youtube"])
+            if not url: print(f"  feed --- youtube のチャンネルが見つからない {feed['youtube']}"); continue
+        kws = [k.lower() for k in ((feed.get("keywords") if isinstance(feed, dict) else None) or keywords or [])]
+        if isinstance(feed, dict) and feed.get("page"):
+            url = feed["page"]
+            final, status, text = http_get(url)
+            got = page_links(text, final, feed.get("pattern", ""), int(feed.get("max", 8))) if text else []
+        else:
+            _, status, text = http_get(url)
+            got = parse_feed(text, url) if text else []
+        print(f"  feed {status} {len(got):3d} {url}")
+        for it in got:
+            it["url"] = real_url(it["url"])
+            if kws and not any(k in (it["title"] + " " + it["summary"]).lower() for k in kws): continue
+            if is_junk_title(it["title"], exclude): continue
+            if it["published"]:
+                age = now - datetime.datetime.fromisoformat(it["published"])
+                if age > datetime.timedelta(hours=hours) or age < datetime.timedelta(hours=-6): continue
+            key = (it["url"].split("?")[0], re.sub(r"\W", "", it["title"])[:40])
+            if key[0] in seen or key[1] in seen: continue
+            seen.update(key); out.append(it)
+    # フィードを順に 1 本ずつ交互に並べる（先頭のフィードだけで上限が埋まらないように）
+    mixed = []
+    for i in range(max((len(o) for o in per_feed), default=0)):
+        mixed += [o[i] for o in per_feed if i < len(o)]
+    return mixed
+
+
+# ---------------- 記事ページ（OGP と本文） ----------------
+
+class _Page(HTMLParser):
+    SKIP = {"script", "style", "noscript", "nav", "header", "footer", "aside", "form", "svg", "button"}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.meta, self.icons, self.title, self.paras = {}, [], "", []
+        self._skip, self._in_title, self._buf, self._in_p = 0, False, [], 0
+
+    def handle_starttag(self, tag, attrs):
+        a = {k.lower(): (v or "") for k, v in attrs}
+        if tag == "meta":
+            k = (a.get("property") or a.get("name") or "").lower()
+            if k and a.get("content") and k not in self.meta: self.meta[k] = a["content"].strip()
+        elif tag == "link" and "icon" in a.get("rel", "").lower() and a.get("href"):
+            self.icons.append((a.get("rel", ""), a.get("sizes", ""), a["href"]))
+        elif tag == "title": self._in_title = True
+        elif tag in self.SKIP: self._skip += 1
+        elif tag in ("p", "h2", "h3", "li") and not self._skip: self._in_p += 1; self._buf = []
+
+    def handle_endtag(self, tag):
+        if tag == "title": self._in_title = False
+        elif tag in self.SKIP and self._skip: self._skip -= 1
+        elif tag in ("p", "h2", "h3", "li") and self._in_p:
+            self._in_p -= 1
+            t = re.sub(r"\s+", " ", "".join(self._buf)).strip()
+            if len(t) >= 20: self.paras.append(t)
+            self._buf = []
+
+    def handle_data(self, data):
+        if self._in_title: self.title += data
+        elif self._in_p and not self._skip: self._buf.append(data)
+
+
+def page_info(url):
+    """記事のページを読んで、リンクカード（link）と本文の抜き出しを返す"""
+    final, status, text = http_get(url)
+    if status != 200 or not text:
+        return {"url": url, "status": status, "error": "HTTPError" if status else "Unreachable"}, ""
+    p = _Page()
+    try: p.feed(text)
+    except Exception: pass
+    m = p.meta
+    abs_ = lambda u: urllib.parse.urljoin(final, u) if u else None
+    icon = None
+    if p.icons:
+        apple = [i for i in p.icons if "apple" in i[0].lower()]
+        icon = abs_((apple or p.icons)[0][2])
+    link = {
+        "url": final,
+        "title": html.unescape(m.get("og:title") or m.get("twitter:title") or p.title.strip())[:200],
+        "site": html.unescape(m.get("og:site_name") or urllib.parse.urlparse(final).netloc),
+        "description": html.unescape(m.get("og:description") or m.get("description") or m.get("twitter:description") or "")[:300],
+        "image": abs_(m.get("og:image") or m.get("og:image:url") or m.get("twitter:image")),
+        "icon": icon,
+    }
+    ld = re.search(r'"datePublished"\s*:\s*"([^"]+)"', text)   # JSON-LD（構造化データ）の日付
+    tm = re.search(r'<time[^>]+datetime="([^"]+)"', text)
+    pub = _date(m.get("article:published_time") or m.get("og:published_time") or m.get("pubdate") or m.get("date")
+                or (ld and ld.group(1)) or (tm and tm.group(1)) or "")
+    if pub: link["published"] = pub.isoformat()
+    body = "\n".join(x for x in p.paras if not JUNK_PARA.search(x))
+    return link, body[:6000]
+
+
+# ---------------- 台本の確認 ----------------
+
+def _line_ok(x):
+    return isinstance(x, dict) and isinstance(x.get("say"), str) and isinstance(x.get("show"), str) and x["say"].strip() and x["show"].strip()
+
+
+def check_script(ep, allowed_urls=None, min_news=2):
+    """台本 JSON の形を確かめる。おかしいところを文字列の並びで返す（空なら OK）"""
+    errs = []
+    for k in ("title", "opening", "news", "closing"):
+        if k not in ep: errs.append(f"{k} がない")
+    if errs: return errs
+    if not isinstance(ep["title"], str) or not ep["title"].strip(): errs.append("title が空")
+    for part in ("opening", "closing"):
+        if not isinstance(ep[part], list) or not ep[part]: errs.append(f"{part} が空"); continue
+        for i, x in enumerate(ep[part]):
+            if not _line_ok(x): errs.append(f"{part}[{i}] に say と show がない")
+    if not isinstance(ep["news"], list) or not min_news <= len(ep["news"]) <= 7: errs.append(f"news は {min_news}〜7 本")
+    else:
+        for j, n in enumerate(ep["news"]):
+            w = f"news[{j}]"
+            for k in ("label", "points", "lines", "url"):
+                if k not in n: errs.append(f"{w}.{k} がない")
+            if not isinstance(n.get("points"), list) or not n.get("points"): errs.append(f"{w}.points が空")
+            if not isinstance(n.get("lines"), list) or not n.get("lines"): errs.append(f"{w}.lines が空")
+            else:
+                for i, x in enumerate(n["lines"]):
+                    if not _line_ok(x): errs.append(f"{w}.lines[{i}] に say と show がない")
+            d = n.get("details")
+            if d is not None and (not isinstance(d, list) or len(d) != len(n.get("points") or [])): errs.append(f"{w}.details は points と同じ数")
+            if allowed_urls is not None and n.get("url") not in allowed_urls: errs.append(f"{w}.url が渡した記事の URL ではない: {n.get('url')}")
+    for part in ("opening", "closing"):
+        for x in ep.get(part, []):
+            if _line_ok(x) and re.search(r"[A-Za-z]{2,}", x["say"]): errs.append(f"{part} の say に英字が残っている: {x['say']}")
+    for j, n in enumerate(ep.get("news", []) if isinstance(ep.get("news"), list) else []):
+        for x in n.get("lines", []) if isinstance(n.get("lines"), list) else []:
+            if _line_ok(x) and re.search(r"[A-Za-z]{2,}", x["say"]): errs.append(f"news[{j}] の say に英字が残っている: {x['say']}")
+    h = ep.get("highlight")
+    if h is not None and not (isinstance(h, int) and 0 <= h < len(ep.get("news", []))): errs.append("highlight の番号がおかしい")
+    return errs
+
+
+def date_words(d):
+    """台本の読み上げ用・字幕用の日付"""
+    return f"{d.month}月{d.day}日{WEEK[d.weekday()]}曜日"

@@ -1,0 +1,6 @@
+audio/
+.DS_Store
+__pycache__/
+# 手元確認用に tools/site.py local が置くプレーヤー（公開時に player.html から作る）
+channels/*/index.html
+inbox/

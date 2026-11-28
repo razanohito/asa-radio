@@ -1,0 +1,371 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-26",
+ "lang": "ja",
+ "title": "アモデイ氏、AIへの主導権委譲を否定",
+ "opening": [
+  {
+   "say": "あさエーアイラジオです。十一月二十六日木曜日、おはようございます。",
+   "show": "あさAIラジオです。11月26日木曜日、おはようございます。"
+  },
+  {
+   "say": "今日は五本のニュースをお届けします。",
+   "show": "今日は5本のニュースをお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "アモデイ氏が報道に反論",
+   "points": [
+    "AIへの主導権委譲を否定",
+    "統治と自動化の混同と指摘",
+    "AI業界で議論が広がる"
+   ],
+   "details": [
+    "AnthropicのアモデイCEOが11月25日、Xへの長文投稿で米Axiosの報道に反論しました。",
+    "報道は超知能AIに意思決定権を委ねる考えだとするもの。同氏は統治とタスクの自動化を混同していると述べました。",
+    "AIは民主的な手続きで管理されるべきだと主張。OpenAIのアルトマンCEOらも人間が主体であるべきと発言しています。"
+   ],
+   "lines": [
+    {
+     "say": "アンソロピックのアモデイ最高経営責任者が、人の自由意志をエーアイに明け渡す考えはない、と表明しました。",
+     "show": "アモデイCEO「自由意志は明け渡さない」"
+    },
+    {
+     "say": "超知能のエーアイに決定をゆだねる考えだ、とした、アクシオスの報道に、エックスの投稿で反論したものです。",
+     "show": "Axiosの報道にXで反論"
+    },
+    {
+     "say": "統治と作業の自動化を混同している、として、エーアイは民主的な手続きで管理すべきだと述べました。",
+     "show": "AIは民主的な手続きで管理すべき"
+    }
+   ],
+   "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003473/",
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003473/",
+    "title": "AnthropicのアモデイCEO、「人間の自由意志をAIに明け渡す」考えを否定　AI企業間で議論",
+    "site": "ITmedia NEWS",
+    "description": "Anthropicのダリオ・アモデイCEOは、超知能AIに人間の意思決定権を委ねるべきだと考えているとしたAxiosの報道をXで否定した。社会の統治と個別タスクの自動化を混同していると反論し、AIは民主的プロセスで管理されるべきだと強調した。超知能時代の主導権を巡っては、OpenAIやMeta幹部も発言しており議論が広がっている。",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/26/2000003473/10013014/2048",
+    "icon": null
+   }
+  },
+  {
+   "label": "ChatGPTの上限を一本化",
+   "points": [
+    "ChatとWorkを統合",
+    "利用上限を共通に",
+    "Instantは無制限のまま"
+   ],
+   "details": [
+    "OpenAIはChatGPTのChatとWorkを統合した新しい画面を、一部のProユーザーから提供し始めました。",
+    "ChatとWorkは共通の利用メーターになり、ごく一部のヘビーユーザーは上限に早く達する可能性があるとしています。",
+    "Instantモデルの会話は上限に数えず、上限後も使えます。共通の上限は12月に広く導入する予定です。"
+   ],
+   "lines": [
+    {
+     "say": "続いては、オープンエーアイです。チャットジーピーティーの、チャットとワークの統合が、一部で始まりました。",
+     "show": "ChatGPTのChatとWork、統合が始まる"
+    },
+    {
+     "say": "利用の上限が一つにまとまり、ごく一部の、たくさん使う人は、上限に早く届くかもしれないそうです。",
+     "show": "ヘビーユーザーは上限に早く届く可能性"
+    },
+    {
+     "say": "インスタントモデルの会話は無制限のままで、より広い提供は、十二月の予定です。",
+     "show": "Instantは無制限、12月に広く導入"
+    }
+   ],
+   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+   "link": {
+    "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+    "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work | TechCrunch",
+    "site": "TechCrunch",
+    "description": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+    "image": "https://techcrunch.com/wp-content/uploads/2026/11/openai-chatgpt.jpg?resize=1200,800",
+    "icon": "https://techcrunch.com/wp-content/uploads/2015/02/cropped-cropped-favicon-gradient.png?w=180"
+   }
+  },
+  {
+   "label": "MCPでスキルも配信",
+   "points": [
+    "Skills over MCPが登場",
+    "いつも最新のスキル",
+    "必要な時だけ読み込み"
+   ],
+   "details": [
+    "AIエージェントと外部ツールをつなぐMCPに、新機能「Skills over MCP」がβ版として追加されました。",
+    "これまでスキルはSKILL.mdなどで別に渡しており、ツールが更新されても古いまま残るおそれがありました。",
+    "必要な時だけ読み込めるのでコンテキストを節約できます。ClaudeのPro、Max、Ultraでは既定で有効です。"
+   ],
+   "lines": [
+    {
+     "say": "次は、エーアイとツールをつなぐ仕組み、エムシーピーに、新しい機能がベータ版で加わりました。",
+     "show": "MCPに新機能がβ版で追加"
+    },
+    {
+     "say": "エーアイエージェントが、ツールの使い方を教えるスキルを、エムシーピー経由で、いつも最新の状態で受け取れます。",
+     "show": "使い方のスキルもMCP経由で最新に"
+    },
+    {
+     "say": "必要なときだけ読み込むので、コンテキストの節約にもなるそうです。",
+     "show": "必要な時だけ読み込み、節約に"
+    }
+   ],
+   "url": "https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html",
+   "link": {
+    "url": "https://www.publickey1.jp/blog/26/mcpskills_over_mcpmcp.html",
+    "title": "MCPに新機能「Skills over MCP」登場。ツールとの接続だけでなく使い方のスキルもMCP経由で提供",
+    "site": "www.publickey1.jp",
+    "description": "AIエージェントと外部ツールを接続する業界標準となっているMCP（Model Context Protocol）に、新機能として「Skills over MCP」がβ版として追加されました。 Skills over MCPを利用することで、...",
+    "image": "https://www.publickey1.jp/2026/skills-over-mcp-beta.png",
+    "icon": "https://www.publickey1.jp/favicon.ico"
+   }
+  },
+  {
+   "label": "NY州がAIおもちゃ停止",
+   "points": [
+    "AI搭載おもちゃを5年停止",
+    "製造・流通・販売が対象",
+    "違反は1日最大1.5万ドル"
+   ],
+   "details": [
+    "ホークル知事が、AIチャットボット搭載おもちゃを州内で5年間停止する法律に署名しました。発効は90日後です。",
+    "対象は、ネットを通じて子どもと会話できる、ぬいぐるみや人形、ロボットなどのおもちゃです。",
+    "違反者には1件につき1日最大1万5000ドルの罰金。おもちゃ協会は禁止に反対しています。"
+   ],
+   "lines": [
+    {
+     "say": "続いて、アメリカのニューヨーク州で、エーアイチャットボットを載せたおもちゃを止める法律が成立しました。",
+     "show": "NY州、AIチャットボットおもちゃを停止"
+    },
+    {
+     "say": "ホークル知事が署名したもので、州内での製造、流通、販売が、発効から五年間できなくなります。",
+     "show": "製造・流通・販売を5年間停止"
+    },
+    {
+     "say": "違反すると、一件につき一日最大一万五千ドルの罰金が科されます。",
+     "show": "違反は1件1日最大1万5000ドル"
+    }
+   ],
+   "url": "https://gigazine.net/news/20261126-new-york-state-bans-ai-toys/",
+   "link": {
+    "url": "https://gigazine.net/news/20261126-new-york-state-bans-ai-toys/",
+    "title": "AIチャットボット搭載おもちゃの製造・流通・販売を5年間停止する法律にニューヨーク州知事が署名",
+    "site": "GIGAZINE",
+    "description": "ホリデーシーズンで買い物需要が高まるのに先駆けて、「AIチャットボット搭載おもちゃをニューヨーク州内で製造・流通・販売することを5年間停止する」という法律に、キャシー・ホークル知事が署名しました。法律の発効は署名から90日後でホリデーシーズンよりも先になるため、ホークル知事は「ホリデーシーズンに子どもにプレゼントを購入する際は、AIチャットボット搭載おもちゃのもたらす潜在的リスクについて検討するようにしてください」と保護者に呼びかけています。",
+    "image": "https://i.gzn.jp/img/2026/11/26/new-york-state-bans-ai-toys/00_m.jpg",
+    "icon": "https://gigazine.net/apple-touch-icon.png"
+   }
+  },
+  {
+   "label": "Wi-Fiで工場を見守り",
+   "points": [
+    "電波の揺れで動きを検知",
+    "カメラの設置は不要",
+    "仮想空間で事前に検証"
+   ],
+   "details": [
+    "スペースデータが11月25日、ロボットの現場実装基盤「RobotBrain」の活用例として発表しました。",
+    "設置したWi-Fi機器だけで判定するので、通る人が電波を出す機器を持っていなくても検知できます。",
+    "模擬データでは、アクセスポイント2台にメッシュを加えると、判定の82％が実際の動きと一致しました。"
+   ],
+   "lines": [
+    {
+     "say": "最後は、日本のスペースデータが、ワイファイの電波だけで、工場の人や機械の動きを捉える機能を開発しました。",
+     "show": "スペースデータ、Wi-Fiで工場を見守り"
+    },
+    {
+     "say": "人や台車が通ったときの、電波のわずかな揺れを解析して、どこで動きがあるかを判定します。",
+     "show": "電波の揺れで動きを判定"
+    },
+    {
+     "say": "機器をどこに何台置けばよいか、導入前に仮想空間で確かめられるのが特徴です。",
+     "show": "置き方を仮想空間で事前に確認"
+    }
+   ],
+   "url": "https://internet.watch.impress.co.jp/docs/news/2159234.html",
+   "link": {
+    "url": "https://internet.watch.impress.co.jp/docs/news/2159234.html",
+    "title": "カメラを置かずに人や機械の動きを解析、Wi-Fiセンシングによる工場見守り機能をスペースデータが開発　仮想空間を構築し、どのように「見える」かを事前検証可能",
+    "site": "INTERNET Watch",
+    "description": "株式会社スペースデータは11月25日、同社が提供するロボットの現場実装基盤「RobotBrain」の活用例として、監視カメラを設置せずにWi-Fiだけで人や設備の動きを捉える解析機能を開発した。Wi-Fi機器の設置台数や置き方は、導入前に仮想空間で確認できるとしている。",
+    "image": "https://internet.watch.impress.co.jp/img/iw/list/2159/234/02.jpg",
+    "icon": "https://internet.watch.impress.co.jp/favicon.ico"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日は、エーアイとの付き合い方や、安全を考えるニュースが目立ちましたね。",
+   "show": "AIとの付き合い方を考えるニュースが目立ちました"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。あさエーアイラジオでした。",
+   "show": "それでは今日も、いってらっしゃい。あさAIラジオでした。"
+  }
+ ],
+ "highlight": 0,
+ "seconds": 119.85,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.517,
+   "show": "あさAIラジオです。11月26日木曜日、おはようございます。",
+   "part": 0
+  },
+  {
+   "start": 5.767,
+   "end": 7.773,
+   "show": "今日は5本のニュースをお届けします。",
+   "part": 0
+  },
+  {
+   "start": 8.573,
+   "end": 15.527,
+   "show": "アモデイCEO「自由意志は明け渡さない」",
+   "part": 1
+  },
+  {
+   "start": 15.777,
+   "end": 22.977,
+   "show": "Axiosの報道にXで反論",
+   "part": 1
+  },
+  {
+   "start": 23.227,
+   "end": 29.617,
+   "show": "AIは民主的な手続きで管理すべき",
+   "part": 1
+  },
+  {
+   "start": 30.417,
+   "end": 37.297,
+   "show": "ChatGPTのChatとWork、統合が始まる",
+   "part": 2
+  },
+  {
+   "start": 37.547,
+   "end": 44.523,
+   "show": "ヘビーユーザーは上限に早く届く可能性",
+   "part": 2
+  },
+  {
+   "start": 44.773,
+   "end": 50.309,
+   "show": "Instantは無制限、12月に広く導入",
+   "part": 2
+  },
+  {
+   "start": 51.109,
+   "end": 57.391,
+   "show": "MCPに新機能がβ版で追加",
+   "part": 3
+  },
+  {
+   "start": 57.641,
+   "end": 64.703,
+   "show": "使い方のスキルもMCP経由で最新に",
+   "part": 3
+  },
+  {
+   "start": 64.953,
+   "end": 69.049,
+   "show": "必要な時だけ読み込み、節約に",
+   "part": 3
+  },
+  {
+   "start": 69.849,
+   "end": 76.281,
+   "show": "NY州、AIチャットボットおもちゃを停止",
+   "part": 4
+  },
+  {
+   "start": 76.531,
+   "end": 83.891,
+   "show": "製造・流通・販売を5年間停止",
+   "part": 4
+  },
+  {
+   "start": 84.141,
+   "end": 89.015,
+   "show": "違反は1件1日最大1万5000ドル",
+   "part": 4
+  },
+  {
+   "start": 89.815,
+   "end": 97.367,
+   "show": "スペースデータ、Wi-Fiで工場を見守り",
+   "part": 5
+  },
+  {
+   "start": 97.617,
+   "end": 103.708,
+   "show": "電波の揺れで動きを判定",
+   "part": 5
+  },
+  {
+   "start": 103.958,
+   "end": 109.174,
+   "show": "置き方を仮想空間で事前に確認",
+   "part": 5
+  },
+  {
+   "start": 109.974,
+   "end": 114.923,
+   "show": "AIとの付き合い方を考えるニュースが目立ちました",
+   "part": 6
+  },
+  {
+   "start": 115.173,
+   "end": 118.853,
+   "show": "それでは今日も、いってらっしゃい。あさAIラジオでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 8.573
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 8.573,
+   "end": 30.417
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 30.417,
+   "end": 51.109
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 51.109,
+   "end": 69.849
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 69.849,
+   "end": 89.815
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 89.815,
+   "end": 109.974
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 109.974,
+   "end": 119.85
+  }
+ ],
+ "made_at": "2026-11-26T14:18:03"
+}

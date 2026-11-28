@@ -1,0 +1,371 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-26",
+ "lang": "ja",
+ "title": "1Passwordに不正アクセス",
+ "opening": [
+  {
+   "say": "あさテックラジオです。十一月二十六日木曜日、おはようございます。",
+   "show": "あさテックラジオです。11月26日木曜日、おはようございます。"
+  },
+  {
+   "say": "今日は五本のニュースをお届けします。",
+   "show": "今日は5本のニュースをお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "1Passwordで漏えい",
+   "points": [
+    "社員のGitHubに不正アクセス",
+    "氏名やメールなどが流出",
+    "保管庫への影響はなし"
+   ],
+   "details": [
+    "提供元のAgileBitsが11月25日に発表しました。11月19日に、攻撃者がアクセスした形跡を確認しました。",
+    "流出データには氏名、メールアドレス、内部メタデータ、招待や復旧用のトークンなどが含まれます。",
+    "保管庫や暗号鍵、アプリへの影響はないとしています。1Passwordを名乗るフィッシングに注意を呼びかけています。"
+   ],
+   "lines": [
+    {
+     "say": "パスワード管理アプリ、ワンパスワードの会社で、従業員のギットハブアカウントが、不正アクセスを受けました。",
+     "show": "1Password、社員のGitHubに不正アクセス"
+    },
+    {
+     "say": "顧客管理用のデータがダウンロードされ、氏名やメールアドレスなどが含まれていました。",
+     "show": "氏名やメールアドレスなどが流出"
+    },
+    {
+     "say": "パスワードを保存する保管庫への影響はなく、会社は、偽の連絡に注意するよう呼びかけています。",
+     "show": "保管庫は影響なし、偽の連絡に注意"
+    }
+   ],
+   "url": "https://internet.watch.impress.co.jp/docs/news/2159331.html",
+   "link": {
+    "url": "https://internet.watch.impress.co.jp/docs/news/2159331.html",
+    "title": "「1Password」のGitHubアカウントに不正アクセス、顧客管理データの一部漏えい。パスワードの「保管庫」は影響なし",
+    "site": "INTERNET Watch",
+    "description": "パスワード管理アプリ「1Password」を提供するカナダのAgileBitsは11月25日（現地時間）、同社従業員のGitHubアカウントが不正アクセスを受け、一部の情報がダウンロードされたと発表した。1Passwordのサービスそのものや、ユーザーのパスワードなどを保存する「保管庫」（Vault）への影響はないとしている。",
+    "image": "https://internet.watch.impress.co.jp/img/iw/list/2159/331/01.png",
+    "icon": "https://internet.watch.impress.co.jp/favicon.ico"
+   }
+  },
+  {
+   "label": "サツドラ22万件流出",
+   "points": [
+    "約22万件が流出",
+    "委託先が誤って公開",
+    "姓や住所は含まず"
+   ],
+   "details": [
+    "LINE公式アカウントの友だち登録者、22万9026アカウント分のメールアドレスなどが流出しました。",
+    "委託先のサイバーエージェントが、移行作業中に開発環境の公開設定の領域へファイルを誤って置きました。",
+    "第三者が少なくとも9回取得。姓、住所、電話番号、カード情報、パスワードは含まないとしています。"
+   ],
+   "lines": [
+    {
+     "say": "次は、北海道のドラッグストア、サツドラの顧客情報、およそ二十二万件の流出です。",
+     "show": "サツドラ、顧客情報約22万件が流出"
+    },
+    {
+     "say": "アプリの開発を任されたサイバーエージェントが、ファイルを誤って公開の場所に置き、一年以上気づきませんでした。",
+     "show": "委託先が誤公開、1年以上気づかず"
+    },
+    {
+     "say": "第三者が少なくとも九回取得していましたが、姓や住所、クレジットカード情報は含まれていないということです。",
+     "show": "姓・住所・カード情報は含まず"
+    }
+   ],
+   "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003469/",
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/26/2000003469/",
+    "title": "「サツドラ」顧客情報22万件流出　委託先サイバーエージェントがデータ誤公開、1年以上気づかず",
+    "site": "ITmedia NEWS",
+    "description": "サイバーエージェントが開発環境のクラウド上の保管領域に、顧客の個人情報を含むファイルを誤って公開設定で1年以上にわたって配置しており、第三者が対象のファイルを少なくとも9回にわたって取得していたという。",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/26/2000003469/10013000/2048",
+    "icon": null
+   }
+  },
+  {
+   "label": "シンプルスマホ8発売へ",
+   "points": [
+    "12月4日に発売",
+    "6.1インチの大画面",
+    "迷惑電話を本体AIで検知"
+   ],
+   "details": [
+    "ソフトバンクがシャープ製の「シンプルスマホ8」を12月4日に発売します。バッテリーは4500mAhです。",
+    "側面に新しい「クイック操作ボタン」を搭載し、よく使うアプリを1つ登録して起動できます。",
+    "千葉県警の協力で作った詐欺などのデータをもとに、本体内のAIが通話をリアルタイムに照合します。"
+   ],
+   "lines": [
+    {
+     "say": "続いて、ソフトバンクが、シャープ製の、シンプルスマホ8を、十二月四日に発売します。",
+     "show": "シンプルスマホ8、12月4日発売"
+    },
+    {
+     "say": "画面は前のモデルより大きい6.1インチで、よく使うアプリを一つ登録できるボタンも付きました。",
+     "show": "6.1インチ画面、クイック操作ボタン"
+    },
+    {
+     "say": "通話の内容を本体のエーアイが解析し、詐欺などの疑いがあると、音と画面で知らせます。",
+     "show": "迷惑電話を本体のAIが検知"
+    }
+   ],
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2154914.html",
+   "link": {
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2154914.html",
+    "title": "ソフトバンクからシャープ製「シンプルスマホ8」を12月4日発売、迷惑電話防止AI機能など",
+    "site": "ケータイ Watch",
+    "description": "ソフトバンクは、シャープ製スマートフォンの新製品「シンプルスマホ8」を12月4日に発売する。",
+    "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2154/914/00.jpg",
+    "icon": "https://k-tai.watch.impress.co.jp/favicon.ico"
+   }
+  },
+  {
+   "label": "Kagiがメールを開始",
+   "points": [
+    "Gmail対抗のKagi Mail",
+    "広告なしでプライバシー重視",
+    "単体は月9ドルから"
+   ],
+   "details": [
+    "有料の検索サービスを提供するKagiが「Kagi Mail」を公開ベータで始めました。カレンダーも用意されます。",
+    "容量は50GBで、別名アドレスとドメインは無制限。AI機能は任意で、初期状態ではオフです。",
+    "単体は月9ドルか年99ドルで、60日の試用あり。今はWebのみで、アプリは来年の第4四半期の予定です。"
+   ],
+   "lines": [
+    {
+     "say": "次は、有料の検索サービス、カギが、ジーメールに対抗するメールサービスを始めました。",
+     "show": "Kagi、Gmail対抗のメールを開始"
+    },
+    {
+     "say": "広告のない、プライバシーを重視した作りで、カレンダーもあります。今はウェブ版だけです。",
+     "show": "広告なし、カレンダー付き、今はWebのみ"
+    },
+    {
+     "say": "単体では月九ドル、または年九十九ドルで、今は六十日の試用期間があります。",
+     "show": "月9ドルか年99ドル、60日の試用"
+    }
+   ],
+   "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
+   "link": {
+    "url": "https://arstechnica.com/gadgets/2026/11/google-search-alternative-kagi-launches-gmail-rival/",
+    "title": "Google search alternative Kagi launches Gmail rival",
+    "site": "Ars Technica",
+    "description": "The pitch is an unusual combination of privacy promises and AI features.",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/kagi-mail-announcement-1152x648.jpg",
+    "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+   }
+  },
+  {
+   "label": "Heraが衝突跡を撮影",
+   "points": [
+    "欧州の探査機が到着",
+    "DART衝突の跡を撮影",
+    "競技場ほどのクレーター"
+   ],
+   "details": [
+    "欧州宇宙機関のHeraが、小惑星ディディモスとディモルフォスの近くに到着し、最初の画像が公開されました。",
+    "NASAのDARTは2022年9月にディモルフォスへ衝突し、公転の周期を約33分短くしました。",
+    "クレーターは直径約151メートルのディモルフォスに近い大きさで、小惑星の形も変わったとみられます。"
+   ],
+   "lines": [
+    {
+     "say": "最後は宇宙の話題です。ヨーロッパ宇宙機関の探査機ヘラが、小惑星ディモルフォスの画像を届けました。",
+     "show": "欧州の探査機Hera、小惑星の画像を公開"
+    },
+    {
+     "say": "二〇二二年に、ナサの探査機ダートがぶつかり、軌道を変えた実験の、その後の様子です。",
+     "show": "NASAのDARTが衝突した小惑星"
+    },
+    {
+     "say": "ぶつかった跡は、競技場ほどの大きさのクレーターで、小惑星そのものに近い大きさでした。",
+     "show": "競技場ほどのクレーターを確認"
+    }
+   ],
+   "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+   "link": {
+    "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+    "title": "European spacecraft finds chaotic scene after asteroid deflection experiment",
+    "site": "Ars Technica",
+    "description": "DART made a really, really large mess. However, we didn’t really know what kind of mess.\"",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/hera_arrival1-1020x648.jpg",
+    "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日は、個人情報の守り方を考えさせられるニュースが続きました。",
+   "show": "個人情報の守り方を考えるニュースが続きました"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。あさテックラジオでした。",
+   "show": "それでは今日も、いってらっしゃい。あさテックラジオでした。"
+  }
+ ],
+ "highlight": 0,
+ "seconds": 119.63,
+ "lines_timed": [
+  {
+   "start": 0.6,
+   "end": 5.581,
+   "show": "あさテックラジオです。11月26日木曜日、おはようございます。",
+   "part": 0
+  },
+  {
+   "start": 5.831,
+   "end": 7.879,
+   "show": "今日は5本のニュースをお届けします。",
+   "part": 0
+  },
+  {
+   "start": 8.679,
+   "end": 15.73,
+   "show": "1Password、社員のGitHubに不正アクセス",
+   "part": 1
+  },
+  {
+   "start": 15.98,
+   "end": 21.175,
+   "show": "氏名やメールアドレスなどが流出",
+   "part": 1
+  },
+  {
+   "start": 21.425,
+   "end": 27.91,
+   "show": "保管庫は影響なし、偽の連絡に注意",
+   "part": 1
+  },
+  {
+   "start": 28.71,
+   "end": 34.929,
+   "show": "サツドラ、顧客情報約22万件が流出",
+   "part": 2
+  },
+  {
+   "start": 35.179,
+   "end": 42.336,
+   "show": "委託先が誤公開、1年以上気づかず",
+   "part": 2
+  },
+  {
+   "start": 42.586,
+   "end": 49.829,
+   "show": "姓・住所・カード情報は含まず",
+   "part": 2
+  },
+  {
+   "start": 50.629,
+   "end": 56.794,
+   "show": "シンプルスマホ8、12月4日発売",
+   "part": 3
+  },
+  {
+   "start": 57.044,
+   "end": 63.167,
+   "show": "6.1インチ画面、クイック操作ボタン",
+   "part": 3
+  },
+  {
+   "start": 63.417,
+   "end": 69.582,
+   "show": "迷惑電話を本体のAIが検知",
+   "part": 3
+  },
+  {
+   "start": 70.382,
+   "end": 76.718,
+   "show": "Kagi、Gmail対抗のメールを開始",
+   "part": 4
+  },
+  {
+   "start": 76.968,
+   "end": 83.101,
+   "show": "広告なし、カレンダー付き、今はWebのみ",
+   "part": 4
+  },
+  {
+   "start": 83.351,
+   "end": 89.357,
+   "show": "月9ドルか年99ドル、60日の試用",
+   "part": 4
+  },
+  {
+   "start": 90.157,
+   "end": 96.973,
+   "show": "欧州の探査機Hera、小惑星の画像を公開",
+   "part": 5
+  },
+  {
+   "start": 97.223,
+   "end": 103.473,
+   "show": "NASAのDARTが衝突した小惑星",
+   "part": 5
+  },
+  {
+   "start": 103.723,
+   "end": 109.718,
+   "show": "競技場ほどのクレーターを確認",
+   "part": 5
+  },
+  {
+   "start": 110.518,
+   "end": 114.881,
+   "show": "個人情報の守り方を考えるニュースが続きました",
+   "part": 6
+  },
+  {
+   "start": 115.131,
+   "end": 118.629,
+   "show": "それでは今日も、いってらっしゃい。あさテックラジオでした。",
+   "part": 6
+  }
+ ],
+ "segments": [
+  {
+   "kind": "opening",
+   "index": null,
+   "start": 0.6,
+   "end": 8.679
+  },
+  {
+   "kind": "news",
+   "index": 0,
+   "start": 8.679,
+   "end": 28.71
+  },
+  {
+   "kind": "news",
+   "index": 1,
+   "start": 28.71,
+   "end": 50.629
+  },
+  {
+   "kind": "news",
+   "index": 2,
+   "start": 50.629,
+   "end": 70.382
+  },
+  {
+   "kind": "news",
+   "index": 3,
+   "start": 70.382,
+   "end": 90.157
+  },
+  {
+   "kind": "news",
+   "index": 4,
+   "start": 90.157,
+   "end": 110.518
+  },
+  {
+   "kind": "closing",
+   "index": null,
+   "start": 110.518,
+   "end": 119.63
+  }
+ ],
+ "made_at": "2026-11-26T14:18:24"
+}
