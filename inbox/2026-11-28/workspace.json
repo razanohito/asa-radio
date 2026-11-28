@@ -1,0 +1,184 @@
+{
+ "date": "2026-11-28",
+ "channel": "workspace",
+ "name": "あさワークスペース通信",
+ "news": {
+  "topic": "Google Workspace（Gmail、カレンダー、ドライブ、ドキュメント、スプレッドシート、スライド、Meet、Chat、フォーム、Vids、Apps Script、管理コンソール、Workspace の Gemini など）の新機能・変更・提供開始の発表",
+  "count": 4,
+  "min": 2,
+  "hours": 168,
+  "caster_name": "シオリ",
+  "persona": "明るくて面倒見のいい、事務職の先輩風の女の子",
+  "tone": "ていねいで親しみやすく、仕事で使う人の目線で",
+  "pick_rules": [
+   "一般のユーザーに関わる変更と、管理者が知っておくべき変更を両方取り上げる",
+   "同じ機能の続報は1本にまとめる"
+  ],
+  "write_rules": [
+   "対象のエディション（例：Business Standard 以上）、展開の時期、管理者の設定が必要かどうかが本文にあれば、details に必ず書く",
+   "製品名は Google の日本語の呼び方（ドキュメント、スプレッドシート、スライド、ドライブ、カレンダー）にする"
+  ]
+ },
+ "candidates": [
+  {
+   "title": "Google Workspace Weekly Recap - November 27, 2026",
+   "url": "http://workspaceupdates.googleblog.com/2026/11/weekly-recap-11-27-2026.html",
+   "summary": "Make messages in Google Chat from apps and agents easier to read with tables and headings  Agents and apps in Google Chat can now send messages formatted with tables and headings. Tables make it easy to compare options, share status trackers, and present data in rows and columns. Headings provide a way to separate long messages, like summaries, reports, and plans, into clear, scannable sections. |  Learn more   Google Meet on the web now supports sending 1080p video for all users, enabled by default  We’re expanding 1080p Full HD video sending in Google Meet on the web (previously limited to select paid editions) to all users. It is now enabled by default on computers with a 1080p camera and sufficient compute and bandwidth. |  Learn more   New study enhancements for Flashcards in Gemini Notebook  We introduced three updates to flashcards in Gemini Notebook to help users better retain information, measure recall speed, and maintain consistent review routines. |  Learn more   Simplifying agent access while keeping organizations in control: MCP servers, CLI, standardized usage tiers, and admin policies  We are making Workspace Model Context Protocol (MCP) servers and the official Workspace CLI generally available alongside standardized usage tiers to simplify how developers build and scale agents, paired with a new Workspace AI Tools Addendum and expanded enterprise controls over AI agents. |  Learn more   Rooms \"More actions\" Panel Reordering  Starting on December 02, 2026, we",
+   "published": "2026-11-27T09:13:18.459000-08:00",
+   "source": "Google Workspace Updates",
+   "link": {
+    "url": "http://workspaceupdates.googleblog.com/2026/11/weekly-recap-11-27-2026.html",
+    "title": "Google Workspace Weekly Recap - November 27, 2026",
+    "site": "Google Workspace Updates",
+    "description": "",
+    "image": null,
+    "icon": null
+   },
+   "body": "Make messages in Google Chat from apps and agents easier to read with tables and headings  Agents and apps in Google Chat can now send messages formatted with tables and headings. Tables make it easy to compare options, share status trackers, and present data in rows and columns. Headings provide a way to separate long messages, like summaries, reports, and plans, into clear, scannable sections. |  Learn more   Google Meet on the web now supports sending 1080p video for all users, enabled by default  We’re expanding 1080p Full HD video sending in Google Meet on the web (previously limited to select paid editions) to all users. It is now enabled by default on computers with a 1080p camera and sufficient compute and bandwidth. |  Learn more   New study enhancements for Flashcards in Gemini Notebook  We introduced three updates to flashcards in Gemini Notebook to help users better retain information, measure recall speed, and maintain consistent review routines. |  Learn more   Simplifying agent access while keeping organizations in control: MCP servers, CLI, standardized usage tiers, and admin policies  We are making Workspace Model Context Protocol (MCP) servers and the official Workspace CLI generally available alongside standardized usage tiers to simplify how developers build and scale agents, paired with a new Workspace AI Tools Addendum and expanded enterprise controls over AI agents. |  Learn more   Rooms \"More actions\" Panel Reordering  Starting on December 02, 2026, we"
+  },
+  {
+   "title": "【資料を無料公開】「Gemini（Google Workspace）業務プロンプト集 50」を ...",
+   "url": "https://prtimes.jp/main/html/rd/p/000000268.000137731.html",
+   "summary": "株式会社Uravation（本社：東京都文京区、代表取締役：佐藤 傑）は、Gmail・ドキュメント・スプレッドシートなどの中でそのまま試せる Gemini のプロンプトを50本まとめ、使えるエディションと注意を1本ずつ添えた資料「Gemini（Google Workspace）業務プロンプト集 ...",
+   "published": "2026-11-27T16:00:00+00:00",
+   "source": "Google Workspace - Bingニュース",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000268.000137731.html",
+    "title": "【資料を無料公開】「Gemini（Google Workspace）業務プロンプト集 50」を公開。Gmail・ドキュメントなどで試せる50本に、使えるエディションと確かめ方を添えました",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "株式会社Uravationのプレスリリース（2026年11月28日 14時00分）【資料を無料公開】「Gemini（Google Workspace）業務プロンプト集 50」を公開。Gmail・ドキュメントなどで試せる50本に、使えるエディションと確かめ方を添えました",
+    "image": "https://prcdn.freetls.fastly.net/release_image/137731/268/137731-268-88151d4e339cef7fe21b4fa2b12f0de2-1920x1080.png?format=jpeg&auto=webp&fit=bounds&width=2400&height=1260",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/apple-touch-icon.png"
+   },
+   "body": "Gmailでスレッドの要点と自分の宿題を、ドキュメントで会議メモを議事録に、スプレッドシートで経費の確認が要る行を洗い出すなど。50本を絞り込めるExcelと、社内ルール1枚のWordを同梱しました\n株式会社Uravation（本社：東京都文京区、代表取締役：佐藤 傑）は、Gmail・ドキュメント・スプレッドシートなどの中でそのまま試せる Gemini のプロンプトを50本まとめ、使えるエディションと注意を1本ずつ添えた資料「Gemini（Google Workspace）業務プロンプト集 50」（PDF・横型36ページ、Excel・Word同梱）を、当社サイトで無料公開しています。機能とエディションの記述は、2026年11月15日時点の Google の公式ページの記載に沿っています。\n▼ 資料ダウンロードページ：https://uravation.com/downloads/gemini-workspace-business-prompts/\nGemini が使えるようになっても、材料を指定せずに「いい感じにまとめて」とだけ頼むと、一般論の返事になりがちです。\n使い始めた後は、次の3つで迷いやすくなります。\nGmail やドキュメントの中で、何と頼めばよいか\n自分の契約（Business Starter か Standard 以上か）で、どのアプリの Gemini が使えるか\nうまくいったプロンプトを、Gem にして部署で共有してよいか\n本資料の50本は、Google の公式ガイドが示す4つの要素（Persona・Task・Context・Format）を「役割・依頼・背景と材料・形式と条件」と言い換え、人が確かめやすくする「確かめ方」を足した5つの要素で書きました。資料では、公式の新しい名前に合わせて「Gemini Notebook（旧 NotebookLM）」と書いています。\n第1章 Gemini が動く場所と、プロンプトの5つの要素：動く3つの場所、エディションで使える範囲、5つの要素、材料の渡し方（開いて頼む・「@」で選ぶ・ソースに追加する）\n第2章 アプリ別の代表のプロンプト：Gmail・ドキュメント・スプレッドシートと AI 関数・スライド・Meet・ドライブ・Deep Research・Gemini Notebook\n第3章 部門別の使い方と、社内での広げ方：部門別の代表5本、Gem での共有、入れてよい情報、出力の確かめ方、よくある質問\n50本の内訳は、Gmail 10本・ドキュメント 9本・スプレッドシート 10本・スライド 5本・Meet 4本・ドライブ 3本・Gemini アプリ 7本・Gemini Notebook 2本です。うち5本は架空の材料で実際に動かし、返事を画面つきで載せました（個人向けの Gemini アプリの画面です）。\nスレッドの要点と自分の宿題（Gmail）：「決まったこと」「決まっていないこと」「私がすること（期限つき）」の3つの見出しで整理させ、各行に根拠のメールの送信者と日付を添えさせます。Business Starter でも使えます。\n会議メモを議事録に（ドキュメント）：担当や期限がメモにない項目は［未定］と書かせ、最後にその一覧を出させます。提案は文書の中に出るので、「すべて承認」の前に変わる所を見ます。\n経費の確認が要る行（スプレッドシート）：「1件3万円以上で領収書の欄が空」などの基準を書き、シートを変えずに表で返させます。確認した行の数が一覧と合うかも見ます。\n自由記述の分類（AI 関数）：セルに =AI(\"…\", 範囲) と書き、［生成して挿入］で分類名を入れます。元に戻せないため、20件ほどを人が読んでから全体に広げます。\n社内文書の点検係（Gem）：社内の文書ルールを［知識］に入れ、指摘を表で返させます。共有した Gem のカスタム指示と［知識］のファイルは、アクセスできる人全員が見られます（公式）。\n仕事用アカウントの Gem は、2027年3月にスキルへ移行する予定と公式ページに記載されています。\n頼む時は、材料を開くか「@」で指定し、形式と条件を書き、根拠（ソース・引用の番号・数）を出させます。\nGemini の返事は下書きです。数字・日付・固有名詞は、「ソース」や引用の番号から元の材料と照らして確かめます。\nAI に任せるのは作業で、判断と送信は人が行います。\n資料名：Gemini（Google Workspace）業務プロンプト集 50（2026年11月版）\n形式：PDF 横型36ページ、Excel（50本の一覧・自社用の雛形・試した記録・出典一覧）、Word（社内ルール 1枚）、合計 約6.5MB\n対象：Google Workspace で Gemini を使い始めた、または検討中の会社の推進担当・部門の担当・情報システム部門の方\n入手方法：フォームから申し込むと、その場でダウンロードできます（同じURLをメールでもお届けします・有効期限は7日）\nダウンロードページ：https://uravation.com/downloads/gemini-workspace-business-prompts/\nほかの資料の一覧：https://uravation.com/downloads/\nGemini研修（法人向け・職務別の12時間）：https://uravation.com/service/ai-training/gemini/\n関連資料「Microsoft 365 Copilot 業務プロンプト集 50」：https://uravation.com/downloads/m365-copilot-business-prompts/\n使い方やエディションの確かめ方・社内ルールの決め方は、30分の無料相談でご相談いただけます。\n無料相談・お問い合わせ：https://uravation.com/contact/\nGoogle Workspace で Gemini が使えるようになった後に迷いやすいのが、「Gmail やドキュメントの中で、何と頼めばよいか」です。本資料の50本は、材料の指定・形式と条件・確かめ方まで書き、使えるエディションを1本ずつ添えました。返事は下書きとして、数字は元の材料と照らしてから使ってください。自分のメールか文書で1本を試し、うまくいった物から部署で共有していただければ幸いです。\n株式会社Uravationは、生成AIの研修・コンサルティング・開発を行うAIカンパニーです。\nhttps://uravation.com\nE-mail：suguru.sato@uravation.com\n※ Gemini・Google Workspace は Google LLC の商標です。本資料は当社が独自に作成した一般的な情報であり、Google の公式の見解ではありません。\nこのプレスリリース内で使われている画像ファイルがダウンロードできます"
+  },
+  {
+   "title": "Google Docs can now do more with Microsoft Word documents without converting the file",
+   "url": "https://9to5google.com/2026/11/27/google-docs-microsoft-word-compare-documents/",
+   "summary": "Google Docs is getting an update in how it handles Microsoft Word documents, adding the ability to compare revisions without converting the file. \n\n\n\n  more…",
+   "published": "2026-11-27T15:55:00+00:00",
+   "source": "9to5Google",
+   "link": {
+    "url": "https://9to5google.com/2026/11/27/google-docs-microsoft-word-compare-documents/",
+    "title": "Google Docs can now do more with Microsoft Word documents without converting the file",
+    "site": "9to5Google",
+    "description": "Google Docs is getting an update in how it handles Microsoft Word documents, adding the ability to compare revisions without...",
+    "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/google-docs-3.jpg?quality=82&strip=all&resize=1200,628",
+    "icon": "https://9to5google.com/wp-content/uploads/sites/4/2017/03/favicon-bg-none-face-white.png?w=180"
+   },
+   "body": "Google Docs is getting an update in how it handles Microsoft Word documents, adding the ability to compare revisions without converting the file.\nYou can already upload a Microsoft Word document (.docx) to Google Drive and use it within Docs without converting the file, but there are some limits. One of those was comparing documents, which Google is now fixing with an update.\nRolling out now, Google Docs can now directly compare two documents, even if one is in a Microsoft Word format. To do this, you’ll need to upload the Word document to Drive, then select it in the “compare documents” tool, with Docs then showing any differences between the two. There are plenty of scenarios where this is useful, including when comparing versions of a contract.\nThis new feature is enabled for all users, and the company is apparently looking at similar functionality for PowerPoint files too.\nMore on Google Drive:\nAI Mode adding Google Drive, Wallet, & Gemini app integration\nGoogle and Adobe partner to add app integration in Google Drive, Gemini\nGoogle Docs and Drive now support markdown files natively\nBest Black Friday Deals:\nDisney+ for $4.99/mo for a year\nNothing Ear (3a) for 30% off\nMoto Tag 2 for 37% off\nBaseus PicoGo Pro for 35% off\nStatik MagPro Magnetic USB-C cable, Buy 2 get 1 free\nFollow Ben: Twitter/X, Threads, Bluesky, and Instagram\nCheck out 9to5Google on YouTube for more news:\nBen is a Senior Editor for 9to5Google.\nFind him on Twitter @NexusBen. Send tips to schoon@9to5g.com or encrypted to benschoon@protonmail.com."
+  },
+  {
+   "title": "Google WorkspaceにつなぐAIエージェントはどう変わる？ MCP必須化と2027 ...",
+   "url": "https://note.com/kayasatoru36/n/n41398d5d9852",
+   "summary": "【忙しい方へ】 ・何が起きたか：Googleが2026年11月24日、Workspace MCPサーバーとWorkspace CLIの一般提供（GA）を開始し、あわせてAIエージェントの接続ルールを公式に定めました。 ・誰に関係するか：GmailやDriveなどGoogle WorkspaceにAIエージェントや自動化ツールをつないでいる開発者・事業者です。 ・今すぐ要る行動：今日すぐの作業はあり ...",
+   "published": "2026-11-24T23:12:00+00:00",
+   "source": "Google Workspace - Bingニュース",
+   "link": {
+    "url": "https://note.com/kayasatoru36/n/n41398d5d9852",
+    "title": "Google WorkspaceにつなぐAIエージェントはどう変わる？ MCP必須化と2027年の2つの期限を解説｜かやさとる｜AIと上場企業をつくる",
+    "site": "note（ノート）",
+    "description": "【忙しい方へ】 ・何が起きたか：Googleが2026年11月24日、Workspace MCPサーバーとWorkspace CLIの一般提供（GA）を開始し、あわせてAIエージェントの接続ルールを公式に定めました。 ・誰に関係するか：GmailやDriveなどGoogle WorkspaceにAIエージェントや自動化ツールをつないでいる開発者・事業者です。 ・今すぐ要る行動：今日すぐの作業はありません。ただしAIエージェント経由の接続は2027年2月1日からMCP経由が必須になり、2027年4月1日からは上限を超えた利用に課金が始まります。  ■ 公式発表の要点 出典はGoogle",
+    "image": "https://assets.st-note.com/production/uploads/images/340364606/rectangle_large_type_2_6e39224f32d592f5e0c99add522c0bcf.png?fit=bounds&quality=85&width=1280",
+    "icon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/icons/apple-touch-icon.png"
+   },
+   "body": "【忙しい方へ】・何が起きたか：Googleが2026年11月24日、Workspace MCPサーバーとWorkspace CLIの一般提供（GA）を開始し、あわせてAIエージェントの接続ルールを公式に定めました。・誰に関係するか：GmailやDriveなどGoogle WorkspaceにAIエージェントや自動化ツールをつないでいる開発者・事業者です。・今すぐ要る行動：今日すぐの作業はありません。ただしAIエージェント経由の接続は2027年2月1日からMCP経由が必須になり、2027年4月1日からは上限を超えた利用に課金が始まります。\n■ 公式発表の要点出典はGoogle Workspace Updates公式ブログ（2026年11月24日付「Simplifying agent access while keeping organizations in control」）と、同日17:00 UTC公開のGoogle Cloud公式ブログです。・Workspace MCPサーバーが一般提供になりました。対象はGmail、Google Drive、Docs、Sheets、Slides、Calendar、Chat、Tasksで、Keepは近日対応とされています。・Workspace CLIも一般提供になりました。ターミナルやVM、サンドボックス内のローカルエージェント向けで、構造化JSON出力と範囲を絞ったOAuthサインインに対応します。・利用ティアは2段階になりました。Standardは無料（公開された利用枠＝レート制限あり）。Scaledは高い枠が必要なプロジェクト向けで、2027年4月1日から、日次の無料枠を超えたAPI／MCP利用分に課金が始まります。公式ブログによれば、アクティブな開発者の99％超はStandardの範囲内です。・MCP必須化：AIエージェント等のアクセスツールは、WorkspaceのREST APIを直接呼ぶのではなくMCP経由で接続しなければならず、技術的な強制は2027年2月1日に始まります。・新しい「Workspace AI Tools Addendum」で、Workspace APIから得たデータの長期保存やスクレイピングなどが制限されます。・管理側の統制も同時に提供されます。管理コンソールでエージェントのアクセス管理、人の確認（HITL）のルール設定、監査ログの確認ができ、既存のDLPルールがエージェント利用時にも自動で適用されます。・展開は2週間かけて順次（Rapid Release／Scheduled Releaseとも）。対象はすべてのGoogle Workspace顧客と開発者です。\n■ 何が変わるかこれまでAIエージェントとWorkspaceの接続は、REST APIを直接使う方法が中心でした。これからは「Googleが管理するMCPサーバーかCLIを通す」ことが公式の前提になります。権限チェック、DLP、人の確認が接続の通り道に組み込まれるため、エージェントに仕事を任せるときの確認ポイントが、作る側の工夫からプラットフォーム側の仕組みへ移ります。\n■ 今後どう変わるか確認済みの予定は2つです。2027年2月1日にMCP必須化の技術的強制が始まり、2027年4月1日にScaledティアの課金と、未移行プロジェクトのStandard枠への自動移行が始まります。ここからは推測ですが、WorkspaceにつなぐAIツールの多くがMCP対応を標準にしていくと考えられます（推測です）。自作の自動化をREST APIで組んでいる場合は、移行の要否を早めに確認しておくと慌てずに済みます。\n■ 小さな事業や創作への影響小さな事業でも、AIにメール確認や資料整理を任せる使い方は広がっています。今回の変更は「今のツールが急に止まる」話ではありませんが、2027年の期限までに、使っているAIツールがMCP経由に切り替わるかどうかを確認しておくことが、実務上の備えになります。\n■ 出典・Google Workspace Updates公式ブログ（2026年11月24日）：https://workspaceupdates.googleblog.com/ （当該記事「Simplifying agent access while keeping organizations in control: MCP servers, CLI, standardized usage tiers, and admin policies」）・Google Cloud公式ブログ「Built for trust and control: Powering the next wave of AI agents across Google Workspace and Google Cloud」（2026年11月24日17:00 UTC公開、二次確認として参照）\n文：かやさとる／SUIROQ Creative Studio\nこの記事が役に立ったら、スキとフォローで応援してもらえるとうれしいです。\n#GoogleWorkspace #MCP #AIエージェント #AI速報"
+  },
+  {
+   "title": "Kagi, the paid Google Search alternative, now has a Gmail rival too",
+   "url": "https://9to5google.com/2026/11/24/kagi-the-paid-google-search-alternative-now-has-a-gmail-rival-too/",
+   "summary": "Kagi is best known as a paid alternative to Google Search, but the company is now introducing its own email service that offers an alternative to Gmail. \n\n\n\n  more…",
+   "published": "2026-11-24T18:30:00+00:00",
+   "source": "9to5Google",
+   "link": {
+    "url": "https://9to5google.com/2026/11/24/kagi-the-paid-google-search-alternative-now-has-a-gmail-rival-too/",
+    "title": "Kagi, the paid Google Search alternative, now has a Gmail rival too",
+    "site": "9to5Google",
+    "description": "Kagi is best known as a paid alternative to Google Search, but the company is now introducing its own email...",
+    "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/kagi-mail-1.jpg?quality=82&strip=all&resize=1200,628",
+    "icon": "https://9to5google.com/wp-content/uploads/sites/4/2017/03/favicon-bg-none-face-white.png?w=180"
+   },
+   "body": "Kagi is best known as a paid alternative to Google Search, but the company is now introducing its own email service that offers an alternative to Gmail.\nKagi Mail has been in the works for a long time, the company says in a post today, but it’s only just now launching in public beta. Users get an “@kagimail.com” address or can use their own domain, with both email and a calendar included.\nThere’s a 60-day trial for Kagi Mail, with the service costing $99.99/year (or included in Kagi’s $25/month Ultimate plan). The reason you’d pay that, Kagi explains, is because this is a product designed to “do its job and then get out of your way,” with no ads or “surveillance” as a part of the package.\nDoes the world need another email service? We asked ourselves that question more than once. There are great ones out there, and we’re fans of what Fastmail and Tuta are doing. We still built our own, for the same reason we build everything at Kagi: technology should do its job and then get out of your way.\nFor email, that job is to be fast, private, and secure. On top of that, it should help you stay on track with what’s important: bring forward what you need to act on, respond to, or acknowledge, and quietly handle the rest.\nThere’s a mobile app coming for Kagi Mail in early 2027, with a contact book and Kagi Assistant integration also slated for early next year. There is some natural language AI for organization, blocking of tracking pixels and remote images by default, and support for email clients like Apple Mail, and Kagi says everything can be exported to move to another provider should you choose.\nAre you going to give it a try?\nFollow Ben: Twitter/X, Threads, Bluesky, and Instagram\nCheck out 9to5Google on YouTube for more news:\nBen is a Senior Editor for 9to5Google.\nFind him on Twitter @NexusBen. Send tips to schoon@9to5g.com or encrypted to benschoon@protonmail.com."
+  },
+  {
+   "title": "Google Workspace Gemini｜15分レクチャーで始める導入支援副業の始め方",
+   "url": "https://note.com/kai_claudecode/n/nb510fbdda4d3",
+   "summary": "この記事でわかること Google Workspaceに既に入っているAI機能「Gemini」を使える状態にする仕事が副業になること 中小企業が知らないまま使っていない機能を提案する営業文面と料金体系 管理者権限をもらわずに安全に作業する方法と、そのまま使えるプロンプト・テンプレート はじめに 「Workspaceの契約書に『Gemini』って書いてあるけど、正直何のことか分からない」 「せっかく ...",
+   "published": "2026-11-26T07:01:00+00:00",
+   "source": "Google Workspace - Bingニュース",
+   "link": {
+    "url": "https://note.com/kai_claudecode/n/nb510fbdda4d3",
+    "title": "Google Workspace Gemini｜15分レクチャーで始める導入支援副業の始め方｜カイ",
+    "site": "note（ノート）",
+    "description": "この記事でわかること    Google Workspaceに既に入っているAI機能「Gemini」を使える状態にする仕事が副業になること    中小企業が知らないまま使っていない機能を提案する営業文面と料金体系    管理者権限をもらわずに安全に作業する方法と、そのまま使えるプロンプト・テンプレート     はじめに  「Workspaceの契約書に『Gemini』って書いてあるけど、正直何のことか分からない」 「せっかくAIが使えるようになったらしいのに、誰も使い方を教えてくれない」 「社長に『AIを使え』と言われたけど、何から手をつければいいか分からない」  こうした声を、中小企",
+    "image": "https://assets.st-note.com/production/uploads/images/340939960/rectangle_large_type_2_336158560a8eb61dbe12c736974369b7.jpeg?fit=bounds&quality=85&width=1280",
+    "icon": "https://assets.st-note.com/poc-image/manual/note-common-images/production/icons/apple-touch-icon.png"
+   },
+   "body": "Google Workspaceに既に入っているAI機能「Gemini」を使える状態にする仕事が副業になること\n中小企業が知らないまま使っていない機能を提案する営業文面と料金体系\n管理者権限をもらわずに安全に作業する方法と、そのまま使えるプロンプト・テンプレート\n「Workspaceの契約書に『Gemini』って書いてあるけど、正直何のことか分からない」 「せっかくAIが使えるようになったらしいのに、誰も使い方を教えてくれない」 「社長に『AIを使え』と言われたけど、何から手をつければいいか分からない」\nこうした声を、中小企業の経営者や事務担当者から聞くことが増えています。\n実は、その答えはもう会社のGoogle Workspace（Googleの企業向けメールツール）の中に入っています。\n2026年11月時点で、BusinessプランとEnterpriseプラン（契約プランの2種類）には、Geminiという名のAI機能が追加料金なしで組み込まれています。ただ多くの企業は、その機能が入っていることを知りません。知ったとしても、使い方を教えてくれる人がいないのです。\n使い方レクチャーの台本が1本できあがります\nPC（Windows / Mac どちらでも）とクレジットカード\n自分自身の、またはクライアント先のGoogle Workspace管理者権限（預かるのではなく「委任」してもらう方法を本文で解説します）\nプログラミング: 不要（すべて管理コンソールの画面操作で完結します）\n英語: 設定画面の一部に英語表記が残りますが、迷いやすい箇所は本文で日本語訳を示します\n時間: プラン確認・機能の有効化で1〜2時間、レクチャー準備に2〜3時間程度\nなぜ今、Google Workspace Gemini導入支援の需要があるのか\n東京商工リサーチの調査（2026年3月31日〜4月7日、有効回答6,327社）から分かることがあります。\n生成AIツール（Geminiなど）を「会社として活用を推進」している企業は全体の20.3%だけです。つまり、8割以上がAIを本気で使ってはいないのです。\n「方針を決めていない」と答えた企業は37.5%でした。前回調査（2025年8月）の50.9%からは改善しています。ですが依然として、3社に1社以上が「AIをどう使ったらいいか分からない」という状態のままなのです。\n企業の大きさで見ると、差が大きく分かれます。\n大企業は、会社として推進している企業が36.4%、部門によって推進している企業が22.6%です。合わせて約59%が、組織的にAIを活用しています。\nですが中小企業は違います。「方針を決めていない」が38.7%、「個人の裁量で何となく使っている」が27.7%と高いのです。\n中小企業の多くは、「誰かが個人的にAIに触れているが、会社として使い方が定まっていない」という状態なのです。\nここが、あなたが副業を始められる場所なのです。\n「もう契約の中に入っている」を提案材料にする\n2025年の料金改定で、Gemini（このAI機能）は「追加で買うオプション」ではなくなりました。新しく購入するなら、BusinessプランとEnterpriseプランに「標準搭載」されているのです。\nつまり、顧客に新しいツールを買ってもらう必要がない。「いま月800円〜払ってるプランに、もう入ってますよ」という提案ができるのです。\n2026年11月時点の年間プラン・税抜・1ユーザー月額は次のとおりです（月払いのフレキシブルプランはこれより少し高くなります）。\nBusiness Starter: 月額800円（月払いは950円）\nBusiness Standard: 月額1,600円（月払いは1,900円）\nBusiness Plus: 月額2,500円（月払いは3,000円）\n※最新の料金はGoogle公式の料金ページで必ず確認してください。\nGemini for Workspaceは、Googleの各ツールで使えます。右側にパネルを開いて相談できるのです。\nGmail: 新しいメールの下書き作成、既存の下書きのトーン調整（丁寧に・フレンドリーに、など）\nドキュメント: 文章の作成補助、全体の校正（誤字や文法チェック）\nスプレッドシート: 表の整理支援、データ入力の補完\nスライド・ドライブ・Chat: その他の補助機能\nGoogle Meetの自動メモ作成機能は、プランによって使える・使えないが分かれます。\n使える：Business Standard・Business Plus・Enterprise\n使えない：Business Starter\n日本語にも対応していますが、1回の会議では1言語だけの対応です（途中で言語を変えられません）。\nつまり、最初にやるべき仕事は「このお客さんはどのプランか」の確認です。 ここを飛ばすと、「Meetの自動メモが使えると言われたのに使えない」というクレームにつながります。\nGemini導入支援で先に知っておきたい落とし穴\nGoogleの約束：Workspaceの対象プランで使う場合、会社のデータは他社のために使われず、無断で学習に使われません。\n「Workspace Experiments」という試験的機能を使う場合、あなたが入力した質問と結果がGoogleに保存されます。Googleがこの機能を改善するときに、データが使われる可能性があるのです。\nまた、個人のGmailやGeminiとは異なります。提案する際は、「絶対に漏れません」と言い切らず、「対象プランなら学習に使われません。ただし試験的機能は別」と正確に説明してください。\n特権管理者のID・パスワードは預からない\nクライアントの管理コンソールを操作する際、特権管理者アカウント（すべての操作ができるID）のパスワードをそのまま預かるのは避けましょう。危険だからです。\nGoogle Workspaceには「権限委任」という仕組みがあります。\nクライアントから「Gemini設定に必要な権限だけ」をあなたのアカウントに付与してもらう\n作業が終わったら、その権限を外してもらう\nこうすれば、あなたが預かるのは「限定的な権限」だけです。\n税理士事務所などを顧客にする場合、必ず守るべき一線があります。\n絶対にしてはいけないこと： 税務相談や労務相談に踏み込むこと。これらは「士業の独占業務」だからです。税理士でない人が「月の納税額はいくらですか」という相談に答えたら、違法になる可能性があります（税理士法52条）。\n有償・無償は関係ありません。反復継続して相談に乗ると違法なのです。\nOK: ツールの設定、操作の手順、プロンプト（質問文）の型を教える\nNG: 税務・労務・法務といった業務判断に立ち入る\n社会保険労務士や弁護士にも同じルールがあります。\nGoogle Workspace Gemini導入支援のよくある質問\nGemini for Google Workspaceは中小企業でもそのまま使えますか\nはい、使えます。2026年11月時点で、すべての契約プラン（Starter・Standard・Plus）にGeminiが搭載されています。\nただし注意があります。Starterプランは、上位プランよりも「1ヶ月に使える回数が少ない」という制限があります。具体的な数は公式ページで確認してください。\nGmailの下書き作成(Gemini)はどう使い始めればいいですか\n画面右上の「Geminiに相談」アイコンをクリック\nパネル下部に「誰宛に、何の目的で、どんな文面か」を一文で入力\n例：「田中さん宛に、先日の会議のお礼と次回の日程確認をお願いするメールを、丁寧な言葉で作成」\n注意：アイコンの位置や名称は、Googleの更新で変わることがあります。レクチャー前に必ず自分の画面で試してください。\n顧客向けレクチャー資料には、この「一文の型」を例で示すと喜ばれます。\nGoogle Workspaceの定着化支援を個人事業主でも名乗れますか\n名乗ること自体は問題ありません。ですが、大手通信会社のサービスとは違うことを理解してください。\n大手：数カ月単位の大型プログラム。料金は百万円単位のことも多い。\nメニュー: 設定代行と使い方レクチャー（短期）から始める\n大型プログラムを個人で何カ月も請け負うと、費用が見合わなくなります。\nGoogle Workspace Geminiの料金プランは2026年のうちに変わりますか\n変わる可能性があります。Googleは過去にも何度も料金改定しています。\nこの記事の金額は2026年11月時点です。提案資料を作る前に、必ずGoogle公式の料金ページで最新情報を確認してください。\n古い料金で提案すると、顧客とのトラブルになります。\nここから先では、実際に最初のクライアントを見つける手順と、管理コンソールでのGemini有効化手順、業種別の実用プロンプト、見積りテンプレート、業務委託契約書に入れるべき項目を解説します。\n特権管理者を預からずに作業するための、クライアントへの権限委任の依頼文\n士業・小売・美容系など業種別にそのまま使えるプロンプトの型\n実際にそのまま話せる15分レクチャーの進行表とセリフ例\nランサーズ・クラウドワークスの実売価格を根拠にした見積りテンプレート\nこの権限委任の手順を知らずに特権管理者のID・パスワードをそのまま預かってしまうと、情報漏えいが起きた際にすべての責任を背負うことになります\nPayPayなら抽選で全額還元のチャンス！12/27まで\nClaude Codeをはじめとする最先端AIツールを活用し、システム開発の効率化から、AIを使った…\nPayPayなら抽選で全額還元のチャンス！12/27まで\nAI活用・副業・キャリア戦略に関する記事をご覧いただけます。"
+  },
+  {
+   "title": "GoogleがAIエージェントによるGmailなどへのAPI直接アクセスを制限へ ...",
+   "url": "https://www.msn.com/ja-jp/news/other/google%E3%81%8Cai%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%AB%E3%82%88%E3%82%8Bgmail%E3%81%AA%E3%81%A9%E3%81%B8%E3%81%AEapi%E7%9B%B4%E6%8E%A5%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%82%92%E5%88%B6%E9%99%90%E3%81%B8-mcp%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%8Bcli%E3%81%AE%E4%BD%BF%E7%94%A8%E3%82%92%E8%A6%81%E6%B1%82/ar-AA2im8li",
+   "summary": "Googleは2027年2月1日から、AIエージェントがGmailやGoogleドライブなどのGoogle Workspaceのサービスにアクセスする際に公式のMCPサーバーやGoogle Workspace CLIを使用するよう求める方針を発表しました。GmailのMCPサーバーを巡ってはメールの送信などが一部の開発者に限定されていることが指摘されていましたが、記事作成時点で機能制限に関する記述 ...",
+   "published": "2026-11-27T04:00:00+00:00",
+   "source": "Google Workspace - Bingニュース",
+   "link": {
+    "url": "https://www.msn.com/ja-jp/news/other/google%E3%81%8Cai%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%AB%E3%82%88%E3%82%8Bgmail%E3%81%AA%E3%81%A9%E3%81%B8%E3%81%AEapi%E7%9B%B4%E6%8E%A5%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%82%92%E5%88%B6%E9%99%90%E3%81%B8-mcp%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%8Bcli%E3%81%AE%E4%BD%BF%E7%94%A8%E3%82%92%E8%A6%81%E6%B1%82/ar-AA2im8li",
+    "title": "MSN",
+    "site": "www.msn.com",
+    "description": "",
+    "image": null,
+    "icon": null
+   },
+   "body": "Googleは2027年2月1日から、AIエージェントがGmailやGoogleドライブなどのGoogle Workspaceのサービスにアクセスする際に公式のMCPサーバーやGoogle Workspace CLIを使用するよう求める方針を発表しました。GmailのMCPサーバーを巡ってはメールの送信などが一部の開発者に限定されていることが指摘されていましたが、記事作成時点で機能制限に関する記述 ..."
+  },
+  {
+   "title": "AI Mode adding Google Drive, Wallet, & Gemini app integration",
+   "url": "https://9to5google.com/2026/11/23/ai-mode-wallet-gemini/",
+   "summary": "Personal Intelligence in AI Mode is  expanding today  with Google Drive, Wallet, and even Gemini app integrations. \n\n\n\n  more…",
+   "published": "2026-11-23T17:36:34+00:00",
+   "source": "9to5Google",
+   "link": {
+    "url": "https://9to5google.com/2026/11/23/ai-mode-wallet-gemini/",
+    "title": "AI Mode adding Google Drive, Wallet, & Gemini app integration",
+    "site": "9to5Google",
+    "description": "Personal Intelligence in AI Mode is expanding today with Google Drive, Wallet, and even Gemini app integrations.",
+    "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/AI-Mode-Personal-Intelligence-cover.webp?resize=1200,628",
+    "icon": "https://9to5google.com/wp-content/uploads/sites/4/2017/03/favicon-bg-none-face-white.png?w=180"
+   },
+   "body": "Personal Intelligence in AI Mode is expanding today with Google Drive, Wallet, and even Gemini app integrations.\nBefore today’s announcement, Personal Intelligence in AI Mode supported Google Photos and Workspace (Gmail and Calendar). This is used to customize responses based on your data. The new Google Drive support lets AI Mode take into account your Docs, Sheets, and PDFs.\nFollowing the Gemini app, Google Wallet integration is coming to AI Mode. On the safety front, AI Mode can only read information from your financial accounts. It cannot “move, manage, or invest your money.”\n…you can map out your financial milestones and identify actionable ways to trim everyday spending. You can also maximize credit card benefits — like optimizing cash-back categories, travel perks, and reward points — based on your cards linked via Wallet.\nThe last integration today is the most interesting. You will be able to “securely connect your Gemini app to Personal Intelligence in AI Mode.”\n…if you explore an idea in the Gemini app, AI Mode will have that foundation to build on, and vice versa.\nThis builds on the existing ability to have the Gemini app factor your Search history into answers. With this update, AI Mode can access “your Gemini chats, what you’ve shared with Gemini Apps (like photos, files, audio or video attachments, and screens you ask about), and associated insights and locations.” The option to make the connection is available today, but the feature will go live in the coming weeks.\nYou can control Personal Intelligence in AI Mode from this page.\nGoogle will soon show a “Personalization” icon below tailored responses that lets you “view the context AI Mode uses.”\nThe final update today will make AI Overviews and AI Mode responses “more personally relevant.”\nSo if you’ve been researching and planning for a trip, you can pick up right where you left off in a new search thread without starting over or repeating yourself. As always, you can adjust or turn off personalization at any time in your Search Settings.\nCheck out 9to5Google on YouTube for more news:\nEditor-in-chief. Interested in the minutiae of Google and Alphabet. Tips/talk: abner@9to5g.com"
+  },
+  {
+   "title": "Google Meet on the web now supports sending 1080p video for all users, enabled by default",
+   "url": "http://workspaceupdates.googleblog.com/2026/11/google-meet-on-web-now-supports-sending-1080p-video-for-all-users-enabled-by-default.html",
+   "summary": "We’re expanding 1080p Full HD video sending in Google Meet on the web (previously limited to select paid editions) to all users. It is now enabled by default on computers with a 1080p camera and sufficient compute and bandwidth.  Meet transmits 1080p only when a participant's video tile is large enough to display it, and automatically scales resolution down when CPU or bandwidth is constrained.  Getting started      Admins:  The default video quality can be configured at the OU or group level in the Admin console, and existing bandwidth-limit settings remain applied. Visit the Help Center to  learn more about configuring default video quality .   End users:  1080p will be ON by default under Auto on eligible computers (unless restricted by your admin) and can be changed anytime in Settings > Video. Visit the Help Center to  learn more about improving your video and audio experience .     Rollout pace      Rapid Release and Scheduled Release domains:  Extended rollout (potentially longer than 15 days for feature visibility) started on November 11, 2026     Availability     Available to all Google Workspace customers, Workspace Individual subscribers, and users with personal Google accounts.     Resources     Google Workspace Admin Help:  Configuring default video quality   Google Workspace Admin Help:  Manage Meet settings (for admins)   Google Help:  Improve your video & audio experience",
+   "published": "2026-11-23T08:16:33.518000-08:00",
+   "source": "Google Workspace Updates",
+   "link": {
+    "url": "http://workspaceupdates.googleblog.com/2026/11/google-meet-on-web-now-supports-sending-1080p-video-for-all-users-enabled-by-default.html",
+    "title": "Google Meet on the web now supports sending 1080p video for all users, enabled by default",
+    "site": "Google Workspace Updates",
+    "description": "",
+    "image": null,
+    "icon": null
+   },
+   "body": "We’re expanding 1080p Full HD video sending in Google Meet on the web (previously limited to select paid editions) to all users. It is now enabled by default on computers with a 1080p camera and sufficient compute and bandwidth.  Meet transmits 1080p only when a participant's video tile is large enough to display it, and automatically scales resolution down when CPU or bandwidth is constrained.  Getting started      Admins:  The default video quality can be configured at the OU or group level in the Admin console, and existing bandwidth-limit settings remain applied. Visit the Help Center to  learn more about configuring default video quality .   End users:  1080p will be ON by default under Auto on eligible computers (unless restricted by your admin) and can be changed anytime in Settings > Video. Visit the Help Center to  learn more about improving your video and audio experience .     Rollout pace      Rapid Release and Scheduled Release domains:  Extended rollout (potentially longer than 15 days for feature visibility) started on November 11, 2026     Availability     Available to all Google Workspace customers, Workspace Individual subscribers, and users with personal Google accounts.     Resources     Google Workspace Admin Help:  Configuring default video quality   Google Workspace Admin Help:  Manage Meet settings (for admins)   Google Help:  Improve your video & audio experience"
+  },
+  {
+   "title": "サーラグループ・日本商工会議所の Google Workspace™ および Gemini ...",
+   "url": "https://prtimes.jp/main/html/rd/p/000000028.000160192.html",
+   "summary": "イーディーエル株式会社のプレスリリース（2026年11月27日 15時10分）サーラグループ・日本商工会議所の Google Workspace™ および Gemini Enterprise™ 活用事例を公開 ー売上向上に直結する「攻めの生成AI活用」を無料ライブセミナーで実演 ...",
+   "published": "2026-11-26T16:00:00+00:00",
+   "source": "Google Workspace - Bingニュース",
+   "link": {
+    "url": "https://prtimes.jp/main/html/rd/p/000000028.000160192.html",
+    "title": "サーラグループ・日本商工会議所の Google Workspace™ および Gemini Enterprise™ 活用事例を公開 ー売上向上に直結する「攻めの生成AI活用」を無料ライブセミナーで実演",
+    "site": "プレスリリース・ニュースリリース配信シェアNo.1｜PR TIMES",
+    "description": "イーディーエル株式会社のプレスリリース（2026年11月27日 15時10分）サーラグループ・日本商工会議所の Google Workspace™ および Gemini Enterprise™ 活用事例を公開 ー売上向上に直結する「攻めの生成AI活用」を無料ライブセミナーで実演",
+    "image": "https://prtimes.jp/common/pc_v4/og.png",
+    "icon": "https://prtimes.jp/common/v4.1/images/html/favicon/apple-touch-icon.png"
+   },
+   "body": "〜まず30秒のクイズで体験、届いた「触れるレポート」の作り方をライブで種明かし〜\nイーディーエル株式会社（本社：茨城県つくば市、代表取締役社長：平塚知真子）は、\nGoogle Workspace と Gemini Enterprise を活用したサーラグループ様および日本商工会議所様の事例を、当社公式サイトで公開しました。あわせて、企業・団体の経営者・DX推進担当者を対象とした無料の「生成AIライブセミナー」（60分）を、2026年11月から12月にかけて計4回開催します。セミナーに先立ち、Gemini Enterprise でできることを30秒で体験できる「Google 10Xクイズ」も公開しています。\n生成AIを使い始める経営者が増え、「何ができそうか」が少しずつ見えてきました。一方で、多くの企業は日々の業務を Windows で回しており、できれば今の環境のまま生成AIを使いたいと考えています。しかし、全社で使うにはコストがかかる、安全性や使い方に自信が持てない、という壁で一歩を踏み出せずにいる企業も少なくありません。だからこそ今、選択肢のひとつとして Google Workspace と Gemini Enterprise を知っていただきたいと考えました。\nGoogle Workspace™ 認定パートナーとして企業・教育機関・商工会議所を支援してきたイーディーエルの代表取締役社長で、『Google 式10Xリモート仕事術』（ダイヤモンド社）の著者である平塚知真子が、Gemini で何ができるのか、なぜ Google のAIなのかを、実際の事例と最新機能のライブデモをお見せします。\nただし、組織で生成AIを生かすのは、個人で使うよりはるかに難しいことです。全員が安全に使える環境を整え、スキルの差を埋め、業務の流れを見直す必要があり、一部の人だけが使いこなしても、やり方が属人化すれば組織の成果にはつながりません。また、生成AIの価値は説明を聞くだけでは実感しにくいため、今回はまずクイズで体験していただき、セミナーでその仕組みをお見せする形にしました。\n来場者アンケートの分析を Gemini で サーラプラザ豊川の来場者アンケートを Gemini で分析し、来場者の声を次の提案や企画に生かし、Googleフォームと生成AI Gemini Enterprise を組み合わせた施策を実践し、わずか2週間で8件の成約を獲得する劇的な成果を上げました。\n単なるツールの導入・業務効率化にとどまらず、現場への確実な定着化が直接的な営業成績（売上）の向上へと繋がっています。につなげています。これまでの生成AI活用はコスト削減や生産性向上が中心でしたが、本事例は売上の向上に直結する「攻めのDX」の事例です。\n事例ページ：【 https://edl.co.jp/interview/interview01 】\n【事例のテーマ】 日本商工会議所は Google Workspace 導入やDXアクションプラン策定で自らのデジタル化を推進。Webフォームによる新規会員獲得や生成AIでの業務効率化が進み、1年後の調査では約9割の商工会議所が「参考・後押しになった」と回答する成果を上げました。イーディーエルは2022年から日本商工会議所様と連携し、全国の商工会議所のデジタル化・生成AI活用を支援しています。\n事例ページ：【 https://edl.co.jp/interview/interview03 】\n自力で活用を進めている企業にも、これから始める企業にも、Google の最新情報をプロがわかりやすくまとめてお伝えします。\n参加者自身がその場で回答したアンケートを使い、Gemini Enterprise での Google フォーム作成から、自動集計、Google スプレッドシート™ での分析、一人ひとりへのメッセージ作成までを60分で実演します。\n【11月18日（水）14:00〜15:00(終了)】【11月24日（火）16:00〜17:00(終了)】【12月2日（水）16:00〜17:00】【12月15日（火）14:00〜15:00】\nオンライン（Google Meet™）、60分\n企業・団体の経営者・DX推進担当者（規模は問いません）。自力で活用を進めている企業も、これから始める企業も歓迎\nGoogle 10Xクイズの答え合わせと、届いたレポートの種明かし／ライブデモ／2027年スタートダッシュのための準備\nカメラオフで参加可、録画の配布はありません\n【 https://nt26.edl.co.jp 】（Google 10Xクイズに回答後、セミナーの申込へ進めます）\n講師：平塚知真子（イーディーエル株式会社 代表取締役社長、教育学修士〈社会教育・成人教育〉、Google for Education 認定トレーナー、『Google 式10Xリモート仕事術』著者）\n平塚は自ら教材を開発し、講師も務めています。経営者として同じ悩みを抱えてきたからこそ、現場に負担をかけずに成果につながるプログラムづくりを大切にしています。\nセミナー後、導入や活用をご検討の企業さまには、個別のご相談もお受けしています。\n◆ 30秒で体験できる「Google 10Xクイズ」\n「あなたはまだ、 Gemini のすべてを知らない。」まずは「Google 10Xクイズ」（全5問・約30秒）で、Gemini Enterprise で何ができるかを体験してください。回答すると、回答内容に合わせた「次の一手レポート」とサーラグループ様の事例で使ったアンケート分析プロンプトが自動で届きます。レポートは読むだけでなく、触って操作できるまったく新しい形です。セミナーでは、このレポートがどのように作られているのか、その種明かしもお見せします。\nクイズはこちら：【 https://nt26.edl.co.jp/#quiz-form 】\n2006年創業の筑波大学発ベンチャー。Google Workspace 認定パートナーとして、企業・教育機関・商工会議所に Google Workspace の導入支援と生成AI研修を提供しています。2026年には Google for Education Higher Education PD Partner の認定を取得し、経済産業省の「DX認定事業者」にも認定されました。本セミナーで紹介する取り組みは、『日経トレンディ』2026年12月号（日経BP、11月4日発売）の記事広告でも紹介しています。\n所在地：茨城県つくば市二の宮２丁目１７−１０ パークサイド洞峰 301\n事業内容：Google Workspace 導入支援、生成AI研修、DX支援\nURL： https://edl.co.jp/\nイーディーエル株式会社 広報担当：国生・河合／TEL：029-846-1126／E-mail：【gt@edl.co.jp】\n※ Google Workspace、Gemini、Google for Education、Google スプレッドシート、Google Meet は、Google LLC の商標です\nこのプレスリリースには、メディア関係者向けの情報があります\nメディアユーザー登録を行うと、企業担当者の連絡先や、イベント・記者会見の情報など様々な特記情報を閲覧できます。※内容はプレスリリースにより異なります。"
+  }
+ ]
+}

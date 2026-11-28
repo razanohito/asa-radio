@@ -1,0 +1,73 @@
+{
+ "date": "2026-11-28",
+ "channel": "summoners",
+ "name": "サマナ朝通信",
+ "news": {
+  "topic": "スマホゲーム『サマナーズウォー: Sky Arena』（と関連タイトル）のアップデート、イベント、コラボ、eスポーツ大会（SWC）などの新しい話題",
+  "count": 3,
+  "min": 1,
+  "hours": 168,
+  "caster_name": "せんぱい",
+  "persona": "サマナーズウォーにくわしい、面倒見のいい先輩キャラの女の子（ゆっくり解説の解説役）",
+  "tone": "明るく、頼れる先輩らしく。事実はていねいに",
+  "farewell": "それでは今日も、よいサマナーライフを。",
+  "pick_rules": [
+   "新キャラ（新モンスター）、二次覚醒、バランス調整、イベント、コラボ、アップデート、SWCを優先する",
+   "公式の発表（お知らせ・パッチノート・運営の投稿）に加えて、海外コミュニティ（Reddit）、YouTube の攻略動画、海外の攻略サイト・ブログも選んでよい",
+   "公式でない情報は、出どころがはっきりしていて、中身が本文（動画なら概要欄）に書いてあるものだけ。データ解析のリーク、根拠のないうわさは選ばない",
+   "同じ新キャラの話題は、公式と攻略情報をまとめて1本にする"
+  ],
+  "write_rules": [
+   "英語や韓国語の記事・動画も、日本語で話す",
+   "公式でない情報は「海外のコミュニティでは」「攻略動画では」など、出どころを言ってから話す。評価は誰の意見かを言い、断定しない",
+   "ゲーム内の名前（モンスター名・コンテンツ名）は、日本版の正式な表記がわからなければ、記事の表記をカタカナにする",
+   "番組は非公式のファン番組なので、運営の代弁はしない"
+  ],
+  "web_search": {
+   "queries": [
+    "Summoners War new monster",
+    "Summoners War patch notes",
+    "Summoners War update",
+    "Summoners War collab",
+    "Summoners War reddit official announcement",
+    "Summoners War SWC",
+    "서머너즈 워 신규 몬스터",
+    "サマナーズウォー 新モンスター"
+   ]
+  }
+ },
+ "candidates": [
+  {
+   "title": "v9.4.1 Update Notice",
+   "url": "https://store.steampowered.com/news/app/2426960/view/679642204775384550",
+   "summary": "Greetings from Com2uS!  v9.4.1 has been updated on Steam today, and an auto update will be held to install the new version.  The process won't take long, but you may experience a sudden crash if you are logged in when the update begins.  Please make sure to come back to the Village and end your game safely to save your game data before the update starts.    ===================================================​   \\[Update Schedule per Server]   Global - 12:45 AM PST Europe - 9:45 AM CET Asia - 4:30 PM TST Korea - 5:00 PM KST Japan - 5:30 PM JST China - 4:30 PM CST  ===================================================  ※ You won't be able to enter \\[World Arena, Arena Interserver Battle, World Guild Battle, and Dimension Arena] during this period (12:00 AM - 12:45 AM PST), but other content can be played normally.    ========================   v9.4.1 Update Details   ========================   ▶ Skill Balance Patch  \\[View Details]     ▶ \\[Dimension Arena] Beta Season 2 Preview - Beta Season 2 of \\[Dimension Arena] will begin on Dec. 2 PST. - Before the official launch of \\[Dimension Arena], the beta service will continue through Season 2 in December. We hope you participate and enjoy the new season! : Season 1 Tally and Season 2 Preparation Period: Nov. 30, 7:00 AM - Dec. 2, 6:59 PM PST : Season 2 Battle Period: Dec. 2, 7:00 PM - Dec. 31, 6:59 AM PST : Battle Format: 4vs4 : Summonable Monsters: 69 default 5★ Light Monsters / 76 default 5★ Dark Monsters (145 Monsters in total)  -",
+   "published": "2026-11-27T05:10:09+00:00",
+   "source": "2426960 RSSフィード",
+   "link": {
+    "url": "https://store.steampowered.com/news/app/2426960/view/679642204775384550",
+    "title": "サマナーズウォー: Sky Arena－v9.4.1 Update Notice－Steamニュース",
+    "site": "store.steampowered.com",
+    "description": "Greetings from Com2uS!\nv9.4.1 has been updated on Steam today, and an auto update will be held to install the new version.\nThe process won't take long, but you may experience a sudden crash if you are logged in when the update begins.\nPlease make sure to come back to the Village and end your game sa",
+    "image": "https://clan.fastly.steamstatic.com/images/44752586/fa461162b24781ed9d196ad568ba8fab918a60c2.jpg",
+    "icon": "https://store.steampowered.com/favicon.ico"
+   },
+   "body": "Greetings from Com2uS!  v9.4.1 has been updated on Steam today, and an auto update will be held to install the new version.  The process won't take long, but you may experience a sudden crash if you are logged in when the update begins.  Please make sure to come back to the Village and end your game safely to save your game data before the update starts.    ===================================================​   \\[Update Schedule per Server]   Global - 12:45 AM PST Europe - 9:45 AM CET Asia - 4:30 PM TST Korea - 5:00 PM KST Japan - 5:30 PM JST China - 4:30 PM CST  ===================================================  ※ You won't be able to enter \\[World Arena, Arena Interserver Battle, World Guild Battle, and Dimension Arena] during this period (12:00 AM - 12:45 AM PST), but other content can be played normally.    ========================   v9.4.1 Update Details   ========================   ▶ Skill Balance Patch  \\[View Details]     ▶ \\[Dimension Arena] Beta Season 2 Preview - Beta Season 2 of \\[Dimension Arena] will begin on Dec. 2 PST. - Before the official launch of \\[Dimension Arena], the beta service will continue through Season 2 in December. We hope you participate and enjoy the new season! : Season 1 Tally and Season 2 Preparation Period: Nov. 30, 7:00 AM - Dec. 2, 6:59 PM PST : Season 2 Battle Period: Dec. 2, 7:00 PM - Dec. 31, 6:59 AM PST : Battle Format: 4vs4 : Summonable Monsters: 69 default 5★ Light Monsters / 76 default 5★ Dark Monsters (145 Monsters in total)  -"
+  },
+  {
+   "title": "Welcome to Legendary Summoners Night! #EventHighlights",
+   "url": "https://www.youtube.com/watch?v=ZADruuBzFT4",
+   "summary": "SWC2026 World Finals in Seoul!\nTo celebrate the 10th SWC, Legendary Summoners Night brought together influencers from around the world and SWC players from over the years.\n\nRelive the unforgettable moments filled with laughter and fun in this video! 🎉",
+   "published": "2026-11-27T14:00:23+00:00",
+   "source": "Summoners War Europe",
+   "link": {
+    "url": "https://www.youtube.com/watch?v=ZADruuBzFT4",
+    "title": "- YouTube",
+    "site": "www.youtube.com",
+    "description": "YouTube でお気に入りの動画や音楽を楽しみ、オリジナルのコンテンツをアップロードして友だちや家族、世界中の人たちと共有しましょう。",
+    "image": null,
+    "icon": "https://www.youtube.com/s/desktop/c52980d1/img/favicon.ico"
+   },
+   "body": "SWC2026 World Finals in Seoul!\nTo celebrate the 10th SWC, Legendary Summoners Night brought together influencers from around the world and SWC players from over the years.\n\nRelive the unforgettable moments filled with laughter and fun in this video! 🎉"
+  }
+ ]
+}

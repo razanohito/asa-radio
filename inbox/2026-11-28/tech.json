@@ -1,0 +1,504 @@
+{
+ "date": "2026-11-28",
+ "channel": "tech",
+ "name": "あさテックラジオ",
+ "news": {
+  "topic": "スマホ・PC・半導体・ネットサービス・セキュリティ・宇宙などのテクノロジーの新しい発表や出来事（AIが主役の話題は別番組なので控えめに）",
+  "count": 3,
+  "min": 2,
+  "hours": 36,
+  "caster_name": "ミライ",
+  "persona": "知的で落ち着いた、めがねの女の子",
+  "tone": "落ち着いていて、わかりやすく",
+  "pick_rules": [
+   "AIが主役の記事は、とても大きな話題のとき1本までにする",
+   "新製品、サービスの変更、セキュリティ事故、業界の大きな動きなど、話題がかたよらないように",
+   "単なるセール情報・レビュー・コラムは選ばない"
+  ],
+  "write_rules": [
+   "製品の値段や発売日は、本文にあるときだけ言う"
+  ]
+ },
+ "candidates": [
+  {
+   "title": "そばチェーン「ゆで太郎」は、なぜ個人情報を「持たない」と決めた？　8年続いたバースデークラブ終了の理由を社長に聞いた",
+   "url": "https://www.itmedia.co.jp/news/article/2611/28/2000003529/",
+   "summary": "ゆで太郎システムは、個人情報の漏えいリスクを理由に、約4000人が登録する「バースデークラブ」の終了を決めた。8年続けた制度を廃止する理由や、個人情報を持たずに顧客との関係を築く戦略を社長に聞いた。",
+   "published": "2026-11-28T10:00:00+09:00",
+   "source": "ITmedia NEWS 最新記事一覧",
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/28/2000003529/",
+    "title": "そばチェーン「ゆで太郎」は、なぜ個人情報を「持たない」と決めた？　8年続いたバースデークラブ終了の理由を社長に聞いた",
+    "site": "ITmedia NEWS",
+    "description": "ゆで太郎システムは、個人情報の漏えいリスクを理由に、約4000人が登録する「バースデークラブ」の終了を決めた。8年続けた制度を廃止する理由や、個人情報を持たずに顧客との関係を築く戦略を社長に聞いた。（1/2 ページ）",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/28/2000003529/10013177/2048",
+    "icon": null
+   },
+   "body": "そばチェーン「ゆで太郎」を展開するゆで太郎システム（東京都品川区）は10月28日、個人情報の漏えいリスクを理由に、会員の誕生月にクーポン券を送る「バースデークラブ」の終了を発表した。会員数は約4000人。実際に情報漏えいが起きたわけではないにもかかわらず、なぜ8年続けてきた制度を終了するのか。同社の池田智昭社長に話を聞いた。\n約4000人の個人情報、商品部長がExcelで管理\nゆで太郎は1994年、東京都中央区で誕生したそばチェーンだ。2004年に設立したゆで太郎システムが都心から郊外へと出店エリアを広げ、現在は全国に約250店舗を展開している。\n今回廃止したバースデークラブは、同社が8年前に始めた会員制度。会員の誕生月にそばの大盛り無料券5枚を付けたはがきを郵送する。池田社長によると、「販促目的ではなく、ゆで太郎に愛着を持つ顧客とのつながりを深める狙いがあった」という。\n同社はバースデークラブ会員の住所や氏名、電話番号、生年月日を控え、専用アプリは開発せずにExcelで情報を管理していた。データにアクセスできるのは、原則として商品部長1人に限定していたという。\n入会希望者にはFacebookのメッセンジャーを通じて連絡してもらい、同社がコード番号を送付。その番号を使って本申し込みをする仕組みだった。当初はメールで申し込みを受け付け、はがきの発送も自社で行っていたが、会員数の増加に伴い、発送業務を外部業者に委託するようになった。なお、取得した個人情報は、はがきの発送以外には活用していなかったという。\n制度を終了するきっかけとなったのは、相次ぐ他社の個人情報漏えい事件だ。池田社長自身も、複数の企業から情報漏えいの通知を受け取った経験がある。\n同社は会員情報が漏えいするリスクは高くないと見ていたものの、可能性はゼロではない。池田社長は終了を思い立ったその日に役員にメールで意見を求め、翌日の定例会議で終了を決めた。\n短期間で終了を決断できた背景として池田社長は、バースデークラブで集めた個人情報を営業活動に使っていなかったことを挙げる。情報の用途ははがきの発送に限り、商品の宣伝や販売には利用していなかった。\n「基本的には『セキュリティを強化して継続します』というのが企業の取る方法だと思う。ただ、うちは会員情報をバースデークラブでしか使っていなかったので、ぱっとやめた」（池田社長）\nバースデークラブの特典である大盛り無料券は、有効期間が1年で期間中5回まで使える。池田社長は、券そのものが来店のきっかけになることは少なく、制度の終了による売上高への影響はほとんどないとみている。\n同社は11月末から12月初旬にかけて、12月生まれの会員と、2026年に入会してまだはがきを受け取っていない会員に最後のはがきを送る。12月中旬ごろまで未着などの問い合わせを待ち、問題がなければ会員情報を完全に消去するという。\n来店客の3割以上が利用 あえて「紙のクーポン」を続ける理由\nバースデークラブを終了する一方、17年前から続けているトッピング無料クーポン券の配布は今後も続ける。年4回、1回当たり200万～300万枚を印刷して店舗でクーポンを配っており、来店客の3割以上が利用しているという。\n池田社長は、ゆで太郎のようにリピーターが多い店では、デジタルよりも紙のクーポン券の方が販促効果が高いと考えている。デジタルの場合、配信しても忘れられやすく、利用時の操作にも時間がかかる。一方、紙であれば財布に入れて持ち歩くため、日常的に目に留まり利用を促しやすい。店舗に足を運ばなければ手に入らないことも、来店の動機になるという。\nまた、クーポン券の受け取りや利用を通じて、顧客と従業員の間にコミュニケーションが生まれることも重視している。券売機で購入した商品の情報は厨房でも確認できるが、顧客と対面で接する機会を設けるため、あえてカウンターまで食券を持ってきてもらう仕組みにしている。\n「手を掛けて気を配るのがおもてなし」と池田社長。バースデークラブも顧客との接点を生み出す役割を果たしていた。ただ、販促という点ではトッピング無料クーポン券の方が効果が大きく、個人情報を取得せずとも集客につなげられると話した。\n同社はバースデークラブとは別に、Facebook上で約7200人が参加するファンクラブを運営している。もともとは顧客が自主的に立ち上げたコミュニティーで、現在は池田社長自身が管理する。運営に当たり、同社は会員の個人情報を別途取得していない。\nファンクラブに寄せられた意見を基に、朝食メニューのかき揚げをワカメに変更できるようにしたり、無料クーポン券の配布開始時期を前倒ししたりするなど、顧客の声を店舗運営にも反映しているという。\nバースデークラブの終了を告知した際には、終了を惜しむ声もあったが、池田社長の感覚では、8割以上が「今までありがとう」といった反応だったという。\n一方、池田社長は、安全に個人情報を管理できる仕組みが登場すれば、バースデークラブを復活させる可能性もあると話す。\n「8年も続けてきたので、別にやめたかったわけではない。ただ、万が一情報が漏えいしたとき、実害がなかったとしても、お客さまはいい気分にはならない。だから『そもそも個人情報なんて持ってません』というのが一番いいのかなと」（池田社長）\n個人情報を取得して顧客との接点を増やすことが主流になりつつある中、あえて情報を持たず、顧客との関係を築く。ゆで太郎システムの取り組みは、企業が個人情報を保有する必要性を考えなおすヒントになりそうだ。\n顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景\nサイバー攻撃対策で自社通販サイト閉店 ドールのアゾン「個人情報を社内に保管しない」方針へ\n「焼肉きんぐ」「ゆず庵」など11アプリ、会員の氏名・電話番号の項目を廃止 予定を前倒し\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\nゲーセンに真っ暗な画面ずらり……セガ系システムの障害が長期化、復旧めど立たず 原因は不正アクセス\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nそばチェーン「ゆで太郎」は、なぜ個人情報を「持たない」と決めた？ 8年続いたバースデークラブ終了の理由を社長に聞いた\n顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景\n「AI関連の需要強い」京セラ 5年で設備投資9000億円、データセンター需要狙う\n「時給1280円～」「在宅勤務」 ローソンが募集する「アバターオペレーター」という謎のお仕事\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\n「時給1280円～」「在宅勤務」 ローソンが募集する「アバターオペレーター」という謎のお仕事\n顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景\nサブスクの「お試し→自動更新」は客を逃していた？ 新規購読者数は「お試し→自動解約」比23％減 140万人で実験\n“新イギリス国旗”、2ちゃんねるデザインが人気\nAIでドーピングしたコンサルの実力は 使わない人材との能力差、BCG約500人で検証 Nature系列誌\n三井ショッピングパーク、約312万会員の個人情報漏えい アプリに不正アクセス\n航空会社Peach、「KARTE」から最大約944万件の顧客情報漏えい 契約終了後も削除されず残存\n「フィッシング対策訓練」って実効性あるの？ 約1.2万人に模擬メール送り検証、結果は……\nDMMの独自ストアで「動画プレイヤー」復活 AppStoreでは配信できないアプリの駆け込み寺になるか"
+  },
+  {
+   "title": "Windows「ベースライン保護」発表。8つの保護を1つの検証可能な状態に",
+   "url": "https://pc.watch.impress.co.jp/docs/news/2159994.html",
+   "summary": "自分のPCのセキュリティ機能がちゃんと全部有効になっているか、すぐに答えられるだろうか。Microsoftは11月17日(現地時間)、Windowsの基盤セキュリティ保護8項目をひとまとめにし、1つの検証可能なセキュリティ状態として扱う「Windowsベースライン保護」を発表した。現在Windows Insider Programを通じてプレビュー版を提供しており、一般提供は2027年を予定している。",
+   "published": "2026-11-27T15:41:19+09:00",
+   "source": "PC Watch",
+   "link": {
+    "url": "https://pc.watch.impress.co.jp/docs/news/2159994.html",
+    "title": "Windows「ベースライン保護」発表。8つの保護を1つの検証可能な状態に",
+    "site": "PC Watch",
+    "description": "自分のPCのセキュリティ機能がちゃんと全部有効になっているか、すぐに答えられるだろうか。Microsoftは11月17日(現地時間)、Windowsの基盤セキュリティ保護8項目をひとまとめにし、1つの検証可能なセキュリティ状態として扱う「Windowsベースライン保護」を発表した。現在Windows Insider Programを通じてプレビュー版を提供しており、一般提供は2027年を予定している。",
+    "image": "https://pc.watch.impress.co.jp/img/pcw/list/2159/994/1.jpg",
+    "icon": "https://pc.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "自分のPCのセキュリティ機能がちゃんと全部有効になっているか、すぐに答えられるだろうか。Microsoftは11月17日(現地時間)、Windowsの基盤セキュリティ保護8項目をひとまとめにし、1つの検証可能なセキュリティ状態として扱う「Windowsベースライン保護」を発表した。現在Windows Insider Programを通じてプレビュー版を提供しており、一般提供は2027年を予定している。\nこの機能は、これまで個別の設定の集まりだったWindowsのセキュリティを、デバイスの信頼性を示す1つのシグナルとして扱えるようにするもの。デバイスはすべての要件を満たした場合にのみtrueを、1つでも欠けていればfalseを報告する。個々の保護機能はすでにWindowsに搭載されているが、それらをまとめて評価し、1つの証明可能な結果として扱う点が新しい。\n個人ユーザーは「設定」アプリの「セキュリティ」ページ内で状態を確認でき、要件を満たしていない場合は(セキュアブートやTPM有効化などファームウェアに関連するもの以外は)ボタン1つで不足している保護を有効化できる。IT管理者はMicrosoft IntuneやMicrosoft 365管理センターなどから組織内デバイスの準拠状況を把握し、ベースライン保護をアクセスの条件にすることも可能。開発者は、TPMやセキュアブートなどをアプリごとに調べていた独自のチェックを、1つの確認に置き換えられる。\n最初のバージョンで求められる要件は、セキュリティプロセッサ、セキュアブート、仮想化ベースのセキュリティ(VBS)、メモリ整合性、署名済みドライバのみの読み込み、Windows認定ドライバ、カーネルデバッガ保護、脆弱なドライバの保護の8項目。基準はバージョン管理されており、脅威の変化に応じて今後項目が追加される。Microsoftは今回の基準を「上限ではなく下限」と位置付けている。"
+  },
+  {
+   "title": "Xに「ペアレンタルコントロール」機能、未成年の利用時間やDMを保護者が管理可能に",
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2160155.html",
+   "summary": "X（旧Twitter）は、13～17歳のユーザーを対象とした「ペアレンタルコントロール」機能を導入した。保護者は、子供のXの利用時間や表示されるコンテンツ、ダイレクトメッセージ（DM）の受信相手などを管理できる。",
+   "published": "2026-11-28T06:00:00+09:00",
+   "source": "ケータイ Watch",
+   "link": {
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2160155.html",
+    "title": "Xに「ペアレンタルコントロール」機能、未成年の利用時間やDMを保護者が管理可能に",
+    "site": "ケータイ Watch",
+    "description": "X（旧Twitter）は、13～17歳のユーザーを対象とした「ペアレンタルコントロール」機能を導入した。保護者は、子供のXの利用時間や表示されるコンテンツ、ダイレクトメッセージ（DM）の受信相手などを管理できる。",
+    "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2160/155/01.jpg",
+    "icon": "https://k-tai.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "X（旧Twitter）は、13～17歳のユーザーを対象とした「ペアレンタルコントロール」機能を導入した。保護者は、子供のXの利用時間や表示されるコンテンツ、ダイレクトメッセージ（DM）の受信相手などを管理できる。\nペアレンタルコントロールを利用することで、保護者は以下の設定や確認ができる。\n・過去1週間の利用時間の確認と1日あたりの利用時間の上限設定 ・新規フォロワーの承認の必須化とアカウントの非公開化 ・「おすすめ」に表示される投稿や動画をフォロー済みのアカウントに限定 ・特定のキーワードを含むコンテンツやセンシティブなメディアの表示制限 ・DMを送信できる相手の制限 ・1対1でDMをやり取りしたアカウントの確認\nアカウントの所有権は引き続き子供本人にあり、保護者による設定変更はすべて記録され、本人も確認できる。保護者はDMの内容や検索・閲覧履歴を確認したり、子供のアカウントにアクセスして本人に代わって投稿したりすることはできない。\n保護者1人につき最大5人の子供のアカウントを管理できる。一方、子供のアカウントに連携できる保護者は1人のみ。利用を開始するには双方の同意が必要で、子供が18歳になると見守りは自動的に終了する。\nXでは従来、18歳未満のユーザーに対し、アカウントの初期設定での非公開化やセンシティブなメディアの表示制限、ターゲティング広告のブロックなどの保護措置を講じてきた。今回の新機能は、これらに加えて、各家庭に応じた利用環境を設定できるようにするもの。"
+  },
+  {
+   "title": "「ロリポップ！レンタルサーバー」の平文パスワード情報などが漏えい。GMOペパボの内部システムに不正アクセス　顧客情報51万6564件が漏えいの可能性、対象者に個別メール連絡",
+   "url": "https://internet.watch.impress.co.jp/docs/news/2160136.html",
+   "summary": "GMOペパボ株式会社の内部システムへの不正アクセスを通じて、「ロリポップ！レンタルサーバー」などの顧客情報が外部に持ち出されたことが判明した。同社が11月27日、公表した。一部顧客については、平文で保存していたパスワードも漏えいしたことが確認されているという。",
+   "published": "2026-11-27T20:12:36+09:00",
+   "source": "INTERNET Watch",
+   "link": {
+    "url": "https://internet.watch.impress.co.jp/docs/news/2160136.html",
+    "title": "「ロリポップ！レンタルサーバー」の平文パスワード情報などが漏えい。GMOペパボの内部システムに不正アクセス　顧客情報51万6564件が漏えいの可能性、対象者に個別メール連絡",
+    "site": "INTERNET Watch",
+    "description": "GMOペパボ株式会社の内部システムへの不正アクセスを通じて、「ロリポップ！レンタルサーバー」などの顧客情報が外部に持ち出されたことが判明した。同社が11月27日、公表した。一部顧客については、平文で保存していたパスワードも漏えいしたことが確認されているという。",
+    "image": "https://internet.watch.impress.co.jp/img/iw/list/2160/136/lolipop.png",
+    "icon": "https://internet.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "顧客情報51万6564件が漏えいの可能性、対象者に個別メール連絡\nGMOペパボ株式会社の内部システムへの不正アクセスを通じて、「ロリポップ！レンタルサーバー」などの顧客情報が外部に持ち出されたことが判明した。同社が11月27日、公表した。一部顧客については、平文で保存していたパスワードも漏えいしたことが確認されているという。\n「ロリポップ！レンタルサーバー」「ロリポップ！デプロイナウ」「ロリポップ！AIホームページ」「ロリポップ！AIエージェントクラウド」の顧客情報51万6564件が漏えいした可能性があるという。漏えいが確認されている情報は、以下のとおり。クレジットカード情報、銀行口座情報は含まれていない。\n都道府県（市区町村以下の住所情報は含まれていない）\n生年月日（ロリポップ！レンタルサーバーを2014年8月以前に契約した顧客、もしくは、ムームードメインを経由してロリポップ！レンタルサーバーを契約した顧客が対象）\nさらに一部の顧客については、以下のパスワードの漏えいが確認されているとしている。\nロリポップ！レンタルサーバーの申し込み時に、GMOペパボが仮設定したFTP・WebDAVのパスワード：8322件\nムームードメインを経由したロリポップ！レンタルサーバーの申し込み時に、GMOペパボが仮設定したユーザー専用ページの初期ログインパスワード：4170件\n顧客自身によって、アクセス制限機能を通じて設定されたBasic認証のID・パスワード：10万5608件\n漏えいが確認されたパスワードおよび予防的措置の対象となるパスワードは、第三者による不正利用を防ぐために強制リセットしたとしており、該当者はパスワードを再設定するよう求めている。また、変更前のパスワードと同じパスワードを他のウェブサービスなどでも使っている場合は、速やかにそれらのパスワードも変更するよう呼び掛けている。\nいずれも平文で保存していたとしており、パスワードの保存方法については同社の他のサービスも含め、点検・改善を進めるとしている。\nなお、申し込み後に顧客自身で変更しているFTP・WebDAVのパスワードおよびユーザー専用ページのログインパスワードについては、今回の漏えい対象には含まれていないという。\nまた、現時点でこれらのパスワードを用いた不正ログインや不正利用の事実は確認されていないとしている。\nGMOペパボによると、11月24日、同社の内部システムへの不正アクセスを検知。データ分析基盤を経由して顧客情報を含むデータが外部に持ち出されたことが判明し、不正アクセスに使用された認証情報を無効化するとともにアクセス経路を遮断。11月25日、漏えいした可能性があるパスワードの強制リセットを完了させ、総務省へ報告。11月27日、対象となる顧客に個別にメールで連絡するとともに、不正アクセスおよび顧客情報の漏えいが確認されたことを公表した。\nこのほか、対象となる顧客に注意してほしい事項や、GMOペパボの他のサービスへの影響などについてのFAQを、11月27日付のお知らせにおいてとりまとめている。"
+  },
+  {
+   "title": "リモートワークをすると1日あたり「21分」の運動時間を失うという研究結果",
+   "url": "https://gigazine.net/news/20261128-remote-work-costs-21-minutes-exercise/",
+   "summary": "リモートワークをすると朝晩の通勤やオフィスビル内の移動がなくなるため、オフィスに出勤する時より仕事がはかどるという人もいるはず。その一方で、リモートワークによって日々の運動時間が大きく減ってしまう可能性があるとの研究結果が発表されました。   続きを読む...",
+   "published": "2026-11-28T12:00:00+09:00",
+   "source": "GIGAZINE",
+   "link": {
+    "url": "https://gigazine.net/news/20261128-remote-work-costs-21-minutes-exercise/",
+    "title": "リモートワークをすると1日あたり「21分」の運動時間を失うという研究結果",
+    "site": "GIGAZINE",
+    "description": "リモートワークをすると朝晩の通勤やオフィスビル内の移動がなくなるため、オフィスに出勤する時より仕事がはかどるという人もいるはず。その一方で、リモートワークによって日々の運動時間が大きく減ってしまう可能性があるとの研究結果が発表されました。",
+    "image": "https://i.gzn.jp/img/2026/11/28/remote-work-costs-21-minutes-exercise/00.jpg",
+    "icon": "https://gigazine.net/apple-touch-icon.png"
+   },
+   "body": "リモートワークをすると朝晩の通勤やオフィスビル内の移動がなくなるため、オフィスに出勤する時より仕事がはかどるという人もいるはず。その一方で、リモートワークによって日々の運動時間が大きく減ってしまう可能性があるとの研究結果が発表されました。 How composition of device-measured 24-h movement behaviors differs between office and remote workdays among hybrid workers? | International Journal of Behavioral Nutrition and Physical Activity | Springer Nature Link https://link.springer.com/article/10.1186/s12966-026-01959-0 Remote work costs you 21 minutes of exercise a day, study finds https://www.scienceofmoney.org/how-hybrid-work-shifts-daily-habits-44-minutes-more-sitting-21-minutes-less-exer-1294/ リモートワークとオフィス勤務では働き方に大きな違いが出るだけでなく、1日の行動や時間配分にも変化をもたらします。リモートワークが身体活動に与える影響は以前から研究されてきましたが、これらの多くは新型コロナウイルス感染症(COVID-19)のパンデミック期間中に行われていました。\nパンデミックは仕事だけでなく、私生活のさまざまな領域にも影響を及ぼしたため、パンデミック期間の結果は他の期間にも当てはまるとは限りません。また、過去の研究の多くは1日のうち特定の時間帯のみを対象にしており、24時間のサイクル全体を通してある習慣の変化が別の習慣に与える影響などは、十分に検証されていなかったとのこと。 そこでフィンランド・トゥルク大学の研究チームは、パンデミックが落ち着いた後の2023年5月～2024年6月にかけて、リモートワークとオフィス勤務の両方を行う被験者を募集。リモートワークの日とオフィス勤務の日で、行動がどのように変化するのかを調査しました。\n被験者は合計97人で、いずれも専門職の大学職員でした。被験者は1週間にわたり、太ももに小さなモーションセンサーを取り付けた状態で過ごしました。調査期間には、リモートワークとオフィス勤務の日がそれぞれ2日以上含まれており、勤務形態の違いが分析できるようになっていたとのこと。 モーションセンサーは常時作動しており、被験者が横になっている時や座っている時、立っている時、激しい運動をしている時がそれぞれ正確に追跡されました。また、被験者らは勤務時間・勤務場所・就寝時間・起床時間などを記録する日誌も書きました。 データを分析した結果、リモートワークの日はオフィス勤務の日と比べて、受動的な行動の比率が高くなる傾向が一貫してみられました。リモートワークの日にはベッドで過ごす時間が平均14分長くなり、机やソファに座っている時間も平均44分増えたと報告されています。 その代わりに、リモートワークの日は身体活動の量が減少しました。被験者がリモートワークをした日には、立ったり少しだけ歩いたりするする低強度度の運動時間が平均37分、サイクリングやランニングといった中～高強度の運動時間が平均21分減少したとのことです。\n研究チームは行動の時間的マッピングを利用して、「ある活動がどの活動に置き換わったのか」も調査しています。その結果、リモートワークの日に増えた座りがちな時間は、主にオフィスで立っている時間を置き換えたものであることが判明。 また、オフィス勤務の日に徒歩や自転車で通勤していた運動時間は、リモートワークの日になると座ったり寝たりする時間に置き換えられていました。オフィス勤務とリモートワークで大きな違いを生んでいたのは勤務時間中で、リモートワークの日は勤務時間中に座っている時間が平均36分長く、軽い運動の時間は平均26分少なくなりました。 研究チームは、自宅にはオフィスにあるような「作業の中断を促す仕組み」が少ないと指摘。オフィス勤務であれば「会議室に移動する」「同僚のデスクまで行って相談する」「昼食のために食堂へ行く」といった行動が生まれますが、リモートワークの時はこのような動作がなくなるため、必然的に長時間座ることになります。 こうした問題に対処するため、研究チームはリモートワーク中に運動を取り入れる方法を探す必要があるとしています。「スタンディングデスクを使う」「通勤の代わりに運動する」といった方法により、リモートワークの日でも座りがちな時間を減らし、運動時間を補える可能性があるとのことです。\n通勤距離が3kmを超えると運動不足や太り過ぎになる\nデスクワークが肥満の原因となっている可能性があることが明らかに\n自転車で通勤する人は仕事を病気で休む日が少ないという研究結果\n入院患者は病院内で少し運動するだけで身体機能が改善されて再入院リスクを軽減できることが研究で確かめられる\n通勤時間が20分増えると給料19％カット相当の仕事の満足度が減る\n早朝の講義が大学生の睡眠不足や学業成績の低下と関連しているという研究結果\n徒歩または自転車での通勤は労働者の幸福と生産性をアップする\n勤務時間外のメールは驚くほどに有害だと判明\nYou can read the machine translated English article A study found that working remotely resu…."
+  },
+  {
+   "title": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
+   "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+   "summary": "If you’ve been holding off on buying a new MacBook Air since Apple raised prices by $200 in June, you’re in luck. The 13-inch M5 MacBook Air is on sale at Amazon and Best Buy with 16GB of RAM and 512GB of storage starting at $999 ($300 off) for Black Friday, which is the lowest […]",
+   "published": "2026-11-27T22:30:00-05:00",
+   "source": "The Verge",
+   "link": {
+    "url": "https://www.theverge.com/gadgets/1044771/m5-macbook-air-black-friday-2026-deal-sale",
+    "title": "The M5 MacBook Air just got its biggest discount since Apple raised the price",
+    "site": "The Verge",
+    "description": "In fact, both the 13- and 15-inch Airs are on sale.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/03/268408_Apple_MacBook_Air_15_M5_laptop_ADiBenedetto_0010.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+    "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
+   },
+   "body": "The new promo drops Apple’s 13-incher to within $100 of its all-time low, easing the sting of recent price hikes.\nThe new promo drops Apple’s 13-incher to within $100 of its all-time low, easing the sting of recent price hikes.\nIf you buy something from a link, The Verge may earn a commission. See our ethics statement.\nIf you’ve been holding off on buying a new MacBook Air since Apple raised prices by $200 in June, you’re in luck. The 13-inch M5 MacBook Air is on sale at Amazon and Best Buy with 16GB of RAM and 512GB of storage starting at $999 ($300 off) for Black Friday, which is the lowest price we’ve seen since the hike. If you want a larger display, Amazon and Best Buy are also taking $300 off the otherwise identical 15-inch model with 16GB of RAM and 512GB of storage, dropping it to $1,199.\nApple MacBook Air 13 (M5)\nApple MacBook Air 15 (M5)\nThe M5-equipped MacBook Air is a good middle ground if you need more power than the MacBook Neo — which, thanks to a $100 discount, is $599 — but don’t want to splurge on a MacBook Pro. Its faster chip, 16GB of RAM, and 512GB of storage make it better suited for multitasking and creative work in apps like Photoshop and Premiere. You also get a higher-resolution display, better speakers, a backlit keyboard that makes typing in the dark easier, and faster ports. Plus, its sharper webcam supports Apple’s Center Stage feature, which automatically adjusts the framing to keep you in view during video calls.\nBuying a laptop right now is rough, but these Black Friday deals help\nThe absolute best Black Friday deals we’ve found (so far)\nOf course, the Air can’t match the performance or higher-end displays you can get with a MacBook Pro, whether you opt for an M5 model, the newer M5 Pro model with a PROLED XDR Display, or one of the M6-powered machines. A Pro may be worth the extra money if you regularly edit video or work on more demanding creative projects. But if you mostly need a laptop for work, browsing, and occasional photo or video editing, the M5 Air is more than capable.\nMore In The Verge’s guide to Black Friday 2026\nThe absolute best Black Friday deals you can still get\nGrand Theft Auto VI is a different kind of GTA — so it needed a different kind of ending\nDisney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday\nWhy GTA VI’s version of Florida feels so real\nAndroid’s DIY widgets are a bit of vibe-coding fun\nThis is the title for the native ad\nThis is the title for the native ad"
+  },
+  {
+   "title": "Intel faced a choice: Give Trump 10% or face the consequences",
+   "url": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
+   "summary": "Intel faced pressure to surrender a 10% stake to unlock billions in promised grants.",
+   "published": "2026-11-27T12:05:01+00:00",
+   "source": "Ars Technica",
+   "link": {
+    "url": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
+    "title": "Intel faced a choice: Give Trump 10% or face the consequences",
+    "site": "Ars Technica",
+    "description": "Intel faced pressure to surrender a 10% stake to unlock billions in promised grants.",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2025/08/intel-card-1536x864-1-1152x648.jpg",
+    "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+   },
+   "body": "The message from the Trump administration to one of the world’s leading semiconductor companies was clear: Give the US government a chunk of your company. Right now. Or else.\nDo not make the “mistake of thinking that this is a negotiation,” Commerce Department lawyer David Shapiro told the chief financial officer of the Intel Corporation in August 2025, according to internal notes from a company call contained in a federal lawsuit. “The President is expecting to announce a deal on these terms on Friday.”\nShapiro acknowledged that “the Board could choose not to accept the offer,” according to a summary of his remarks prepared for Intel’s directors. But the Trump administration official “noted that rejection will have consequences that [Shapiro] cannot predict.”\nDays later, the board gave the administration what it wanted. “It is my Great Honor to report that the United States of America now fully owns and controls 10% of INTEL,” Donald Trump posted to his social platform. “The United States paid nothing for these Shares, and the Shares are now valued at approximately $11 Billion Dollars. This is a great Deal for America.”\nPresident Trump was similarly jubilant on Monday, announcing that he had “convinced” Nvidia’s board of directors to rehire chief executive Jensen Huang. The proclamation was a shock. But it wasn’t entirely without precedent.\nFifteen months earlier, the Trump administration had interfered with the leadership decisions at another major chipmaker, court documents allege. Then, as now, allegations swirled that the company’s CEO was too close to China. Then, as now, the Trump administration dealt itself into the company’s financial future.\nIt’s part of a broader shift within the government in general and the Commerce Department in particular, a former member of that department tells WIRED. Out are old metrics “like creating jobs or the US being more competitive or owning more of the market share,” this ex-Trump administration official says. When dealing with private companies, a single overriding concern is: “Are you going to give back to the government in cash?”\nDocuments unredacted as part of a shareholder’s lawsuit against Intel’s board show how far the administration has been willing to go to get what it wants. The lawsuit’s allegations were previously reported by WP Intelligence.\n“The Board, operating under the shadow of the President’s threats,” the lawsuit alleges, “caved to the government’s extortion.” A second case, asking for internal records, was filed in April by the same shareholder, Richard Paisner, against Nvidia.\n“It’s just straight-up coercion,” says Scott Lincicome, a vice president at the libertarian Cato Institute. “The company starts making decisions not based on what’s best for the company in the short or long term, what’s best for shareholders, but what’s best for politics and what the government is demanding.”\n“That’s not what you want from any company,” he adds. “When you’re talking about the world’s most innovative companies and these kinds of bleeding-edge technologies that have not only huge economic implications but national security ones, then that’s a huge problem.”\nRepresentatives for Intel declined to comment for this story. The White House, Commerce Department, and Nvidia did not respond to requests for comment.\nThe parallels between Nvidia’s government-assisted autogolpe and Intel’s alleged forced sale aren’t exact. In the Intel case, Trump all but accused the company’s boss of being compromised by Beijing; in the Nvidia situation, the president reportedly dismissed concerns from his own intelligence agencies about the executive’s connections to China. But both instances show a growing fusion of private enterprise and public office.\nDuring the Biden administration, Intel won awards for up to $11 billion in government grants and contracts, much of it under the CHIPS Act, which was meant to help build semiconductor manufacturing and assembly plants in America and bolster domestic research.\nAt the time, there was some grumbling inside the Commerce Department, which administered the CHIPS and Science Act grants, about funding what was seen as a “failing incumbent” in the semiconductor space, says the former official. (Intel had, in recent years, fallen on hard times.) But by March 2025, Intel had received about $2.2 billion of the grants. That’s when President Trump told Congress that the CHIPS Act was “a horrible, horrible thing.” The rest of Intel’s money was put on hold, tied to hitting certain milestones, while the administration said it was renegotiating the deals.\nThe same month Lip-Bu Tan was hired as Intel’s new CEO. Soon after, his ties to China made him a Trump target, when Reuters reported that Tan had invested in “hundreds of Chinese tech firms,” some with connections to Beijing’s military. Tan’s former firm, Cadence Design Systems, pleaded guilty to violating US sanctions by selling semiconductor designs to a restricted Chinese military university, and agreed to pay more than $140 million in fines. Tan was never personally charged, but the violations happened while he was the CEO.\nTwo weeks later, the president was watching Maria Bartiromo’s show on the Fox Business Network. It mentioned a letter a senator had sent Intel about the China ties. Trump posted, “The CEO of INTEL is highly CONFLICTED and must resign, immediately. There is no other solution to this problem.”\nTan went to the Oval Office on August 11 to see if there was, in fact, another solution. He got 40 minutes with the president, Commerce Secretary Howard Lutnick, and Treasury Secretary Scott Bessent.\nTan claimed his experience in China was a strength, not a detriment. According to the book Regime Change, Tan argued that there was no way he could’ve known about every one of the deals his many companies made; Trump, who had his own sprawling business empire, surely knew what that was like. Tan promised to give up his holdings in China, according to a letter Tan shared wi"
+  },
+  {
+   "title": "顧客情報を守るため、売上15％の自社ECを閉店　ドールメーカーが明かした「決断」の背景",
+   "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003518/",
+   "summary": "個人情報保護のため、全社売上高の約15％を占める自社ECサイトの閉店を決めたアゾンインターナショナル。AIによるサイバー攻撃の高度化をどう捉え、なぜ個人情報を「持たない」方針に転換したのか。経営陣に聞いた。",
+   "published": "2026-11-27T16:47:38+09:00",
+   "source": "ITmedia NEWS 最新記事一覧",
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003518/",
+    "title": "顧客情報を守るため、売上15％の自社ECを閉店　ドールメーカーが明かした「決断」の背景",
+    "site": "ITmedia NEWS",
+    "description": "個人情報保護のため、全社売上高の約15％を占める自社ECサイトの閉店を決めたアゾンインターナショナル。AIによるサイバー攻撃の高度化をどう捉え、なぜ個人情報を「持たない」方針に転換したのか。経営陣に聞いた。（1/2 ページ）",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003518/10013164/2048",
+    "icon": null
+   },
+   "body": "ドールの製造・販売を手掛けるアゾンインターナショナル（神奈川県藤沢市）は11月6日、個人情報保護を理由に公式オンラインショップ「AZONET」の閉店を発表した。同サイトの会員は約8万人、全社売上高の約15％を占めるという。18年続けてきた自社ECを、なぜ手放すのか。同社の早園正社長と戦略企画室室長の難波いつみ氏に話を聞いた。\n会員約8万人、セキュリティ対策などに年間数百万円\nアゾンインターナショナルは、観賞用・コレクション用のドールやその衣装を製造・販売している。オリジナルのドールに加え、アニメのキャラクターを再現したドールも手掛ける。顔の彩色や植毛、衣装の縫製など、多くの工程を職人が手作業で担っている。全国の直営店舗やECサイトで販売するほか、有料のファンクラブも運営してきた。\nAZONETは、同社が2008年に開設した公式オンラインショップ。全国の顧客が24時間買い物できる場として、自社や提携先メーカーのドール、衣装などを販売してきた。同社によると、閉店時点の会員数は約8万人だったという。\nオンラインの販路は、AZONETと楽天市場店の2つがあった。早園氏によると、両サイトで扱う商品はほぼ同じ。ただ、楽天市場店は販売中の商品が中心なのに対し、AZONETは過去の商品も閲覧でき、公式カタログの役割も担っていた。\nもう一つの違いは、ファンクラブとの連携だ。同社の会員には、AZONETで商品を購入するための無料会員制度と、年会費制のファンクラブ会員の2種類があった。ファンクラブ会員は直営店舗やAZONETで商品を購入するとポイントが貯まり、次回以降の買い物に利用できた。\n難波氏によると、AZONETのシステムは同社が独自に開発したという。「注文データなどの個人情報は自社サーバに暗号化して保管し、データは商品開発やマーケティングにも活用してきた」と同氏。システムは自社の担当者と協力会社で構築し、サイトの運営やセキュリティ対策には年間数百万円規模の費用を投じていたという。\n一時停止から11日で閉店を発表 社内でどんな議論が？\n当初は閉店を想定しておらず、経営陣と営業・システム部門を中心に、システムの改修や刷新を検討していた。しかし、AIで高度化するサイバー攻撃や今後のセキュリティ対策費、情報漏えい時のリスクを踏まえ、「個人情報を可能な限り持たない方針」に転換。一時停止から11日後の11月6日、AZONETの閉店とファンクラブ会員システムの終了を発表した。\n9月下旬以降、国内企業では不正アクセスによる個人情報の漏えいが相次いでいる。早園社長は当時の状況について「他人事とは思えなかった」と振り返る。同社ではサイバー攻撃に関する情報が入るたびに、自社のセキュリティ対策の状況を確認し、必要に応じて過去のログを調査していたと話す。\n早園社長によると、閉店を検討する過程では、システム担当者から「AIの悪しき進化の速度に、人間の防衛力がついていくのには限界がある」「企業の規模にかかわらず、いずれの会社も常に危険性をはらんでいる」との進言があったという。\n個人情報を暗号化しておけば、万が一漏えいしても悪用は防げるのではないか。難波氏に尋ねたところ、「その点も社内で検証したが、厳しい結果になった」という。「暗号化したデータをAIに読み込ませたところ、比較的短時間で復号できた」（難波氏）。\nまた、仮に暗号化が破られなくても、ランサムウェアでシステムそのものをロックされるリスクは残る。こうした検証結果やサイバー攻撃の手口を踏まえ、自社で個人情報を守り続けるには限界があると判断したという。\n顧客データを失う不利益も 今後は販路の拡大で対応\nAZONETの閉店に伴い、これまで商品開発などに活用してきた顧客データも失うことになる。早園社長は「会社として一定の不利益があることは認識している。それよりも、お客さまの個人情報保護を最優先すべきと考えた」と説明する。\n一方、今後のオンライン販売については「自社ECサイトのAZONETを閉店したというだけで、楽天市場店1本に絞ったという考えではない」と早園社長。費用対効果が見合うのであれば、他の販売方法も模索する方針だ。\nまた、全社売上高の約15％を占めるサイトを失うことになるが、業績面で大きな懸念はないという。AZONETの閉店発表後、卸売業者や小売店から販売への協力の申し出が相次いだためだ。今後は直営店舗や楽天市場店での販売に加え、こうした取引先を通じた販路の拡大で対応していく考えだ。\nすでに数万人分の個人情報を削除 メルマガも廃止\n同社はすでに、AZONETの会員のうち、未発送の商品がなく有料のファンクラブにも加入していない顧客の個人情報数万人分を削除した。未発送の商品がある顧客については商品の発送後、有料のファンクラブ会員についてはポイントの補償手続きなどが完了した後に、順次個人情報を削除する。\nAZONETの閉店発表後、同社には顧客から不安や不便を訴える声が寄せられた。一方で、個人情報保護を優先する方針に理解を示す声や「安心した」といった反応も届いているという。\n今後も個人情報を持たない方針を続けるのか。早園社長は、「AIなどによってサイバー攻撃の手口が急速に高度化している現状では、方針を変えるつもりはない」と説明する。\nただし、自社ECサイトを将来的に復活させる可能性まで否定しているわけではない。「逆に、AIの進歩によって攻撃を防げるような時代が来れば、そのときはまた復活する可能性もある」と話した。\nサイバー攻撃対策で自社通販サイト閉店 ドールのアゾン「個人情報を社内に保管しない」方針へ\n「焼肉きんぐ」「ゆず庵」など11アプリ、会員の氏名・電話番号の項目を廃止 予定を前倒し\nゲーセンに真っ暗な画面ずらり……セガ系システムの障害が長期化、復旧めど立たず 原因は不正アクセス\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\n三井ショッピングパーク、約312万会員の個人情報漏えい アプリに不正アクセス\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nそばチェーン「ゆで太郎」は、なぜ個人情報を「持たない」と決めた？ 8年続いたバースデークラブ終了の理由を社長に聞いた\n顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景\n「AI関連の需要強い」京セラ 5年で設備投資9000億円、データセンター需要狙う\n「時給1280円～」「在宅勤務」 ローソンが募集する「アバターオペレーター」という謎のお仕事\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\n「時給1280円～」「在宅勤務」 ローソンが募集する「アバターオペレーター」という謎のお仕事\n顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景\nサブスクの「お試し→自動更新」は客を逃していた？ 新規購読者数は「お試し→自動解約」比23％減 140万人で実験\n“新イギリス国旗”、2ちゃんねるデザインが人気\nAIでドーピングしたコンサルの実力は 使わない人材との能力差、BCG約500人で検証 Nature系列誌\n三井ショッピングパーク、約312万会員の個人情報漏えい アプリに不正アクセス\n航空会社Peach、「KARTE」から最大約944万件の顧客情報漏えい 契約終了後も削除されず残存\n「フィッシング対策訓練」って実効性あるの？ 約1.2万人に模擬メール送り検証、結果は……\nDMMの独自ストアで「動画プレイヤー」復活 AppStoreでは配信できないアプリの駆け込み寺になるか"
+  },
+  {
+   "title": "マネックス証券の漏えいはメアド112万件、本人確認書類流出に見舞金5000円",
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2160113.html",
+   "summary": "マネックス証券は、11月13日に公表した同社の外部委託先への不正アクセスに起因する情報漏えいについて、27日時点で把握している被害状況を明らかにした。",
+   "published": "2026-11-27T19:45:22+09:00",
+   "source": "ケータイ Watch",
+   "link": {
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2160113.html",
+    "title": "マネックス証券の漏えいはメアド112万件、本人確認書類流出に見舞金5000円",
+    "site": "ケータイ Watch",
+    "description": "マネックス証券は、11月13日に公表した同社の外部委託先への不正アクセスに起因する情報漏えいについて、27日時点で把握している被害状況を明らかにした。",
+    "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2160/113/00.jpg",
+    "icon": "https://k-tai.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "マネックス証券は、11月13日に公表した同社の外部委託先への不正アクセスに起因する情報漏えいについて、27日時点で把握している被害状況を明らかにした。\nメールアドレス漏えいは112万件超、本人確認書類は462人分に\n同社によると、不正アクセスにより漏えいしたメールアドレスは112万5501件、本人確認書類画像データは462人分1592件にのぼる。調査は現在も継続中で、今後の結果次第では変更が生じる可能性があるとしている。\n漏えいしたメールアドレスは、2019年10月16日以降に同社のオンライン口座開設の申し込みを最初の手続きとして登録したメールアドレスが対象で、口座開設が完了しなかった利用者のメールアドレスも含まれる。メールアドレスが格納されていたデータベースには、氏名や口座番号、ログインパスワード、取引パスワードなどは含まれていない。\n本人確認書類画像データは「撮影が必要な方式」のオンライン口座開設申込、NISA口座開設申込、特定口座開設申込、住所変更手続きで提出したものが含まれる。マイナンバーカードの表面・厚み、運転免許証の表面・裏面、厚み、自撮り写真が含まれ、利用者によって組み合わせが異なる。個人番号が記載されたマイナンバーカード裏面の漏えいは確認されていない。マイナンバーカードで認証（公的個人認証）する方式で、口座開設申込をした利用者の情報漏えいは確認されていない。\n不正アクセスを受けたシステムは、口座情報や残高、取引を管理する基幹システムとは別系統であり、マネックス証券での売買取引などへは影響しない。同社では引き続き、外部の専門機関と対象のシステムを管理する外部委託先と協力して調査を継続し、原因などについては調査が完了した後に、公表するとしている。\n対象の利用者には本日までに通知、本人確認書類漏えいの利用者には見舞金\n個人情報が漏えいした利用者には、本日27日までに個別に通知されている。本人確認書類画像データが漏えいした利用者には見舞金として現金5000円もしくは5000円相当の金券などが、マネックス証券から付与される。詳細は現在検討中としており決定次第、対象の利用者に案内される。\nまた、なりすましなどを防ぐため、本人確認書類の再発行を同社がサポートするほか、漏えいしたデータの不正利用などで利用者に損害が生じた場合、個別の状況に応じて対応するとしている。\n同社では、現時点では漏えいした情報をもとにした不正ログインや不正取引などの被害は確認されていないとしているが、万が一マネックス証券や金融機関を名乗る不審なメールやSMSを受け取った場合は、返信や記載されたURLへのアクセス、パスワード入力などはしないよう呼びかけている。同社からの正規のメールやSMSでログインパスワードや取引パスワードの入力が求められることはない。\n現在、一部の口座開設サービスを一時停止しており、安全性を確認したうえでWebサイトで再開を案内するとしている。"
+  },
+  {
+   "title": "X、ペアレンタルコントロール機能の導入を決定。しかし保護者であるユーザーの反応は冷ややか？【やじうまWatch】",
+   "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2159856.html",
+   "summary": "Xにペアレンタルコントロール機能が導入されることが明らかになった。",
+   "published": "2026-11-27T12:00:36+09:00",
+   "source": "INTERNET Watch",
+   "link": {
+    "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2159856.html",
+    "title": "X、ペアレンタルコントロール機能の導入を決定。しかし保護者であるユーザーの反応は冷ややか？【やじうまWatch】",
+    "site": "INTERNET Watch",
+    "description": "Xにペアレンタルコントロール機能が導入されることが明らかになった。",
+    "image": "https://internet.watch.impress.co.jp/img/iw/list/2159/856/yajiuma-watch_4.png",
+    "icon": "https://internet.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "Xにペアレンタルコントロール機能が導入されることが明らかになった。\nこれは13～17歳の子どもがいる家庭向けに設計されたもので、子どものXの利用状況を保護者が管理するための機能。具体的には、利用時間の確認、特定の単語のフィルタリング、DMの送信先の制御やチャット相手の確認などがある。プライベートメッセージを読んだり、投稿を行ったり、検索や閲覧の履歴を確認することはできないなど、子どものプライバシーは保護されているほか、保護者が何らかの介入を行った場合はその履歴が子どもからも参照できるという、透明性の高い機能となっている。\n子どもが安全にXを利用できる機能として歓迎されるべきなのだが、発表に対しては冷めた反応が多いのは、これまでも指摘されてきたGrokによる性的ディープフェイクの問題をめぐり、同意のない性的画像や児童性的虐待（CSAM）画像が生成されているとして、米国の2つの州から訴訟が提起された直後のタイミングでの発表だったことと無関係ではなさそう。ペアレンタルコントロール機能が形だけの機能なのか、それとも真に有用性がある機能なのか、そうしたことが判明するのは実際に導入されてからということになりそうだ。\n告知のポスト（X）https://x.com/Safety/status/2125709760066670625\nX is finally getting its first parental controls（The Verge）https://www.theverge.com/news/1043078/x-parental-controls-features"
+  },
+  {
+   "title": "人類は350年前にどうやって「光にも速さがある」と気づいたのか？",
+   "url": "https://gigazine.net/news/20261128-light-speed-discovered-350-years-ago/",
+   "summary": "光の速さは真空中で秒速約30万kmであることが知られていますが、光が移動するのに時間がかかることが観測によって初めて実証されたのは1676年のことです。現代のような精密な測定機器が存在しなかった350年前に、デンマークの天文学者であるオーレ・レーマーがどのようにして光の速さが有限であることを突き止めたのかについて、科学メディアのScience Norwayが解説しています。   続きを読む...",
+   "published": "2026-11-28T10:00:00+09:00",
+   "source": "GIGAZINE",
+   "link": {
+    "url": "https://gigazine.net/news/20261128-light-speed-discovered-350-years-ago/",
+    "title": "人類は350年前にどうやって「光にも速さがある」と気づいたのか？",
+    "site": "GIGAZINE",
+    "description": "光の速さは真空中で秒速約30万kmであることが知られていますが、光が移動するのに時間がかかることが観測によって初めて実証されたのは1676年のことです。現代のような精密な測定機器が存在しなかった350年前に、デンマークの天文学者であるオーレ・レーマーがどのようにして光の速さが有限であることを突き止めたのかについて、科学メディアのScience Norwayが解説しています。",
+    "image": "https://i.gzn.jp/img/2026/11/28/light-speed-discovered-350-years-ago/00_m.png",
+    "icon": "https://gigazine.net/apple-touch-icon.png"
+   },
+   "body": "光の速さは真空中で秒速約30万kmであることが知られていますが、光が移動するのに時間がかかることが観測によって初めて実証されたのは1676年のことです。現代のような精密な測定機器が存在しなかった350年前に、デンマークの天文学者であるオーレ・レーマーがどのようにして光の速さが有限であることを突き止めたのかについて、科学メディアのScience Norwayが解説しています。 350 years ago, this man discovered that light has a finite speed https://www.sciencenorway.no/culture-history-history-of-science/350-years-ago-this-man-discovered-that-light-has-a-finite-speed/2737969 レーマーは商人の家に生まれ、コペンハーゲン大学で数学や天文学を学んだあと、フランス政府に招かれてパリへ渡り、パリ天文台で天文学者として活動しました。\nレーマーらが観測の対象としていたのが木星の衛星であるイオです。イオは約42時間半で木星の周囲を1周しており、木星の影に入ると地球からは見えなくなり、影から抜け出すと再び姿を現します。この現象は規則的に発生するため、当時は正確な時刻を把握できる自然の時計として、航海における経度の測定などに利用できると考えられていました。 レーマーはイオが木星の影に入る時刻や影から抜け出す時刻を詳細に記録していく中で、ある規則性に気付きました。地球が木星から遠ざかっている時期には現象が予測よりも遅く観測され、反対に地球が木星に近づいている時期には予測よりも早く観測されたのです。\nノルウェー科学技術大学物理学部のヤコブ・リンダー教授によると、レーマーは地球と木星の距離によって光が移動するのに必要な時間が変化するため、観測時刻にずれが生じると考えました。もし光が瞬時に伝わるのであれば、地球と木星の距離の変化に応じて観測時刻が早まったり遅れたりすることはないはずだというわけです。 1676年9月、レーマーはパリの科学アカデミーで、同年11月9日にイオが木星の影から姿を現す時刻が従来の予測よりも10分遅くなると発表しました。実際の観測結果はレーマーの予測と一致し、光の伝わる速さが有限であることを裏付けました。この発見は1676年12月7日に学術誌の「Journal des sçavans」で報告されています。 以下はレーマーの光速に関する論文に掲載された図。地球が木星に近づくとき(F～G)と遠ざかるとき(L～K)でイオが姿を現す時刻に生じるずれを調べることで、光が移動するのにかかる時間を推定しました。\nレーマーは観測結果から、光が地球の公転軌道の直径に相当する距離を移動するのに約22分かかると推定しました。現在知られている地球の公転軌道の大きさを用いて光速を計算すると、秒速約22万5000kmとなり、実際の光速よりも約25％遅い値です。リンダー教授は、当時の技術水準を考えれば驚くべき成果であり、数値の正確さ以上に光の速さが有限で測定可能であることを示した点に意義があると指摘しています。 光の速さが有限である可能性については、古代ギリシャの哲学者であるエンペドクレスをはじめ、レーマー以前にも複数の哲学者や科学者が言及していました。しかし、実際の観測結果に基づいて有限であることを示したのはレーマーが初めてです。 レーマーの発見はすぐに科学界全体に受け入れられたわけではなく、当時のパリ天文台の責任者もレーマーの説明を完全には受け入れなかったとのこと。一方で、光の波動説を唱えたクリスティアーン・ホイヘンスやアイザック・ニュートンといった著名な科学者からは支持を得ました。\nレーマーの発見から約50年後にはイギリスの天文学者であるジェームズ・ブラッドリーが、「光行差」と呼ばれる現象を発見しました。光行差とは、地球の公転と光の速さが有限であることによって、恒星の見かけ上の位置が1年を通じてわずかに変化する現象です。これにより、レーマーとは全く異なる観測方法でも光の速さが有限であることが裏付けられました。 光の速さが有限であるという事実は、現代の天文学においても極めて重要な意味を持っています。例えば地球に届くまでに100億年かかった光を観測すれば、その光を放った天体の100億年前の姿を見ることができます。遠くの宇宙を観測するほど過去の宇宙の姿を知ることができるため、レーマーの発見は宇宙の歴史や進化を解明する上でも重要な意味を持っているとリンダー教授は述べています。\n世界で初めて「太陽系外の惑星を公転する衛星」の証拠が発見される\nオウムアムアより先に「史上初の恒星間天体」が観測されていた可能性が政府の極秘データから判明、しかも地球に飛来していた\n太陽系に本物の第9惑星「惑星X」が存在する可能性が急浮上\n「ダークマター星」を見つけたかもしれないと天文学者が報告\n宇宙望遠鏡が測定した「星までの距離」のデータセットが更新される、「宇宙の膨張速度に関する謎」は深まる\n2020年ノーベル物理学賞受賞者が語る「ビッグバン以前の宇宙」とは？\n人類がブラックホールの存在を知る8つの方法\n地球からわずか6光年離れた恒星に「99％太陽系外惑星が存在する」と研究者が主張\nYou can read the machine translated English article How did humanity realize 350 years ago t…."
+  },
+  {
+   "title": "This purple electric Chinese minivan can go up to 559 miles on a charge",
+   "url": "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge",
+   "summary": "Electric minivans could be the ultimate in utility, with room for passengers, gear, and huge batteries. While VW's ID Buzz only gave us 200 miles of real-world driving on a charge in 2023, China's BYD has just announced a flagship purple peoplemover that can go an estimated 559 miles (900 km) on electricity. It's called […]",
+   "published": "2026-11-27T19:02:49-05:00",
+   "source": "The Verge",
+   "link": {
+    "url": "https://www.theverge.com/transportation/1044706/this-purple-electric-chinese-minivan-can-go-up-to-559-miles-on-a-charge",
+    "title": "This purple electric Chinese minivan can go up to 559 miles on a charge",
+    "site": "The Verge",
+    "description": "Seven passengers, seven suitcases, and lots of battery.",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/img_20261127171000_s224i5s0.jpg?quality=90&strip=all&crop=0,3.5301589268565,100,92.939682146287",
+    "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
+   },
+   "body": "The BYD Whale should cost around $45,000, not that you’d be able to buy one here.\nThe BYD Whale should cost around $45,000, not that you’d be able to buy one here.\nElectric minivans could be the ultimate in utility, with room for passengers, gear, and huge batteries. While VW’s ID Buzz only gave us 200 miles of real-world driving on a charge in 2023, China’s BYD has just announced a flagship purple peoplemover that can go an estimated 559 miles (900 km) on electricity.\nIt’s called the BYD Whale, and some back-of-the-napkin math suggests it lives up to the name. The van would be bigger than a Honda Odyssey, bigger than a Chrysler Pacifica, and bigger than a Toyota Sienna, at 17.3 feet (5,270mm) long, 6.5 feet (1,996mm) wide, 6 feet (1,815mm) tall, and with a 123-inch (3,130mm) wheelbase.\nAccording to an auto-translated press release, the vehicle should have room for seven passengers and seven suitcases at a time, not that the company has shown off its interior yet. You can see a prominent sensor cluster on its forehead, though, and it’ll come equipped with LiDAR for advanced hands-free driving.\nCarNewsChina points out it’s actually not the first with 900 km of CLTC battery range on board — Geely’s all electric Zeekr 009 minivan also claims to offer up to 900 km of range in one configuration. But BYD’s also claiming the can charge its battery from 10 percent to 97 percent in just nine minutes, and it get you from 10 percent to 70 percent in five minutes, according to Electrek.\nThe Whale will also come in a 248-mile (400 km) plug-in hybrid version as well, and the company’s planning to ship it in China in Q1 of 2027 for around 300,000 yuan. That’s roughly $45,000. As we’ve reported, Chinese cars are becoming quite competitive. Will they make it to the US?\nThe absolute best Black Friday deals you can still get\nGrand Theft Auto VI is a different kind of GTA — so it needed a different kind of ending\nDisney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday\nWhy GTA VI’s version of Florida feels so real\nAndroid’s DIY widgets are a bit of vibe-coding fun\nThis is the title for the native ad\nMore in Transportation\nThis is the title for the native ad"
+  },
+  {
+   "title": "Books, bikes, and The Burbs: These are Ars staff’s holiday gift picks for 2026",
+   "url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/",
+   "summary": "We polled the Ars staff about their favorite pickups this year; here's the list.",
+   "published": "2026-11-27T11:30:04+00:00",
+   "source": "Ars Technica",
+   "link": {
+    "url": "https://arstechnica.com/shopping/2026/11/books-bikes-and-the-burbs-these-are-ars-staffs-holiday-gift-picks-for-2026/",
+    "title": "Books, bikes, and The Burbs: These are Ars staff’s holiday gift picks for 2026",
+    "site": "Ars Technica",
+    "description": "We polled the Ars staff about their favorite pickups this year; here's the list.",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/ars-gifts-2026-1152x648.jpg",
+    "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+   },
+   "body": "The holiday shopping season is upon us, and as is our custom, we’re here with a list of Ars staffers’ favorite recent purchases that could make good gifts. (Or maybe they might be a gift you get yourself!)\nRather than try to write a definitive “best gifts for your sister or brother” type of guide, we simply polled Ars staffers on stuff they’ve actually bought this year that they recommend. The thinking is that if we’re into it, hopefully some of you or your friends or family might be. As such, there’s no rhyme or reason to these selections, really; it’s just a list of stuff we bought that we’re happy about. It’s heavy on interesting books and cycling accessories, but there are some gadgets and the like in here, too.\nFor each gadget (or whatever else it might be), we have a brief description of how or why we’ve been using this particular thing and why we would recommend it. Our picks are ordered by price, from lowest to highest. Note, though, that the prices of these products are listed as they were when the list was written. Online retailers often adjust prices frequently, especially around Black Friday, so just a heads up: The price might be different by the time you read this.\nAlso, a callout to the Ars commentariat: If you have your own holiday buying recommendations, feel free to share them. We or some fellow readers might take your advice if you suggest something good! Happy holidays!\nDungeon Crawler Carl by Matt Dinniman – $13\nI understand the convenience and space-savings that e-readers bring. My 2011 Kindle Touch goes with me everywhere I carry my travel backpack, but I’m still a softy for physical books when I’m sitting at home on a lazy Sunday. What started as something of a fanfic send-up of LitRPGs has quickly blossomed into a massive sensation of a series filled with far more depth, heart, and character than the initial premise might indicate. Author Matt Dinniman has an accessible style that will grip any reader with a taste for whimsical adventure. Just be warned that if you leave the books under the tree, you might not see much of the recipient until New Year’s.\nUndersea War: The Battle to Control the Cables and Pipelines That Connect Our World by Elisabeth Braw– $30\nLightning Beneath the Sea: The Race to Wire the World and the Dawn of the Information Age by James M. Tabor– $32\nTwo excellent books that help describe how the Internet’s undersea backbone became a globe-spanning reality were published in 2026. Together, they form a great gift pairing for anyone interested in how humanity first achieved near-instantaneous communication across the world’s oceans—and how the first trans-Atlantic telegraph cable paved the way for a global network of subsea data cables that now faces growing risks from geopolitical conflicts.\nJames Tabor’s Lightning Beneath the Sea dives into the astounding real-life story of how American entrepreneur Cyrus Field, lacking in expertise but driven by personal fervor, set out to achieve peace on Earth by laying a 2,000-mile telegraph cable made of copper across the Atlantic seafloor in 1866.\nTo pull off the feat, Field managed to convince some of the greatest innovators and scientific luminaries of his day, such as Samuel F.B. Morse, Lord Kelvin, and Michael Faraday, to join his venture. He also refitted the SS Great Eastern steamship, the largest passenger liner ship built to date, as a cable-laying vessel.\nThat first ocean-spanning telegraph cable gave rise to more such cables for transmitting messages around the world. Eventually copper gave way to a network of subsea fiber-optic cables that became the Internet’s undersea backbone, and the modern world also became interlinked with submarine power cables and underwater pipelines for carrying oil and gas.\nBut all that undersea infrastructure is now facing growing danger from the threat of deliberate sabotage, as described in Elisabeth Braw’s book Undersea War. Her book provides a sobering but enlightening look at why subsea cables and pipelines are becoming more tempting targets amid rising geopolitical tensions and conflicts—and how governments and companies are responding to recent cable-cutting incidents around the world.\nRead Ars Technica’s Q&A with Elisabeth Braw about Undersea War.\nThe Burbs Collector’s Edition 4K Blu-ray – $32\nIt’s a little-remembered film for most people, but I absolutely love The Burbs. Sure, it’s more Halloween fare than Christmas, but last year I picked The Thing, so clearly “1980s movies for October” is my December viewing MO.\nStarring Tom Hanks, Carrie Fisher, and Corey Feldman, this is a dry, hilarious send-up of suburban life with a horror-adjacent mystery that keeps you guessing. (It’s not scary, though.) I hardly ever hear anyone else talk about this movie, but I love it, and it only recently came out in 4K, so I’m taking this opportunity to shout it out.\nHow Apollo Flew to the Moon by David Woods – $35\nIf you’re a technically minded Ars reader looking for a nice book to snuggle down with over the holidays, David Woods’ How Apollo Flew to the Moon could be just the thing. (There’s also an audiobook version.) Woods has an accessible style that breaks down complex engineering challenges and their solutions into easily digestible chunks that clarify without oversimplifying. He uses that style to take readers on a detailed trip through the machinery of Project Apollo, from the launch facilities and Mission Control all the way to the specific mechanics of how to navigate to and land on the Moon—and, from there, how to return safely to Earth.\nEver wondered about the insane engineering that let the Saturn V’s first stage burn almost 15 tons of fuel every second as it powered the crew into orbit? Or how to pinpoint a spacecraft’s centimeter-precise distance from Earth on its way to the Moon? Or how Apollo crews tracked their own position with stellar navigation, using sextants and star sightings? Or what a REFSMMAT is, or how television transmissions from the Moon worked, "
+  },
+  {
+   "title": "「AI関連の需要強い」京セラ　5年で設備投資9000億円、データセンター需要狙う",
+   "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003521/",
+   "summary": "京セラは26日、2031年3月期までの5年間で設備投資に計9000億円を投じると発表した。人工知能（AI）の普及に伴って拡大するデータセンターや半導体関連の需要の取り込みを狙う。これとは別に研究開発にも5年間で6500億円を投資する。",
+   "published": "2026-11-27T16:19:56+09:00",
+   "source": "ITmedia NEWS 最新記事一覧",
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003521/",
+    "title": "「AI関連の需要強い」京セラ　5年で設備投資9000億円、データセンター需要狙う",
+    "site": "ITmedia NEWS",
+    "description": "京セラは26日、2031年3月期までの5年間で設備投資に計9000億円を投じると発表した。人工知能（AI）の普及に伴って拡大するデータセンターや半導体関連の需要の取り込みを狙う。これとは別に研究開発にも5年間で6500億円を投資する。",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003521/10013159/2048",
+    "icon": null
+   },
+   "body": "京セラは11月26日、2031年3月期までの5年間で設備投資に計9000億円を投じると発表した。人工知能（AI）の普及に伴って拡大するデータセンターや半導体関連の需要の取り込みを狙う。これとは別に研究開発にも5年間で6500億円を投資する。\n東京都内で会見した作島史朗社長は「AIや半導体の成長領域にしっかり投資し、売り上げにつなげていく。AI関連の需要は強く、中長期的な需要拡大が続くと判断している」と述べた。\nAIデータセンターで使う電子部品や半導体製造装置向け部品を成長分野と位置付け、9000億円のうち約7100億円を部品事業に振り向ける。同社はデータセンター間の高速通信に使うセラミック製部品で高い世界シェアを持つほか、AIサーバへの電力供給を支える電子部品などの需要拡大も見込む。\n31年3月期には売上高2兆6000億円、営業利益3200億円を目指す。\nOpenAIのAIモデル、AMDのGPU回路設計を最大14％改善 独自チップ「ハラペーニョ」でも成果\n米商務省、中国企業による第三国データセンター経由のAIチップ“遠隔利用”を規制へ\nジェンスン・フアン氏退任は「NVIDIAバブル崩壊」の序章か？ どうなる今後の半導体業界\n手のひらサイズの“宇宙AIデータセンター”？ JAXA後押しの国内新興が実現目指す 南極・高山での利用も視野\n泥水にも耐えるスマホ「TORQUE G07」、京セラから登場 初めて衛星通信によるアプリ利用にも対応\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nそばチェーン「ゆで太郎」は、なぜ個人情報を「持たない」と決めた？ 8年続いたバースデークラブ終了の理由を社長に聞いた\n顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景\n「AI関連の需要強い」京セラ 5年で設備投資9000億円、データセンター需要狙う\n「時給1280円～」「在宅勤務」 ローソンが募集する「アバターオペレーター」という謎のお仕事\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\n「時給1280円～」「在宅勤務」 ローソンが募集する「アバターオペレーター」という謎のお仕事\n顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景\nサブスクの「お試し→自動更新」は客を逃していた？ 新規購読者数は「お試し→自動解約」比23％減 140万人で実験\n“新イギリス国旗”、2ちゃんねるデザインが人気\nAIでドーピングしたコンサルの実力は 使わない人材との能力差、BCG約500人で検証 Nature系列誌\n三井ショッピングパーク、約312万会員の個人情報漏えい アプリに不正アクセス\n航空会社Peach、「KARTE」から最大約944万件の顧客情報漏えい 契約終了後も削除されず残存\n「フィッシング対策訓練」って実効性あるの？ 約1.2万人に模擬メール送り検証、結果は……\nDMMの独自ストアで「動画プレイヤー」復活 AppStoreでは配信できないアプリの駆け込み寺になるか"
+  },
+  {
+   "title": "「Xiaomi 18 Pro Max」、ソフトバンクやワイモバイルでSIMフリー版を発売",
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2160084.html",
+   "summary": "ソフトバンクは、SIMフリースマートフォンなどを販売する「SoftBank Free Style」や「Y!mobile Free Style」で「Xiaomi 18 Pro Max」を11月27日に発売した。",
+   "published": "2026-11-27T18:24:29+09:00",
+   "source": "ケータイ Watch",
+   "link": {
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2160084.html",
+    "title": "「Xiaomi 18 Pro Max」、ソフトバンクやワイモバイルでSIMフリー版を発売",
+    "site": "ケータイ Watch",
+    "description": "ソフトバンクは、SIMフリースマートフォンなどを販売する「SoftBank Free Style」や「Y!mobile Free Style」で「Xiaomi 18 Pro Max」を11月27日に発売した。",
+    "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2160/084/main.jpg",
+    "icon": "https://k-tai.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "ソフトバンクは、SIMフリースマートフォンなどを販売する「SoftBank Free Style」や「Y!mobile Free Style」で「Xiaomi 18 Pro Max」を11月27日に発売した。\n取り扱いする本体カラーはベルベットレッド、ブラック、ホワイトの3色。オープンマーケットモデルのSIMフリースマートフォンで、通信事業者のアプリはインストールされていない。また、商品仕様についてもオープンマーケット向けの仕様で、初期不良や交換などもメーカーでの対応となる。\n販売価格は23万9808円で、購入で1万円相当のPayPayポイントを還元する。他社回線からMNP契約でワイモバイルのシンプル3 M/Lの申込と同時に購入すると、PayPayポイントの還元に加えて本体代金を2万708円割引する。"
+  },
+  {
+   "title": "Microsoft、Windowsに搭載されているTelnetクライアント（telnet.exe）の廃止を決定【やじうまWatch】",
+   "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2159849.html",
+   "summary": "Windowsに搭載されているTelnetクライアントが、近い将来に廃止されることが明らかになった。",
+   "published": "2026-11-27T12:00:22+09:00",
+   "source": "INTERNET Watch",
+   "link": {
+    "url": "https://internet.watch.impress.co.jp/docs/yajiuma/2159849.html",
+    "title": "Microsoft、Windowsに搭載されているTelnetクライアント（telnet.exe）の廃止を決定【やじうまWatch】",
+    "site": "INTERNET Watch",
+    "description": "Windowsに搭載されているTelnetクライアントが、近い将来に廃止されることが明らかになった。",
+    "image": "https://internet.watch.impress.co.jp/img/iw/list/2159/849/yajiuma-watch_4.png",
+    "icon": "https://internet.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "Windowsに搭載されているTelnetクライアントが、近い将来に廃止されることが明らかになった。\nTelnetは、遠隔のコンピューターにネットワーク経由で接続し、コマンド操作するための通信プロトコル。その歴史は、Windowsの登場よりもはるか前、Microsoftが設立されるよりも前である、ARPANET（インターネットの原型）が1969年に誕生したころの時代にまでさかのぼる。1970～90年代にかけて多く利用されたが、データを暗号化する仕組みがないことから、暗号化通信に対応したSSHに取って代わられ、現在は目にする機会は減っている。ただし、WindowsではTelnetクライアント（telnet.exe）として実装されており、有効化しさえすれば現行のWindows 11でも利用できる。\nそんなTelnetがこのたびWindowsの非推奨機能リストに追加され、近い将来にWindowsから削除されることが明らかになった。現時点では具体的なスケジュールは未定だが、2023年に同リストに追加されたWordPadが約1年後に削除された経緯からして、早ければ2027年中、遅くとも2～3年以内には姿を消す可能性が濃厚だ。実際に使用したことがあるユーザーは決して多くはないはずで、現役で使っているユーザーともなるとほんの一握りだろうが、それでもいざ廃止となると寂しいものだ。\nDeprecated features in the Windows client（Microsoft Learn）https://learn.microsoft.com/en-us/windows/whats-new/deprecated-features\nMicrosoft is getting rid of the decades-old Telnet Client in Windows（Neowin）https://www.neowin.net/news/microsoft-is-getting-rid-of-the-decades-old-telnet-client-in-windows/"
+  },
+  {
+   "title": "AI音声による虚偽通報が深刻化",
+   "url": "https://gigazine.net/news/20261128-fake-911-call-ai/",
+   "summary": "人間の声色と変わらないAI音声が登場したことで、警察への虚偽通報が相次いでいることがアメリカで問題視されていると、海外メディアのNPRが報じています。   続きを読む...",
+   "published": "2026-11-28T08:00:00+09:00",
+   "source": "GIGAZINE",
+   "link": {
+    "url": "https://gigazine.net/news/20261128-fake-911-call-ai/",
+    "title": "AI音声による虚偽通報が深刻化",
+    "site": "GIGAZINE",
+    "description": "人間の声色と変わらないAI音声が登場したことで、警察への虚偽通報が相次いでいることがアメリカで問題視されていると、海外メディアのNPRが報じています。",
+    "image": "https://i.gzn.jp/img/2026/11/28/fake-911-call-ai/00.jpg",
+    "icon": "https://gigazine.net/apple-touch-icon.png"
+   },
+   "body": "人間の声色と変わらないAI音声が登場したことで、警察への虚偽通報が相次いでいることがアメリカで問題視されていると、海外メディアのNPRが報じています。 Swatting calls using AI means fake 911 calls are harder to detect : NPR https://www.npr.org/2026/11/11/nx-s1-6034449/ai-911-calls-swatting\nアメリカでは虚偽通報が深刻化しています。2026年8月にはカリフォルニア州ユバ郡のウィートランド・ユニオン高校に爆弾を仕掛けたという通報があり、学校は安全のため授業を中止しました。後の捜査でこの通報にはAI音声が使われたことが分かり、爆弾も見つかりませんでした。 ユパ郡の警察当局は「以前は虚偽通報の声は比較的簡単に識別できました。しかし、今では自然な音声になっています。自然な間を挿入することもできますし、『えー』『たぶん、えっと、ちょっと考えさせてください』といった言葉も使えます。とても自然に聞こえます」と述べ、問題が深刻化していると吐露しました。 サイバーセキュリティ団体であるPublic Safety Threat Allianceは、911通報センターに対する虚偽通報の発生状況を調査しています。2026年6月に専門家766人からの回答を基に調査結果をまとめたところ、通報受付担当者の約14％がAIツールを使った攻撃の標的になったと回答しました。\nAI音声は数千円程度と非常に低価格で利用でき、人間と遜色ない声を出せます。AIを使ってAI生成の音声を検出する技術もありますが、常に有効とは限りません。こうした技術により、緊急通報受付担当者が本当の声を判断することは特に困難になっているそうです。 専門家によると、虚偽通報にはいくつかの共通点があるそうです。例えば、緊急通報の911に直接電話をかけることはないという点です。911にかけると位置情報や電話の所有者の名前といった情報がバレてしまうため、通報者はまず警察署などにかけて911通報センターに転送されることを狙っているとのことです。 こうした問題に対処するため、当局はAI音声を見分ける訓練も実施しています。担当者によると、AIが簡単に推測できない細かい質問をするといった内容が盛り込まれている模様。911通報センターの責任者は「何があっても、公共の安全機関は非常に強力な対応を行うことが重要です。虚偽通報の兆候があったとしても、常に生命や死に関わる状況が報告されているのです。生命や死に関わる状況であれば、決して危険を冒すことはできません」と述べました。\n10代の学生が携帯電話を使って性的に露骨な写真を送信する割合\nFCCが「ロボコールのためのAI音声利用は違法」と宣言\nウソの通報で特殊部隊を送りこむ嫌がらせ「スワッティング」を完全自動化した代行業者が登場している\n薬局チェーンが業務効率化のためにAIを導入したところ遅延・誤った情報提供・プライバシー問題などが発生\nGoogleが「通話やチャット中に詐欺を検出して警告する」というスマホ向けAI機能を発表\n特定のワードが大学の論文で出現しまくっておりChatGPTなどの生成AIが使用されたことを示す危険信号となりつつあることが明らかに\n生成AIアプリで男子学生が女子の「ディープヌード」を作成する問題が深刻化している\nAndroidスマホになりすまし電話検出機能が追加される、RCSをベースに発信者が本当に電話アプリから発信しているかどうかを検証可能\nYou can read the machine translated English article False reporting using AI voices is becom…."
+  },
+  {
+   "title": "Yooka-Laylee’s free upgrade is skipping Xbox",
+   "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
+   "summary": "Playtronic Games is getting ready to launch Yooka-Laylee and the Impossible Lair: Definitive Edition as a free update on PlayStation 5, Switch 2, and PC on December 15th. Unfortunately for Xbox owners, the developer says it \"can't commit to any additional platforms for the foreseeable future.\" In a statement posted on X, Playtronic said that […]",
+   "published": "2026-11-27T18:30:32-05:00",
+   "source": "The Verge",
+   "link": {
+    "url": "https://www.theverge.com/games/1044715/yooka-laylees-free-upgrade-is-skipping-xbox",
+    "title": "Yooka-Laylee’s free upgrade is skipping Xbox",
+    "site": "The Verge",
+    "description": "Yooka-Laylee’s Definitive Edition won’t come to Xbox because of ‘technological challenges and costs.’",
+    "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/V1-scaled-1.png?quality=90&strip=all&crop=0%2C3.4613147178592%2C100%2C93.077370564282&w=1200",
+    "icon": "https://www.theverge.com/static-assets/icons/apple-touch-icon.png"
+   },
+   "body": "Playtronic Games says Yooka-Laylee’s Definitive Edition won’t come to Xbox because of ‘technological challenges and costs.’\nPlaytronic Games says Yooka-Laylee’s Definitive Edition won’t come to Xbox because of ‘technological challenges and costs.’\nPlaytronic Games is getting ready to launch Yooka-Laylee and the Impossible Lair: Definitive Edition as a free update on PlayStation 5, Switch 2, and PC on December 15th. Unfortunately for Xbox owners, the developer says it “can’t commit to any additional platforms for the foreseeable future.” In a statement posted on X, Playtronic said that it understands the frustration some players may feel, but that bringing the Definitive Edition to Xbox just isn’t viable “given the technological challenges and costs,” and reminded people that they’re a small team.\nSome, like The Game Business editor-in-chief Christopher Dring, have speculated that Xbox’s smaller install base has made it harder for some indie devs to “financially justify” launching on Xbox. Others, like John Linneman of Digital Foundry, have countered that Yooka-Laylee and the Impossible Lair: Definitive Edition is ultimately a minor update and pointed out that the Xbox Series X version was already available in native 4K, unlike the PS4 and Switch versions.\nThe absolute best Black Friday deals you can still get\nGrand Theft Auto VI is a different kind of GTA — so it needed a different kind of ending\nDisney Plus, Hulu, and HBO Max are all over 50 percent off for Black Friday\nWhy GTA VI’s version of Florida feels so real\nAndroid’s DIY widgets are a bit of vibe-coding fun\nThis is the title for the native ad\nThis is the title for the native ad"
+  },
+  {
+   "title": "Volvo's big batteries: We drive its updated 2028 plug-in hybrids",
+   "url": "https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/",
+   "summary": "There’s just one thing we still don’t know: How much will they cost?",
+   "published": "2026-11-27T08:00:53+00:00",
+   "source": "Ars Technica",
+   "link": {
+    "url": "https://arstechnica.com/cars/2026/11/volvos-big-batteries-we-drive-its-updated-2028-plug-in-hybrids/",
+    "title": "Volvo's big batteries: We drive its updated 2028 plug-in hybrids",
+    "site": "Ars Technica",
+    "description": "There’s just one thing we still don’t know: How much will they cost?",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/volvo-xc60-xc90-combo-1152x648.jpg",
+    "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+   },
+   "body": "COPENHAGEN, Denmark—If we lived in the world that Volvo’s product planners expected back when the current XC90 debuted in 2015, both it and the smaller but related XC60 (which arrived in 2017) might have been the last of their kind as everything went electric. As we know, the future hasn’t turned out quite like that, especially in the critically important US market. At the same time, Europe and China are electrifying, which seems like an argument against spending resources on developing all-new replacements for models that might not have an eight-year lifespan in most markets.\nSo instead, Volvo has given the XC60 and XC90 another lifecycle refresh. The exterior styling tweaks are minimal; the bigger three-row XC90 had already been given a new look last year, and the XC60 now gains a similar grille and the same matrix headlights, for instance. And that’s no bad thing—both were, and remain, handsome shapes that are popular with Volvo’s customer base.\nInstead, the Swedish automaker’s attention has been on bringing the technology up to date for model year 2028 standards. Which means a much bigger battery for the PHEVs, with sufficient capacity for a couple of days of daily driving for most of us before needing to be recharged. There’s also new, modern infotainment and interiors that are now even nicer to spend time in than before.\nWe first saw the revamped 2028 XC60 (and learned about its technical details and those of the XC90) in September, but with the cars going into production now and due to reach the first US customers in the first quarter of next year, we got the opportunity to spend some seat time with the updated cars.\nBoth the midsize XC60 and three-row XC90 use the same PHEV powertrain. Under the hood, there’s a 2.0 L four-cylinder direct-injection gasoline engine that generates 247 hp (184 kW) and 226 lb-ft (306 Nm) together with a 70 hp (50 kW), 122 ft-lb (165 Nm) electric motor, both of which drive the front wheels. At the rear axle there’s a second electric motor, with an output of 174 hp (130 kW) and 228 lb-ft (309 Nm). Combined output for the hybrid system is 455 hp (339 kW) and 560 lb-ft (759 Nm).\nThere’s also a much bigger battery, with a net capacity of 37.9 kWh (41.2 kWh gross). If you set the car’s mode to Pure, which relies solely on the rear electric motor for propulsion, that translates to an EPA range estimate of 78 miles (126 km) for the XC60 and 73 miles (116 km) for the larger, draggier XC90. Which is significant—when the average driver drives fewer than 30 miles a day, it means these PHEVs carry enough electrons for a couple of days of tailpipe-emissions-free driving before it needs to be plugged in again or the engine to fire up.\nWhen it is time to plug it back in, expect it to take about four hours with a level 2 charger of at least 16 A, or 27 hours if you’re limited to 120 V. In Hybrid mode, where you get the benefit of both electric motors and the gas engine, Volvo expects a combined efficiency of 67 mpge in the XC60, and 61 mpge for the XC90.\nEven if the gas engine is running and you’re in Hybrid or Power mode (which keeps the engine on all the time), you can drive these Volvos as if they were EVs with one-pedal driving: just move the transmission from D to B. The Volvos are always using their electric motors to slow the car before the friction brakes intervene, and in B you get the same amount of lift-off regen regardless of mode. For city traffic, it’s very effective. (In Pure, although only the rear motor deploys energy, both front and rear motors regen brake.)\nIn power mode, with all 455 hp unleashed, you can chirp the wheels on a wet day, but these model year 2028 cars are about one large male human heavier than the outgoing model year, both of which were already pretty heavy. So don’t expect performance-car performance. The XC60 is the sweeter to drive on a winding road, but both are entirely at home cruising on a highway or creeping along in a city, which is where cars like these spend the vast majority of their time. There’s more road intrusion into the cabin of the XC60—the larger Volvo rides on air suspension that does a much better job of filtering that out.\nA first-drive event like this isn’t the best place to get a good read on real-world efficiency. We usually have to share cars with other journalists, and there’s limited time to drive on roads that may not be representative—too sinuous, or not enough traffic, for example. We need to try all the different drive modes and see how cars respond to different inputs. And it’s rare you’ll spend the entire day with one car, finishing at the same point you started.\nThat said, I can’t give you a definite read on range and efficiency for these two plug-ins. But my unscientific estimate is that my drive partner and I, in an XC60, drove about 60 km in a mix of city driving and higher speeds on the way to Malmo in Sweden, which is on the other side of a gigantic bridge, and we used about half the battery pack to do so. (Volvo asked us to put the PHEVs in Hold or Charge mode at 50 percent to leave some state of charge for whoever drove the cars after lunch.)\nThus, there was little charge left in the XC90 when it was my turn to drive the final stint back into Copenhagen. Since I wasn’t worried about combined efficiency, I ran the car in Charge mode for about 20 min, regenerating the battery from an indicated 10 km to an indicated 21 km, then switched to Pure once we reached the city, with about 16 km to go.\nVolvo already had a reputation for great automotive interiors, and with this refresh, it has pushed things forward a little. There’s a new wood finish, new textiles, and new backlighting. The resemblance between the two interiors from the front seat is now quite strong, particularly since the test cars Volvo brought to Denmark wore identical color schemes inside.\nOur final 1.6 km to the hotel took more than 30 minutes to negotiate thanks to a reception for very important people that apparently took place"
+  },
+  {
+   "title": "「時給1280円?」「在宅勤務」　ローソンが募集する「アバターオペレーター」という謎のお仕事",
+   "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003511/",
+   "summary": "ローソンは10月16日、在宅でアバターを操作して接客する「ローソンアバターオペレーター」の募集を始めた。導入店舗の数や効果、接客をAIではなく人が担う理由などを同社に聞いた。",
+   "published": "2026-11-27T15:42:43+09:00",
+   "source": "ITmedia NEWS 最新記事一覧",
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003511/",
+    "title": "「時給1280円～」「在宅勤務」　ローソンが募集する「アバターオペレーター」という謎のお仕事",
+    "site": "ITmedia NEWS",
+    "description": "ローソンは10月16日、在宅でアバターを操作して接客する「ローソンアバターオペレーター」の募集を始めた。導入店舗の数や効果、接客をAIではなく人が担う理由などを同社に聞いた。（1/2 ページ）",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003511/10013124/2048",
+    "icon": null
+   },
+   "body": "自宅のPCから店舗のモニターに映るアバターを動かし、コンビニの来店客を接客する。ローソンは、そんな仕事を担う「ローソンアバターオペレーター」（以下、オペレーター）を募集している。アバター事業を手掛けるAVITA（アビータ、東京都目黒区）と2022年に始めた取り組みで、導入先は108店舗に広がった。\n生成AIを使えば、アバターに会話をさせることもできる時代だ。それでもローソンは、アバターの「中の人」を人に任せている。どんな仕事で、なぜ人なのか。ローソンに話を聞いた。\n自宅から複数の店舗を受け持つ「中の人」の仕事\n募集ページによると、オペレーターはアバター「あおい」「そらと」として、あいさつやセルフレジの操作案内を中心に接客するほか、販売促進の業務も担う。\n時給は1280円から。勤務時間は主に午後1時から午後9時の間で相談でき、週1日から働ける。応募条件には、上下20Mbps以上の通信速度が出るインターネット回線や、勤務中に他人が立ち入らず音が外に漏れない部屋など、在宅で接客するオペレーターならではの項目も並ぶ。\n店舗で働く従業員と大きく違うのは、1人で複数の店舗を受け持つ点だ。ローソンは22年の協業発表の時点で、1人1店舗が通常だった勤務を、同時に複数店舗で担えるようになる点を、アバター活用の利点として打ち出していた。\nセルフレジ利用率5％以上向上、夕夜間の売上にも効果\nオペレーターの接客で、店舗にはどんな変化があったのか。ローソンに聞いたところ、導入店舗ではアバター接客をしている時間帯に、セルフレジの利用率が5％以上上がったという。\nオペレーターがモニター越しに店内を案内したり、セルフレジの操作を説明したりすることで、店舗の混雑を和らげ、従業員のレジ対応の負担を減らすことにつなげているとした。\nまた、アバター接客の導入で、店舗の従業員はファストフードや店内調理サービス「まちかど厨房」の調理、売り場の整理などに集中できるようになった。その結果、夕夜間の売上は未導入の店舗を2〜3％上回ったという。\nOsaka Metroのプレスリリース（ヒューマノイド実証実験）\nAVITAとの協業開始のニュースリリース（22年9月）\nグリーンローソン開業のニュースリリース（22年11月）\nローソン「生成AIが考えた商品」発売 「ピクルス風味のレモンタルト」など\nローソン、「鍋さばきロボ」導入拡大 やきそば・チャーハンなどを高火力でスピード調理\nマクドナルドのセルフレジは使いにくい？ じゃあ、最高に使いやすいセルフレジはどれだ\nローソンの“街作り”、大阪で2026年夏スタート KDDIと連携\nローソンの“未来コンビニ”、7月開店 ロボットが品出し、リモート接客ブースでオンライン診療も\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nそばチェーン「ゆで太郎」は、なぜ個人情報を「持たない」と決めた？ 8年続いたバースデークラブ終了の理由を社長に聞いた\n顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景\n「AI関連の需要強い」京セラ 5年で設備投資9000億円、データセンター需要狙う\n「時給1280円～」「在宅勤務」 ローソンが募集する「アバターオペレーター」という謎のお仕事\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\n「時給1280円～」「在宅勤務」 ローソンが募集する「アバターオペレーター」という謎のお仕事\n顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景\nサブスクの「お試し→自動更新」は客を逃していた？ 新規購読者数は「お試し→自動解約」比23％減 140万人で実験\n“新イギリス国旗”、2ちゃんねるデザインが人気\nAIでドーピングしたコンサルの実力は 使わない人材との能力差、BCG約500人で検証 Nature系列誌\n三井ショッピングパーク、約312万会員の個人情報漏えい アプリに不正アクセス\n航空会社Peach、「KARTE」から最大約944万件の顧客情報漏えい 契約終了後も削除されず残存\n「フィッシング対策訓練」って実効性あるの？ 約1.2万人に模擬メール送り検証、結果は……\nDMMの独自ストアで「動画プレイヤー」復活 AppStoreでは配信できないアプリの駆け込み寺になるか"
+  },
+  {
+   "title": "Prime Video、12月は嵐やHANAのライブ映像など",
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2160050.html",
+   "summary": "Amazonは、動画配信サービス「Prime Video（プライム・ビデオ）」で12月に配信する作品を発表した。",
+   "published": "2026-11-27T17:41:09+09:00",
+   "source": "ケータイ Watch",
+   "link": {
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2160050.html",
+    "title": "Prime Video、12月は嵐やHANAのライブ映像など",
+    "site": "ケータイ Watch",
+    "description": "Amazonは、動画配信サービス「Prime Video（プライム・ビデオ）」で12月に配信する作品を発表した。",
+    "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2160/050/main.jpg",
+    "icon": "https://k-tai.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "Amazonは、動画配信サービス「Prime Video（プライム・ビデオ）」で12月に配信する作品を発表した。\n12月は音楽関連コンテンツを多く配信する。たとえば、嵐の『5 - 嵐という時間 -』、『ARASHI LIVE TOUR 2026「We are ARASHI -Prime Video Edition-」』、HANAの全国ホールツアーFINALなどを新たに配信する。\n邦画では、同名の人気マンガを映画化した「正直不動産」を12月11日から独占配信する。主演は山下智久、ドラマ版に引き続き根本ノンジが脚本を、川村泰祐が監督を担当する。\nこのほか、「第1回 LINEマンガ大賞」銀賞を受賞した人気マンガを実写化した「ロマンティック・キラー」を12月18日から独占配信する。上白石萌歌、高橋恭平（なにわ男子）、木村柾哉（INI）、中島颯太（FANTASTICS）の4人が主演となる。\n洋画では、キング・オブ・ポップことマイケル・ジャクソンの伝説誕生を描いた「Michael／マイケル」を12月25日から独占配信する。\nまた、アーノルド・シュワルツェネッガーが30年ぶりにクリスマス映画に出演し、アラン・リッチソンとタッグを組むPrime Original映画「サンタクロースと魔法の袋」を12月2日から独占配信する。\n国内ドラマでは、韓国の大ヒットドラマをリブートしたPrime Originalドラマ「神のクイズ」を12月4日から世界独占配信する。主演は間宮祥太朗で、飯豊まりえや神尾楓珠らが出演する。また、2022年放送のNHK大河ドラマ「鎌倉殿の13人」を12月28日から見放題配信する。\n韓国ドラマでは、アン・ボヒョンやイ・ソンミン、スヒョンらが共演するPrime Originalドラマ「神の宝珠」を12月6日から独占配信する。\n音楽コンテンツでは、是枝裕和が総監督を務め、嵐の5大ドームツアーの裏側に密着したドキュメンタリー映画『5 - 嵐という時間 -』を12月15日から世界独占配信するほか、松本潤が編集を手掛けたコンサート映像『ARASHI LIVE TOUR 2026「We are ARASHI -Prime Video Edition-」』を12月21日から世界独占配信する。\nさらに、7人組ガールズグループ・HANAの初となる全国ホールツアーの日本武道館FINAL公演を12月25日から独占配信する。\nこのほか、年末の恒例番組「M-1グランプリ 2025」や、アニメ「天元突破グレンラガン」「コードギアス」「〈物語〉シリーズ」「けいおん！」なども順次配信する。"
+  },
+  {
+   "title": "エレコム、高速USB 10Gbps対応でUSB PDとHDMI出力を搭載するドッキングステーション2モデル発売",
+   "url": "https://internet.watch.impress.co.jp/docs/news/2159421.html",
+   "summary": "エレコム株式会社は、USB 10Gbpsに対応し、USB PDとHDMI映像出力にも対応したドッキングステーション2モデルを発売した。ラインアップは5 in 1モデルの「DST-053BPESV」と6 in 1モデルの「DST-060BPESV」。市場想定価格は2490円と2890円。",
+   "published": "2026-11-27T08:00:00+09:00",
+   "source": "INTERNET Watch",
+   "link": {
+    "url": "https://internet.watch.impress.co.jp/docs/news/2159421.html",
+    "title": "エレコム、高速USB 10Gbps対応でUSB PDとHDMI出力を搭載するドッキングステーション2モデル発売",
+    "site": "INTERNET Watch",
+    "description": "エレコム株式会社は、USB 10Gbpsに対応し、USB PDとHDMI映像出力にも対応したドッキングステーション2モデルを発売した。ラインアップは5 in 1モデルの「DST-053BPESV」と6 in 1モデルの「DST-060BPESV」。市場想定価格は2490円と2890円。",
+    "image": "https://internet.watch.impress.co.jp/img/iw/list/2159/421/02.png",
+    "icon": "https://internet.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "エレコム株式会社は、USB 10Gbpsに対応し、USB PDとHDMI映像出力にも対応したドッキングステーション2モデルを発売した。ラインアップは5 in 1モデルの「DST-053BPESV」と6 in 1モデルの「DST-060BPESV」。市場想定価格は2490円と2890円。\nUSB Type-C接続で、USB機器やHDMIディスプレイをまとめて接続できる。USB PD入力ポートは最大100WのUSB PD受電が可能で、接続したPCに最大85Wの給電ができる。データ伝送はUSB 10Gbps（USB 3.2 Gen 2）に対応し、4K動画・RAW写真などの大容量データの転送が可能。\n「DST-053BPESV」のインターフェースは以下の通り。\nUSB Type-A×1（USB 10Gbps対応）\nUSB Type-A×2（USB 2.0対応）\nUSB Type-C×1（USB PD対応）\n「DST-060BPESV」のインターフェースは以下の通りで、USB Type-Cポートが3つに増えている。\nUSB Type-C×2（USB 10Gbps対応）\nUSB Type-A×2（USB 10Gbps対応）\nUSB Type-C×1（USB PD対応）\n本体サイズと重量は、「DST-053BPESV」が約106×34×12mmで約66.5g、「DST-060BPESV」が約113×28×10mmで約49g。"
+  },
+  {
+   "title": "シンプルな構文で美しい図を自動生成する「D2」が進化、非営利化で独自レイアウトエンジンもオープンソース化",
+   "url": "https://gigazine.net/news/20261127-d2/",
+   "summary": "テキストで図形や矢印の関係を記述するだけで図を自動生成できる「D2」は、2022年に基本的な使い方をレビューしました。その後は手描き風のデザインやアニメーション、ターミナルでも表示できるASCII出力などに対応し、図の表現方法が広がっています。2026年9月には運営体制が非営利に切り替わり、独自の自動配置エンジンもオープンソース化されたので、追加された機能を中心に改めて使ってみました。   続きを読む...",
+   "published": "2026-11-27T23:00:00+09:00",
+   "source": "GIGAZINE",
+   "link": {
+    "url": "https://gigazine.net/news/20261127-d2/",
+    "title": "シンプルな構文で美しい図を自動生成する「D2」が進化、非営利化で独自レイアウトエンジンもオープンソース化",
+    "site": "GIGAZINE",
+    "description": "テキストで図形や矢印の関係を記述するだけで図を自動生成できる「D2」は、2022年に基本的な使い方をレビューしました。その後は手描き風のデザインやアニメーション、ターミナルでも表示できるASCII出力などに対応し、図の表現方法が広がっています。2026年9月には運営体制が非営利に切り替わり、独自の自動配置エンジンもオープンソース化されたので、追加された機能を中心に改めて使ってみました。",
+    "image": "https://i.gzn.jp/img/2026/11/27/d2/00.png",
+    "icon": "https://gigazine.net/apple-touch-icon.png"
+   },
+   "body": "テキストで図形や矢印の関係を記述するだけで図を自動生成できる「D2」は、2022年に基本的な使い方をレビューしました。その後は手描き風のデザインやアニメーション、ターミナルでも表示できるASCII出力などに対応し、図の表現方法が広がっています。2026年9月には運営体制が非営利に切り替わり、独自の自動配置エンジンもオープンソース化されたので、追加された機能を中心に改めて使ってみました。 Home | D2 Documentation https://d2lang.com/\nD2 Playground https://play.d2lang.com/ GitHub - d2lang/d2: D2 is a modern diagram scripting language that turns text to diagrams. https://github.com/d2lang/d2 ◆2022年から進化したD2の機能 D2は図形の名前と接続関係を短いテキストで指定するだけで図を自動生成できるツールで、2022年の公開以降もさまざまな機能が追加されてきました。\n追加された主な機能とリリース時期は以下の通りです。 ・2022年12月：手描き風モードへの対応 ・2023年2月：ダークモードへの対応 ・2023年3月〜4月：アニメーションおよびPowerPoint・GIF出力 ・2025年5月：ソフトウェア構成を階層的に表現するC4モデルへの対応 ・2025年8月：ASCII出力 ・2026年9月：TALAのオープンソース化とD2本体への同梱 さらに2026年9月公開のv0.9.0では描画処理が改善され、公式リリースノートによるとテスト用の図表群でSVG描画が約10倍、実際の図でもコンパイルから配置・描画までの処理全体が中央値で約3倍高速化しています。 ◆D2をWindows 11にインストール 今回はWindows 11にD2のWindows用インストーラーを導入し、PowerShellから図を生成します。記事作成時点の最新版はv0.9.0だったので、Releasesページの「Assets」からWindows用インストーラー「d2-v0.9.0-windows-amd64.msi」をダウンロード。\nダウンロードしたMSIファイルを実行すると自動的にインストールされます。\n出力された「sample.svg」をブラウザで開くと、8個の要素が矢印で結ばれた構成図を確認できます。\n◆新たに追加された機能を使ってみた ・図を手描き風に変更 最初に「--sketch」オプションを付けた「d2 --sketch sample.d2 sketch.svg」を実行して同じ構成図を生成すると、四角形や矢印に手描き風の揺らぎが加わります。図形の接続関係はそのままで見た目が変化するため、技術文書用の図とプレゼンテーション用の図を同じテキストから作り分けられます。\n上記の内容を「steps.d2」として保存し「d2 --animate-interval=1200 steps.d2 steps.svg」で出力すると、1200ミリ秒ごとに構成図の表示が切り替わるアニメーションSVGを生成できます。出力ファイル名を「.gif」とすることでGIFも出力できるため、通信経路の変化やシステムが組み上がる過程を1つのファイルで表現できます。\n・文字だけで図を再現するASCII出力 2025年に追加された「ASCII出力」では、拡張子を「.txt」に変更して出力するだけで図形や接続関係を文字と罫線で表現できます。\n通常はUnicodeの罫線文字が使われますが「--ascii-mode=standard」を指定すると一般的なASCII文字だけを使用した表示に変更できます。\nASCII出力はベータ版とされており、装飾や複雑な図形の表現には制限があります。 ◆3種類の自動配置エンジンを使い分ける D2には「Dagre」「ELK」「TALA」という3種類の自動配置エンジンが同梱されており、オプションで「--layout=tala」のように指定することで同じテキストから異なるレイアウトを生成できます。 ・Dagre：標準で選択されるエンジンで、処理が一方向へ進む階層的な図に向いた配置\n・ELK：方向性やポートを持つ複雑なノード間の接続図に向いた配置\n・TALA：ソフトウェア構成図向けに設計され、図形の対称性や要素同士の距離・まとまりなどを考慮した配置\nTALAでは位置を固定した図形と自動配置する図形を組み合わせることもできますが、要素を追加すると全体の配置が大きく変化する場合があり、大規模な図では処理時間も増加することがあります。 ◆PowerPoint形式への出力にも対応 作成した図はSVGやPNGだけでなくPDFやPowerPoint形式にも出力でき、ファイルの拡張子を変更するだけで出力形式を切り替えられます。\nただし、PowerPoint出力は描画した図をスライドに配置する閲覧専用の形式となっており、PowerPoint上で個別の図形サイズを変更したり文字を編集したりすることはできません。 ◆営利企業から非営利プロジェクトへ移行 D2はもともとTerrastructが開発するオープンソース製品で、有料の「D2 Studio」と独自技術だったTALAによって開発費を支える構成でしたが、2026年9月5日に同社の事業終了と非営利プロジェクトへの移行が発表されました。現在は非営利団体のHack Clubが寄付金の管理や非営利運営の事務を担う体制の下で開発が継続されており、9月7日にはTALAがMPL-2.0ライセンスで公開されてD2本体にも同梱されました。 作者のAlexander Wang氏は今後も保守を担当する一方で開発に使う時間を限定し、AIを活用したコード開発によって性能改善や新しい描画方式などに取り組む方針を明らかにしています。 ◆まとめ D2はローカル環境だけで図を生成できるため、外部サービスへ送信することを避けたい社内ネットワークの構成や公開前のシステム設計を扱う場合にも活用できます。\nブラウザごとの仕様の違いを減らす「Interop」プロジェクトの2024年の結果が発表される\n無料＆YAMLで豊富なアイコンからネットワーク構成図が書ける「drawthe.net」レビュー\nデジタル印刷技術を一気に向上させてDTPに革命を起こした「PostScript」が生まれた経緯とは？\n脱Excel方眼紙を目指す人必見の見やすい図をテキストだけで作れるアプリ「D2」\n「Google Chrome 135」安定版リリース、画像をスライド形式で表示する設定が簡単に\n「Firefox 101」正式版リリース、ビデオ会議で複数マイクが同時使用可能に\nGitHubで使用されているアイコンフォント「Octicons」が一般公開を開始\n無料で商用可のウェブでよく使われるアイコンをフォント化した「CONDENSE-iconFont」\nYou can read the machine translated English article 'D2,' a tool that automatically generate…."
+  },
+  {
+   "title": "Ford unveils the GT41 as it hopes to win Le Mans again",
+   "url": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
+   "summary": "Ford enters the World Endurance Championship in 2027 with the new prototype.",
+   "published": "2026-11-26T18:00:29+00:00",
+   "source": "Ars Technica",
+   "link": {
+    "url": "https://arstechnica.com/cars/2026/11/ford-unveils-the-gt41-as-it-hopes-to-win-le-mans-again/",
+    "title": "Ford unveils the GT41 as it hopes to win Le Mans again",
+    "site": "Ars Technica",
+    "description": "Ford enters the World Endurance Championship in 2027 with the new prototype.",
+    "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Ford-GT41-and-GT40_06-1152x648.jpg",
+    "icon": "https://cdn.arstechnica.net/wp-content/uploads/2016/10/cropped-ars-logo-512_480-300x300.png"
+   },
+   "body": "Sixty years ago, after two failed attempts, Ford won the 24 Hours of Le Mans with its GT40 race car. In the years since, the Blue Oval has been back to France more than a few times, with varying success. It could never replicate the GT40’s success winning overall, but it celebrated the 40th anniversary with a class win. Now it wants another shot at the really big trophy, and it debuted the car during the Detroit Lions-Chicago Bears football game today: meet the GT41.\n“Revealing the Ford GT41 is a significant moment for everyone involved in this program,” said Dan Sayers, manager of Ford Racing’s Hypercar program. “It’s the result of an enormous amount of work across our engineering, design, and development teams and an important milestone on our journey towards 2027. We know the scale of the challenge ahead—the level of competition in Hypercar is incredibly high, and there are no shortcuts to success. Our focus has been on building the right foundations, bringing together the right people and making sure we learn as much as possible from every stage of development.”\nLike many other entrants in the World Endurance Championship’s Hypercar class, Ford has chosen the rear-wheel-drive LMDh technical approach rather than building the GT41 entirely from scratch, as Ferrari and Aston Martin do with their cars. LMDh cars start with one of four approved carbon fiber chassis—in this case, Ford is working with Oreca, which has also partnered with Genesis and Acura.\nThe hybrid system and transmission are also standard parts. But Ford supplies the engine—a 5.4 L V8 based on the Mustang’s Coyote engine—as well as software to control the hybrid powertrain. A non-hybridized version of the Coyote has already been racing effectively under the hood of the Ford Mustang GT3.\nThe technical regulations also allow for more styling freedom than we often see in racing. The absolute amount of aerodynamic downforce is capped, as is the minimum drag, so OEMs are encouraged to use road car styling details to create a closer link between prototype and road car. I’ll probably need to spend more time looking at it to spot those road car cues, but I do see quite a few superficial similarities with the Genesis LMDh car, as well as the Ferrari Hypercar.\nDespite being an American car brand, Ford doesn’t have plans as yet to enter IMSA’s WeatherTech championship, so don’t expect to see the GT41 next January racing at Daytona. Instead, it will take its first green flag in Qatar in March, the first of WEC’s nine races next season.\nFord should find it an extremely competitive championship. Although Peugeot and Alpine will not race next year, McLaren is also entering, alongside returning teams from Aston Martin, BMW, Cadillac, Genesis, Ferrari, and Toyota, which this year won Le Mans and the overall title, following three years of Ferrari domination.\n1. Intel faced a choice: Give Trump 10% or face the consequences\n2. The best Black Friday deals Ars could find\n3. European spacecraft finds chaotic scene after asteroid deflection experiment\n4. Ford unveils the GT41 as it hopes to win Le Mans again\n5. Volvo's big batteries: We drive its updated 2028 plug-in hybrids"
+  },
+  {
+   "title": "止まらないKARTE漏えい　契約終了後「削除されたはず」のデータ流出相次ぐ　「人的オペレーションと管理の不備」",
+   "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003517/",
+   "summary": "プレイドによると、契約終了後のデータは「利用規約に則り適切に削除されるべき」だったが、「人的オペレーションおよび管理の不備」により保管されたままだったケースがあるという。",
+   "published": "2026-11-27T14:55:00+09:00",
+   "source": "ITmedia NEWS 最新記事一覧",
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003517/",
+    "title": "止まらないKARTE漏えい　契約終了後「削除されたはず」のデータ流出相次ぐ　「人的オペレーションと管理の不備」",
+    "site": "ITmedia NEWS",
+    "description": "プレイドによると、契約終了後のデータは「利用規約に則り適切に削除されるべき」だったが、「人的オペレーションおよび管理の不備」により保管されたままだったケースがあるという。",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003517/10013144/2048",
+    "icon": null
+   },
+   "body": "プレイドのCXプラットフォーム「KARTE」が11月13日に不正アクセスを受け、大手から中小まで多数の企業の顧客情報が流出した問題で、すでにKARTEの契約を終了していた企業の顧客情報も漏えいしたとの発表が相次いでいる。\n11月26日、LCCのPeach Aviationと、ファンケル傘下の化粧品メーカー・アテニアがそれぞれ、契約終了後にもかかわらず、KARTEから情報が漏えいしたと発表。Peachはプレイドに対して、データの速やかな完全消去と、消去証明書の提出を求めていることも公表した。\nプレイドによると、契約終了後のデータは「利用規約に則り適切に削除されるべき」だったが、「人的オペレーションおよび管理の不備」により保管されたままだったケースがあるという。\nKARTEは、企業が自社のWebサイトやアプリでの利用者の行動を分析し、その結果に応じてサイト上の案内やメッセージを出し分けるためのマーケティングサービス群で、2015年3月に提供を開始した。企業は、自社が持つ会員情報などのデータもKARTEに連携でき、利用していたサービスや連携データによって漏えい範囲は異なる。\n「契約終了後90日以内に削除」のはずが、7年半残存した例も\nPeach Aviationは、2019年8月1日から25年8月31日までKARTEを利用しており、最大約944万件（のべ件数）の氏名、生年月日、住所、電話番号などが漏えいした。\nファンケル傘下のアテニアは、2019年5月までKARTEを利用。顧客の性別や生年月日など最大66万3481件が漏えいしたといい、利用終了から約7年半もデータが残存していたことになる。\nエンジニア転職プラットフォーム「Offers」を運営するoverflowは2023年11月末でKARTEの契約を終え、同年12月に会員情報の連携を止めた。規約では契約終了後90日以内に個人情報を削除することになっていたが、連携した情報はプレイドのサーバに残ったままだったと述べ、同社に対してデータの削除と、削除の証明を求めている。\nヤッホーブルーイングは、公式通販サイト「よなよなの里」の顧客情報の一部（2994件）が漏えいした可能性を公表。2023年5月1日から10月31日にかけ、広告配信の最適化の目的で「KARTE Signals」を導入しており、「契約終了後90日以内に個人情報は削除される取り決め」だったが、サーバ上にデータが残っていたという。\nこの他、化粧品メーカー・シロクや、アパレルブランド「earth music&ecology」を運営するストライプインターナショナル、「ピップエレキバン」のピップ、医療用白衣などを扱うクラシコもそれぞれ、契約や利用を終えた後のデータが漏えいしたと発表している。\nプレイド「データはまだ削除していない」「検証完了後に速やかに削除する」\nプレイドは「運用管理体制の不備により、対象企業やエンドユーザーの皆様に迷惑をおかけして誠に申し訳ございませんでした」と謝罪。残っていた情報は「サービス再開に際して実施する検証のために、記録を保全する必要があるため」まだ削除しておらず、「検証の完了後に速やかに削除を行い、適切に通知する」という。\n今後は利用契約の終了後に情報が確実に削除されるよう、仕組みと運用を改めるとしている。\nPeach Aviationのニュースリリース\nストライプインターナショナルのニュースリリース\noverflow（Offers）のニュースリリース\n航空会社Peach、「KARTE」から最大約944万件の顧客情報漏えい 契約終了後も削除されず残存\n「JINS」最大約1829万件漏えいの可能性 RIZAPやしまむらも……「KARTE」不正アクセスの影響広がる\nモリサワや「mineo」など会員情報漏えい マーケツール「KARTE」不正アクセス、外部サービス連携用シークレットキーなども\n三井ショッピングパーク、約312万会員の個人情報漏えい アプリに不正アクセス\nアディーレ法律事務所、個人情報約1828件漏えい 氏名や問い合わせ内容など……委託先「メール商人」に不正アクセス\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nそばチェーン「ゆで太郎」は、なぜ個人情報を「持たない」と決めた？ 8年続いたバースデークラブ終了の理由を社長に聞いた\n顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景\n「AI関連の需要強い」京セラ 5年で設備投資9000億円、データセンター需要狙う\n「時給1280円～」「在宅勤務」 ローソンが募集する「アバターオペレーター」という謎のお仕事\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\n「時給1280円～」「在宅勤務」 ローソンが募集する「アバターオペレーター」という謎のお仕事\n顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景\nサブスクの「お試し→自動更新」は客を逃していた？ 新規購読者数は「お試し→自動解約」比23％減 140万人で実験\n“新イギリス国旗”、2ちゃんねるデザインが人気\nAIでドーピングしたコンサルの実力は 使わない人材との能力差、BCG約500人で検証 Nature系列誌\n三井ショッピングパーク、約312万会員の個人情報漏えい アプリに不正アクセス\n航空会社Peach、「KARTE」から最大約944万件の顧客情報漏えい 契約終了後も削除されず残存\n「フィッシング対策訓練」って実効性あるの？ 約1.2万人に模擬メール送り検証、結果は……\nDMMの独自ストアで「動画プレイヤー」復活 AppStoreでは配信できないアプリの駆け込み寺になるか"
+  },
+  {
+   "title": "auの「AQUOS sense10」がMNP契約や18歳以下の新規契約で負担金47円に",
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2159984.html",
+   "summary": "KDDI、沖縄セルラーは11月26日より「AQUOS sense10（SHG15）」の残価を変更した。",
+   "published": "2026-11-27T15:18:30+09:00",
+   "source": "ケータイ Watch",
+   "link": {
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2159984.html",
+    "title": "auの「AQUOS sense10」がMNP契約や18歳以下の新規契約で負担金47円に",
+    "site": "ケータイ Watch",
+    "description": "KDDI、沖縄セルラーは11月26日より「AQUOS sense10（SHG15）」の残価を変更した。",
+    "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2159/984/main.jpg",
+    "icon": "https://k-tai.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "KDDI、沖縄セルラーは11月26日より「AQUOS sense10（SHG15）」の残価を変更した。\n同機種の本体代金は6万1900円で、MNP契約・UQ mobileからの番号移行・18歳以下の新規契約のいずれかに該当すると本体代金を2万2000円割引する。\n残価は3万9853円で、本体代金を分割支払いして25カ月目までに本体を返却すると「スマホトクするプログラム＋」により、実質負担金は月額2円で初回のみ3円の合計47円となる。\n新規契約の場合の負担金は1万1047円で月額480円、初回のみ487円。機種変更時の負担金は1万5400円で、月額682円、初回のみ669円となる。\n「AQUOS sense11（SHG16）」は11月26日に発売され、本体代金は9万9800円。\nMNP契約やUQ mobileからの番号移行では2万2000円が割引される。残価は4万9000円で、負担金は2万8800円から。"
+  },
+  {
+   "title": "2.5GbE×5ポートの家庭用スイッチングハブ「LSW-2G5」、バッファローが発売",
+   "url": "https://internet.watch.impress.co.jp/docs/news/2159555.html",
+   "summary": "株式会社バッファローは、2.5GbEに対応した5ポートの家庭用スイッチングハブ「LSW-2G5」の出荷を開始した。全国の家電量販店や各ECストアなどで順次発売される。",
+   "published": "2026-11-27T07:30:00+09:00",
+   "source": "INTERNET Watch",
+   "link": {
+    "url": "https://internet.watch.impress.co.jp/docs/news/2159555.html",
+    "title": "2.5GbE×5ポートの家庭用スイッチングハブ「LSW-2G5」、バッファローが発売",
+    "site": "INTERNET Watch",
+    "description": "株式会社バッファローは、2.5GbEに対応した5ポートの家庭用スイッチングハブ「LSW-2G5」の出荷を開始した。全国の家電量販店や各ECストアなどで順次発売される。",
+    "image": "https://internet.watch.impress.co.jp/img/iw/list/2159/555/01.png",
+    "icon": "https://internet.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "株式会社バッファローは、2.5GbEに対応した5ポートの家庭用スイッチングハブ「LSW-2G5」の出荷を開始した。全国の家電量販店や各ECストアなどで順次発売される。\n同製品は、全ポートが2.5GbEに対応したスイッチングハブ。本体サイズは121×26×75mm、重量約250gで金属筐体を採用。LANポートと電源を背面に集約している。\nネットワーク運用に大きな障害をおよぼすネットワークループの発生を検知し、知らせる「ループ検知機能」を搭載。物理スイッチでループ検知ON/OFFの切り替えが可能。また、使用中のポートのみに電力供給する「おまかせ節電機能」も備える。\nAmazon.co.jpでは「LSW-2G5/N」が6980円で販売されている。"
+  },
+  {
+   "title": "ゴミ捨て場で大量のアポピスの儀式の痕跡が見つかり古代エジプトでは呪いの儀式が広く行われていたことが明らかに",
+   "url": "https://gigazine.net/news/20261127-curse-ritual-widespread-ancient-egypt/",
+   "summary": "エジプトの古代都市であるテーベの遺跡で、焼け焦げたパピルス(古代エジプトで利用された紙)の断片40点が見つかりました。ここから、古代エジプトで有名な呪いの儀式は、これまで考えられてきたよりも広く日常的に行われていた可能性が浮上しています。   続きを読む...",
+   "published": "2026-11-27T22:00:00+09:00",
+   "source": "GIGAZINE",
+   "link": {
+    "url": "https://gigazine.net/news/20261127-curse-ritual-widespread-ancient-egypt/",
+    "title": "ゴミ捨て場で大量のアポピスの儀式の痕跡が見つかり古代エジプトでは呪いの儀式が広く行われていたことが明らかに",
+    "site": "GIGAZINE",
+    "description": "エジプトの古代都市であるテーベの遺跡で、焼け焦げたパピルス(古代エジプトで利用された紙)の断片40点が見つかりました。ここから、古代エジプトで有名な呪いの儀式は、これまで考えられてきたよりも広く日常的に行われていた可能性が浮上しています。",
+    "image": "https://i.gzn.jp/img/2026/11/27/curse-ritual-widespread-ancient-egypt/00_m.jpg",
+    "icon": "https://gigazine.net/apple-touch-icon.png"
+   },
+   "body": "エジプトの古代都市であるテーベの遺跡で、焼け焦げたパピルス(古代エジプトで利用された紙)の断片40点が見つかりました。ここから、古代エジプトで有名な呪いの儀式は、これまで考えられてきたよりも広く日常的に行われていた可能性が浮上しています。 Cursing Apophis: Text and Material Culture of an Egyptian Execration Ritual https://www.degruyterbrill.com/document/doi/10.1515/zaes-2026-0004/html\nDiscovery of curse ritual in trash dump surprises Egyptologist: 'It must have been widespread in ancient Egypt' https://phys.org/news/2026-11-discovery-curse-ritual-trash-dump.html 古代エジプト時代の呪いの儀式として知られる「アポピスの儀式」に関する記述は、これまで紀元前4世紀前後に記された儀式指南書にある1例しか見つかっていなかったため、この呪いの儀式が「誰が、どれくらいの頻度で、どこで」行っていたものかはほとんど明らかになっていませんでした。\nアポピスの儀式は、太陽神ラーの宿敵である混沌の蛇神アポピスを調伏するための儀式です。エジプト神話において、太陽神ラーは夜の間に冥界を旅し、蛇神のアポピスはラーの旅を邪魔します。アポピスの儀式は太陽神ラーの冥界への旅を助けるためのものでしたが、次第にさまざまな用途に転用されるようになり、蛇神アポピスと結びつけて特定の人物を呪うために使われることもあったそうです。 デンマークのコペンハーゲン大学でエジプト学の教授を務めるフレドリク・ハーゲン氏は、テーベの発掘作業を行っている際に、焼け焦げて穴の開いたパピルスの破片40点をゴミの堆積層から発見しました。この破片を分析した結果、パピルスはアポピスの儀式で燃やすために作られた「絵や文言の写し」であることが明らかになっています。 今回の調査で見つかったパピルスの断片のひとつには、蛇の姿をしたアポピスと3本のナイフが描かれています。なお、パピルスの断片はどれも郵便切手の半分ほどの大きさだそうです。\nハーゲン教授は「この小さなパピルスの断片は、古代エジプトで呪いの儀式がどれほど広まっていたのかを知る新たな手がかりです。発見とその後の分析から、この儀式が神殿の日常の一部だったことが確認できました。また、別の文脈でこの儀式に言及した記録を少し見ただけでも、神殿の外で広く行われ、エジプト文化全体に根づいていたことが分かります」「読み書きのできる人々は、神官以外でも呪いの儀式を知ることができ、呪術師や治療師として活動していました。人々は自分の身を守るためや、他人を攻撃するために、呪術を行う手助けを書記に求めていました。そこには、従来考えられていたよりもはるかに広く行われていたことが明らかになった呪いの儀式も含まれています」と語りました。 ハーゲン教授ら研究チームが発掘したパピルスの断片は、約3400年前のものであり、これは「これまで儀式が行われてきたと考えられていた年代」よりも1000年も昔です。「私たちが新王国時代と呼ぶ時期には、すでにエジプト文化の一部として呪いの儀式が定着していました。論文では、神殿でどのような役職の神官がこの儀式を担っていたのかも検討しています」とハーゲン教授は語りました。 アポピスの儀式ではパピルスに描かれた絵を踏みつけ、唾を吐きかけ、ナイフで突き刺し、燃やします。その過程でパピルスに描かれた絵は跡形もなくなることがほとんどです。そのため、パピルスの断片にはナイフで突き刺された跡や燃え焦げた跡などがあり、「呪いの儀式の手順書に書かれている説明と驚くほど特徴が一致している」とハーゲン教授は説明しています。儀式の効力を得るには使ったものを火で焼き尽くす必要があったため、「断片が何かを見分け、調べられる状態のものが残っていたことは非常に幸運なことです」とも語りました。\n古代エジプト文明を科学的に研究するエジプト学では伝統的に、神殿などの建造物に残る浮き彫りや彫刻を分析して、そこから古代エジプトの宗教を読み解いてきたそうです。しかし、今回の調査では調べる遺物や場所を広げることで、古代エジプトの神殿が実際にどのように使われており、そこで働く神官たちがどのような日々を送っていたのかを明らかにできるようになると期待されています。実際、ゴミ捨て場のような地味な場所を調べる人は少なかったとハーゲン教授は指摘しました。\n切手サイズの「呪いのお守り」が古代の遺跡から発見される\n遺跡から発掘された1500年前の容器が「ローマ人のトイレ」だったと判明\n「死海文書」が眠る第12洞窟が新たに見つかる\n有名考古学者が遺跡からの出土品を偽造した証拠が死後に発見される\nローマ時代に「人間の頭蓋骨を用いた降霊術」が行われていた証拠がエルサレム近郊の洞窟で発見される\n2500年前の鉄器時代の女性の墓に鉄のナイフが突き刺されていたのが見つかる、理由は不明\n1500年にわたって湖の底で眠っていた剣が8歳の女の子によって引き上げられる\n古代エジプトの「警察」が牛の骨でできた小さな笛を使っていた可能性\nYou can read the machine translated English article The discovery of numerous traces of the …."
+  },
+  {
+   "title": "聴覚障害の社員にスマートグラス支給　会話をリアルタイムに文字表示　ソフトバンク、連携アプリも独自開発",
+   "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003516/",
+   "summary": "外部のサーバを介さずにスマホ内で音声認識処理と文字起こしを完結させ、文字起こしした内容をスマートグラスに表示する。",
+   "published": "2026-11-27T13:41:50+09:00",
+   "source": "ITmedia NEWS 最新記事一覧",
+   "link": {
+    "url": "https://www.itmedia.co.jp/news/article/2611/27/2000003516/",
+    "title": "聴覚障害の社員にスマートグラス支給　会話をリアルタイムに文字表示　ソフトバンク、連携アプリも独自開発",
+    "site": "ITmedia NEWS",
+    "description": "外部のサーバを介さずにスマホ内で音声認識処理と文字起こしを完結させ、文字起こしした内容をスマートグラスに表示する。",
+    "image": "https://www.itmedia.co.jp/news/article/ogp/2611/27/2000003516/10013136/2048",
+    "icon": null
+   },
+   "body": "ソフトバンクは11月26日、会話の内容をレンズにリアルタイムに表示するスマートグラスを、聴覚障害のある従業員のうち希望者132人に配布したと発表した。利用者からは「顔を上げて会話ができるのがうれしい」「会議以外の雑談にも入りやすくなった」といった声が出ているという。\nスマートグラスと連携するスマホアプリを独自に開発。外部のサーバを介さずにスマホ内で音声認識処理と文字起こしを完結させ、文字起こしした内容をスマートグラスに表示する。アプリの開発と検証は約2カ月で終えたという。\n聴覚障害のある従業員の意見を基に機能を開発し、フィードバックを反映して改良を重ねた。\nアプリに名前を登録しておけば、周囲の人からその名前を呼ばれたことを、振動とレンズへの表示で知らせる機能を搭載。背後から話しかけられた際などにすぐに気づけるようにした。\nレンズの文字が相手の口元に被らないよう、表示位置をドラッグ操作で変更する機能や、社内用語や専門用語を正しく表示させるために用語を登録できる辞書機能も備えた。\n同社はこれまで、リアルタイムで音声の文字起こしができるスマホアプリなどで聴覚障害のある従業員を支援してきたが、スマホの画面やノートに視線を移す必要があり、相手の表情や口の動きを文字と同時に確認することが難しかった。\n利用者アンケートでは、過去1カ月にスマートグラスを利用した115人のうち約7割が「満足している」「業務上のコミュニケーションや情報の把握に役立っている」と回答し、約8割は継続利用の意向を示したという。\nソフトバンクニュース：聴覚障がいのある仲間との対話を、AIスマートグラスでもっとスムーズに。社員の声から生まれた新しい対面コミュニケーション\n普通の眼鏡と見分けがつかないAIグラスで感じた「便利さの正体」\n「盗撮」→「法律で規制」が話題のAI眼鏡 海外では大ヒットなのに、日本での普及は限定的 ビジネスでの活用事例を探る\n感情に応じてフォントが変化 DNP、音声をリアルタイムでテキスト表示するシステム 窓口での案内などに\n話した言葉をアクリル板に表示、京セラがリアルタイム字幕システム パネル越しでも会話しやすく\nITmedia NEWSに関連する情報をお探しであれば、こちらのメディアもお役に立てるかもしれません。\n国内外の業界動向、AIやクラウドなどの最新技術、キャリア情報など今知りたい情報をまとめてお届けします。\nそばチェーン「ゆで太郎」は、なぜ個人情報を「持たない」と決めた？ 8年続いたバースデークラブ終了の理由を社長に聞いた\n顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景\n「AI関連の需要強い」京セラ 5年で設備投資9000億円、データセンター需要狙う\n「時給1280円～」「在宅勤務」 ローソンが募集する「アバターオペレーター」という謎のお仕事\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\n止まらないKARTE漏えい 契約終了後「削除されたはず」のデータ流出相次ぐ 「人的オペレーションと管理の不備」\n「時給1280円～」「在宅勤務」 ローソンが募集する「アバターオペレーター」という謎のお仕事\n顧客情報を守るため、売上15％の自社ECを閉店 ドールメーカーが明かした「決断」の背景\nサブスクの「お試し→自動更新」は客を逃していた？ 新規購読者数は「お試し→自動解約」比23％減 140万人で実験\n“新イギリス国旗”、2ちゃんねるデザインが人気\nAIでドーピングしたコンサルの実力は 使わない人材との能力差、BCG約500人で検証 Nature系列誌\n三井ショッピングパーク、約312万会員の個人情報漏えい アプリに不正アクセス\n航空会社Peach、「KARTE」から最大約944万件の顧客情報漏えい 契約終了後も削除されず残存\n「フィッシング対策訓練」って実効性あるの？ 約1.2万人に模擬メール送り検証、結果は……\nDMMの独自ストアで「動画プレイヤー」復活 AppStoreでは配信できないアプリの駆け込み寺になるか"
+  },
+  {
+   "title": "衛星通信とドローン活用で圏外エリアでもクマ検知、KDDIが実証成功",
+   "url": "https://k-tai.watch.impress.co.jp/docs/news/2159910.html",
+   "summary": "KDDIとKDDIスマートドローンは、北海道上砂川町および南富良野町で衛星通信やドローンを活用し、地上系の通信網が圏外となる山間部でも、クマの出現を検知して確認する実証実験を実施した。",
+   "published": "2026-11-27T13:54:19+09:00",
+   "source": "ケータイ Watch",
+   "link": {
+    "url": "https://k-tai.watch.impress.co.jp/docs/news/2159910.html",
+    "title": "衛星通信とドローン活用で圏外エリアでもクマ検知、KDDIが実証成功",
+    "site": "ケータイ Watch",
+    "description": "KDDIとKDDIスマートドローンは、北海道上砂川町および南富良野町で衛星通信やドローンを活用し、地上系の通信網が圏外となる山間部でも、クマの出現を検知して確認する実証実験を実施した。",
+    "image": "https://k-tai.watch.impress.co.jp/img/ktw/list/2159/910/main.png",
+    "icon": "https://k-tai.watch.impress.co.jp/favicon.ico"
+   },
+   "body": "KDDIとKDDIスマートドローンは、北海道上砂川町および南富良野町で衛星通信やドローンを活用し、地上系の通信網が圏外となる山間部でも、クマの出現を検知して確認する実証実験を実施した。\n実証実験では、北海道上砂川町および南富良野町の山間部に、モーションセンサー搭載のIoTセンサーカメラを合計8台設置した。カメラが撮影した画像は、圏外を含む各地点から送信され、AIによってクマと識別された写真について、自治体およびKDDIへ通知した。\n自治体から飛行依頼を受けて運航したドローンは、クマの通知から約15分間現場へ到着した。\n今回の実証実験により、地上系の通信網が圏外となる山間部であっても、クマの検知から現場でのクマの確認を遠隔で安全に行えることが確認できた。\nKDDIとKDDIスマートドローンは、実証実験の成果を踏まえ、2027年度までにクマ対策ソリューションの提供開始を目指す。\nIoTセンサーカメラによる検知・撮影では、地上系ネットワークの圏内では、動物の動きを検知して撮影した画像を自動で送信できることが確認できた。また、圏外となるエリアでは「au Starlink Direct for IoT」を通じて、2時間に1回、撮影画像が送信できた。\n実際に撮影された約1万1600枚の画像の中から、AIがクマを正しく識別することが確認できた。AIがクマと識別した際に、撮影画像と識別結果を自治体のメールシステムへ送信すると共に、自治体施設内のパトランプを点灯させ、自治体へ正しくクマ検知を通知した。"
+  }
+ ]
+}
