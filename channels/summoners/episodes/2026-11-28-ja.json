@@ -1,0 +1,101 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-28",
+ "lang": "ja",
+ "title": "v9.4.1更新、ディメンションアリーナβ第2期",
+ "opening": [
+  {
+   "say": "サマナ朝通信です。十一月二十八日土曜日、おはようございます。",
+   "show": "サマナ朝通信です。11月28日土曜日、おはようございます。"
+  },
+  {
+   "say": "今日は二本のニュースをお届けします。",
+   "show": "今日は2本のニュースをお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "v9.4.1アップデート",
+   "points": [
+    "スキルのバランス調整",
+    "ディメンションアリーナβ第2期",
+    "4対4、145体から選ぶ"
+   ],
+   "details": [
+    "コムツスがスチーム版でv9.4.1へのアップデートを告知しました。内容にはスキルのバランス調整が含まれます。",
+    "ディメンションアリーナのベータ第2期は、太平洋時間の12月2日に始まり、12月中も正式開始の前にベータを続けます。",
+    "対戦は4対4で、使えるのは初期星5の光モンスター69体と闇モンスター76体の、合わせて145体です。"
+   ],
+   "lines": [
+    {
+     "say": "まずは公式のお知らせから。ブイ きゅうてんよんてんいち のアップデートで、スキルのバランス調整が入ったよ。",
+     "show": "v9.4.1でスキルのバランス調整"
+    },
+    {
+     "say": "ディメンションアリーナのベータ第2期は、太平洋時間の12月2日にスタート。正式開始の前に、12月もベータが続くんだ。",
+     "show": "β第2期は12月2日から"
+    },
+    {
+     "say": "対戦は4対4で、光と闇の、初期星5モンスター、合わせて145体から選べるよ。",
+     "show": "4対4、光と闇の星5から145体"
+    }
+   ],
+   "url": "https://store.steampowered.com/news/app/2426960/view/679642204775384550",
+   "link": {
+    "url": "https://store.steampowered.com/news/app/2426960/view/679642204775384550",
+    "title": "サマナーズウォー: Sky Arena－v9.4.1 Update Notice－Steamニュース",
+    "site": "store.steampowered.com",
+    "description": "Greetings from Com2uS!\nv9.4.1 has been updated on Steam today, and an auto update will be held to install the new version.\nThe process won't take long, but you may experience a sudden crash if you are logged in when the update begins.\nPlease make sure to come back to the Village and end your game sa",
+    "image": "https://clan.fastly.steamstatic.com/images/44752586/fa461162b24781ed9d196ad568ba8fab918a60c2.jpg",
+    "icon": "https://store.steampowered.com/favicon.ico"
+   }
+  },
+  {
+   "label": "調整は75体92スキル",
+   "points": [
+    "75体、92のスキルを変更",
+    "プサマテのパッシブ強化",
+    "ダゴラの復活が70パーセント"
+   ],
+   "details": [
+    "海外の攻略サイト、ルーンスコープのまとめでは、11月25日の事前告知で75体のモンスター、92のスキルが変更対象です。",
+    "目立つ例として、プサマテのパッシブのダメージが20パーセント上がり、シー・ホウは合計ダメージが約17パーセント下がるとしています。",
+    "ダゴラの復活時の体力が50パーセントから70パーセントに。12月の混沌の神殿は火属性のボスで、12月6日から13日です。"
+   ],
+   "lines": [
+    {
+     "say": "続いては、海外の攻略サイト、ルーンスコープのまとめから。今回の調整は、75体のモンスター、92のスキルが対象なんだって。",
+     "show": "調整は75体、92スキル"
+    },
+    {
+     "say": "たとえば、プサマテはパッシブのダメージが20パーセントアップ。ダゴラは、復活するときの体力が70パーセントになるそうだよ。",
+     "show": "プサマテ強化、ダゴラ復活70%"
+    },
+    {
+     "say": "それから12月の混沌の神殿は、火属性のボスで、12月6日から13日まで。自分の推しがどう変わるか、チェックしてみてね。",
+     "show": "12月の混沌の神殿は火属性"
+    }
+   ],
+   "url": "https://runescope-sw.com/patches/",
+   "link": {
+    "url": "https://runescope-sw.com/patches/",
+    "title": "Summoners War balance patch: latest buffs and nerfs",
+    "site": "RuneScope",
+    "description": "RuneScope (Summoners War balance patch: latest buffs and nerfs). Last checked: 2026-11-27.\nv9.4.1 (2026-11-27, update announced, server rollout): monster balancing, Dimension Arena improvements, new R",
+    "image": null,
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日は、ブイ きゅうてんよんてんいち のバランス調整と、ディメンションアリーナの新しいシーズンの話題でした。",
+   "show": "v9.4.1の調整とアリーナ新シーズン"
+  },
+  {
+   "say": "それでは今日も、よいサマナーライフを。サマナ朝通信でした。",
+   "show": "それでは今日も、よいサマナーライフを。サマナ朝通信でした。"
+  }
+ ],
+ "highlight": 0
+}

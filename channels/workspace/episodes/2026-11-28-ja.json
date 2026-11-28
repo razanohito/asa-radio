@@ -1,0 +1,101 @@
+{
+ "format": "monoradio/news-1",
+ "date": "2026-11-28",
+ "lang": "ja",
+ "title": "ドキュメントでWordファイルと比較",
+ "opening": [
+  {
+   "say": "あさワークスペース通信です。十一月二十八日土曜日、おはようございます。",
+   "show": "あさワークスペース通信です。11月28日土曜日、おはようございます。"
+  },
+  {
+   "say": "今日は二本のニュースをお届けします。",
+   "show": "今日は2本のニュースをお届けします。"
+  }
+ ],
+ "news": [
+  {
+   "label": "Wordと変換なしで比較",
+   "points": [
+    "変換せずに文書を比較",
+    "ドライブにアップして選ぶ",
+    "すべてのユーザーが対象"
+   ],
+   "details": [
+    "ドキュメントの「ドキュメントを比較」で、片方がWord形式（.docx）でも、ファイルを変換せずに直接比べられるようになりました。",
+    "Wordの文書をドライブにアップロードし、比較ツールで選ぶと、ドキュメントが2つの違いを表示します。",
+    "現在展開中で、すべてのユーザーで有効です。パワーポイントのファイルでも同様の機能を検討しているそうです。"
+   ],
+   "lines": [
+    {
+     "say": "まずは、グーグル ドキュメントで、ワードのファイルを変換せずに比較できるようになったニュースです。",
+     "show": "ドキュメントでWordと直接比較"
+    },
+    {
+     "say": "ワードの文書をドライブにアップロードして、ドキュメントを比較のツールで選ぶと、違いを表示してくれます。",
+     "show": "ドライブに上げて比較ツールで選択"
+    },
+    {
+     "say": "すべてのユーザーが対象です。契約書の版を見比べるときなどに便利そうですね。",
+     "show": "全ユーザー対象、契約書の比較に"
+    }
+   ],
+   "url": "https://9to5google.com/2026/11/27/google-docs-microsoft-word-compare-documents/",
+   "link": {
+    "url": "https://9to5google.com/2026/11/27/google-docs-microsoft-word-compare-documents/",
+    "title": "Google Docs can now do more with Microsoft Word documents without converting the file",
+    "site": "9to5Google",
+    "description": "Google Docs is getting an update in how it handles Microsoft Word documents, adding the ability to compare revisions without...",
+    "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/05/google-docs-3.jpg?quality=82&strip=all&resize=1200,628",
+    "icon": "https://9to5google.com/wp-content/uploads/sites/4/2017/03/favicon-bg-none-face-white.png?w=180"
+   }
+  },
+  {
+   "label": "AIの直接アクセス制限",
+   "points": [
+    "2027年2月1日から",
+    "公式のMCPかCLIを要求",
+    "Gmailの制限の記述に変化"
+   ],
+   "details": [
+    "グーグルは2027年2月1日から、AIエージェントがGmailやドライブなどにアクセスするとき、公式のMCPサーバーかGoogle Workspace CLIを使うよう求める方針です。",
+    "GmailのMCPサーバーでは、メールの送信などが一部の開発者に限定されていると指摘されていました。",
+    "記事の作成時点では、その機能制限に関する記述がすでに変更されているとのことです。"
+   ],
+   "lines": [
+    {
+     "say": "続いては、エーアイエージェントによる、ジーメールなどへのアクセスについての方針です。",
+     "show": "AIエージェントのアクセス方針"
+    },
+    {
+     "say": "2027年2月1日から、公式のエムシーピーサーバーか、ワークスペースのシーエルアイを使うよう求めるそうです。",
+     "show": "2027年2月1日から公式MCPかCLIを"
+    },
+    {
+     "say": "ジーメールのエムシーピーでは、送信が一部の開発者に限られると指摘されましたが、その記述はすでに変わっているとのことです。",
+     "show": "送信制限の記述はすでに変更"
+    }
+   ],
+   "url": "https://www.msn.com/ja-jp/news/other/google%E3%81%8Cai%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%AB%E3%82%88%E3%82%8Bgmail%E3%81%AA%E3%81%A9%E3%81%B8%E3%81%AEapi%E7%9B%B4%E6%8E%A5%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%82%92%E5%88%B6%E9%99%90%E3%81%B8-mcp%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%8Bcli%E3%81%AE%E4%BD%BF%E7%94%A8%E3%82%92%E8%A6%81%E6%B1%82/ar-AA2im8li",
+   "link": {
+    "url": "https://www.msn.com/ja-jp/news/other/google%E3%81%8Cai%E3%82%A8%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%83%88%E3%81%AB%E3%82%88%E3%82%8Bgmail%E3%81%AA%E3%81%A9%E3%81%B8%E3%81%AEapi%E7%9B%B4%E6%8E%A5%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%82%92%E5%88%B6%E9%99%90%E3%81%B8-mcp%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC%E3%81%8Bcli%E3%81%AE%E4%BD%BF%E7%94%A8%E3%82%92%E8%A6%81%E6%B1%82/ar-AA2im8li",
+    "title": "MSN",
+    "site": "www.msn.com",
+    "description": "",
+    "image": null,
+    "icon": null
+   }
+  }
+ ],
+ "closing": [
+  {
+   "say": "今日は、ワードとの比較が手軽になったことと、エーアイエージェントのつなぎ方の方針についてでした。",
+   "show": "Word比較とAIエージェントの方針"
+  },
+  {
+   "say": "それでは今日も、いってらっしゃい。あさワークスペース通信でした。",
+   "show": "それでは今日も、いってらっしゃい。あさワークスペース通信でした。"
+  }
+ ],
+ "highlight": 0
+}
