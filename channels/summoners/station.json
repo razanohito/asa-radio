@@ -51,40 +51,92 @@
   "persona": "サマナーズウォーにくわしい、面倒見のいい先輩キャラの女の子（ゆっくり解説の解説役）",
   "tone": "明るく、頼れる先輩らしく。事実はていねいに",
   "pick_rules": [
-   "公式の発表・プレスリリース・報道を優先する。個人の投稿（Reddit など）は運営スタッフの公式告知だけにする",
-   "攻略の個人的な評価や、うわさ・リーク情報は選ばない"
+   "新キャラ（新モンスター）、二次覚醒、バランス調整、イベント、コラボ、アップデート、SWCを優先する",
+   "公式の発表（お知らせ・パッチノート・運営の投稿）に加えて、海外コミュニティ（Reddit）、YouTube の攻略動画、海外の攻略サイト・ブログも選んでよい",
+   "公式でない情報は、出どころがはっきりしていて、中身が本文（動画なら概要欄）に書いてあるものだけ。データ解析のリーク、根拠のないうわさは選ばない",
+   "同じ新キャラの話題は、公式と攻略情報をまとめて1本にする"
   ],
   "write_rules": [
+   "英語や韓国語の記事・動画も、日本語で話す",
+   "公式でない情報は「海外のコミュニティでは」「攻略動画では」など、出どころを言ってから話す。評価は誰の意見かを言い、断定しない",
    "ゲーム内の名前（モンスター名・コンテンツ名）は、日本版の正式な表記がわからなければ、記事の表記をカタカナにする",
    "番組は非公式のファン番組なので、運営の代弁はしない"
   ],
   "farewell": "それでは今日も、よいサマナーライフを。",
   "feeds": [
+   "https://store.steampowered.com/feeds/news/app/2426960/",
    "https://prtimes.jp/companyrdf.php?company_id=9066",
-   "https://www.bing.com/news/search?q=%E3%82%B5%E3%83%9E%E3%83%8A%E3%83%BC%E3%82%BA%E3%82%A6%E3%82%A9%E3%83%BC&format=rss&setlang=ja",
-   "https://www.bing.com/news/search?q=%22Summoners+War%22&format=rss",
    {
-    "url": "https://www.reddit.com/r/summonerswar/.rss",
+    "url": "https://old.reddit.com/r/summonerswar/new/.rss",
     "keywords": [
      "[official]",
+     "official",
      "patch",
      "update",
      "announcement",
-     "notice",
-     "maintenance",
-     "collab"
+     "new monster",
+     "new mob",
+     "2a",
+     "second awakening",
+     "balance",
+     "buff",
+     "nerf",
+     "collab",
+     "event",
+     "dev note",
+     "developer",
+     "swc",
+     "world arena"
     ]
    },
+   {
+    "youtube": "@summonerswarapp"
+   },
+   {
+    "youtube": "@SummonersWarEurope"
+   },
+   {
+    "youtube": "UCHxz6vhTTXgu2aK0AXsmgqg"
+   },
+   {
+    "youtube": "@wkgsw1462",
+    "keywords": [
+     "summoners",
+     "sw",
+     "rta",
+     "siege",
+     "monster",
+     "2a",
+     "patch"
+    ]
+   },
+   {
+    "youtube": "@Seiishizo",
+    "keywords": [
+     "summoners",
+     "sw",
+     "rta",
+     "siege",
+     "monster",
+     "2a",
+     "patch"
+    ]
+   },
+   {
+    "url": "https://summonerswar.fandom.com/wiki/Special:NewPages?feed=atom&namespace=0"
+   },
+   {
+    "url": "https://www.pocketgamer.com/rss/",
+    "keywords": [
+     "Summoners War"
+    ]
+   },
+   "https://www.bing.com/news/search?q=%22Summoners+War%22&format=rss",
+   "https://www.bing.com/news/search?q=%E3%82%B5%E3%83%9E%E3%83%8A%E3%83%BC%E3%82%BA%E3%82%A6%E3%82%A9%E3%83%BC&format=rss&setlang=ja",
    {
     "url": "https://www.4gamer.net/rss/index.xml",
     "keywords": [
      "サマナーズウォー",
-     "Summoners War"
-    ]
-   },
-   {
-    "url": "https://www.gamemeca.com/en/rss.php",
-    "keywords": [
      "Summoners War"
     ]
    }

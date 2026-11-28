@@ -117,11 +117,14 @@ def parse_feed(xml_text, feed_url=""):
                 if strip(c.tag) == "link" and c.get("rel", "alternate") == "alternate" and c.get("href"):
                     link = c.get("href"); break
         summary = _txt(next((f[k] for k in ("description", "summary", "content", "encoded") if k in f), None))
+        if not summary:   # YouTube など：説明文が media:group の中にある
+            d = next((c for c in el.iter() if strip(c.tag) == "description"), None)
+            summary = _txt(d)
         pub = None
         for k in ("pubDate", "published", "updated", "date", "issued"):
             if k in f: pub = _date(_txt(f[k])); break
         if title and link.startswith("http"):
-            items.append({"title": title, "url": link.strip(), "summary": summary[:400], "published": pub.isoformat() if pub else None, "source": source or urllib.parse.urlparse(feed_url).netloc})
+            items.append({"title": title, "url": link.strip(), "summary": summary[:1500], "published": pub.isoformat() if pub else None, "source": source or urllib.parse.urlparse(feed_url).netloc})
     return items
 
 
@@ -145,14 +148,44 @@ def used_urls(cdir):
     return out
 
 
-def collect(feeds, hours=36, now=None, keywords=None):
+# 宣伝・セール・広告の記事（題で見分ける）。チャンネルの news.exclude で足せる
+JUNK_TITLE = ["セール", "お買い得", "ブラックフライデー", "サイバーマンデー", "タイムセール", "最安", "円引き", "%オフ", "％オフ",
+              "[Sponsored]", "[PR]", "【PR】", "Sponsored", "Black Friday", "Cyber Monday", " deal", "deals", "% off", "best price", "lowest price",
+              "売れ筋", "ランキング】", "Giveaway"]
+
+# 本文から捨てる定型文（寄付のお願い、会員登録の案内など）
+JUNK_PARA = re.compile(r"親愛なる読者の皆さま|寄付は上のボタン|ご寄付いただけ|サーバー代として|会員限定です|会員登録（無料）|メールマガジン|Copyright|All Rights Reserved|"
+                       r"Sign in to|Subscribe to|Follow .* on (Twitter|X)|FTC: We use|affiliate links|関連記事|Posted by", re.I)
+
+
+def youtube_feed(spec):
+    """"@handle" か "UC..." のチャンネル ID から、YouTube の RSS の URL を作る"""
+    cid = spec
+    if not spec.startswith("UC"):
+        _, _, text = http_get("https://www.youtube.com/" + spec.lstrip("/"))
+        m = re.search(r'"(?:channelId|externalId)":"(UC[\w-]{22})"', text) or re.search(r'channel/(UC[\w-]{22})', text)
+        if not m: return None
+        cid = m.group(1)
+    return "https://www.youtube.com/feeds/videos.xml?channel_id=" + cid
+
+
+def is_junk_title(title, extra=()):
+    t = title.lower()
+    return any(k.lower() in t for k in list(JUNK_TITLE) + list(extra or []))
+
+
+def collect(feeds, hours=36, now=None, keywords=None, exclude=None):
     """フィードから直近 hours 時間の記事を集める（URL と題で重複を除く）。keywords があれば、題か要約にどれかを含む記事だけ"""
     now = now or datetime.datetime.now(datetime.timezone.utc)
     seen, per_feed = set(), []
     for feed in feeds:
         out = []; per_feed.append(out)
         # フィードは URL の文字列か {"url": ..., "keywords": [...]}（そのフィードだけ絞り込む）
-        url = feed["url"] if isinstance(feed, dict) else feed
+        # {"youtube": "@handle"} は YouTube のチャンネル
+        url = feed.get("url") if isinstance(feed, dict) else feed
+        if isinstance(feed, dict) and feed.get("youtube"):
+            url = youtube_feed(feed["youtube"])
+            if not url: print(f"  feed --- youtube のチャンネルが見つからない {feed['youtube']}"); continue
         kws = [k.lower() for k in ((feed.get("keywords") if isinstance(feed, dict) else None) or keywords or [])]
         _, status, text = http_get(url)
         got = parse_feed(text, url) if text else []
@@ -160,6 +193,7 @@ def collect(feeds, hours=36, now=None, keywords=None):
         for it in got:
             it["url"] = real_url(it["url"])
             if kws and not any(k in (it["title"] + " " + it["summary"]).lower() for k in kws): continue
+            if is_junk_title(it["title"], exclude): continue
             if it["published"]:
                 age = now - datetime.datetime.fromisoformat(it["published"])
                 if age > datetime.timedelta(hours=hours) or age < datetime.timedelta(hours=-6): continue
@@ -230,7 +264,7 @@ def page_info(url):
         "image": abs_(m.get("og:image") or m.get("og:image:url") or m.get("twitter:image")),
         "icon": icon,
     }
-    body = "\n".join(p.paras)
+    body = "\n".join(x for x in p.paras if not JUNK_PARA.search(x))
     return link, body[:6000]
 
 

@@ -1,37 +1,41 @@
 # 毎朝の台本づくり（Claude の定期タスク用の手順）
 
-毎朝 5 時台に GitHub Actions（`collect.yml`）が各チャンネルの候補記事を集め、`inbox` ブランチの `inbox/<日付>/<ID>.json` に置きます。
+候補記事は、この定期タスクの最初に GitHub Actions（`collect.yml`）を動かして集めます（予約実行は何時間も遅れるので、使いません）。集めた記事は `inbox` ブランチの `inbox/<日付>/<ID>.json` に置かれます。
 この手順で台本を書いて `main` に push すると、GitHub Actions（`daily.yml`）が声を作って GitHub Pages に公開します。
 
 ## 手順
 
-1. リポジトリを取得し、今日（日本時間）の inbox を取る
+1. ニュース集めを動かし、終わるのを待つ
+   - GitHub の MCP ツール `actions_run_trigger` で、`razanohito/asa-radio` の `collect.yml` を `ref: main` で起動する（入力なし。日付は日本時間の今日になる）
+   - `actions_list`（`list_workflow_runs`、`collect.yml`）で、いま起動した回が `completed` になるまで待つ（ふつう 1〜2 分。30 秒おきに確かめ、10 分たっても終わらなければ止めて報告する）
+   - `conclusion` が `success` でなければ、台本は書かずに、失敗したことを報告する
+2. リポジトリを取得し、今日（日本時間）の inbox を取る
    ```bash
    git clone https://github.com/razanohito/asa-radio && cd asa-radio
    git fetch origin inbox && git restore --source=origin/inbox --worktree -- inbox
    D=$(TZ=Asia/Tokyo date +%F)
    ls inbox/$D/
    ```
-   `inbox/$D/` がなければ（収集が動いていない）、何も書かずに終わり、その旨を報告する。
-2. チャンネルごとに（`channels.json` の順。inbox にあるチャンネルだけ）:
+   `inbox/$D/` がなければ、何も書かずに終わり、その旨を報告する。
+3. チャンネルごとに（`channels.json` の順。inbox にあるチャンネルだけ）:
    1. `inbox/$D/<ID>.json` を読む。`news` に番組のテーマ・キャスター・口調・追加の決まり、`candidates` に記事（題・URL・本文）がある
    2. テーマに合う記事を `news.count` 本まで選ぶ（決まりは下）。合う記事が `news.min` 本に満たなければ、そのチャンネルは今日はお休み（台本を作らない）
    3. 下書きを `/tmp/<ID>.json` に書く（形は下）
    4. `python3 tools/save_script.py --channel <ID> --draft /tmp/<ID>.json` で確かめて保存する。「直すべき点」が出たら直して、もう一度
-3. 保存した台本を commit して push する
+4. 保存した台本を commit して push する
    ```bash
    git add channels/*/episodes
    git commit -m "台本 $D"
    git push origin HEAD:main
    ```
    push すると、声と公開は GitHub Actions が自動で行う。
-4. チャンネルごとの結果（放送した本数と題、お休みの理由）を短く報告する
+5. チャンネルごとの結果（放送した本数と題、お休みの理由）を短く報告する
 
 `inbox/` は main に commit しない（`.gitignore` 済み）。上の `git restore --worktree` で取れば、コミット待ちにならない（`git checkout origin/inbox -- inbox` だとコミット待ちに入ってしまう）。
 
 ## 記事を選ぶ決まり
 
-- 番組のテーマ（`news.topic`）に合う、きのう〜けさの新しい発表・出来事。同じ出来事は 1 本だけ
+- 番組のテーマ（`news.topic`）に合う、きのう〜けさの新しい発表・出来事（`news.hours` が長いチャンネルは、その期間のうち、まだ放送していないもの）。同じ出来事は 1 本だけ
 - 宣伝だけの記事、うわさ、真偽のはっきりしない投稿、セール情報は選ばない
 - `news.pick_rules` があれば従う
 

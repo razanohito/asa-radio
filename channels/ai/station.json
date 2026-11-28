@@ -43,7 +43,7 @@
  },
  "news": {
   "topic": "生成AI・AIの新しい発表や出来事",
-  "count": 5,
+  "count": 3,
   "min": 2,
   "hours": 36,
   "model": "claude-sonnet-5-5",

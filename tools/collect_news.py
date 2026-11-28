@@ -12,15 +12,22 @@ import radiolib as R
 
 def collect_channel(cid, date, limit):
     st = R.station(cid); cfg = st.get("news") or {}
-    cands = R.collect(cfg.get("feeds", []), hours=int(cfg.get("hours", 36)), keywords=cfg.get("keywords"))
+    cands = R.collect(cfg.get("feeds", []), hours=int(cfg.get("hours", 36)), keywords=cfg.get("keywords"), exclude=cfg.get("exclude"))
     used = R.used_urls(R.chan_dir(cid))
+    n_all = len(cands)
     cands = [c for c in cands if c["url"].split("?")[0].rstrip("/") not in used]
+    print(f"[{cid}] 候補 {n_all} 本（放送済みを除いて {len(cands)} 本）")
     out = []
     for c in cands[:limit * 2]:          # 読めない記事があるので多めに当たる
         link, body = R.page_info(c["url"])
-        if "status" in link or len(body) < 200:
-            continue
-        out.append({**c, "link": link, "body": body[:3500]})
+        if "status" in link:
+            print(f"  読めない {link.get('status')} {c['url'][:100]}"); continue
+        # 動画や SNS の投稿はページに本文が少ない。フィードの説明文（YouTube の概要欄など）を本文の代わりにする
+        if len(body) < 200 and len(c.get("summary", "")) >= 120:
+            body = c["summary"]
+        if len(body) < 200:
+            print(f"  本文が短い {len(body)} {c['url'][:100]}"); continue
+        out.append({**c, "link": link, "body": body[:6000]})
         if len(out) >= limit: break
     keep = ("topic", "count", "min", "caster_name", "persona", "tone", "farewell", "length", "pick_rules", "write_rules")
     return {"date": str(date), "channel": cid, "name": st.get("name"), "news": {k: cfg[k] for k in keep if k in cfg},
