@@ -3,9 +3,8 @@
 # ANTHROPIC_API_KEY を Secrets に登録してあれば、ここで台本も書く（Claude の定期タスクがなくても放送できる）。
 name: ニュース集め
 
+# 予約実行は何時間も遅れるので使わない。台本の定期タスク（DAILY.md）の最初に workflow_dispatch で起動する
 on:
-  schedule:
-    - cron: "7 20 * * *"   # 日本時間 05:07 ごろ
   workflow_dispatch:
     inputs:
       date:

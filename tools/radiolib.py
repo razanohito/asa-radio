@@ -56,7 +56,7 @@ def arg(args, name, default=None):
     return args[args.index(name) + 1] if name in args else default
 
 
-def http_get(url, timeout=20, limit=3_000_000):
+def http_get(url, timeout=20, limit=3_000_000, _retry=True):
     """(最終URL, ステータス, 本文の文字列)。失敗したら (url, ステータスか None, '')"""
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ja,en;q=0.8"})
     try:
@@ -70,6 +70,9 @@ def http_get(url, timeout=20, limit=3_000_000):
             except LookupError: text = raw.decode("utf-8", "replace")
             return r.geturl(), r.status, text
     except urllib.error.HTTPError as e:
+        if e.code == 429 and _retry:   # 混んでいるときは少し待ってもう一度
+            import time; time.sleep(5)
+            return http_get(url, timeout, limit, _retry=False)
         return url, e.code, ""
     except Exception:
         return url, None, ""
@@ -117,11 +120,14 @@ def parse_feed(xml_text, feed_url=""):
                 if strip(c.tag) == "link" and c.get("rel", "alternate") == "alternate" and c.get("href"):
                     link = c.get("href"); break
         summary = _txt(next((f[k] for k in ("description", "summary", "content", "encoded") if k in f), None))
+        if not summary:   # YouTube など：説明文が media:group の中にある
+            d = next((c for c in el.iter() if strip(c.tag) == "description"), None)
+            summary = _txt(d)
         pub = None
         for k in ("pubDate", "published", "updated", "date", "issued"):
             if k in f: pub = _date(_txt(f[k])); break
         if title and link.startswith("http"):
-            items.append({"title": title, "url": link.strip(), "summary": summary[:400], "published": pub.isoformat() if pub else None, "source": source or urllib.parse.urlparse(feed_url).netloc})
+            items.append({"title": title, "url": link.strip(), "summary": summary[:1500], "published": pub.isoformat() if pub else None, "source": source or urllib.parse.urlparse(feed_url).netloc})
     return items
 
 
@@ -145,21 +151,71 @@ def used_urls(cdir):
     return out
 
 
-def collect(feeds, hours=36, now=None, keywords=None):
+# 宣伝・セール・広告の記事（題で見分ける）。チャンネルの news.exclude で足せる
+JUNK_TITLE = ["セール", "お買い得", "ブラックフライデー", "サイバーマンデー", "タイムセール", "最安", "円引き", "%オフ", "％オフ",
+              "[Sponsored]", "[PR]", "【PR】", "Sponsored", "Black Friday", "Cyber Monday", " deal", "deals", "% off", "best price", "lowest price",
+              "売れ筋", "ランキング】", "Giveaway", "【今すぐ読みたい", "人気記事】", "ポイントをプレゼント", "#Shorts", "#shorts"]
+
+# 本文から捨てる定型文（寄付のお願い、会員登録の案内など）
+JUNK_PARA = re.compile(r"親愛なる読者の皆さま|寄付は上のボタン|ご寄付いただけ|サーバー代として|会員限定です|会員登録（無料）|メールマガジン|Copyright|All Rights Reserved|"
+                       r"Sign in to|Subscribe to|Follow .* on (Twitter|X)|FTC: We use|affiliate links|関連記事|Posted by", re.I)
+
+
+def youtube_feed(spec):
+    """"@handle" か "UC..." のチャンネル ID から、YouTube の RSS の URL を作る"""
+    cid = spec
+    if not spec.startswith("UC"):
+        _, _, text = http_get("https://www.youtube.com/" + spec.lstrip("/"))
+        m = (re.search(r'<link rel="canonical" href="https://www\.youtube\.com/channel/(UC[\w-]{22})"', text)
+             or re.search(r'"externalId":"(UC[\w-]{22})"', text) or re.search(r'<meta itemprop="(?:channelId|identifier)" content="(UC[\w-]{22})"', text))
+        if not m: return None
+        cid = m.group(1)
+    return "https://www.youtube.com/feeds/videos.xml?channel_id=" + cid
+
+
+def page_links(text, base, pattern, n=8):
+    """フィードのないサイト（一覧ページ）から、pattern に合う記事のリンクを上から n 本。日付は記事のページで確かめる"""
+    out, seen = [], set()
+    for m in re.finditer(r'<a\b[^>]*href=["\']([^"\'#]+)["\'][^>]*>(.*?)</a>', text, re.S | re.I):
+        u = urllib.parse.urljoin(base, html.unescape(m.group(1)))
+        if not re.search(pattern, u) or u in seen: continue
+        t = html.unescape(re.sub(r"<[^>]+>", " ", m.group(2))); t = re.sub(r"\s+", " ", t).strip()
+        if len(t) < 6: continue
+        seen.add(u); out.append({"title": t[:200], "url": u, "summary": "", "published": None, "source": urllib.parse.urlparse(base).netloc})
+        if len(out) >= n: break
+    return out
+
+
+def is_junk_title(title, extra=()):
+    t = title.lower()
+    return any(k.lower() in t for k in list(JUNK_TITLE) + list(extra or []))
+
+
+def collect(feeds, hours=36, now=None, keywords=None, exclude=None):
     """フィードから直近 hours 時間の記事を集める（URL と題で重複を除く）。keywords があれば、題か要約にどれかを含む記事だけ"""
     now = now or datetime.datetime.now(datetime.timezone.utc)
     seen, per_feed = set(), []
     for feed in feeds:
         out = []; per_feed.append(out)
         # フィードは URL の文字列か {"url": ..., "keywords": [...]}（そのフィードだけ絞り込む）
-        url = feed["url"] if isinstance(feed, dict) else feed
+        # {"youtube": "@handle"} は YouTube のチャンネル
+        url = feed.get("url") if isinstance(feed, dict) else feed
+        if isinstance(feed, dict) and feed.get("youtube"):
+            url = youtube_feed(feed["youtube"])
+            if not url: print(f"  feed --- youtube のチャンネルが見つからない {feed['youtube']}"); continue
         kws = [k.lower() for k in ((feed.get("keywords") if isinstance(feed, dict) else None) or keywords or [])]
-        _, status, text = http_get(url)
-        got = parse_feed(text, url) if text else []
+        if isinstance(feed, dict) and feed.get("page"):
+            url = feed["page"]
+            final, status, text = http_get(url)
+            got = page_links(text, final, feed.get("pattern", ""), int(feed.get("max", 8))) if text else []
+        else:
+            _, status, text = http_get(url)
+            got = parse_feed(text, url) if text else []
         print(f"  feed {status} {len(got):3d} {url}")
         for it in got:
             it["url"] = real_url(it["url"])
             if kws and not any(k in (it["title"] + " " + it["summary"]).lower() for k in kws): continue
+            if is_junk_title(it["title"], exclude): continue
             if it["published"]:
                 age = now - datetime.datetime.fromisoformat(it["published"])
                 if age > datetime.timedelta(hours=hours) or age < datetime.timedelta(hours=-6): continue
@@ -230,7 +286,12 @@ def page_info(url):
         "image": abs_(m.get("og:image") or m.get("og:image:url") or m.get("twitter:image")),
         "icon": icon,
     }
-    body = "\n".join(p.paras)
+    ld = re.search(r'"datePublished"\s*:\s*"([^"]+)"', text)   # JSON-LD（構造化データ）の日付
+    tm = re.search(r'<time[^>]+datetime="([^"]+)"', text)
+    pub = _date(m.get("article:published_time") or m.get("og:published_time") or m.get("pubdate") or m.get("date")
+                or (ld and ld.group(1)) or (tm and tm.group(1)) or "")
+    if pub: link["published"] = pub.isoformat()
+    body = "\n".join(x for x in p.paras if not JUNK_PARA.search(x))
     return link, body[:6000]
 
 

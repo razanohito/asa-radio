@@ -45,8 +45,8 @@
  "news": {
   "topic": "Google Workspace（Gmail、カレンダー、ドライブ、ドキュメント、スプレッドシート、スライド、Meet、Chat、フォーム、Vids、Apps Script、管理コンソール、Workspace の Gemini など）の新機能・変更・提供開始の発表",
   "count": 4,
-  "min": 1,
-  "hours": 72,
+  "min": 2,
+  "hours": 168,
   "model": "claude-sonnet-5-5",
   "caster_name": "シオリ",
   "persona": "明るくて面倒見のいい、事務職の先輩風の女の子",
