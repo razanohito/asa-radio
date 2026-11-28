@@ -286,7 +286,10 @@ def page_info(url):
         "image": abs_(m.get("og:image") or m.get("og:image:url") or m.get("twitter:image")),
         "icon": icon,
     }
-    pub = _date(m.get("article:published_time") or m.get("og:published_time") or m.get("pubdate") or m.get("date") or "")
+    ld = re.search(r'"datePublished"\s*:\s*"([^"]+)"', text)   # JSON-LD（構造化データ）の日付
+    tm = re.search(r'<time[^>]+datetime="([^"]+)"', text)
+    pub = _date(m.get("article:published_time") or m.get("og:published_time") or m.get("pubdate") or m.get("date")
+                or (ld and ld.group(1)) or (tm and tm.group(1)) or "")
     if pub: link["published"] = pub.isoformat()
     body = "\n".join(x for x in p.paras if not JUNK_PARA.search(x))
     return link, body[:6000]
